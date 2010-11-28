@@ -22,4 +22,37 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <build>
+
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <excludes>
+          <exclude>wordsEnglish.ser</exclude>
+        </excludes>
+      </resource>
+    </resources>
+      
+    <plugins>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+          <descriptor>src/main/assembly/src.xml</descriptor>
+        </configuration>
+        <executions>
+           <execution>
+           <id>make-assembly</id>
+           <phase>package</phase>
+           <goals>
+             <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+  </build>
+    
 </project>
