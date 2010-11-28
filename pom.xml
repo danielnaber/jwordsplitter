@@ -8,7 +8,26 @@
   <packaging>jar</packaging>
 
   <name>jwordsplitter</name>
-  <url>http://maven.apache.org</url>
+  <description>A Java library to split German compound words</description>
+  <url>http://www.danielnaber.de/jwordsplitter/</url>
+  <licenses>
+    <license>
+      <name>Apache 2</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/trunk/jwordsplitter</connection>
+    <url>http://jwordsplitter.svn.sourceforge.net/viewvc/jwordsplitter/</url>
+  </scm>
+  <developers>
+    <developer>
+      <name>Sven Abels</name>
+    </developer>
+    <developer>
+      <name>Daniel Naber</name>
+    </developer>
+  </developers>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
