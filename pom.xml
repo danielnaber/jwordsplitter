@@ -1,5 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>5</version>
+  </parent>
+    
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.abelssoft</groupId>
@@ -17,8 +24,8 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/trunk/jwordsplitter</connection>
-    <url>http://jwordsplitter.svn.sourceforge.net/viewvc/jwordsplitter/</url>
+    <connection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/trunk/</connection>
+    <url>http://jwordsplitter.svn.sourceforge.net/viewvc/jwordsplitter/trunk/</url>
   </scm>
   <developers>
     <developer>
