@@ -1,5 +1,5 @@
 
-2010-xx-yy (3.x):
+2011-02-06 (3.2):
 	-now built with Maven, no other changes
 
 2010-09-18 (3.1):

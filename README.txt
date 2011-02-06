@@ -1,4 +1,4 @@
-jWordSplitter 3.x (2010-xx-yy)
+jWordSplitter 3.2 (2011-02-06)
 Copyright 2004-2007 Sven Abels. See LICENSE.txt for license information.
 
 This Java library can split words into their smallest parts (atoms).
