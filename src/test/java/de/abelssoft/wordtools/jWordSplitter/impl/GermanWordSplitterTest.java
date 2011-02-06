@@ -18,10 +18,7 @@
  */
 package de.abelssoft.wordtools.jWordSplitter.impl;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Collection;
 
 import de.abelssoft.tools.FileTools;
@@ -46,13 +43,15 @@ public class GermanWordSplitterTest extends TestCase {
       if (is == null) {
         throw new RuntimeException("Could not load " + TEST_FILE + " from classpath");
       }
-      final String lexicon = FileTools.loadFile(is);
-      tmpLexiconFile = File.createTempFile("jworsplitter-junit", ".txt");
-      final FileWriter writer = new FileWriter(tmpLexiconFile);
+      final String lexicon = FileTools.loadFile(is, "utf-8");
+      tmpLexiconFile = File.createTempFile("jwordsplitter-junit", ".txt");
+      final FileOutputStream fos = new FileOutputStream(tmpLexiconFile);
+      final OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
       try {
-        writer.write(lexicon);
+        osw.write(lexicon);
       } finally {
-        writer.close();
+        osw.close();
+        fos.close();
       }
     } finally {
       if (is != null) { is.close(); }

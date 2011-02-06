@@ -35,30 +35,33 @@ public class FileTools
 	/**
 	 * Load a file and return each line, lowercased, as an entry in a HashSet.
 	 */
-	public static Set<String> loadFile(String filename) throws IOException {
-	  FileReader fr = null;
+	public static Set<String> loadFile(String filename, String charset) throws IOException {
+      FileInputStream fis = null;
+      InputStreamReader isr = null;
 	  BufferedReader br = null;
 	  final HashSet<String> words = new HashSet<String>();
 	  try {
-	    fr = new FileReader(filename);
-	    br = new BufferedReader(fr);
+        fis = new FileInputStream(new File(filename));
+        isr = new InputStreamReader(fis, charset);
+	    br = new BufferedReader(isr);
 	    String line;
 	    while ((line = br.readLine()) != null) {
 	      words.add(line.trim().toLowerCase());
 	    }
 	  } finally {
 	    if (br != null) br.close();
-	    if (fr != null) fr.close();
+        if (isr != null) isr.close();
+        if (fis != null) fis.close();
 	  }
 	  return words;
 	}
 
-  public static String loadFile(InputStream inputStream) throws IOException {
+  public static String loadFile(InputStream inputStream, String charset) throws IOException {
     InputStreamReader isr = null;
     BufferedReader br = null;
     final StringBuilder sb = new StringBuilder();
     try {
-      isr = new InputStreamReader(inputStream);
+      isr = new InputStreamReader(inputStream, charset);
       br = new BufferedReader(isr);
       String line;
       while ((line = br.readLine()) != null) {

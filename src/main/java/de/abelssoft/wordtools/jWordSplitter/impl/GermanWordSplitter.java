@@ -66,7 +66,7 @@ public class GermanWordSplitter extends AbstractWordSplitter
 	private Set<String> loadWords() throws IOException
 	{
 	  if (plainTextDictFile != null) {
-	    return FileTools.loadFile(plainTextDictFile);
+	    return FileTools.loadFile(plainTextDictFile, "utf-8");
 	  } else {
 	    return (HashSet<String>)FastObjectSaver.load(SERIALIZED_DICT);
 	  }
