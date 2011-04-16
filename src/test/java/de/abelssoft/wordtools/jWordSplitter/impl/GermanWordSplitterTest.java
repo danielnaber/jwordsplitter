@@ -33,7 +33,6 @@ public class GermanWordSplitterTest extends TestCase {
   private static final String TEST_FILE = "test-de.txt";
 
   private File tmpLexiconFile;
-
   private GermanWordSplitter splitter;
 
   @Override
@@ -143,7 +142,20 @@ public class GermanWordSplitterTest extends TestCase {
     expect("[Störungs, störung]", "Störungsstörung");
     expect("[Störungs, störungs, störung]", "Störungsstörungsstörung");
   }
-  
+
+  // TODO: case is not always correct...
+  public void testExceptions() throws IOException {
+    splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
+    splitter.setStrictMode(true);
+    expect("[Sünder, ecke]", "Sünderecke");
+    expect("[Klima, Sünder, ecke]", "Klimasünderecke");
+    expect("[Klima, sünder, recke]", "Klimasünderrecke");
+    splitter.setStrictMode(false);
+    expect("[Sünder, ecke]", "Sünderecke");
+    expect("[Klima, Sünder, ecke]", "Klimasünderecke");
+    expect("[Klima, sünder, recke]", "Klimasünderrecke");
+  }
+
   // TODO: Sauerstoffflasche vs Sauerstofflasche; upper vs lower case
 
   public void testNoCompounds() throws IOException {

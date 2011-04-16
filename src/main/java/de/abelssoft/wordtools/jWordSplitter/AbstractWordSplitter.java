@@ -15,10 +15,11 @@
  */
 package de.abelssoft.wordtools.jWordSplitter;
 
+import de.abelssoft.tools.FileTools;
+
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Set;
+import java.io.InputStream;
+import java.util.*;
 
 /**
  * This class can split words into their smallest parts (atoms). For example "Erhebungsfehler"
@@ -37,10 +38,16 @@ import java.util.Set;
  */
 public abstract class AbstractWordSplitter
 {
-    
+
+    private static final String COMMENT_CHAR = "#";
+    private static final String DELIMITER_CHAR = "|";
+
     private Set<String> words = null;
     private boolean hideConnectingCharacters = true;
     private boolean strictMode = false;
+
+    private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
+
     protected String plainTextDictFile = null;
 
     protected abstract Set<String> getWordList() throws IOException;
@@ -71,6 +78,32 @@ public abstract class AbstractWordSplitter
     {
       this(true);
     }    
+
+    public void setExceptionFile(String filename) throws IOException {
+      final InputStream is = AbstractWordSplitter.class.getResourceAsStream(filename);
+      try {
+        if (is == null) {
+          throw new IOException("Cannot locate exception list in JAR: " + filename);
+        }
+        final String exceptions = FileTools.loadFile(is, "UTF-8");
+        final Scanner scanner = new Scanner(exceptions);
+        while (scanner.hasNextLine()) {
+          final String line = scanner.nextLine().trim();
+          if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
+            final String[] parts = line.split("\\|");
+            if (parts.length > 1) {
+              final String completeWord = line.replace(DELIMITER_CHAR, "");
+              exceptionMap.put(completeWord.toLowerCase(), Arrays.asList(parts));
+            }
+          }
+        }
+        scanner.close();
+      } finally {
+        if (is != null) {
+          is.close();
+        }
+      }
+    }
 
     /**
      * When set to true, words will only be split if all parts are words.
@@ -195,6 +228,12 @@ public abstract class AbstractWordSplitter
     
     private Collection<String> findTuple(String s)
     {
+
+        final List<String> exceptionSplit = exceptionMap.get(s.toLowerCase());
+        if (exceptionSplit != null) {
+          return exceptionSplit;
+        }
+
         String right=s;
         String left="";
         if (s.length()<2)
@@ -246,5 +285,5 @@ public abstract class AbstractWordSplitter
         }
         return result;
     }
-    
+
 }

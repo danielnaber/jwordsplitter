@@ -34,6 +34,7 @@ public class GermanWordSplitter extends AbstractWordSplitter
 {
 
   private static final String SERIALIZED_DICT = "/wordsGerman.ser";   // dict inside the JAR
+  private static final String EXCEPTION_DICT = "/exceptionsGerman.txt";   // dict inside the JAR
 
   private Set<String> words = null;
 
@@ -47,11 +48,12 @@ public class GermanWordSplitter extends AbstractWordSplitter
 	public GermanWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException
 	{
 		super(hideConnectingCharacters, plainTextDictFile);
+		setExceptionFile(EXCEPTION_DICT);
 	}
 
 	public GermanWordSplitter(boolean hideConnectingCharacters) throws IOException
 	{
-	  super(hideConnectingCharacters);
+	  this(hideConnectingCharacters, null);
 	}
 
 	@Override
