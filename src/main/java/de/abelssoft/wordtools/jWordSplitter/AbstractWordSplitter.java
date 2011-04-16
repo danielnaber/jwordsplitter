@@ -22,13 +22,13 @@ import java.util.Set;
 
 /**
  * This class can split words into their smallest parts (atoms). For example "Erhebungsfehler"
- * will be splitted into "erhebung" and "fehler".
+ * will be split into "erhebung" and "fehler".
  * 
  * Please note: We don't expect to have any special chars here (!":;,.-_, etc.). Only a set of 
  * characters and only one word.
  * 
  * This method is especially beneficial for German words but it will work with all languages.
- * The order of the words in the collection will be identical to their appeareance in the 
+ * The order of the words in the collection will be identical to their appearance in the
  * connected word. It's good to provide a large dictionary.
  * 
  * @author Sven Abels (Abelssoft), Sven@abelssoft.de
@@ -73,7 +73,7 @@ public abstract class AbstractWordSplitter
     }    
 
     /**
-     * When set to true, words will only be splitted if all parts are words.
+     * When set to true, words will only be split if all parts are words.
      * Otherwise the splitting result might contain parts that are not words.
      * Only if this is set to true, the minimum length of word parts is correctly
      * taken into account.
@@ -109,26 +109,26 @@ public abstract class AbstractWordSplitter
      */
     public Collection<String> splitWord(String str)
     {
-        Collection<String> result=new ArrayList<String>();
+        final Collection<String> result=new ArrayList<String>();
         if (str==null)
           return result;
-        String s=str.trim();
+        final String s=str.trim();
         if (s.length()<2)
         {
             result.add(s);
             return result;
         }
         
-        //find a tupel (from left to right):
-        Collection<String> tupel=findTupel(s);
-        if (tupel==null && !strictMode)
-          tupel=truncateSplit(s);
-        if (tupel==null && !strictMode)
-          tupel=truncateSplitReverse(s);
-        if (tupel==null)
+        //find a tuple (from left to right):
+        Collection<String> tuple = findTuple(s);
+        if (tuple ==null && !strictMode)
+          tuple =truncateSplit(s);
+        if (tuple ==null && !strictMode)
+          tuple =truncateSplitReverse(s);
+        if (tuple ==null)
           result.add(str);
        	else
-     	    result.addAll(tupel);
+     	    result.addAll(tuple);
         
         return result;
     }
@@ -142,10 +142,10 @@ public abstract class AbstractWordSplitter
         //we were not able to split the word...well: Let's try to cut it:
         for (int i=0;i<(s.length()-2);i++)
         {
-            Collection<String> tmp=findTupel(s.substring(i));
+            final Collection<String> tmp= findTuple(s.substring(i));
             if (tmp!=null)
             {
-                Collection<String> tmp2=new ArrayList<String>();
+                final Collection<String> tmp2=new ArrayList<String>();
                 if (strictMode && !isWord(s.substring(0,i))) {
                   continue;
                 }
@@ -166,14 +166,14 @@ public abstract class AbstractWordSplitter
         //we were not able to split the word...well: Let's try to cut it:
         for (int i=(s.length()-1);i>1;i--)
         {
-            Collection<String> tmp=findTupel(s.substring(0,i));
+            final Collection<String> tmp= findTuple(s.substring(0,i));
             if (tmp!=null)
             {
               if (strictMode && !isWord(s.substring(i))) {
                   continue;
-                }
-                tmp.add(s.substring(i));
-                return tmp;
+              }
+              tmp.add(s.substring(i));
+              return tmp;
             }            
         }
         return null;
@@ -184,7 +184,7 @@ public abstract class AbstractWordSplitter
      */
     private String removeTailingCharacters(String str)
     {
-        Collection<String> connChars = getConnectingCharacters();
+        final Collection<String> connChars = getConnectingCharacters();
         for (String connChar : connChars) {
           if (str.toUpperCase().endsWith(connChar.toUpperCase())) {
             return str.substring(0, str.length()-connChar.length());
@@ -193,7 +193,7 @@ public abstract class AbstractWordSplitter
         return str;
     }
     
-    private Collection<String> findTupel(String s)
+    private Collection<String> findTuple(String s)
     {
         String right=s;
         String left="";
@@ -205,7 +205,7 @@ public abstract class AbstractWordSplitter
         {
             left=left+s.charAt(i);
             right=s.substring(left.length());
-            String leftCleaned=removeTailingCharacters(left);
+            final String leftCleaned=removeTailingCharacters(left);
             boolean leftIsWord=false;
             if ((isWord(leftCleaned)))
             {
@@ -221,21 +221,21 @@ public abstract class AbstractWordSplitter
             }
             if (leftIsWord) {
                 //look if we can split the right part, too:
-                Collection<String> rightCol=findTupel(right);
+                final Collection<String> rightCol= findTuple(right);
                 if (rightCol!=null)
                   result.addAll(rightCol);
                 else
                 {
-                        //we cannot split the rest of the word => left was not ok.
-                        result=new ArrayList<String>();
-                        continue;
+                  //we cannot split the rest of the word => left was not ok.
+                  result=new ArrayList<String>();
+                  continue;
                 }
                 return result;
             }
         }
         
-        boolean stringIsWord=isWord(s);
-        boolean cleanedStringIsWord=isWord(removeTailingCharacters(s));
+        final boolean stringIsWord=isWord(s);
+        final boolean cleanedStringIsWord=isWord(removeTailingCharacters(s));
         if (!stringIsWord && !cleanedStringIsWord) {
           return null;
         }
