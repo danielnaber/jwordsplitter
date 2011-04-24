@@ -1,6 +1,5 @@
 # List of words that jwordsplitter would otherwise split incorrectly.
 # Use the pipe symbol (|) to mark the correct place to split the word.
-# Words without a pipe symbol will not be split.
 Sünder|ecke
 Abteil|ende
 Außen|stürmer
@@ -17,5 +16,59 @@ Pilot|sendung
 Schreib|stube
 Staub|saugen
 Strick|strumpf
-Vereinsamen
 Wurf|sendung
+Bundestags|wahl
+Austragungs|orte
+Kultur|geschichte
+Kammer|spielen
+Bezirks|amt
+Bezirks|amts
+Unternehmens|teile
+Landes|teile
+Kinder|krankenhaus
+Auslands|einsätzen
+Versuchs|tier
+Versuchs|tiere
+Landes|amt
+Landes|amts
+Punkt|richter
+Zwillings|türme
+Architektur|geschichte
+Veranstaltungs|orte
+Aussichts|turm
+Meeres|tiere
+Mitglieder|werbung
+Geschlechts|teile
+Motorrad|fahren
+Banner|werbung
+Urlaubs|orten
+Aufenthalts|orte
+Veranstaltungs|orten
+Landesarbeits|amt
+Landesarbeits|amts
+Arbeits|tier
+Arbeits|tiere
+Arbeits|tieren
+Arbeits|tieres
+Arbeits|amt
+Arbeits|amts
+Arbeits|orte
+Arbeits|orten
+Arbeits|ortes
+Friedens|taube
+Friedens|tauben
+Gehalts|konto
+Mittel|achse
+Agentur|kunden
+Wirtschafts|amts
+Abstimmungs|panne
+Aktions|konto
+Motivations|trick
+Motivations|tricks
+# Words without a pipe symbol will not be split.
+Verbraucher
+Vereinsamen
+Bahnsteig
+Bahnsteige
+Bahnsteigen
+grausamen
