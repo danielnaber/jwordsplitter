@@ -234,16 +234,14 @@ public abstract class AbstractWordSplitter
           return exceptionSplit;
         }
 
-        String right=s;
-        String left="";
         if (s.length()<2)
           return null;
         Collection<String> result=new ArrayList<String>();
         
         for (int i=0;i<s.length();i++)
         {
-            left=left+s.charAt(i);
-            right=s.substring(left.length());
+            final String left=s.substring(0, i);
+            final String right=s.substring(left.length());
             final String leftCleaned=removeTailingCharacters(left);
             boolean leftIsWord=false;
             if ((isWord(leftCleaned)))
