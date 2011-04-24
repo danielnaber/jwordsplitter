@@ -78,6 +78,15 @@ public class GermanWordSplitterTest extends TestCase {
     expect("[Abend, haus, störung]", "Abendhausstörung");
   }
 
+  public void testReverse() throws IOException {
+    splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
+    splitter.setStrictMode(true);
+    // don't use 'Sünderecke' as that is listed in the exception list:
+    expect("[Xünde, recke]", "Xünderecke");
+    splitter.setReverseMode(true);
+    expect("[Xünder, ecke]", "Xünderecke");
+  }
+    
   public void testWithHyphen() throws IOException {
     splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
     splitter.setStrictMode(true);
@@ -145,7 +154,7 @@ public class GermanWordSplitterTest extends TestCase {
 
   // TODO: case is not always correct...
   public void testExceptions() throws IOException {
-    splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
+    splitter = new GermanWordSplitter(false);
     splitter.setStrictMode(true);
     expect("[Sünder, ecke]", "Sünderecke");
     expect("[Klima, Sünder, ecke]", "Klimasünderecke");

@@ -1,7 +1,7 @@
 
 2011-xx-yy (3.3-dev):
 	-New file exceptionsGerman.txt added to JAR that contains special cases
-	 to overwrite the algorithm. With this we now get a correct split for
+	 to overwrite the algorithm. With this we now get a correct split for e.g.
 	 Klimasünderecke -> Klima + Sünder + Ecke (used to be: Klima + Sünde + Recke)
 
 2011-02-06 (3.2):

@@ -1,3 +1,20 @@
 # List of words that jwordsplitter would otherwise split incorrectly.
 # Use the pipe symbol (|) to mark the correct place to split the word.
 Sünder|ecke
+Abteil|ende
+Außen|stürmer
+Beileids|karte
+Comic|strip
+Eichen|seide
+Flügel|stürmer
+Hinweg|sehen
+Kilometer|weite
+Kombinations|gabe
+Kupfer|seide
+Natur|seide
+Pilot|sendung
+Schreib|stube
+Staub|saugen
+Strick|strumpf
+Vereinsamen
+Wurf|sendung

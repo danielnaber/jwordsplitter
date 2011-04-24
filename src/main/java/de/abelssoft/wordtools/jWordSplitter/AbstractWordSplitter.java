@@ -45,6 +45,7 @@ public abstract class AbstractWordSplitter
     private Set<String> words = null;
     private boolean hideConnectingCharacters = true;
     private boolean strictMode = false;
+    private boolean reverseMode = false;
 
     private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
 
@@ -113,6 +114,14 @@ public abstract class AbstractWordSplitter
      */
     public void setStrictMode(boolean strictMode) {
       this.strictMode = strictMode;
+    }
+
+    /**
+     * If set to true, words will be split from the end, not from the start. Useful only 
+     * to compare both ways of splitting to detect ambiguities.
+     */
+    public void setReverseMode(boolean reverseMode) {
+      this.reverseMode = reverseMode;
     }
     
     /**
@@ -238,8 +247,26 @@ public abstract class AbstractWordSplitter
           return null;
         Collection<String> result=new ArrayList<String>();
         
-        for (int i=0;i<s.length();i++)
+        final int fromPos;
+        if (reverseMode) {
+            fromPos = s.length()-1;
+        } else {
+            fromPos = 0;
+        }
+        int i = fromPos; 
+        while (true)
         {
+            if (reverseMode) {
+                if (i < 1) {
+                    break;
+                }
+                i--;
+            } else {
+                if (i >= s.length()) {
+                    break;
+                }
+                i++;
+            }
             final String left=s.substring(0, i);
             final String right=s.substring(left.length());
             final String leftCleaned=removeTailingCharacters(left);
