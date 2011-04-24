@@ -16,7 +16,7 @@
 /*
  * Created on 09.07.2008
  */
-package de.abelssoft.wordtools.jWordSplitter.impl;
+package de.abelssoft.wordtools.jwordsplitter.impl;
 
 import java.io.*;
 import java.util.Collection;

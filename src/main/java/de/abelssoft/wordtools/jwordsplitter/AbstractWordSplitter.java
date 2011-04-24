@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jWordSplitter;
+package de.abelssoft.wordtools.jwordsplitter;
 
 import de.abelssoft.tools.FileTools;
 

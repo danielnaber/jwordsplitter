@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jWordSplitter.impl;
+package de.abelssoft.wordtools.jwordsplitter.impl;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import de.abelssoft.tools.persistence.FastObjectSaver;
-import de.abelssoft.wordtools.jWordSplitter.AbstractWordSplitter;
+import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
 
 /**
  * This implements an English word splitter.

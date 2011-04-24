@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jWordSplitter.converter;
+package de.abelssoft.wordtools.jwordsplitter.converter;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -18,8 +18,8 @@ import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
 
-import de.abelssoft.wordtools.jWordSplitter.AbstractWordSplitter;
-import de.abelssoft.wordtools.jWordSplitter.impl.EnglishWordSplitter;
+import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
+import de.abelssoft.wordtools.jwordsplitter.impl.EnglishWordSplitter;
 
 /**
  * WARNING: Please note that English is worse than the German version right now since 
