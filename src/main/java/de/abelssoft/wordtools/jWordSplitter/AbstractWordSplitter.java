@@ -92,10 +92,8 @@ public abstract class AbstractWordSplitter
           final String line = scanner.nextLine().trim();
           if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
             final String[] parts = line.split("\\|");
-            if (parts.length > 1) {
-              final String completeWord = line.replace(DELIMITER_CHAR, "");
-              exceptionMap.put(completeWord.toLowerCase(), Arrays.asList(parts));
-            }
+            final String completeWord = line.replace(DELIMITER_CHAR, "");
+            exceptionMap.put(completeWord.toLowerCase(), Arrays.asList(parts));
           }
         }
         scanner.close();

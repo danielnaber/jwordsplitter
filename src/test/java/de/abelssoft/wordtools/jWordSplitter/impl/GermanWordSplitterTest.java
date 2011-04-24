@@ -163,6 +163,8 @@ public class GermanWordSplitterTest extends TestCase {
     expect("[Sünder, ecke]", "Sünderecke");
     expect("[Klima, Sünder, ecke]", "Klimasünderecke");
     expect("[Klima, sünder, recke]", "Klimasünderrecke");
+    // test that some words to *not* get split:
+    expect("[Vereinsamen]", "Vereinsamen");
   }
 
   // TODO: Sauerstoffflasche vs Sauerstofflasche; upper vs lower case
