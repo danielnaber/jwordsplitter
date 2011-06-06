@@ -15,11 +15,11 @@ To split a list of words (one word per line), use this command:
 java -jar jWordSplitter.jar <filename>
 
 To export the German dictionary from the JAR file, use this command:
-java -cp jWordSplitter.jar de.abelssoft.wordtools.jWordSplitter.converter.ExportDict /wordsGerman.ser
+java -cp jWordSplitter.jar de.abelssoft.wordtools.jwordsplitter.converter.ExportDict /wordsGerman.ser
 
 To serialize a text dictionary (one word per line) to a binary format
 so it can be used by jWordSplitter, use this command:
-java -cp jWordSplitter.jar de.abelssoft.wordtools.jWordSplitter.converter.SerializeDict textDict textDict.ser
+java -cp jWordSplitter.jar de.abelssoft.wordtools.jwordsplitter.converter.SerializeDict textDict textDict.ser
 
 TODO:
 	-bug: doesn't always return longest match, e.g. "noten-durch-schnitt" although "durchschnitt"
