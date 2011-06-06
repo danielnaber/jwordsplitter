@@ -24,7 +24,7 @@ java -cp jWordSplitter.jar de.abelssoft.wordtools.jwordsplitter.converter.Serial
 TODO:
 	-bug: doesn't always return longest match, e.g. "noten-durch-schnitt" although "durchschnitt"
 	 is in the dictionary
-	-find a way to add exceptions (eg Klimasünderecke is currently -Sünde-Recke)
+	-extend list of exceptions (exceptionsGerman.txt)
 	-clean up the actual splitting algorithm
 	-use generics
 	-add more Junit test cases
