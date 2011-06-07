@@ -36,20 +36,19 @@ public class TestjWordSplitterGerman {
     }
     int argCount = 0;
     String plainDict = null;
-    String inputFile = args[0];
-    boolean hideFugen = true;
+    boolean hideGlueChars = true;
     while (argCount < args.length) {
       if (args[argCount].equals("-h")) {
         usage();
       } else if (args[argCount].equals("-d")) {
         plainDict = args[++argCount];
       } else if (args[argCount].equals("-f")) {
-        hideFugen = false;
+        hideGlueChars = false;
       }
       argCount++;
     }
-    inputFile = args[argCount-1];
-    AbstractWordSplitter ws = new GermanWordSplitter(hideFugen, plainDict);
+    final String inputFile = args[argCount-1];
+    AbstractWordSplitter ws = new GermanWordSplitter(hideGlueChars, plainDict);
     ws.setStrictMode(true);
     BufferedReader br = new BufferedReader(new FileReader(inputFile));
     String line;
