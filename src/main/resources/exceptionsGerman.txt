@@ -18,6 +18,7 @@ Staub|saugen
 Strick|strumpf
 Wurf|sendung
 Bundestags|wahl
+Bundes|amt
 Austragungs|orte
 Kultur|geschichte
 Kammer|spielen
@@ -65,6 +66,7 @@ Abstimmungs|panne
 Aktions|konto
 Motivations|trick
 Motivations|tricks
+Anfangs|buchstabe
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
