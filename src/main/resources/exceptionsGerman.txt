@@ -74,3 +74,6 @@ Bahnsteig
 Bahnsteige
 Bahnsteigen
 grausamen
+Schriftsteller
+Schriftstellers
+Schriftstellern
