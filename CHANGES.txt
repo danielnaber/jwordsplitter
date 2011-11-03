@@ -2,9 +2,10 @@
 2011-xx-yy (3.3-dev):
 	-renamed "jWordSplitter" in package path to "jwordsplitter" to be in accordance with 
 	 Java conventions 
-	-New file exceptionsGerman.txt added to JAR that contains special cases
+	-new file exceptionsGerman.txt added to JAR that contains special cases
 	 to overwrite the algorithm. With this we now get a correct split for e.g.
 	 Klimasünderecke -> Klima + Sünder + Ecke (used to be: Klima + Sünde + Recke)
+	-small dictionary cleanup (e.g. removing some three-letter words)
 
 2011-02-06 (3.2):
 	-now built with Maven, no other changes
