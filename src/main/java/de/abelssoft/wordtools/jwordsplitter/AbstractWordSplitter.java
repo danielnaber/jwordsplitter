@@ -105,6 +105,14 @@ public abstract class AbstractWordSplitter
     }
 
     /**
+     * @param completeWord the word to be split (will be considered case-insensitive)
+     * @param wordParts the parts in which the word is to be split (use a list with a single element if the word should not be split)
+     */
+    public void addException(String completeWord, List<String> wordParts) {
+      exceptionMap.put(completeWord.toLowerCase(), wordParts);
+    }
+
+    /**
      * When set to true, words will only be split if all parts are words.
      * Otherwise the splitting result might contain parts that are not words.
      * Only if this is set to true, the minimum length of word parts is correctly

@@ -5,6 +5,8 @@
 	-new file exceptionsGerman.txt added to JAR that contains special cases
 	 to overwrite the algorithm. With this we now get a correct split for e.g.
 	 Klimasünderecke -> Klima + Sünder + Ecke (used to be: Klima + Sünde + Recke)
+	-new method addException() to set the desired splitting for words, without touching 
+	 the dictionary
 	-small dictionary cleanup (e.g. removing some three-letter words)
 
 2011-02-06 (3.2):

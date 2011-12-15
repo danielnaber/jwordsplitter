@@ -19,6 +19,7 @@
 package de.abelssoft.wordtools.jwordsplitter.impl;
 
 import java.io.*;
+import java.util.Arrays;
 import java.util.Collection;
 
 import de.abelssoft.tools.FileTools;
@@ -183,7 +184,16 @@ public class GermanWordSplitterTest extends TestCase {
     expect("[]", "\t");
     expect("[]", "   ");
   }
-  
+
+  public void testExceptionsAddedViaApi() throws IOException {
+    splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
+    expect("[Verhaltens, störung]", "Verhaltensstörung");
+    splitter.addException("Verhaltensstörung", Arrays.asList("Verhaltensstörung"));
+    expect("[Verhaltensstörung]", "Verhaltensstörung");
+    splitter.addException("Verhaltensstörung", Arrays.asList("Ver", "halten", "Störung"));  // will override the old mapping
+    expect("[Ver, halten, Störung]", "Verhaltensstörung");
+  }
+
   private void expect(String expected, String input) {
     Collection<String> result = splitter.splitWord(input);
     assertEquals(expected, result.toString());
