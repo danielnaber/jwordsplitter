@@ -10,7 +10,7 @@
 
   <groupId>de.abelssoft</groupId>
   <artifactId>jwordsplitter</artifactId>
-  <version>3.3</version>
+  <version>3.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>jwordsplitter</name>
@@ -23,9 +23,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/tags/jwordsplitter-3.3</connection>
-    <developerConnection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/tags/jwordsplitter-3.3</developerConnection>
-    <url>http://jwordsplitter.svn.sourceforge.net/viewvc/jwordsplitter/tags/jwordsplitter-3.3</url>
+    <connection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/trunk/</connection>
+    <developerConnection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/trunk/</developerConnection>
+    <url>http://jwordsplitter.svn.sourceforge.net/viewvc/jwordsplitter/trunk/</url>
   </scm>
   <developers>
     <developer>
