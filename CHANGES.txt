@@ -1,5 +1,5 @@
 
-2011-xx-yy (3.3-dev):
+2011-12-16 (3.3):
 	-renamed "jWordSplitter" in package path to "jwordsplitter" to be in accordance with 
 	 Java conventions 
 	-new file exceptionsGerman.txt added to JAR that contains special cases

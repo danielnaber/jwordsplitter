@@ -10,7 +10,7 @@
 
   <groupId>de.abelssoft</groupId>
   <artifactId>jwordsplitter</artifactId>
-  <version>3.3-SNAPSHOT</version>
+  <version>3.3</version>
   <packaging>jar</packaging>
 
   <name>jwordsplitter</name>

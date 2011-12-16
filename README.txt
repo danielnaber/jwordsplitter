@@ -1,8 +1,8 @@
-jWordSplitter 3.2 (2011-02-06)
-Copyright 2004-2007 Sven Abels. See LICENSE.txt for license information.
+jWordSplitter 3.3 (2011-12-16)
+Copyright 2004-2007 Sven Abels, Copyright 2007-2011 Daniel Naber, see LICENSE.txt for license information.
 
 This Java library can split words into their smallest parts (atoms).
-For example (in German) "Erhebungsfehler" will be splitted into "erhebung" and
+For example (in German) "Erhebungsfehler" will be split into "erhebung" and
 "fehler". This is especially beneficial for German words but it can work with 
 all languages, as long as the dictionary and a class extending AbstractWordSplitter
 is provided. So far, German and English are supported but only a German dictionary
