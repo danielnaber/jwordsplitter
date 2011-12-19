@@ -21,6 +21,7 @@ package de.abelssoft.wordtools.jwordsplitter.impl;
 import java.io.*;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 
 import de.abelssoft.tools.FileTools;
 import junit.framework.TestCase;
@@ -192,10 +193,19 @@ public class GermanWordSplitterTest extends TestCase {
     expect("[Verhaltensstörung]", "Verhaltensstörung");
     splitter.addException("Verhaltensstörung", Arrays.asList("Ver", "halten", "Störung"));  // will override the old mapping
     expect("[Ver, halten, Störung]", "Verhaltensstörung");
+
+    splitter.addException("Verhaltensstörung", Collections.<String>emptyList());
+    expect("[]", "Verhaltensstörung");    // not sure if this makes sense...
+    splitter.addException("Verhaltensstörung", null);    // resets to original behaviour
+    expect("[Verhaltens, störung]", "Verhaltensstörung");
+    try {
+      splitter.addException(null, Arrays.asList("Verhaltensstörung"));
+      fail();
+    } catch (NullPointerException expected) {}
   }
 
   private void expect(String expected, String input) {
-    Collection<String> result = splitter.splitWord(input);
+    final Collection<String> result = splitter.splitWord(input);
     assertEquals(expected, result.toString());
   }
 
