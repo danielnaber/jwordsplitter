@@ -175,6 +175,7 @@ Unternehmens|erbe
 Unternehmens|erben
 Mitglieder|werbung
 Geschlechts|teile
+Orts|teile
 Motorrad|fahren
 Banner|werbung
 Urlaubs|orte

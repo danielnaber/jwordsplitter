@@ -1,6 +1,6 @@
 
 2012-xx-yy (3.4-dev):
-	-...
+	-added an exception
 
 2011-12-16 (3.3):
 	-renamed "jWordSplitter" in package path to "jwordsplitter" to be in accordance with 
