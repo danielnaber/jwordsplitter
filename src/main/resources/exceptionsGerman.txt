@@ -165,6 +165,7 @@ Veranstaltungs|orts
 Veranstaltungs|orte
 Veranstaltungs|orten
 Aussichts|turm
+Berufs|aussichten
 Ursprungs|ort
 Ursprungs|orte
 Ursprungs|ortes
