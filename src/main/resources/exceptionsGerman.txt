@@ -1,5 +1,8 @@
 # List of words that jwordsplitter would otherwise split incorrectly.
 # Use the pipe symbol (|) to mark the correct place to split the word.
+Planeten|getriebe
+Planeten|getriebes
+Planeten|getrieben
 Sünder|ecke
 Abteil|ende
 Außen|stürmer
