@@ -50,6 +50,7 @@ public abstract class AbstractWordSplitter
     private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
 
     protected String plainTextDictFile = null;
+    protected InputStream plainTextDict = null;
 
     protected abstract Set<String> getWordList() throws IOException;
     protected abstract int getMinimumWordLength();
@@ -62,7 +63,7 @@ public abstract class AbstractWordSplitter
      */
     public AbstractWordSplitter(boolean hideConnectingCharacters) throws IOException
     {
-      this(hideConnectingCharacters, null);
+      this(hideConnectingCharacters, (String)null);
     }
 
     public AbstractWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException 
@@ -71,7 +72,14 @@ public abstract class AbstractWordSplitter
       this.plainTextDictFile = plainTextDictFile;
       words = getWordList();
     }
-    
+
+    public AbstractWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException
+    {
+      this.hideConnectingCharacters = hideConnectingCharacters;
+      this.plainTextDict = plainTextDict;
+      words = getWordList();
+    }
+
     /**
      * @throws IOException 
      */

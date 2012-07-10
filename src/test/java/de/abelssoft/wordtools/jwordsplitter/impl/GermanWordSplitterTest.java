@@ -69,6 +69,21 @@ public class GermanWordSplitterTest extends TestCase {
   public void test() throws IOException {
     splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
     splitter.setStrictMode(true);
+    strictModeBaseChecks();
+  }
+
+  public void testInputStream() throws IOException {
+    FileInputStream fis = new FileInputStream(tmpLexiconFile);
+    try {
+      splitter = new GermanWordSplitter(true, fis);
+      splitter.setStrictMode(true);
+      strictModeBaseChecks();
+    } finally {
+      fis.close();
+    }
+  }
+
+  private void strictModeBaseChecks() {
     expect("[xyz]", "xyz");
     expect("[Verhalten]", "Verhalten");
     expect("[Verhalten, störung]", "Verhaltenstörung");
@@ -78,6 +93,8 @@ public class GermanWordSplitterTest extends TestCase {
     expect("[Verhalten, haus, störung]", "Verhaltenshausstörung");
     expect("[Abend, haus]", "Abendhaus");
     expect("[Abend, haus, störung]", "Abendhausstörung");
+    // just from special test file:
+    expect("[Krawehl, pusselsumm]", "Krawehlpusselsumm");
   }
 
   public void testBug() throws IOException {

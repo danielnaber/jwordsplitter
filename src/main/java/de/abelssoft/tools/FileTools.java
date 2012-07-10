@@ -35,14 +35,12 @@ public class FileTools
 	/**
 	 * Load a file and return each line, lowercased, as an entry in a HashSet.
 	 */
-	public static Set<String> loadFile(String filename, String charset) throws IOException {
-      FileInputStream fis = null;
-      InputStreamReader isr = null;
+	public static Set<String> loadFileToSet(InputStream is, String charset) throws IOException {
+    InputStreamReader isr = null;
 	  BufferedReader br = null;
 	  final HashSet<String> words = new HashSet<String>();
 	  try {
-        fis = new FileInputStream(new File(filename));
-        isr = new InputStreamReader(fis, charset);
+      isr = new InputStreamReader(is, charset);
 	    br = new BufferedReader(isr);
 	    String line;
 	    while ((line = br.readLine()) != null) {
@@ -50,8 +48,7 @@ public class FileTools
 	    }
 	  } finally {
 	    if (br != null) br.close();
-        if (isr != null) isr.close();
-        if (fis != null) fis.close();
+      if (isr != null) isr.close();
 	  }
 	  return words;
 	}

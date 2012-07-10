@@ -1,6 +1,8 @@
 
 2012-xx-yy (3.4-dev):
-	-added an exception
+  -added new constructor:
+   GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict)
+	-added a few items to the list of exceptions
 	-Fixed an UnsupportedOperationException that could occur when strict mode
 	 is false (which is the default)
 

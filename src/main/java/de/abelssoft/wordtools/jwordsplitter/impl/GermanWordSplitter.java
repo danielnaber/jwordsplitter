@@ -15,7 +15,9 @@
  */
 package de.abelssoft.wordtools.jwordsplitter.impl;
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
@@ -51,9 +53,15 @@ public class GermanWordSplitter extends AbstractWordSplitter
 		setExceptionFile(EXCEPTION_DICT);
 	}
 
-	public GermanWordSplitter(boolean hideConnectingCharacters) throws IOException
+  public GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException
+  {
+    super(hideConnectingCharacters, plainTextDict);
+    setExceptionFile(EXCEPTION_DICT);
+  }
+
+  public GermanWordSplitter(boolean hideConnectingCharacters) throws IOException
 	{
-	  this(hideConnectingCharacters, null);
+	  this(hideConnectingCharacters, (String)null);
 	}
 
 	@Override
@@ -67,8 +75,15 @@ public class GermanWordSplitter extends AbstractWordSplitter
 	
 	private Set<String> loadWords() throws IOException
 	{
-	  if (plainTextDictFile != null) {
-	    return FileTools.loadFile(plainTextDictFile, "utf-8");
+    if (plainTextDict != null) {
+      return FileTools.loadFileToSet(plainTextDict, "utf-8");
+    } else if (plainTextDictFile != null) {
+      FileInputStream fis = new FileInputStream(plainTextDictFile);
+      try {
+        return FileTools.loadFileToSet(fis, "utf-8");
+      } finally {
+        fis.close();
+      }
 	  } else {
 	    return (HashSet<String>)FastObjectSaver.load(SERIALIZED_DICT);
 	  }
