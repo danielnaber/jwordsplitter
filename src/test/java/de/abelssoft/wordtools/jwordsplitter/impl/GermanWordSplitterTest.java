@@ -80,6 +80,14 @@ public class GermanWordSplitterTest extends TestCase {
     expect("[Abend, haus, störung]", "Abendhausstörung");
   }
 
+  public void testBug() throws IOException {
+    splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
+    splitter.setStrictMode(false);
+    expect("[Wirts, tiers, pezies]", "Wirtstierspezies");
+    splitter.setStrictMode(true);
+    expect("[Wirtstierspezies]", "Wirtstierspezies");
+  }
+
   public void testReverse() throws IOException {
     splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
     splitter.setStrictMode(true);
