@@ -28,21 +28,21 @@ import java.io.Serializable;
  */
 public class FastObjectSaver
 {
-  
+
     private FastObjectSaver() {
-      // no public constructor, static methods only
+        // no public constructor, static methods only
     }
 
     /**
      * Stores serializable objects. IMPORTANT: THOSE OBJECTS SHOULD HAVE A serialVersionUID!
      *     private static final long serialVersionUID = 1L;
-     * @throws IOException 
+     * @throws IOException
      */
     public static void saveToFile(String filename, Serializable serializableObject) throws IOException {
-      FileOutputStream fos = new FileOutputStream(filename);
-      ObjectOutputStream oos = new ObjectOutputStream( fos );
-      oos.writeObject( serializableObject );
-      oos.close();
+        FileOutputStream fos = new FileOutputStream(filename);
+        ObjectOutputStream oos = new ObjectOutputStream( fos );
+        oos.writeObject( serializableObject );
+        oos.close();
     }
 
     /**
@@ -50,18 +50,18 @@ public class FastObjectSaver
      * @throws IOException
      */
     public static synchronized Object load(String filename) throws IOException {
-      InputStream is = FastObjectSaver.class.getResourceAsStream(filename);
-      if (is == null) {
-        throw new IOException("Cannot locate dictionary in JAR: " + filename);
-      }
-      ObjectInputStream oos = new ObjectInputStream(is);
-      try {
-        return oos.readObject();
-      } catch (ClassNotFoundException e) {
-        IOException ioe = new IOException();
-        ioe.initCause(e);
-        throw ioe;
-      }
+        InputStream is = FastObjectSaver.class.getResourceAsStream(filename);
+        if (is == null) {
+            throw new IOException("Cannot locate dictionary in JAR: " + filename);
+        }
+        ObjectInputStream oos = new ObjectInputStream(is);
+        try {
+            return oos.readObject();
+        } catch (ClassNotFoundException e) {
+            IOException ioe = new IOException();
+            ioe.initCause(e);
+            throw ioe;
+        }
     }
-    
+
 }

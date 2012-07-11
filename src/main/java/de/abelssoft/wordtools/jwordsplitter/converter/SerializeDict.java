@@ -24,44 +24,43 @@ import de.abelssoft.tools.persistence.FastObjectSaver;
 
 /**
  * This imports a txt file and saves it in the jWordSplitter format.
- * 
+ *
  * @author Sven Abels
  */
 public class SerializeDict
 {
-	
-	private static HashSet<String> getFileContents(String filename) throws IOException
-	{
-		HashSet<String> lines = new HashSet<String>();
-		String line;
-		BufferedReader br = new BufferedReader(new FileReader(filename));
-		while ((line = br.readLine()) != null) 
-		{ 
-			lines.add(line);
-		}
-		br.close();
-	  return lines;
-	}
-	
-	/**
-	 * Read a text file with one word per line and serialize the
-	 * HashSet with all words to a binary file that can be part
-	 * of jWordSplitter's JAR.
-	 * 
-	 * @throws IOException 
-	 */
-	public static void main(String[] args) throws IOException
-	{
-	  if (args.length != 2) {
-	    System.out.println("Usage: SerializeDict <input> <output>");
-	    System.exit(1);
-	  }
-    System.out.println("Reading " + args[0] + "...");
-		HashSet<String> hs = getFileContents(args[0]);
-		String outputFile = args[1];
-    System.out.println("Saving " + outputFile + "...");
-    FastObjectSaver.saveToFile(outputFile, hs);
-    System.out.println("Done.");
-	}
+
+    private static HashSet<String> getFileContents(String filename) throws IOException
+    {
+        HashSet<String> lines = new HashSet<String>();
+        String line;
+        BufferedReader br = new BufferedReader(new FileReader(filename));
+        while ((line = br.readLine()) != null) {
+            lines.add(line);
+        }
+        br.close();
+        return lines;
+    }
+
+    /**
+     * Read a text file with one word per line and serialize the
+     * HashSet with all words to a binary file that can be part
+     * of jWordSplitter's JAR.
+     *
+     * @throws IOException
+     */
+    public static void main(String[] args) throws IOException
+    {
+        if (args.length != 2) {
+            System.out.println("Usage: SerializeDict <input> <output>");
+            System.exit(1);
+        }
+        System.out.println("Reading " + args[0] + "...");
+        HashSet<String> hs = getFileContents(args[0]);
+        String outputFile = args[1];
+        System.out.println("Saving " + outputFile + "...");
+        FastObjectSaver.saveToFile(outputFile, hs);
+        System.out.println("Done.");
+    }
 
 }

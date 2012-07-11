@@ -25,11 +25,11 @@ import java.util.Scanner;
 /**
  * Command line tool that takes a list of compounds and prints those that have
  * an ambiguous decomposition.
- * 
+ *
  * @author Daniel Naber
  */
 public class AmbiguityFinder {
-    
+
     private AmbiguityFinder() {
     }
 
@@ -51,7 +51,7 @@ public class AmbiguityFinder {
                 if (!split1.equals(split2)) {
                     System.out.println(line + ": " + split1 + " <-> " + split2);
                 }
-            }            
+            }
         } finally {
             scanner.close();
         }

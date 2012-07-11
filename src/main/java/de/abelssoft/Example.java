@@ -23,15 +23,15 @@ import de.abelssoft.wordtools.jwordsplitter.impl.GermanWordSplitter;
 
 /**
  * A very simple example of how to use jWordSplitter.
- * 
+ *
  * @author Daniel Naber
  */
 public class Example {
 
-  public static void main(String[] args) throws IOException {
-    AbstractWordSplitter splitter = new GermanWordSplitter(true);
-    Collection<String> parts = splitter.splitWord("Bahnhofsuhr");
-    System.out.println(parts);
-  }
-  
+    public static void main(String[] args) throws IOException {
+        AbstractWordSplitter splitter = new GermanWordSplitter(true);
+        Collection<String> parts = splitter.splitWord("Bahnhofsuhr");
+        System.out.println(parts);
+    }
+
 }

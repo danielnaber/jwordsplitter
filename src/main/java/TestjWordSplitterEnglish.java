@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-   
+
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
@@ -24,29 +24,29 @@ import de.abelssoft.wordtools.jwordsplitter.impl.EnglishWordSplitter;
 /**
  * WARNING: Please note that English is worse than the German version right now since 
  * the dictionary is quite small.
- * 
+ *
  * @author Sven Abels
  */
 public class TestjWordSplitterEnglish {
 
-  public static void main(String[] args) throws IOException {
-    System.out.println("Loading Dictionary...");
-    AbstractWordSplitter ws = new EnglishWordSplitter(true);
-    System.out.println("done. Now analyzing...");
+    public static void main(String[] args) throws IOException {
+        System.out.println("Loading Dictionary...");
+        AbstractWordSplitter ws = new EnglishWordSplitter(true);
+        System.out.println("done. Now analyzing...");
 
-    String s;
-    s = "containership2005";
-    //some other words:
-    //s="summertime";
-    //s="sunflower";
-    //doghouse, containership, ecosystem, eyeglasses, handshake, handwriting, houseboat, goldfish, fireplace
+        String s;
+        s = "containership2005";
+        //some other words:
+        //s="summertime";
+        //s="sunflower";
+        //doghouse, containership, ecosystem, eyeglasses, handshake, handwriting, houseboat, goldfish, fireplace
 
-    Collection<String> col = ws.splitWord(s.toLowerCase());
-    System.out.println("done. Contains fragments: " + col.size());
+        Collection<String> col = ws.splitWord(s.toLowerCase());
+        System.out.println("done. Contains fragments: " + col.size());
 
-    for (Iterator<String> it = col.iterator(); it.hasNext();) {
-      System.out.println("-" + it.next());
+        for (Iterator<String> it = col.iterator(); it.hasNext();) {
+            System.out.println("-" + it.next());
+        }
     }
-  }
 
 }

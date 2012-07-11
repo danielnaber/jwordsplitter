@@ -26,48 +26,42 @@ import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
 
 /**
  * This implements an English word splitter.
- * 
+ *
  * @author Sven Abels
  */
 public class EnglishWordSplitter extends AbstractWordSplitter
 {
 
-	private static Set<String> words = null;
-	
-	public EnglishWordSplitter() throws IOException
-	{
-		this(true);
-	}
+    private static Set<String> words = null;
 
-	public EnglishWordSplitter(boolean withoutConnectingCharacters) throws IOException
-	{
-		super(withoutConnectingCharacters);
-	}
-
-	@Override
-	protected Set<String> getWordList() throws IOException
-	{
-    if (words == null) {
-      words = loadWords();
+    public EnglishWordSplitter() throws IOException {
+        this(true);
     }
-		return words;
-	}
 
-	private static Set<String> loadWords() throws IOException
-	{
-			return (HashSet<String>)FastObjectSaver.load("/wordsEnglish.ser");
-	}
+    public EnglishWordSplitter(boolean withoutConnectingCharacters) throws IOException {
+        super(withoutConnectingCharacters);
+    }
 
-	@Override
-	protected int getMinimumWordLength()
-	{
-		return 3;
-	}
+    @Override
+    protected Set<String> getWordList() throws IOException {
+        if (words == null) {
+            words = loadWords();
+        }
+        return words;
+    }
 
-	@Override
-	protected Collection<String> getConnectingCharacters()
-	{
-	  return new ArrayList<String>();
-	}
+    private static Set<String> loadWords() throws IOException {
+        return (HashSet<String>)FastObjectSaver.load("/wordsEnglish.ser");
+    }
+
+    @Override
+    protected int getMinimumWordLength() {
+        return 3;
+    }
+
+    @Override
+    protected Collection<String> getConnectingCharacters() {
+        return new ArrayList<String>();
+    }
 
 }

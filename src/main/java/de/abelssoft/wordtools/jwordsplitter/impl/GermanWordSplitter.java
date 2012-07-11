@@ -29,87 +29,78 @@ import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
 
 /**
  * This implements a German word splitter.
- * 
+ *
  * @author Sven Abels
  */
 public class GermanWordSplitter extends AbstractWordSplitter
 {
 
-  private static final String SERIALIZED_DICT = "/wordsGerman.ser";   // dict inside the JAR
-  private static final String EXCEPTION_DICT = "/exceptionsGerman.txt";   // dict inside the JAR
+    private static final String SERIALIZED_DICT = "/wordsGerman.ser";   // dict inside the JAR
+    private static final String EXCEPTION_DICT = "/exceptionsGerman.txt";   // dict inside the JAR
 
-  private Set<String> words = null;
+    private Set<String> words = null;
 
-  private int minimumWordLength = 4;
-	
-	public GermanWordSplitter() throws IOException
-	{
-		this(true);
-	}
+    private int minimumWordLength = 4;
 
-	public GermanWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException
-	{
-		super(hideConnectingCharacters, plainTextDictFile);
-		setExceptionFile(EXCEPTION_DICT);
-	}
-
-  public GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException
-  {
-    super(hideConnectingCharacters, plainTextDict);
-    setExceptionFile(EXCEPTION_DICT);
-  }
-
-  public GermanWordSplitter(boolean hideConnectingCharacters) throws IOException
-	{
-	  this(hideConnectingCharacters, (String)null);
-	}
-
-	@Override
-	protected Set<String> getWordList() throws IOException
-	{
-    if (words == null) {
-      words = loadWords();
+    public GermanWordSplitter() throws IOException {
+        this(true);
     }
-		return words;
-	}
-	
-	private Set<String> loadWords() throws IOException
-	{
-    if (plainTextDict != null) {
-      return FileTools.loadFileToSet(plainTextDict, "utf-8");
-    } else if (plainTextDictFile != null) {
-      FileInputStream fis = new FileInputStream(plainTextDictFile);
-      try {
-        return FileTools.loadFileToSet(fis, "utf-8");
-      } finally {
-        fis.close();
-      }
-	  } else {
-	    return (HashSet<String>)FastObjectSaver.load(SERIALIZED_DICT);
-	  }
-	}
-	
-	@Override
-	protected int getMinimumWordLength()
-	{
-		return minimumWordLength ;
-	}
 
-	public void setMinimumWordLength(int minimumWordLength)
-  {
-    this.minimumWordLength = minimumWordLength;
-  }
+    public GermanWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException {
+        super(hideConnectingCharacters, plainTextDictFile);
+        setExceptionFile(EXCEPTION_DICT);
+    }
 
-	@Override
-	protected Collection<String> getConnectingCharacters()
-	{
-	  Collection<String> connChars = new ArrayList<String>();
-	  // combination of the characters below:
-    connChars.add("s-");
-    // connection characters ("Fugenelemente"):
-	  connChars.add("s");
-	  connChars.add("-");
-		return connChars;
-	}
+    public GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException {
+        super(hideConnectingCharacters, plainTextDict);
+        setExceptionFile(EXCEPTION_DICT);
+    }
+
+    public GermanWordSplitter(boolean hideConnectingCharacters) throws IOException {
+        this(hideConnectingCharacters, (String)null);
+    }
+
+    @Override
+    protected Set<String> getWordList() throws IOException {
+        if (words == null) {
+            words = loadWords();
+        }
+        return words;
+    }
+
+    private Set<String> loadWords() throws IOException {
+        if (plainTextDict != null) {
+            return FileTools.loadFileToSet(plainTextDict, "utf-8");
+        } else if (plainTextDictFile != null) {
+            FileInputStream fis = new FileInputStream(plainTextDictFile);
+            try {
+                return FileTools.loadFileToSet(fis, "utf-8");
+            } finally {
+                fis.close();
+            }
+        } else {
+            return (HashSet<String>)FastObjectSaver.load(SERIALIZED_DICT);
+        }
+    }
+
+    @Override
+    protected int getMinimumWordLength() {
+        return minimumWordLength ;
+    }
+
+    public void setMinimumWordLength(int minimumWordLength) {
+        this.minimumWordLength = minimumWordLength;
+    }
+
+    @Override
+    protected Collection<String> getConnectingCharacters() {
+        Collection<String> connChars = new ArrayList<String>();
+        // combination of the characters below:
+        connChars.add("s-");
+        // connection characters ("Fugenelemente"):
+        connChars.add("s");
+        connChars.add("-");
+        return connChars;
+    }
 
 }

@@ -23,29 +23,24 @@ import de.abelssoft.tools.persistence.FastObjectSaver;
 
 /**
  * This dumps the contents of the given *.ser file in the JAR to stdout.
- * 
+ *
  * @author Sven Abels
  */
 public class ExportDict
 {
-	
-	/**
-	 * @param args
-	 * @throws IOException 
-	 */
-	public static void main(String[] args) throws IOException
-	{
-    if (args.length != 1) {
-      System.out.println("Usage: ExportDict <file in JAR>");
-      System.out.println("  for example: ExportDict /wordsGerman.ser");
-      System.exit(1);
+
+    public static void main(String[] args) throws IOException {
+        if (args.length != 1) {
+            System.out.println("Usage: ExportDict <file in JAR>");
+            System.out.println("  for example: ExportDict /wordsGerman.ser");
+            System.exit(1);
+        }
+        String filename = args[0];
+        Object obj = FastObjectSaver.load(filename);
+        Set<String> words = (HashSet<String>) obj;
+        for (String word : words) {
+            System.out.println(word);
+        }
     }
-    String filename = args[0];
-		Object obj = FastObjectSaver.load(filename);
-    Set<String> words = (HashSet<String>) obj;
-    for (String word : words) {
-      System.out.println(word);
-    }
-	}
 
 }

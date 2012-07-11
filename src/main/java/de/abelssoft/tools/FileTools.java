@@ -28,48 +28,48 @@ import java.util.Set;
 public class FileTools
 {
 
-  private FileTools() {
-    // class has static methods only, no public constructor
-  }
-
-	/**
-	 * Load a file and return each line, lowercased, as an entry in a HashSet.
-	 */
-	public static Set<String> loadFileToSet(InputStream is, String charset) throws IOException {
-    InputStreamReader isr = null;
-	  BufferedReader br = null;
-	  final HashSet<String> words = new HashSet<String>();
-	  try {
-      isr = new InputStreamReader(is, charset);
-	    br = new BufferedReader(isr);
-	    String line;
-	    while ((line = br.readLine()) != null) {
-	      words.add(line.trim().toLowerCase());
-	    }
-	  } finally {
-	    if (br != null) br.close();
-      if (isr != null) isr.close();
-	  }
-	  return words;
-	}
-
-  public static String loadFile(InputStream inputStream, String charset) throws IOException {
-    InputStreamReader isr = null;
-    BufferedReader br = null;
-    final StringBuilder sb = new StringBuilder();
-    try {
-      isr = new InputStreamReader(inputStream, charset);
-      br = new BufferedReader(isr);
-      String line;
-      while ((line = br.readLine()) != null) {
-        sb.append(line);
-        sb.append("\n");
-      }
-    } finally {
-      if (br != null) br.close();
-      if (isr != null) isr.close();
+    private FileTools() {
+        // class has static methods only, no public constructor
     }
-    return sb.toString();
-  }
+
+    /**
+     * Load a file and return each line, lowercased, as an entry in a HashSet.
+     */
+    public static Set<String> loadFileToSet(InputStream is, String charset) throws IOException {
+        InputStreamReader isr = null;
+        BufferedReader br = null;
+        final HashSet<String> words = new HashSet<String>();
+        try {
+            isr = new InputStreamReader(is, charset);
+            br = new BufferedReader(isr);
+            String line;
+            while ((line = br.readLine()) != null) {
+                words.add(line.trim().toLowerCase());
+            }
+        } finally {
+            if (br != null) br.close();
+            if (isr != null) isr.close();
+        }
+        return words;
+    }
+
+    public static String loadFile(InputStream inputStream, String charset) throws IOException {
+        InputStreamReader isr = null;
+        BufferedReader br = null;
+        final StringBuilder sb = new StringBuilder();
+        try {
+            isr = new InputStreamReader(inputStream, charset);
+            br = new BufferedReader(isr);
+            String line;
+            while ((line = br.readLine()) != null) {
+                sb.append(line);
+                sb.append("\n");
+            }
+        } finally {
+            if (br != null) br.close();
+            if (isr != null) isr.close();
+        }
+        return sb.toString();
+    }
 
 }
