@@ -37,8 +37,7 @@ import java.util.*;
  * @author Sven Abels (Abelssoft), Sven@abelssoft.de
  * @author Daniel Naber
  */
-public abstract class AbstractWordSplitter
-{
+public abstract class AbstractWordSplitter {
 
     private static final String COMMENT_CHAR = "#";
     private static final String DELIMITER_CHAR = "|";
@@ -69,7 +68,8 @@ public abstract class AbstractWordSplitter
     /**
      * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
-     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary
+     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary,
+     *                           must be in UTF-8 format
      * @throws IOException
      */
     public AbstractWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException {
@@ -81,7 +81,8 @@ public abstract class AbstractWordSplitter
     /**
      * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
-     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary
+     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
+     *                       must be in UTF-8 format
      * @throws IOException
      */
     public AbstractWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException {

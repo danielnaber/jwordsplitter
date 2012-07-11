@@ -33,8 +33,7 @@ import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
  * @author Sven Abels
  * @author Daniel Naber
  */
-public class GermanWordSplitter extends AbstractWordSplitter
-{
+public class GermanWordSplitter extends AbstractWordSplitter {
 
     private static final String SERIALIZED_DICT = "/wordsGerman.ser";   // dict inside the JAR
     private static final String EXCEPTION_DICT = "/exceptionsGerman.txt";   // dict inside the JAR
@@ -50,7 +49,8 @@ public class GermanWordSplitter extends AbstractWordSplitter
     /**
      * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
-     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary
+     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary,
+     *                           must be in UTF-8 format
      * @throws IOException
      */
     public GermanWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException {
@@ -61,7 +61,8 @@ public class GermanWordSplitter extends AbstractWordSplitter
     /**
      * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
-     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary
+     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
+     *                       must be in UTF-8 format
      * @throws IOException
      */
     public GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException {
