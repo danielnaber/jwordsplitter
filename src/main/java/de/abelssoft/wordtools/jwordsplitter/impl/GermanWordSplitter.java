@@ -31,6 +31,7 @@ import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
  * This implements a German word splitter.
  *
  * @author Sven Abels
+ * @author Daniel Naber
  */
 public class GermanWordSplitter extends AbstractWordSplitter
 {
@@ -46,16 +47,33 @@ public class GermanWordSplitter extends AbstractWordSplitter
         this(true);
     }
 
+    /**
+     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
+     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary
+     * @throws IOException
+     */
     public GermanWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException {
         super(hideConnectingCharacters, plainTextDictFile);
         setExceptionFile(EXCEPTION_DICT);
     }
 
+    /**
+     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
+     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary
+     * @throws IOException
+     */
     public GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException {
         super(hideConnectingCharacters, plainTextDict);
         setExceptionFile(EXCEPTION_DICT);
     }
 
+    /**
+     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
+     * @throws IOException
+     */
     public GermanWordSplitter(boolean hideConnectingCharacters) throws IOException {
         this(hideConnectingCharacters, (String)null);
     }
@@ -97,7 +115,7 @@ public class GermanWordSplitter extends AbstractWordSplitter
         Collection<String> connChars = new ArrayList<String>();
         // combination of the characters below:
         connChars.add("s-");
-        // connection characters ("Fugenelemente"):
+        // connection characters, a.k.a. interfixes ("Fugenelemente"):
         connChars.add("s");
         connChars.add("-");
         return connChars;

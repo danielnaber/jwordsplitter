@@ -22,15 +22,17 @@ import java.io.InputStream;
 import java.util.*;
 
 /**
- * This class can split words into their smallest parts (atoms). For example "Erhebungsfehler"
- * will be split into "erhebung" and "fehler".
+ * This class can split compound words into their smallest parts (atoms). For example "Erhebungsfehler"
+ * will be split into "erhebung" and "fehler", if "erhebung" and "fehler" are in the dictionary
+ * and "erhebungsfehler" is not. Thus how words are split only depends on the contents of
+ * the dictionary. A dictionary for German is included.
  *
- * Please note: We don't expect to have any special chars here (!":;,.-_, etc.). Only a set of 
- * characters and only one word.
- *
- * This method is especially beneficial for German words but it will work with all languages.
+ * <p>This is especially useful for German words but it will work with all languages.
  * The order of the words in the collection will be identical to their appearance in the
  * connected word. It's good to provide a large dictionary.
+ *
+ * <p>Please note: We don't expect to have any special chars here (!":;,.-_, etc.). Only a set of
+ * characters and only one word.
  *
  * @author Sven Abels (Abelssoft), Sven@abelssoft.de
  * @author Daniel Naber
@@ -56,20 +58,32 @@ public abstract class AbstractWordSplitter
     protected abstract Collection<String> getConnectingCharacters();
 
     /**
-     * @param hideConnectingCharacters shall the splitted wordset still contain
-     *  the connecting character? (default=true) 
+     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
      * @throws IOException
      */
     public AbstractWordSplitter(boolean hideConnectingCharacters) throws IOException {
         this(hideConnectingCharacters, (String)null);
     }
 
+    /**
+     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
+     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary
+     * @throws IOException
+     */
     public AbstractWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException {
         this.hideConnectingCharacters = hideConnectingCharacters;
         this.plainTextDictFile = plainTextDictFile;
         words = getWordList();
     }
 
+    /**
+     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
+     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary
+     * @throws IOException
+     */
     public AbstractWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException {
         this.hideConnectingCharacters = hideConnectingCharacters;
         this.plainTextDict = plainTextDict;
@@ -109,7 +123,7 @@ public abstract class AbstractWordSplitter
     }
 
     /**
-     * @param completeWord the word to be split (will be considered case-insensitive)
+     * @param completeWord the word for which an exception is to be defined (will be considered case-insensitive)
      * @param wordParts the parts in which the word is to be split (use a list with a single element if the word should not be split)
      */
     public void addException(String completeWord, List<String> wordParts) {
@@ -119,8 +133,7 @@ public abstract class AbstractWordSplitter
     /**
      * When set to true, words will only be split if all parts are words.
      * Otherwise the splitting result might contain parts that are not words.
-     * Only if this is set to true, the minimum length of word parts is correctly
-     * taken into account.
+     * The minimum length of word parts is correctly taken into account only if this is set to true.
      */
     public void setStrictMode(boolean strictMode) {
         this.strictMode = strictMode;
