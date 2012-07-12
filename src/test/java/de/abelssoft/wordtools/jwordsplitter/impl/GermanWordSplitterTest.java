@@ -18,52 +18,29 @@
  */
 package de.abelssoft.wordtools.jwordsplitter.impl;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
-
-import de.abelssoft.tools.FileTools;
-import junit.framework.TestCase;
 
 /**
  * Test cases for the German word splitter.
- * @author Daniel Naber
  */
-public class GermanWordSplitterTest extends TestCase {
-
-    private static final String TEST_FILE = "test-de.txt";
-
-    private File tmpLexiconFile;
-    private GermanWordSplitter splitter;
+public class GermanWordSplitterTest extends BaseTest {
 
     @Override
-    public void setUp() throws IOException {
-        final InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream(TEST_FILE);
-        try {
-            if (is == null) {
-                throw new RuntimeException("Could not load " + TEST_FILE + " from classpath");
-            }
-            final String lexicon = FileTools.loadFile(is, "utf-8");
-            tmpLexiconFile = File.createTempFile("jwordsplitter-junit", ".txt");
-            final FileOutputStream fos = new FileOutputStream(tmpLexiconFile);
-            final OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
-            try {
-                osw.write(lexicon);
-            } finally {
-                osw.close();
-                fos.close();
-            }
-        } finally {
-            if (is != null) { is.close(); }
-        }
+    protected String getDictionaryFile() {
+        return "test-de.txt";
     }
 
     @Override
-    public void tearDown() {
-        if (tmpLexiconFile != null) {
-            tmpLexiconFile.delete();
-        }
+    public void setUp() throws IOException {
+        super.setUp();
+    }
+
+    @Override
+    public void tearDown() throws Exception {
+        super.tearDown();
     }
 
     public void test() throws IOException {
@@ -152,9 +129,9 @@ public class GermanWordSplitterTest extends TestCase {
         // too short to be split (default min word length: 4)
         expect("[Verhaltenei]", "Verhaltenei");
         expect("[Eiverhalten]", "Eiverhalten");
-        splitter.setMinimumWordLength(3);
+        ((GermanWordSplitter)splitter).setMinimumWordLength(3);
         expect("[Eiverhalten]", "Eiverhalten");
-        splitter.setMinimumWordLength(2);
+        ((GermanWordSplitter)splitter).setMinimumWordLength(2);
         expect("[Ei, verhalten]", "Eiverhalten");
     }
 
@@ -231,11 +208,6 @@ public class GermanWordSplitterTest extends TestCase {
             splitter.addException(null, Arrays.asList("Verhaltensstörung"));
             fail();
         } catch (NullPointerException expected) {}
-    }
-
-    private void expect(String expected, String input) {
-        final Collection<String> result = splitter.splitWord(input);
-        assertEquals(expected, result.toString());
     }
 
 }
