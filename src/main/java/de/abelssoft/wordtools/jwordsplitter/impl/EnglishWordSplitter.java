@@ -38,8 +38,8 @@ public class EnglishWordSplitter extends AbstractWordSplitter
         this(true);
     }
 
-    public EnglishWordSplitter(boolean withoutConnectingCharacters) throws IOException {
-        super(withoutConnectingCharacters);
+    public EnglishWordSplitter(boolean hideLinkingElements) throws IOException {
+        super(hideLinkingElements);
     }
 
     @Override

@@ -47,36 +47,36 @@ public class GermanWordSplitter extends AbstractWordSplitter {
     }
 
     /**
-     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
-     *  the connecting character (a.k.a. interfix)
+     * @param hideLinkingElement whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the linking element (a.k.a. interfix), typically the "s" for German
      * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary,
      *                           must be in UTF-8 format
      * @throws IOException
      */
-    public GermanWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException {
-        super(hideConnectingCharacters, plainTextDictFile);
+    public GermanWordSplitter(boolean hideLinkingElement, String plainTextDictFile) throws IOException {
+        super(hideLinkingElement, plainTextDictFile);
         setExceptionFile(EXCEPTION_DICT);
     }
 
     /**
-     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
-     *  the connecting character (a.k.a. interfix)
+     * @param hideLinkingElement whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the linking element (a.k.a. interfix), typically the "s" for German
      * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
      *                       must be in UTF-8 format
      * @throws IOException
      */
-    public GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException {
-        super(hideConnectingCharacters, plainTextDict);
+    public GermanWordSplitter(boolean hideLinkingElement, InputStream plainTextDict) throws IOException {
+        super(hideLinkingElement, plainTextDict);
         setExceptionFile(EXCEPTION_DICT);
     }
 
     /**
-     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
-     *  the connecting character (a.k.a. interfix)
+     * @param hideLinkingElement whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the linking element (a.k.a. interfix), typically the "s" for German
      * @throws IOException
      */
-    public GermanWordSplitter(boolean hideConnectingCharacters) throws IOException {
-        this(hideConnectingCharacters, (String)null);
+    public GermanWordSplitter(boolean hideLinkingElement) throws IOException {
+        this(hideLinkingElement, (String)null);
     }
 
     @Override
@@ -116,7 +116,7 @@ public class GermanWordSplitter extends AbstractWordSplitter {
         Collection<String> connChars = new ArrayList<String>();
         // combination of the characters below:
         connChars.add("s-");
-        // connection characters, a.k.a. interfixes ("Fugenelemente"):
+        // linking elements, a.k.a. interfixes ("Fugenelemente"):
         connChars.add("s");
         connChars.add("-");
         return connChars;
