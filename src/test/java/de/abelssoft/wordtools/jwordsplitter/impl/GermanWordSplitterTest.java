@@ -152,6 +152,10 @@ public class GermanWordSplitterTest extends TestCase {
     // too short to be split (default min word length: 4)
     expect("[Verhaltenei]", "Verhaltenei");
     expect("[Eiverhalten]", "Eiverhalten");
+    splitter.setMinimumWordLength(3);
+    expect("[Eiverhalten]", "Eiverhalten");
+    splitter.setMinimumWordLength(2);
+    expect("[Ei, verhalten]", "Eiverhalten");
   }
   
   public void testNonStrictMode() throws IOException {
