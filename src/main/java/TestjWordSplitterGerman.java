@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
+import de.abelssoft.wordtools.jwordsplitter.impl.GermanWordSplitter;
+
+import java.io.File;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
-
-import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
-import de.abelssoft.wordtools.jwordsplitter.impl.GermanWordSplitter;
+import java.util.Scanner;
 
 /**
  * Simple command-line tool for decomposing German compound words.
@@ -48,26 +48,31 @@ public class TestjWordSplitterGerman {
             argCount++;
         }
         final String inputFile = args[argCount-1];
-        AbstractWordSplitter ws = new GermanWordSplitter(hideGlueChars, plainDict);
-        ws.setStrictMode(true);
-        BufferedReader br = new BufferedReader(new FileReader(inputFile));
-        String line;
-        while ((line = br.readLine()) != null) {
-            Collection<String> col = ws.splitWord(line);
-            for (Iterator<String> it = col.iterator(); it.hasNext();) {
-                System.out.print(it.next());
-                if (it.hasNext())
-                    System.out.print(", ");
+        final AbstractWordSplitter wordSplitter = new GermanWordSplitter(hideGlueChars, plainDict);
+        wordSplitter.setStrictMode(true);
+        final Scanner scanner = new Scanner(new File(inputFile));
+        try {
+            while (scanner.hasNext()) {
+                final String token = scanner.next();
+                final Collection<String> col = wordSplitter.splitWord(token);
+                for (Iterator<String> it = col.iterator(); it.hasNext();) {
+                    System.out.print(it.next());
+                    if (it.hasNext()) {
+                        System.out.print(", ");
+                    }
+                }
+                System.out.println();
             }
-            System.out.println();
+        } finally {
+            scanner.close();
         }
-        br.close();
     }
 
     private static void usage() {
         System.out.println("Usage: TestjWordSplitterGerman [-f] [-d dictionary] <file>");
+        System.out.println("    <file> Textdatei mit zu zerlegenden Wörtern");
         System.out.println("    -f  Fugenelemente mit ausgeben");
-        System.out.println("    -d  Wortliste mit potentiellen Komposita-Teilen (statt der integrierten)");
+        System.out.println("    -d  Wortliste mit potenziellen Komposita-Teilen (statt der integrierten)");
         System.exit(1);
     }
 
