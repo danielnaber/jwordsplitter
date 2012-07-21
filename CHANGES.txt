@@ -2,7 +2,7 @@
 2012-xx-yy (3.4-dev):
   -added new constructor:
    GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict)
-	-added a few items to the list of exceptions
+	-added several words to the list of exceptions
 	-Fixed an UnsupportedOperationException that could occur when strict mode
 	 is false (which is the default)
 	-Fixed the JAR so starting it with "java -jar jWordSplitter-x.y.jar <filename>"
