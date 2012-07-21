@@ -30,6 +30,7 @@ public class Example {
 
     public static void main(String[] args) throws IOException {
         AbstractWordSplitter splitter = new GermanWordSplitter(true);
+        splitter.setStrictMode(true);
         Collection<String> parts = splitter.splitWord("Bahnhofsuhr");
         System.out.println(parts);
     }
