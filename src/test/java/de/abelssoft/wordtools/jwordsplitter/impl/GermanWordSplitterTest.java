@@ -104,6 +104,12 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Blahbar-Foobar]", "Blahbar-Foobar");
     }
 
+    public void testWithWhitespace() throws IOException {
+        splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
+        splitter.setStrictMode(true);
+        expect("[Verhalten, Störung]", "  Verhaltens-Störung\t ");
+    }
+
     public void testWrongCase() throws IOException {
         splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
         splitter.setStrictMode(true);
