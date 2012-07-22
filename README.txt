@@ -1,12 +1,13 @@
-jWordSplitter 3.4-dev (2011-xx-yy)
-Copyright 2004-2007 Sven Abels, Copyright 2007-2011 Daniel Naber, see LICENSE.txt for license information.
+jWordSplitter 3.4-dev (2012-xx-yy)
+Copyright 2004-2007 Sven Abels, Copyright 2007-2012 Daniel Naber, see LICENSE.txt for license information.
+Homepage: http://www.danielnaber.de/jwordsplitter
 
 This Java library can split words into their smallest parts (atoms).
 For example (in German) "Erhebungsfehler" will be split into "erhebung" and
 "fehler". This is especially beneficial for German words but it can work with 
-all languages, as long as the dictionary and a class extending AbstractWordSplitter
-is provided. So far, German and English are supported but only a German dictionary
-is included in the JAR.
+all languages, as long as a dictionary and a class extending AbstractWordSplitter
+is provided. So far, only German is supported and a German dictionary is included
+in the JAR.
 
 jWordSplitter requires about 7MB RAM (that is, you can write a simple Java program
 that uses jWordSplitter and run it with option -Xmx7M).
@@ -26,9 +27,7 @@ TODO:
 	 is in the dictionary
 	-extend list of exceptions (exceptionsGerman.txt)
 	-clean up the actual splitting algorithm
-	-use generics
-	-add more Junit test cases
-	-add regression test using many words
 	-further decrease JAR size by removing compounds from the dictionary
-	-return null if a word isn't known at all, return the word itself
-	 if is not a compound
+	-API: use generics
+	-API: return null if a word isn't known at all, return the word itself
+	 if it is not a compound?
