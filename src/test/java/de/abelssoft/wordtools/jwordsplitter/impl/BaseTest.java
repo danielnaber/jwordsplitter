@@ -31,7 +31,7 @@ public abstract class BaseTest extends TestCase {
 
     @Override
     public void setUp() throws IOException {
-        final InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream(getDictionaryFile());
+        final InputStream is = BaseTest.class.getResourceAsStream(getDictionaryFile());
         try {
             if (is == null) {
                 throw new RuntimeException("Could not load " + getDictionaryFile() + " from classpath");

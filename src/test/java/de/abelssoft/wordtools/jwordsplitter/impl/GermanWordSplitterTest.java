@@ -30,7 +30,7 @@ public class GermanWordSplitterTest extends BaseTest {
 
     @Override
     protected String getDictionaryFile() {
-        return "test-de.txt";
+        return "/test-de.txt";
     }
 
     @Override
