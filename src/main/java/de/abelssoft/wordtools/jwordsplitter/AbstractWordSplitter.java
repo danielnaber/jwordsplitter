@@ -42,18 +42,21 @@ public abstract class AbstractWordSplitter {
     private static final String COMMENT_CHAR = "#";
     private static final String DELIMITER_CHAR = "|";
 
+    private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
+
     private Set<String> words = null;
     private boolean hideConnectingCharacters = true;
     private boolean strictMode = false;
     private boolean reverseMode = false;
 
-    private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
-
     protected String plainTextDictFile = null;
     protected InputStream plainTextDict = null;
 
     protected abstract Set<String> getWordList() throws IOException;
+
     protected abstract int getMinimumWordLength();
+
+    /** Interfix elements in lowercase, e.g. at least "s" for German. */
     protected abstract Collection<String> getConnectingCharacters();
 
     /**
@@ -241,9 +244,10 @@ public abstract class AbstractWordSplitter {
      * Removes e.g. 's' at the end of a string.
      */
     private String removeTailingCharacters(String str) {
+        final String lowercaseStr = str.toLowerCase();
         final Collection<String> connChars = getConnectingCharacters();
         for (String connChar : connChars) {
-            if (str.toUpperCase().endsWith(connChar.toUpperCase())) {
+            if (lowercaseStr.endsWith(connChar)) {
                 return str.substring(0, str.length()-connChar.length());
             }
         }

@@ -18,10 +18,7 @@ package de.abelssoft.wordtools.jwordsplitter.impl;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 import de.abelssoft.tools.FileTools;
 import de.abelssoft.tools.persistence.FastObjectSaver;
@@ -37,6 +34,12 @@ public class GermanWordSplitter extends AbstractWordSplitter {
 
     private static final String SERIALIZED_DICT = "/wordsGerman.ser";   // dict inside the JAR
     private static final String EXCEPTION_DICT = "/exceptionsGerman.txt";   // dict inside the JAR
+
+    /** Interfixes = Fugenelemente */
+    private static final Collection<String> INTERFIXES = Arrays.asList(
+            "s-",  // combination of the characters below
+            "s",
+            "-");
 
     private Set<String> words = null;
 
@@ -113,13 +116,7 @@ public class GermanWordSplitter extends AbstractWordSplitter {
 
     @Override
     protected Collection<String> getConnectingCharacters() {
-        Collection<String> connChars = new ArrayList<String>();
-        // combination of the characters below:
-        connChars.add("s-");
-        // linking elements, a.k.a. interfixes ("Fugenelemente"):
-        connChars.add("s");
-        connChars.add("-");
-        return connChars;
+        return INTERFIXES;
     }
 
 }

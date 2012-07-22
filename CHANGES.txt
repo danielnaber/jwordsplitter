@@ -2,7 +2,11 @@
 2012-xx-yy (3.4-dev):
   -added new constructor:
    GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict)
+	-Important note for users who extend AbstractWordSplitter:
+	 getConnectingCharacters() must return lowercase characters now
 	-added several words to the list of exceptions
+	-about 40% speedup if you split a lot of words (for many use cases, time of initialization
+	 will probably still outweigh runtime)
 	-Fixed an UnsupportedOperationException that could occur when strict mode
 	 is false (which is the default)
 	-Fixed the JAR so starting it with "java -jar jWordSplitter-x.y.jar <filename>"

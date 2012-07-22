@@ -3600,7 +3600,7 @@ Feld, verweis
 Hoffmannschen
 Strom, netzes
 PJC-Jets
-Imbiß-Geschäft
+Imbiß, Geschäft
 Südkurven
 SEV
 Reise, tasche
@@ -4867,7 +4867,7 @@ Wurst, preise
 Sanktion, front
 Eggersglüss
 Nationalbewußtseins
-Strauß-Freund
+Strauß, Freund
 Görnitz
 Sinnieren
 Kurden, revolte
