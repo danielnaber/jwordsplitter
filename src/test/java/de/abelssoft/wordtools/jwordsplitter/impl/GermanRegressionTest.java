@@ -16,6 +16,7 @@ public class GermanRegressionTest extends TestCase {
         final AbstractWordSplitter splitter = new GermanWordSplitter(true);
         splitter.setStrictMode(true);
         final InputStream is = BaseTest.class.getResourceAsStream(TEST_FILE);
+        final StringBuilder sb = new StringBuilder();
         try {
             if (is == null) {
                 throw new RuntimeException("Could not load " + TEST_FILE + " from classpath");
@@ -27,15 +28,19 @@ public class GermanRegressionTest extends TestCase {
                 final String input = line.replace(", ", "");
                 final String result = join(splitter.splitWord(input));
                 if (!line.equals(result)) {
-                    System.out.println("-" + line);
-                    System.out.println("+" + result);
+                    sb.append("-");
+                    sb.append(line);
+                    sb.append("\n");
+                    sb.append("+");
+                    sb.append(result);
+                    sb.append("\n");
                     diffCount++;
                 }
             }
             scanner.close();
             if (diffCount > 0 ) {
-                fail("Found differences between regression data and real result (see above) - modify " + TEST_FILE
-                        + " to contain the results if they are better than before");
+                fail("Found differences between regression data and real result - modify " + TEST_FILE
+                        + " to contain the results if they are better than before:\n" + sb.toString());
             }
         } finally {
             if (is != null) is.close();
