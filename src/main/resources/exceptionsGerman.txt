@@ -151,6 +151,11 @@ Verfahrens|teile
 Verfahrens|teiles
 Verfahrens|teils
 Verfahrens|teilen
+Vergnügungs|strip
+Vergnügungs|strips
+Vergnügungs|viertel
+Vergnügungs|viertels
+Vergnügungs|vierteln
 Vergnügungs|tempel
 Vergnügungs|tempels
 Vergnügungs|tempeln
@@ -601,6 +606,19 @@ Segel|flugzeuges
 Segel|flugzeugen
 Spitzen|tänzerinnen
 Spitzen|sportlerinnen
+Tages|trip
+Tages|trips
+Business|trip
+Business|trips
+Urlaubs|trip
+Urlaubs|trips
+Selbst|erfahrungs|trip
+Selbst|erfahrungs|trips
+Bahn|steig|höhe
+Bahn|steig|höhen
+Ausflugs|ort
+Ausflugs|orte
+Ausflugs|ortes
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen

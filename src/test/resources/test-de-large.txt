@@ -4048,7 +4048,7 @@ Lehrinstitut
 Frührenter
 Krieg, materials
 Allergie, häufigkeit
-Ausflug, sorte
+Ausflugs, orte
 Baurohstoffen
 Ireton
 Primatenforschers
