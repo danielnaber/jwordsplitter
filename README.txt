@@ -1,4 +1,4 @@
-jWordSplitter 3.4-dev (2012-xx-yy)
+jWordSplitter 3.4 (2012-09-24)
 Copyright 2004-2007 Sven Abels, Copyright 2007-2012 Daniel Naber, see LICENSE.txt for license information.
 Homepage: http://www.danielnaber.de/jwordsplitter
 
@@ -25,6 +25,7 @@ java -cp jWordSplitter.jar de.abelssoft.wordtools.jwordsplitter.converter.Serial
 TODO:
 	-bug: doesn't always return longest match, e.g. "noten-durch-schnitt" although "durchschnitt"
 	 is in the dictionary
+	-add "gegen" and "unter" to germanPrefixes once longest match bug is fixed (Gegenwartsdichter, Unternehmenskaufverträge)
 	-extend list of exceptions (exceptionsGerman.txt)
 	-clean up the actual splitting algorithm
 	-further decrease JAR size by removing compounds from the dictionary
