@@ -2,8 +2,8 @@
 2012-09-24 (3.4):
 	-Important note for users who extend AbstractWordSplitter:
 	 getConnectingCharacters() must return lowercase characters now
-  -added new constructor:
-   GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict)
+	-added new constructor:
+	 GermanWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict)
 	-added several words to the list of exceptions
 	-about 40% speedup if you split a lot of words (for many use cases, time of initialization
 	 will probably still outweigh runtime)
