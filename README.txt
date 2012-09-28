@@ -1,4 +1,4 @@
-jWordSplitter 3.4 (2012-09-24)
+jWordSplitter 3.5-dev (2012-xx-yy)
 Copyright 2004-2007 Sven Abels, Copyright 2007-2012 Daniel Naber, see LICENSE.txt for license information.
 Homepage: http://www.danielnaber.de/jwordsplitter
 

@@ -1,4 +1,7 @@
 
+2012-xx-yy (3.5-dev):
+	-...
+
 2012-09-24 (3.4):
 	-Important note for users who extend AbstractWordSplitter:
 	 getConnectingCharacters() must return lowercase characters now
