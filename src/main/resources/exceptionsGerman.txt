@@ -22,6 +22,9 @@ Strick|strumpf
 Umwelt|bundes|amt
 Umwelt|bundes|amtes
 Umwelt|bundes|amts
+Präsidentschafts|amt
+Präsidentschafts|amts
+Präsidentschafts|amtes
 Übungs|einsatz
 Übungs|einsätzen
 Übungs|teil
