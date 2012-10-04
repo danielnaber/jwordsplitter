@@ -29,7 +29,8 @@ import de.abelssoft.wordtools.jwordsplitter.impl.GermanWordSplitter;
 public class Example {
 
     public static void main(String[] args) throws IOException {
-        AbstractWordSplitter splitter = new GermanWordSplitter(true);
+        GermanWordSplitter splitter = new GermanWordSplitter(true);
+        splitter.setMinimumWordLength(3);
         splitter.setStrictMode(true);
         Collection<String> parts = splitter.splitWord("Bahnhofsuhr");
         System.out.println(parts);
