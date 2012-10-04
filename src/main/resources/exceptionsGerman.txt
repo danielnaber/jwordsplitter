@@ -611,6 +611,7 @@ Bahn|steig|höhen
 Ausflugs|ort
 Ausflugs|orte
 Ausflugs|ortes
+Werte|bereiche
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
