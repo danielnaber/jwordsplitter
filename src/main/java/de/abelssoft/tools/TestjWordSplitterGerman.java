@@ -1,4 +1,4 @@
-/**
+package de.abelssoft.tools; /**
  * Copyright 2004-2007 Sven Abels
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

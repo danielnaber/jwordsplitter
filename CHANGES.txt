@@ -1,5 +1,6 @@
 
 2012-xx-yy (3.5-dev):
+	-moved all classes to a package
 	-...
 
 2012-09-24 (3.4):

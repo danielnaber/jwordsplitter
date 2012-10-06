@@ -124,7 +124,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>TestjWordSplitterGerman</mainClass>
+              <mainClass>de.abelssoft.tools.TestjWordSplitterGerman</mainClass>
             </manifest>
           </archive>
         </configuration>
