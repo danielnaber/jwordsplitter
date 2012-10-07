@@ -13,9 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter.impl;
+package de.abelssoft.wordtools.jwordsplitter;
 
-import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
 import junit.framework.TestCase;
 
 import java.io.File;

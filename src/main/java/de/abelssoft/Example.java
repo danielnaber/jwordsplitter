@@ -18,8 +18,7 @@ package de.abelssoft;
 import java.io.IOException;
 import java.util.Collection;
 
-import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
-import de.abelssoft.wordtools.jwordsplitter.impl.GermanWordSplitter;
+import de.abelssoft.wordtools.jwordsplitter.GermanWordSplitter;
 
 /**
  * A very simple example of how to use jWordSplitter.

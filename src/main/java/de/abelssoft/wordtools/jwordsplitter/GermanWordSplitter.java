@@ -13,12 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter.impl;
+package de.abelssoft.wordtools.jwordsplitter;
 
 import de.abelssoft.tools.FileTools;
 import de.abelssoft.tools.FastObjectSaver;
-import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
-import de.abelssoft.wordtools.jwordsplitter.GermanInterfixDisambiguator;
 
 import java.io.File;
 import java.io.IOException;

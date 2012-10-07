@@ -15,7 +15,7 @@ package de.abelssoft.tools; /**
  */
 
 import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
-import de.abelssoft.wordtools.jwordsplitter.impl.GermanWordSplitter;
+import de.abelssoft.wordtools.jwordsplitter.GermanWordSplitter;
 
 import java.io.File;
 import java.io.IOException;
