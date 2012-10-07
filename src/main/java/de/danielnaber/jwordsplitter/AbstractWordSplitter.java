@@ -98,13 +98,6 @@ public abstract class AbstractWordSplitter {
         }
     }
 
-    /**
-     * @throws IOException
-     */
-    public AbstractWordSplitter() throws IOException {
-        this(true);
-    }
-
     public void setMinimumWordLength(int minimumWordLength) {
         this.minimumWordLength = minimumWordLength;
     }

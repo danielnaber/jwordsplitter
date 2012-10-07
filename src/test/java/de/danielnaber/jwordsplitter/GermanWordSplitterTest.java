@@ -16,13 +16,11 @@
  */
 package de.danielnaber.jwordsplitter;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
 
-/**
- * Test cases for the German word splitter.
- */
 public class GermanWordSplitterTest extends BaseTest {
 
     @Override
@@ -30,17 +28,17 @@ public class GermanWordSplitterTest extends BaseTest {
         return "/de/danielnaber/jwordsplitter/test-de.txt";
     }
 
-    @Override
-    public void setUp() throws IOException {
-        super.setUp();
+    public void testStreamDictConstructor() throws IOException {
+        final FileInputStream fis = new FileInputStream(tmpLexiconFile);
+        try {
+            splitter = new GermanWordSplitter(true, fis);
+            strictModeBaseChecks();
+        } finally {
+            fis.close();
+        }
     }
 
-    @Override
-    public void tearDown() throws Exception {
-        super.tearDown();
-    }
-
-    public void test() throws IOException {
+    public void testFileDictConstructor() throws IOException {
         splitter = new GermanWordSplitter(true, tmpLexiconFile);
         strictModeBaseChecks();
     }
@@ -111,9 +109,9 @@ public class GermanWordSplitterTest extends BaseTest {
         // too short to be split (default min word length: 4)
         expect("[Verhaltenei]", "Verhaltenei");
         expect("[Eiverhalten]", "Eiverhalten");
-        ((GermanWordSplitter)splitter).setMinimumWordLength(3);
+        splitter.setMinimumWordLength(3);
         expect("[Eiverhalten]", "Eiverhalten");
-        ((GermanWordSplitter)splitter).setMinimumWordLength(2);
+        splitter.setMinimumWordLength(2);
         expect("[Ei, verhalten]", "Eiverhalten");
     }
 
@@ -150,8 +148,8 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Klima, sünder, recke]", "Klimasünderrecke");
         splitter.setStrictMode(false);
         expect("[Sünder, ecke]", "Sünderecke");
-        expect("[klima, Sünder, ecke]", "Klimasünderecke");    // not correct, but hey - it's non-strict mode
-        expect("[Klima, sünderrecke]", "Klimasünderrecke");  // not correct, but hey - it's non-strict mode
+        expect("[klima, Sünder, ecke]", "Klimasünderecke");
+        expect("[Klima, sünderrecke]", "Klimasünderrecke");
         // test that some words to *not* get split:
         expect("[Vereinsamen]", "Vereinsamen");
     }
@@ -162,7 +160,7 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Sauerstoff, lasche]", "Sauerstofflasche");  // not correct (pre-reform spelling)
         expect("[Noten, durchschnitt]", "Notendurchschnitt");
         expect("[Fahrzeug, staus]", "Fahrzeugstaus");
-        expect("[Noten, bank, vorsitzenden]", "Notenbankvorsitzenden");   // TODO: still no longest match!
+        expect("[Noten, bank, vorsitzenden]", "Notenbankvorsitzenden");
     }
 
     public void testNoCompounds() throws IOException {
