@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.danielnaber;
+package de.danielnaber.jwordsplitter;
 
 import java.io.IOException;
 import java.util.Collection;
 
-import de.danielnaber.wordtools.jwordsplitter.GermanWordSplitter;
+import de.danielnaber.jwordsplitter.GermanWordSplitter;
 
 /**
  * A very simple example of how to use jWordSplitter.

@@ -16,8 +16,8 @@
  */
 package de.danielnaber.tools;
 
-import de.danielnaber.wordtools.jwordsplitter.AbstractWordSplitter;
-import de.danielnaber.wordtools.jwordsplitter.GermanWordSplitter;
+import de.danielnaber.jwordsplitter.AbstractWordSplitter;
+import de.danielnaber.jwordsplitter.GermanWordSplitter;
 
 import java.io.File;
 import java.io.IOException;
