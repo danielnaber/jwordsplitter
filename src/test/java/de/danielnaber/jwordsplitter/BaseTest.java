@@ -15,7 +15,7 @@
  */
 package de.danielnaber.jwordsplitter;
 
-import de.danielnaber.tools.FileTools;
+import de.danielnaber.jwordsplitter.tools.FileTools;
 import junit.framework.TestCase;
 
 import java.io.*;

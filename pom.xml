@@ -126,7 +126,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>de.danielnaber.tools.TestjWordSplitterGerman</mainClass>
+              <mainClass>de.danielnaber.jwordsplitter.tools.TestjWordSplitterGerman</mainClass>
             </manifest>
           </archive>
         </configuration>

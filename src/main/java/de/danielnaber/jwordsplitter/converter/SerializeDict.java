@@ -20,7 +20,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashSet;
 
-import de.danielnaber.tools.FastObjectSaver;
+import de.danielnaber.jwordsplitter.tools.FastObjectSaver;
 
 /**
  * This imports a txt file and saves it in the jWordSplitter serialization format.

@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.danielnaber.tools;
+package de.danielnaber.jwordsplitter.tools;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

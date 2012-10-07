@@ -15,8 +15,8 @@
  */
 package de.danielnaber.jwordsplitter;
 
-import de.danielnaber.tools.FileTools;
-import de.danielnaber.tools.FastObjectSaver;
+import de.danielnaber.jwordsplitter.tools.FileTools;
+import de.danielnaber.jwordsplitter.tools.FastObjectSaver;
 
 import java.io.File;
 import java.io.IOException;
