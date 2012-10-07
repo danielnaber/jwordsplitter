@@ -15,28 +15,30 @@
  */
 package de.danielnaber.jwordsplitter.converter;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.HashSet;
-
 import de.danielnaber.jwordsplitter.tools.FastObjectSaver;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.Scanner;
+
 /**
- * This imports a txt file and saves it in the jWordSplitter serialization format.
+ * This imports a plain text file and saves it in the jWordSplitter serialization format.
  *
  * @author Sven Abels
  */
 public class SerializeDict {
 
-    private static HashSet<String> getFileContents(String filename) throws IOException {
+    private static HashSet<String> getFileContents(File file) throws IOException {
         final HashSet<String> lines = new HashSet<String>();
-        String line;
-        final BufferedReader br = new BufferedReader(new FileReader(filename));
-        while ((line = br.readLine()) != null) {
-            lines.add(line);
+        final Scanner scanner = new Scanner(file);
+        try {
+            while (scanner.hasNextLine()) {
+                lines.add(scanner.nextLine());
+            }
+        } finally {
+            scanner.close();
         }
-        br.close();
         return lines;
     }
 
@@ -49,12 +51,12 @@ public class SerializeDict {
      */
     public static void main(String[] args) throws IOException {
         if (args.length != 2) {
-            System.out.println("Usage: SerializeDict <input> <output>");
+            System.out.println("Usage: " + SerializeDict.class.getSimpleName() + " <input> <output>");
             System.exit(1);
         }
         System.out.println("Reading " + args[0] + "...");
-        final HashSet<String> wordSet = getFileContents(args[0]);
-        final String outputFile = args[1];
+        final HashSet<String> wordSet = getFileContents(new File(args[0]));
+        final File outputFile = new File(args[1]);
         System.out.println("Saving " + outputFile + "...");
         FastObjectSaver.saveToFile(outputFile, wordSet);
         System.out.println("Done.");

@@ -31,7 +31,7 @@ public class ExportDict {
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
             System.out.println("Usage: " + ExportDict.class.getSimpleName() + " <file in JAR>");
-            System.out.println("  for example: ExportDict /de/danielnaber/wordsGerman.ser");
+            System.out.println("  <file in JAR> is for example /de/danielnaber/wordsGerman.ser");
             System.exit(1);
         }
         final String filename = args[0];

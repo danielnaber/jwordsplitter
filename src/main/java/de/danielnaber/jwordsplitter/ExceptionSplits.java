@@ -50,9 +50,7 @@ class ExceptionSplits {
             }
             scanner.close();
         } finally {
-            if (is != null) {
-                is.close();
-            }
+            if (is != null) is.close();
         }
     }
 

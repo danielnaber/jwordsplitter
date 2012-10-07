@@ -16,12 +16,7 @@
  */
 package de.danielnaber.jwordsplitter.tools;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 
 /**
  * This stores serializable objects. IMPORTANT: THOSE OBJECTS SHOULD HAVE A serialVersionUID:
@@ -39,8 +34,8 @@ public class FastObjectSaver {
      *     private static final long serialVersionUID = 1L;
      * @throws IOException
      */
-    public static void saveToFile(String filename, Serializable serializableObject) throws IOException {
-        final FileOutputStream fos = new FileOutputStream(filename);
+    public static void saveToFile(File file, Serializable serializableObject) throws IOException {
+        final FileOutputStream fos = new FileOutputStream(file);
         final ObjectOutputStream oos = new ObjectOutputStream(fos);
         try {
             oos.writeObject(serializableObject);
@@ -51,18 +46,19 @@ public class FastObjectSaver {
 
     /**
      * Load a serialized dictionary.
+     * @param filenameInClassPath a plain text dictionary file in the classpath
      * @throws IOException
      */
-    public static synchronized Object load(String filename) throws IOException {
-        final InputStream is = FastObjectSaver.class.getResourceAsStream(filename);
+    public static synchronized Object load(String filenameInClassPath) throws IOException {
+        final InputStream is = FastObjectSaver.class.getResourceAsStream(filenameInClassPath);
         if (is == null) {
-            throw new IOException("Cannot find dictionary in class path: " + filename);
+            throw new IOException("Cannot find dictionary in class path: " + filenameInClassPath);
         }
         final ObjectInputStream oos = new ObjectInputStream(is);
         try {
             return oos.readObject();
         } catch (ClassNotFoundException e) {
-            throw new IOException("Could not read data from " + filename, e);
+            throw new IOException("Could not read data from " + filenameInClassPath, e);
         }
     }
 
