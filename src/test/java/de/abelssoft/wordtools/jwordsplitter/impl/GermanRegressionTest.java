@@ -18,6 +18,8 @@ package de.abelssoft.wordtools.jwordsplitter.impl;
 import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
 import junit.framework.TestCase;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Collection;
@@ -26,10 +28,14 @@ import java.util.Scanner;
 public class GermanRegressionTest extends TestCase {
 
     private static final String TEST_FILE = "/test-de-large.txt";
+    private static final boolean WRITE_FILE = false;
+
+    private File tempFile;
 
     public void testLargeFile() throws IOException {
         final AbstractWordSplitter splitter = new GermanWordSplitter(true);
         splitter.setStrictMode(true);
+        final FileWriter writer = getOutputWriterOrNull();
         final InputStream is = BaseTest.class.getResourceAsStream(TEST_FILE);
         final StringBuilder sb = new StringBuilder();
         try {
@@ -42,6 +48,10 @@ public class GermanRegressionTest extends TestCase {
                 final String line = scanner.nextLine();
                 final String input = line.replace(", ", "");
                 final String result = join(splitter.splitWord(input));
+                if (writer != null) {
+                    writer.write(result);
+                    writer.write("\n");
+                }
                 if (!line.equals(result)) {
                     sb.append("-");
                     sb.append(line);
@@ -54,14 +64,25 @@ public class GermanRegressionTest extends TestCase {
             }
             scanner.close();
             if (diffCount > 0 ) {
+                final String message = writer != null ?
+                        "output can be found at " + tempFile : "set WRITE_FILE to true to write output to a file";
                 fail("Found differences between regression data and real result - modify " + TEST_FILE
-                        + " to contain the results if they are better than before:\n" + sb.toString());
+                        + " to contain the results if they are better than before (" + message + "):\n" + sb.toString());
             }
         } finally {
             if (is != null) is.close();
+            if (writer != null) writer.close();
         }
     }
-    
+
+    private FileWriter getOutputWriterOrNull() throws IOException {
+        if (WRITE_FILE) {
+            tempFile = File.createTempFile(GermanRegressionTest.class.getName(), ".txt");
+            return new FileWriter(tempFile);
+        }
+        return null;
+    }
+
     private String join(Collection<String> list) {
         final StringBuilder sb = new StringBuilder();
         int i = 0;

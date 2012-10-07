@@ -1,5 +1,6 @@
 /**
  * Copyright 2004-2007 Sven Abels
+ * Copyright 2012 Daniel Naber (www.danielnaber.de)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,8 +16,8 @@
  */
 package de.abelssoft.wordtools.jwordsplitter;
 
-import de.abelssoft.tools.FileTools;
-
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
@@ -34,64 +35,67 @@ import java.util.*;
  * <p>Please note: We don't expect to have any special chars here (!":;,.-_, etc.). Only a set of
  * characters and only one word.
  *
- * @author Sven Abels (Abelssoft), Sven@abelssoft.de
  * @author Daniel Naber
  */
 public abstract class AbstractWordSplitter {
 
-    private static final String COMMENT_CHAR = "#";
-    private static final String DELIMITER_CHAR = "|";
-
-    private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
+    private ExceptionSplits exceptionSplits;
 
     private Set<String> words = null;
-    private boolean hideConnectingCharacters = true;
-    private boolean strictMode = false;
-    private boolean reverseMode = false;
+    private boolean hideInterfixCharacters = true;
+    private boolean strictMode = true;
+    private int minimumWordLength = getDefaultMinimumWordLength();
 
-    protected String plainTextDictFile = null;
-    protected InputStream plainTextDict = null;
-
+    protected abstract Set<String> getWordList(InputStream stream) throws IOException;
     protected abstract Set<String> getWordList() throws IOException;
-
-    protected abstract int getMinimumWordLength();
-
+    protected abstract GermanInterfixDisambiguator getDisambiguator();
+    protected abstract int getDefaultMinimumWordLength();
     /** Interfix elements in lowercase, e.g. at least "s" for German. */
-    protected abstract Collection<String> getConnectingCharacters();
+    protected abstract Collection<String> getInterfixCharacters();
 
     /**
-     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     * Create a word splitter that uses the embedded dictionary.
+     *
+     * @param hideInterfixCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
      * @throws IOException
      */
-    public AbstractWordSplitter(boolean hideConnectingCharacters) throws IOException {
-        this(hideConnectingCharacters, (String)null);
-    }
-
-    /**
-     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
-     *  the connecting character (a.k.a. interfix)
-     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary,
-     *                           must be in UTF-8 format
-     * @throws IOException
-     */
-    public AbstractWordSplitter(boolean hideConnectingCharacters, String plainTextDictFile) throws IOException {
-        this.hideConnectingCharacters = hideConnectingCharacters;
-        this.plainTextDictFile = plainTextDictFile;
+    public AbstractWordSplitter(boolean hideInterfixCharacters) throws IOException {
+        this.hideInterfixCharacters = hideInterfixCharacters;
         words = getWordList();
     }
 
     /**
-     * @param hideConnectingCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     * @param hideInterfixCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
      * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
      *                       must be in UTF-8 format
      * @throws IOException
      */
-    public AbstractWordSplitter(boolean hideConnectingCharacters, InputStream plainTextDict) throws IOException {
-        this.hideConnectingCharacters = hideConnectingCharacters;
-        this.plainTextDict = plainTextDict;
-        words = getWordList();
+    public AbstractWordSplitter(boolean hideInterfixCharacters, InputStream plainTextDict) throws IOException {
+        this.hideInterfixCharacters = hideInterfixCharacters;
+        words = getWordList(plainTextDict);
+    }
+
+    /**
+     * @param hideInterfixCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
+     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
+     *                       must be in UTF-8 format
+     * @throws IOException
+     */
+    public AbstractWordSplitter(boolean hideInterfixCharacters, File plainTextDict) throws IOException {
+        this.hideInterfixCharacters = hideInterfixCharacters;
+        words = getWordList(plainTextDict);
+    }
+
+    private Set<String> getWordList(File file) throws IOException {
+        final FileInputStream fis = new FileInputStream(file);
+        try {
+            return getWordList(fis);
+        } finally {
+            fis.close();
+        }
     }
 
     /**
@@ -101,29 +105,16 @@ public abstract class AbstractWordSplitter {
         this(true);
     }
 
+    public void setMinimumWordLength(int minimumWordLength) {
+        this.minimumWordLength = minimumWordLength;
+    }
+
+    /**
+     * @param filename UTF-8 encoded list of exceptions
+     * @throws IOException
+     */
     public void setExceptionFile(String filename) throws IOException {
-        final InputStream is = AbstractWordSplitter.class.getResourceAsStream(filename);
-        try {
-            if (is == null) {
-                throw new IOException("Cannot locate exception list in JAR: " + filename);
-            }
-            final String exceptions = FileTools.loadFile(is, "UTF-8");
-            final Scanner scanner = new Scanner(exceptions);
-            while (scanner.hasNextLine()) {
-                final String line = scanner.nextLine().trim();
-                if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
-                    final String[] parts = line.split("\\|");
-                    final String completeWord = line.replace(DELIMITER_CHAR, "");
-                    final List<String> list = new ArrayList<String>(Arrays.asList(parts));
-                    exceptionMap.put(completeWord.toLowerCase(), list);
-                }
-            }
-            scanner.close();
-        } finally {
-            if (is != null) {
-                is.close();
-            }
-        }
+        exceptionSplits = new ExceptionSplits(filename);
     }
 
     /**
@@ -131,7 +122,7 @@ public abstract class AbstractWordSplitter {
      * @param wordParts the parts in which the word is to be split (use a list with a single element if the word should not be split)
      */
     public void addException(String completeWord, List<String> wordParts) {
-        exceptionMap.put(completeWord.toLowerCase(), wordParts);
+        exceptionSplits.addSplit(completeWord.toLowerCase(), wordParts);
     }
 
     /**
@@ -143,186 +134,136 @@ public abstract class AbstractWordSplitter {
         this.strictMode = strictMode;
     }
 
-    /**
-     * If set to true, words will be split from the end, not from the start. Useful only 
-     * to compare both ways of splitting to detect ambiguities.
-     */
-    public void setReverseMode(boolean reverseMode) {
-        this.reverseMode = reverseMode;
-    }
-
-    /**
-     * Detect if a word exists in the dictionary. Words that are too short are ignored 
-     * in order to avoid a fragmentation, which is too strong.
-     */
-    private boolean isWord(String s) {
-        if (s==null)
-            return false;
-        if (s.trim().length()<getMinimumWordLength())
-            return false;
-        if (words.contains(s.toLowerCase().trim()))
-            return true;
-        return false;
-    }
-
-
-    /**
-     * Split a compound word into its parts. If the word cannot be split (e.g.
-     * because it's unknown or it is not a compound), one part with the
-     * word itself is returned.
-     *
-     * <p>Attention: We don't expect to have any special chars here (!":;,.-_, etc.).
-     *
-     * @param str a single compound word
-     */
-    public Collection<String> splitWord(String str) {
-        final Collection<String> result=new ArrayList<String>();
-        if (str==null)
-            return result;
-        final String s=str.trim();
-        if (s.length()<2)
-        {
-            result.add(s);
-            return result;
+    public List<String> splitWord(String word) {
+        if (word == null) {
+            return Collections.emptyList();
         }
-
-        //find a tuple (from left to right):
-        Collection<String> tuple = findTuple(s);
-        if (tuple ==null && !strictMode)
-            tuple =truncateSplit(s);
-        if (tuple ==null && !strictMode)
-            tuple =truncateSplitReverse(s);
-        if (tuple ==null)
-            result.add(str);
-        else
-            result.addAll(tuple);
-
-        return result;
-    }
-
-
-    /**
-     * We were not able to split the word...well: Let's try to cut it at its beginning.
-     */
-    private Collection<String> truncateSplit(String s) {
-        //we were not able to split the word...well: Let's try to cut it:
-        for (int i=0;i<(s.length()-2);i++) {
-            final Collection<String> tmp= findTuple(s.substring(i));
-            if (tmp!=null) {
-                final Collection<String> tmp2=new ArrayList<String>();
-                if (strictMode && !isWord(s.substring(0,i))) {
-                    continue;
-                }
-                tmp2.add(s.substring(0,i));
-                tmp2.addAll(tmp);
-                return tmp2;
-            }
-        }
-        return null;
-    }
-
-
-    /**
-     * We were not able to split the word... well: Let's try to cut it at its end.
-     */
-    private Collection<String> truncateSplitReverse(String s) {
-        //we were not able to split the word...well: Let's try to cut it:
-        for (int i=(s.length()-1);i>1;i--) {
-            final Collection<String> tmp= findTuple(s.substring(0,i));
-            if (tmp!=null) {
-                if (strictMode && !isWord(s.substring(i))) {
-                    continue;
-                }
-                tmp.add(s.substring(i));
-                return tmp;
-            }
-        }
-        return null;
-    }
-
-    /**
-     * Removes e.g. 's' at the end of a string.
-     */
-    private String removeTailingCharacters(String str) {
-        final String lowercaseStr = str.toLowerCase();
-        final Collection<String> connChars = getConnectingCharacters();
-        for (String connChar : connChars) {
-            if (lowercaseStr.endsWith(connChar)) {
-                return str.substring(0, str.length()-connChar.length());
-            }
-        }
-        return str;
-    }
-
-    private Collection<String> findTuple(String s) {
-
-        final List<String> exceptionSplit = exceptionMap.get(s.toLowerCase());
+        final String trimmedWord = word.trim();
+        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(trimmedWord.toLowerCase());
         if (exceptionSplit != null) {
             return exceptionSplit;
         }
-
-        if (s.length()<2)
-            return null;
-        Collection<String> result=new ArrayList<String>();
-
-        final int fromPos;
-        if (reverseMode) {
-            fromPos = s.length()-1;
-        } else {
-            fromPos = 0;
+        final List<String> parts = split(trimmedWord, false);
+        if (parts == null) {
+            return Collections.singletonList(trimmedWord);
         }
-        int i = fromPos;
-        while (true) {
-            if (reverseMode) {
-                if (i < 1) {
-                    break;
-                }
-                i--;
+        final List<String> disambiguatedParts = getDisambiguator().disambiguate(parts);
+        cleanLeadingAndTrailingHyphens(disambiguatedParts);
+        return disambiguatedParts;
+    }
+
+    private void cleanLeadingAndTrailingHyphens(List<String> disambiguatedParts) {
+        for (int i = 0; i < disambiguatedParts.size(); i++) {
+            final String element = disambiguatedParts.get(i);
+            if (element.startsWith("-")) {
+                disambiguatedParts.set(i, element.substring(1));
+            }
+            if (element.endsWith("-")) {
+                disambiguatedParts.set(i, element.substring(0, element.length() - 1));
+            }
+        }
+    }
+
+    private List<String> split(String word, boolean allowInterfixRemoval) {
+        List<String> parts;
+        final String lcWord = word.toLowerCase();
+        final String wordWithoutInterfix = removeInterfix(word);
+        final boolean canInterfixBeRemoved = canInterfixBeRemoved(lcWord, allowInterfixRemoval);
+        if (isSimpleWord(word)) {
+            parts = Collections.singletonList(word);
+        } else if (canInterfixBeRemoved && isSimpleWord(wordWithoutInterfix)) {
+            if (hideInterfixCharacters) {
+                parts = Arrays.asList(wordWithoutInterfix);
             } else {
-                if (i >= s.length()) {
-                    break;
-                }
-                i++;
+                parts = Arrays.asList(wordWithoutInterfix, "s");    // TODO: no "s"
             }
-            final String left=s.substring(0, i);
-            final String right=s.substring(left.length());
-            final String leftCleaned=removeTailingCharacters(left);
-            boolean leftIsWord=false;
-            if ((isWord(leftCleaned))) {
-                if (hideConnectingCharacters)
-                    result.add(leftCleaned);
-                else
-                    result.add(left);
-                leftIsWord=true;
-            } else if ((isWord(left))) {
-                result.add(left);
-                leftIsWord=true;
-            }
-            if (leftIsWord) {
-                //look if we can split the right part, too:
-                final Collection<String> rightCol= findTuple(right);
-                if (rightCol!=null) {
-                    result.addAll(rightCol);
-                } else {
-                    //we cannot split the rest of the word => left was not ok.
-                    result=new ArrayList<String>();
-                    continue;
-                }
-                return result;
-            }
-        }
-
-        final boolean stringIsWord=isWord(s);
-        final boolean cleanedStringIsWord=isWord(removeTailingCharacters(s));
-        if (!stringIsWord && !cleanedStringIsWord) {
-            return null;
-        }
-        if (hideConnectingCharacters && !stringIsWord) {
-            result.add(removeTailingCharacters(s));
         } else {
-            result.add(s);
+            parts = splitFromRight(word);
+            if (parts == null && endsWithInterfix(lcWord)) {
+                parts = splitFromRight(wordWithoutInterfix);
+                if (parts != null) {
+                    parts.add("s");           // TODO: no "s"
+                }
+            }
         }
-        return result;
+        return parts;
+    }
+
+    private List<String> splitFromRight(String word) {
+        List<String> parts = null;
+        for (int i = word.length() - minimumWordLength; i >= minimumWordLength; i--) {
+            final String leftPart = word.substring(0, i);
+            final String rightPart = word.substring(i);
+            //System.out.println(word  + " -> " + leftPart + " + " + rightPart);
+            if (!strictMode) {
+                final List<String> exceptionSplit = getExceptionSplitOrNull(rightPart.toLowerCase(), leftPart.toLowerCase());
+                if (exceptionSplit != null) {
+                    return exceptionSplit;
+                }
+            }
+            if (isSimpleWord(rightPart)) {
+                final List<String> leftPartParts = split(leftPart, true);
+                final boolean isLeftPartAWord = leftPartParts != null;
+                if (isLeftPartAWord) {
+                    parts = new ArrayList<String>(leftPartParts);
+                    parts.add(rightPart);
+                } else if (!strictMode) {
+                    parts = Arrays.asList(leftPart, rightPart);
+                }
+            } else if (!strictMode) {
+                if (isSimpleWord(leftPart)) {
+                    parts = Arrays.asList(leftPart, rightPart);
+                }
+            }
+        }
+        return parts;
+    }
+
+    private List<String> getExceptionSplitOrNull(String rightPart, String leftPart) {
+        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(rightPart.toLowerCase());
+        if (exceptionSplit != null) {
+            final List<String> parts = new ArrayList<String>();
+            parts.add(leftPart);
+            parts.addAll(exceptionSplit);
+            return parts;
+        }
+        final List<String> exceptionSplit2 = exceptionSplits.getExceptionSplitOrNull(leftPart.toLowerCase());
+        if (exceptionSplit2 != null) {
+            final List<String> parts = new ArrayList<String>();
+            parts.addAll(exceptionSplit2);
+            parts.add(rightPart);
+            return parts;
+        }
+        return null;
+    }
+
+    private boolean canInterfixBeRemoved(String word, boolean allowInterfixRemoval) {
+        return allowInterfixRemoval && endsWithInterfix(word) && word.length() > 1;
+    }
+
+    private boolean endsWithInterfix(String word) {
+        final Collection<String> interfixes = getInterfixCharacters();
+        for (String interfix : interfixes) {
+            if (word.endsWith(interfix)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private String removeInterfix(String word) {
+        final Collection<String> interfixes = getInterfixCharacters();
+        final String lcWord = word.toLowerCase();
+        for (String interfix : interfixes) {
+            if (lcWord.endsWith(interfix)) {
+                return word.substring(0, word.length() - interfix.length());
+            }
+        }
+        return word;
+    }
+
+    private boolean isSimpleWord(String part) {
+        return part.length() >= minimumWordLength && words.contains(part.toLowerCase());
     }
 
 }

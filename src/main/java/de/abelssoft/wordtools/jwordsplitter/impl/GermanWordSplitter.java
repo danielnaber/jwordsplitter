@@ -1,5 +1,5 @@
 /**
- * Copyright 2004-2007 Sven Abels
+ * Copyright 2012 Daniel Naber (www.danielnaber.de)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,107 +15,73 @@
  */
 package de.abelssoft.wordtools.jwordsplitter.impl;
 
-import java.io.FileInputStream;
+import de.abelssoft.tools.FileTools;
+import de.abelssoft.tools.persistence.FastObjectSaver;
+import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
+import de.abelssoft.wordtools.jwordsplitter.GermanInterfixDisambiguator;
+
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
 
-import de.abelssoft.tools.FileTools;
-import de.abelssoft.tools.persistence.FastObjectSaver;
-import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
-
 /**
- * This implements a German word splitter.
- *
- * @author Sven Abels
- * @author Daniel Naber
  */
 public class GermanWordSplitter extends AbstractWordSplitter {
 
     private static final String SERIALIZED_DICT = "/wordsGerman.ser";   // dict inside the JAR
     private static final String EXCEPTION_DICT = "/exceptionsGerman.txt";   // dict inside the JAR
-
     /** Interfixes = Fugenelemente */
     private static final Collection<String> INTERFIXES = Arrays.asList(
             "s-",  // combination of the characters below
             "s",
             "-");
 
-    private Set<String> words = null;
+    private GermanInterfixDisambiguator disambiguator;
 
-    private int minimumWordLength = 4;
-
-    public GermanWordSplitter() throws IOException {
-        this(true);
+    public GermanWordSplitter(boolean hideInterfixCharacters) throws IOException {
+        super(hideInterfixCharacters);
+        init();
     }
 
-    /**
-     * @param hideLinkingElement whether the word parts returned by {@link #splitWord(String)} still contain
-     *  the linking element (a.k.a. interfix), typically the "s" for German
-     * @param  plainTextDictFile a text file with one word per line, to be used instead of the embedded dictionary,
-     *                           must be in UTF-8 format
-     * @throws IOException
-     */
-    public GermanWordSplitter(boolean hideLinkingElement, String plainTextDictFile) throws IOException {
-        super(hideLinkingElement, plainTextDictFile);
+    public GermanWordSplitter(boolean hideInterfixCharacters, InputStream plainTextDict) throws IOException {
+        super(hideInterfixCharacters, plainTextDict);
+        init();
+    }
+
+    public GermanWordSplitter(boolean hideInterfixCharacters, File plainTextDict) throws IOException {
+        super(hideInterfixCharacters, plainTextDict);
+        init();
+    }
+
+    private void init() throws IOException {
+        disambiguator = new GermanInterfixDisambiguator(getWordList());
         setExceptionFile(EXCEPTION_DICT);
     }
 
-    /**
-     * @param hideLinkingElement whether the word parts returned by {@link #splitWord(String)} still contain
-     *  the linking element (a.k.a. interfix), typically the "s" for German
-     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
-     *                       must be in UTF-8 format
-     * @throws IOException
-     */
-    public GermanWordSplitter(boolean hideLinkingElement, InputStream plainTextDict) throws IOException {
-        super(hideLinkingElement, plainTextDict);
-        setExceptionFile(EXCEPTION_DICT);
-    }
-
-    /**
-     * @param hideLinkingElement whether the word parts returned by {@link #splitWord(String)} still contain
-     *  the linking element (a.k.a. interfix), typically the "s" for German
-     * @throws IOException
-     */
-    public GermanWordSplitter(boolean hideLinkingElement) throws IOException {
-        this(hideLinkingElement, (String)null);
+    @Override
+    protected Set<String> getWordList(InputStream stream) throws IOException {
+        return FileTools.loadFileToSet(stream, "utf-8");
     }
 
     @Override
     protected Set<String> getWordList() throws IOException {
-        if (words == null) {
-            words = loadWords();
-        }
-        return words;
-    }
-
-    private Set<String> loadWords() throws IOException {
-        if (plainTextDict != null) {
-            return FileTools.loadFileToSet(plainTextDict, "utf-8");
-        } else if (plainTextDictFile != null) {
-            FileInputStream fis = new FileInputStream(plainTextDictFile);
-            try {
-                return FileTools.loadFileToSet(fis, "utf-8");
-            } finally {
-                fis.close();
-            }
-        } else {
-            return (HashSet<String>)FastObjectSaver.load(SERIALIZED_DICT);
-        }
+        // TODO: make sure this doesn't get called more than once!
+        return (HashSet<String>) FastObjectSaver.load(SERIALIZED_DICT);
     }
 
     @Override
-    protected int getMinimumWordLength() {
-        return minimumWordLength ;
-    }
-
-    public void setMinimumWordLength(int minimumWordLength) {
-        this.minimumWordLength = minimumWordLength;
+    protected GermanInterfixDisambiguator getDisambiguator() {
+        return disambiguator;
     }
 
     @Override
-    protected Collection<String> getConnectingCharacters() {
+    protected int getDefaultMinimumWordLength() {
+        return 4;
+    }
+
+    @Override
+    protected Collection<String> getInterfixCharacters() {
         return INTERFIXES;
     }
 

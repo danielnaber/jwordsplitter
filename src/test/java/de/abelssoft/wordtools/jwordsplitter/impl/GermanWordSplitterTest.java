@@ -1,5 +1,6 @@
 /**
  * Copyright 2004-2007 Sven Abels
+ * Copyright 2012 Daniel Naber (www.danielnaber.de)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -12,9 +13,6 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
-/*
- * Created on 09.07.2008
  */
 package de.abelssoft.wordtools.jwordsplitter.impl;
 
@@ -44,20 +42,13 @@ public class GermanWordSplitterTest extends BaseTest {
     }
 
     public void test() throws IOException {
-        splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
         strictModeBaseChecks();
     }
 
-    public void testInputStream() throws IOException {
-        FileInputStream fis = new FileInputStream(tmpLexiconFile);
-        try {
-            splitter = new GermanWordSplitter(true, fis);
-            splitter.setStrictMode(true);
-            strictModeBaseChecks();
-        } finally {
-            fis.close();
-        }
+    public void testFile() throws IOException {
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
+        strictModeBaseChecks();
     }
 
     private void strictModeBaseChecks() {
@@ -74,53 +65,40 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Krawehl, pusselsumm]", "Krawehlpusselsumm");
     }
 
-    public void testBug() throws IOException {
-        splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(false);
-        expect("[Wirts, tiers, pezies]", "Wirtstierspezies");
-        splitter.setStrictMode(true);
+    public void testStrictMode() throws IOException {
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
         expect("[Wirtstierspezies]", "Wirtstierspezies");
-    }
-
-    public void testReverse() throws IOException {
-        splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
-        // don't use 'Sünderecke' as that is listed in the exception list:
-        expect("[Xünde, recke]", "Xünderecke");
-        splitter.setReverseMode(true);
-        expect("[Xünder, ecke]", "Xünderecke");
+        splitter.setStrictMode(false);
+        expect("[Wirts, tiers, pezies]", "Wirtstierspezies");  // Wirtstier is in exception file
     }
 
     public void testWithHyphen() throws IOException {
-        splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
         expect("[Verhalten, Störung]", "Verhaltens-Störung");
         expect("[Sauerstoff, Flasche]", "Sauerstoff-Flasche");
 
         expect("[Sauerstoff-Foobar]", "Sauerstoff-Foobar");
         splitter.setStrictMode(false);
         expect("[Sauerstoff, Foobar]", "Sauerstoff-Foobar");
+        expect("[Foobar, Sauerstoff]", "Foobar-Sauerstoff");
         // no term known -> not split at all despite hyphen:
         expect("[Blahbar-Foobar]", "Blahbar-Foobar");
     }
 
     public void testWithWhitespace() throws IOException {
-        splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
         expect("[Verhalten, Störung]", "  Verhaltens-Störung\t ");
     }
 
     public void testWrongCase() throws IOException {
-        splitter = new GermanWordSplitter(true, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
         // words with wrong case are also split up:
         expect("[VERHALTEN, STÖRUNG]", "VERHALTENSSTÖRUNG");
         expect("[verhalten, störung]", "verhaltensstörung");
     }
 
     public void testWithConnectionCharacter() throws IOException {
-        splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
         expect("[xyz]", "xyz");
         expect("[Verhalten]", "Verhalten");
         expect("[Verhalten, störung]", "Verhaltenstörung");
@@ -130,8 +108,7 @@ public class GermanWordSplitterTest extends BaseTest {
     }
 
     public void testTooShortWords() throws IOException {
-        splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
         // too short to be split (default min word length: 4)
         expect("[Verhaltenei]", "Verhaltenei");
         expect("[Eiverhalten]", "Eiverhalten");
@@ -142,23 +119,24 @@ public class GermanWordSplitterTest extends BaseTest {
     }
 
     public void testNonStrictMode() throws IOException {
-        splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
         splitter.setStrictMode(false);
         expect("[xyz]", "xyz");
         expect("[Verhalten]", "Verhalten");
         expect("[Verhalten, störung]", "Verhaltenstörung");
-        expect("[Verhaltens, störung]", "Verhaltensstörung");
+        expect("[Verhalten, sstörung]", "Verhaltensstörung");   // not correct, but hey - it's non-strict mode
         // now split because of non-strict mode:
-        expect("[Verhaltenx, störung]", "Verhaltenxstörung");
+        expect("[Verhalten, xstörung]", "Verhaltenxstörung");
+        expect("[Verhalten, sxyz]", "Verhaltensxyz");
+        expect("[Verhalten, sxyz]", "Verhaltensxyz");
+        expect("[xyzstörung]", "xyzstörung");
+        splitter.setMinimumWordLength(3);
         expect("[xyz, störung]", "xyzstörung");
         expect("[Verhalten, xyz]", "Verhaltenxyz");
-        expect("[Verhaltens, xyz]", "Verhaltensxyz");
-        expect("[Verhaltens, xyz]", "Verhaltensxyz");
     }
 
     public void testLongerWords() throws IOException {
-        splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
         expect("[Sauerstoff, flaschen, störungs, verhalten]", "Sauerstoffflaschenstörungsverhalten");
         expect("[Sauerstoff, sauerstoff]", "Sauerstoffsauerstoff");
         expect("[Sauerstoff, sauerstoff, sauerstoff]", "Sauerstoffsauerstoffsauerstoff");
@@ -166,32 +144,36 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Störungs, störungs, störung]", "Störungsstörungsstörung");
     }
 
-    // TODO: case is not always correct...
-    public void testExceptions() throws IOException {
+    public void testExceptionsWithEmbeddedDict() throws IOException {
         splitter = new GermanWordSplitter(false);
-        splitter.setStrictMode(true);
         expect("[Sünder, ecke]", "Sünderecke");
-        expect("[Klima, Sünder, ecke]", "Klimasünderecke");
+        expect("[Klima, sünde, recke]", "Klimasünderecke");
         expect("[Klima, sünder, recke]", "Klimasünderrecke");
         splitter.setStrictMode(false);
         expect("[Sünder, ecke]", "Sünderecke");
-        expect("[Klima, Sünder, ecke]", "Klimasünderecke");
-        expect("[Klima, sünder, recke]", "Klimasünderrecke");
+        expect("[klima, Sünder, ecke]", "Klimasünderecke");    // not correct, but hey - it's non-strict mode
+        expect("[Klima, sünderrecke]", "Klimasünderrecke");  // not correct, but hey - it's non-strict mode
         // test that some words to *not* get split:
         expect("[Vereinsamen]", "Vereinsamen");
     }
 
-    // TODO: Sauerstoffflasche vs Sauerstofflasche; upper vs lower case
+    public void testEmbeddedDict() throws IOException {
+        splitter = new GermanWordSplitter(false);
+        expect("[Sauerstoff, flasche]", "Sauerstoffflasche");
+        expect("[Sauerstoff, lasche]", "Sauerstofflasche");  // not correct (pre-reform spelling)
+        expect("[Noten, durchschnitt]", "Notendurchschnitt");
+        expect("[Fahrzeug, staus]", "Fahrzeugstaus");
+        expect("[Noten, bank, vorsitzenden]", "Notenbankvorsitzenden");   // TODO: still no longest match!
+    }
 
     public void testNoCompounds() throws IOException {
-        splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
-        splitter.setStrictMode(true);
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
         // Kotflügel, Kot, and Flügel in the dictionary so don't split:
         expect("[Kotflügel]", "Kotflügel");
     }
 
     public void testSpecialCases() throws IOException {
-        splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
         expect("[]", null);
         expect("[]", "");
         expect("[]", "\t");
@@ -199,7 +181,7 @@ public class GermanWordSplitterTest extends BaseTest {
     }
 
     public void testExceptionsAddedViaApi() throws IOException {
-        splitter = new GermanWordSplitter(false, tmpLexiconFile.getAbsolutePath());
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
         expect("[Verhaltens, störung]", "Verhaltensstörung");
         splitter.addException("Verhaltensstörung", Arrays.asList("Verhaltensstörung"));
         expect("[Verhaltensstörung]", "Verhaltensstörung");

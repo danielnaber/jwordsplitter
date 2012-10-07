@@ -1,7 +1,8 @@
 
 2012-xx-yy (3.5-dev):
 	-moved all classes to a package
-	-...
+	-rewrote algorithm to make it simpler, slightly faster and more correct:
+	 it now always returns the longest match
 
 2012-09-24 (3.4):
 	-Important note for users who extend AbstractWordSplitter:

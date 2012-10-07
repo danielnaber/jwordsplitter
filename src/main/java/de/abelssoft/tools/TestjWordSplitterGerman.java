@@ -31,6 +31,7 @@ import java.util.Scanner;
 public class TestjWordSplitterGerman {
 
     public static void main(String[] args) throws IOException {
+        final long startTime = System.currentTimeMillis();
         if (args.length < 1 || args.length > 4 || args[0].equals("-h") || args[0].equals("--help")) {
             usage();
         }
@@ -48,7 +49,7 @@ public class TestjWordSplitterGerman {
             argCount++;
         }
         final String inputFile = args[argCount-1];
-        final AbstractWordSplitter wordSplitter = new GermanWordSplitter(hideGlueChars, plainDict);
+        final AbstractWordSplitter wordSplitter = new GermanWordSplitter(hideGlueChars, new File(plainDict));
         wordSplitter.setStrictMode(true);
         final Scanner scanner = new Scanner(new File(inputFile));
         try {
@@ -66,6 +67,7 @@ public class TestjWordSplitterGerman {
         } finally {
             scanner.close();
         }
+        System.err.println("Time: " + (System.currentTimeMillis()-startTime)+ "ms");
     }
 
     private static void usage() {
