@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter;
+package de.danielnaber.wordtools.jwordsplitter;
 
-import de.abelssoft.tools.FileTools;
-import de.abelssoft.tools.FastObjectSaver;
+import de.danielnaber.tools.FileTools;
+import de.danielnaber.tools.FastObjectSaver;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,8 +27,8 @@ import java.util.*;
  */
 public class GermanWordSplitter extends AbstractWordSplitter {
 
-    private static final String SERIALIZED_DICT = "/de/abelssoft/wordsGerman.ser";   // dict inside the JAR
-    private static final String EXCEPTION_DICT = "/de/abelssoft/exceptionsGerman.txt";   // dict inside the JAR
+    private static final String SERIALIZED_DICT = "/de/danielnaber/wordsGerman.ser";   // dict inside the JAR
+    private static final String EXCEPTION_DICT = "/de/danielnaber/exceptionsGerman.txt";   // dict inside the JAR
     /** Interfixes = Fugenelemente */
     private static final Collection<String> INTERFIXES = Arrays.asList(
             "s-",  // combination of the characters below

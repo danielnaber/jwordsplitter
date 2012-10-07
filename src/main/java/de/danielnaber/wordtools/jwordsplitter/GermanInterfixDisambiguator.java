@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter;
+package de.danielnaber.wordtools.jwordsplitter;
 
 import java.util.ArrayList;
 import java.util.HashSet;

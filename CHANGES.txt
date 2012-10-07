@@ -1,6 +1,6 @@
 
 2012-xx-yy (3.5-dev):
-	-moved all classes to a package
+	-moved classes to package de.danielnaber.jwordsplitter
 	-rewrote algorithm to make it simpler, slightly faster and more correct:
 	 it now always returns the longest match
 

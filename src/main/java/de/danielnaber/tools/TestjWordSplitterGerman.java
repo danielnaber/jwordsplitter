@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.tools;
+package de.danielnaber.tools;
 
-import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
-import de.abelssoft.wordtools.jwordsplitter.GermanWordSplitter;
+import de.danielnaber.wordtools.jwordsplitter.AbstractWordSplitter;
+import de.danielnaber.wordtools.jwordsplitter.GermanWordSplitter;
 
 import java.io.File;
 import java.io.IOException;

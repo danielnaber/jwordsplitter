@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter;
+package de.danielnaber.wordtools.jwordsplitter;
 
 import junit.framework.TestCase;
 
@@ -26,7 +26,7 @@ import java.util.Scanner;
 
 public class GermanRegressionTest extends TestCase {
 
-    private static final String TEST_FILE = "/de/abelssoft/test-de-large.txt";
+    private static final String TEST_FILE = "/de/danielnaber/test-de-large.txt";
     private static final boolean WRITE_FILE = false;
 
     private File tempFile;

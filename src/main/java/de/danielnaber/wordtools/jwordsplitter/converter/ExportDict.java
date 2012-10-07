@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter.converter;
+package de.danielnaber.wordtools.jwordsplitter.converter;
 
 import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-import de.abelssoft.tools.FastObjectSaver;
+import de.danielnaber.tools.FastObjectSaver;
 
 /**
  * This dumps the contents of the given *.ser file in the JAR to stdout.
@@ -31,7 +31,7 @@ public class ExportDict {
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
             System.out.println("Usage: " + ExportDict.class.getSimpleName() + " <file in JAR>");
-            System.out.println("  for example: ExportDict /de/abelssoft/wordsGerman.ser");
+            System.out.println("  for example: ExportDict /de/danielnaber/wordsGerman.ser");
             System.exit(1);
         }
         final String filename = args[0];

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter;
+package de.danielnaber.wordtools.jwordsplitter;
 
-import de.abelssoft.tools.FileTools;
+import de.danielnaber.tools.FileTools;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.abelssoft.wordtools.jwordsplitter.converter;
+package de.danielnaber.wordtools.jwordsplitter.converter;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashSet;
 
-import de.abelssoft.tools.FastObjectSaver;
+import de.danielnaber.tools.FastObjectSaver;
 
 /**
  * This imports a txt file and saves it in the jWordSplitter serialization format.

@@ -8,7 +8,7 @@
     
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.abelssoft</groupId>
+  <groupId>de.danielnaber</groupId>
   <artifactId>jwordsplitter</artifactId>
   <version>3.5-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -126,7 +126,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>de.abelssoft.tools.TestjWordSplitterGerman</mainClass>
+              <mainClass>de.danielnaber.tools.TestjWordSplitterGerman</mainClass>
             </manifest>
           </archive>
         </configuration>
