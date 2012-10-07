@@ -20,7 +20,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashSet;
 
-import de.abelssoft.tools.persistence.FastObjectSaver;
+import de.abelssoft.tools.FastObjectSaver;
 
 /**
  * This imports a txt file and saves it in the jWordSplitter format.

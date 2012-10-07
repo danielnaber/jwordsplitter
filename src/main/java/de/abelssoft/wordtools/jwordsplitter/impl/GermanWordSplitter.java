@@ -16,7 +16,7 @@
 package de.abelssoft.wordtools.jwordsplitter.impl;
 
 import de.abelssoft.tools.FileTools;
-import de.abelssoft.tools.persistence.FastObjectSaver;
+import de.abelssoft.tools.FastObjectSaver;
 import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
 import de.abelssoft.wordtools.jwordsplitter.GermanInterfixDisambiguator;
 

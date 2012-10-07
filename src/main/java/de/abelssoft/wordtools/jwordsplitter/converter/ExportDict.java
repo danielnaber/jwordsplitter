@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-import de.abelssoft.tools.persistence.FastObjectSaver;
+import de.abelssoft.tools.FastObjectSaver;
 
 /**
  * This dumps the contents of the given *.ser file in the JAR to stdout.
