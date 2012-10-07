@@ -24,6 +24,8 @@ import java.io.InputStream;
 import java.util.*;
 
 /**
+ * Split German compound words. Based on an embedded dictionary, or on an
+ * external plain text dictionary.
  */
 public class GermanWordSplitter extends AbstractWordSplitter {
 

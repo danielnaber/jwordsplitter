@@ -18,14 +18,14 @@ package de.danielnaber.jwordsplitter;
 import java.io.IOException;
 import java.util.Collection;
 
-import de.danielnaber.jwordsplitter.GermanWordSplitter;
-
 /**
  * A very simple example of how to use jWordSplitter.
  *
  * @author Daniel Naber
  */
-public class Example {
+class Example {
+
+    private Example() {}
 
     public static void main(String[] args) throws IOException {
         GermanWordSplitter splitter = new GermanWordSplitter(true);

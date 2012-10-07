@@ -25,7 +25,7 @@ import java.util.Set;
  * Urlaub+s+Orte but also Urlaub+Sorte (our dictionary doesn't know
  * which words require an interfix character).
  */
-public class GermanInterfixDisambiguator {
+class GermanInterfixDisambiguator {
 
     private static final Set<String> wordsRequiringInfixS = new HashSet<String>();
     private final Set<String> dictionary;
@@ -34,7 +34,7 @@ public class GermanInterfixDisambiguator {
         wordsRequiringInfixS.add("Verhalten");
     }
 
-    public GermanInterfixDisambiguator(Set<String> dictionary) {
+    GermanInterfixDisambiguator(Set<String> dictionary) {
         this.dictionary = dictionary;
     }
 
@@ -43,7 +43,7 @@ public class GermanInterfixDisambiguator {
     // stube vs. tube
     // tau vs. stau
 
-    public List<String> disambiguate(List<String> parts) {
+    List<String> disambiguate(List<String> parts) {
         final List<String> newParts = new ArrayList<String>(parts);
         for (int i = newParts.size() - 1; i >= 2; i--) {
             final String part = newParts.get(i);
