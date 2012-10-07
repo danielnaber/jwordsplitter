@@ -29,8 +29,8 @@ import java.util.*;
  */
 public class GermanWordSplitter extends AbstractWordSplitter {
 
-    private static final String SERIALIZED_DICT = "/wordsGerman.ser";   // dict inside the JAR
-    private static final String EXCEPTION_DICT = "/exceptionsGerman.txt";   // dict inside the JAR
+    private static final String SERIALIZED_DICT = "/de/abelssoft/wordsGerman.ser";   // dict inside the JAR
+    private static final String EXCEPTION_DICT = "/de/abelssoft/exceptionsGerman.txt";   // dict inside the JAR
     /** Interfixes = Fugenelemente */
     private static final Collection<String> INTERFIXES = Arrays.asList(
             "s-",  // combination of the characters below
