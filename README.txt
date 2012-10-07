@@ -15,11 +15,11 @@ To split a list of words (one word per line), use this command:
 java -jar jwordsplitter-x.y.jar <filename>
 
 To export the German dictionary from the JAR file, use this command:
-java -cp jwordsplitter-x.y.jar de.danielnaber.wordtools.jwordsplitter.converter.ExportDict /de/danielnaber/wordsGerman.ser
+java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.ExportDict /de/danielnaber/jwordsplitter/wordsGerman.ser
 
 To serialize a text dictionary (one word per line) to a binary format
 so it can be used by jWordSplitter, use this command:
-java -cp jwordsplitter-x.y.jar de.danielnaber.wordtools.jwordsplitter.converter.SerializeDict textDict textDict.ser
+java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.SerializeDict textDict textDict.ser
 
 TODO:
   -build the dictionary from Morphy data
