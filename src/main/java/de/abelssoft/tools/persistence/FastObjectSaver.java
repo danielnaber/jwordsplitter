@@ -1,5 +1,6 @@
 /**
  * Copyright 2004-2007 Sven Abels
+ * Copyright 2012 Daniel Naber (www.danielnaber.de)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,11 +24,11 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 /**
- * This stores serializable objects. IMPORTANT: THOSE OBJECTS SHOULD HAVE A serialVersionUID!
- *     private static final long serialVersionUID = 1L;
+ * This stores serializable objects. IMPORTANT: THOSE OBJECTS SHOULD HAVE A serialVersionUID:
+ * <br/><br/>
+ * <code>private static final long serialVersionUID = 1L;</code>
  */
-public class FastObjectSaver
-{
+public class FastObjectSaver {
 
     private FastObjectSaver() {
         // no public constructor, static methods only
@@ -39,10 +40,13 @@ public class FastObjectSaver
      * @throws IOException
      */
     public static void saveToFile(String filename, Serializable serializableObject) throws IOException {
-        FileOutputStream fos = new FileOutputStream(filename);
-        ObjectOutputStream oos = new ObjectOutputStream( fos );
-        oos.writeObject( serializableObject );
-        oos.close();
+        final FileOutputStream fos = new FileOutputStream(filename);
+        final ObjectOutputStream oos = new ObjectOutputStream(fos);
+        try {
+            oos.writeObject(serializableObject);
+        } finally {
+            oos.close();
+        }
     }
 
     /**
@@ -50,17 +54,15 @@ public class FastObjectSaver
      * @throws IOException
      */
     public static synchronized Object load(String filename) throws IOException {
-        InputStream is = FastObjectSaver.class.getResourceAsStream(filename);
+        final InputStream is = FastObjectSaver.class.getResourceAsStream(filename);
         if (is == null) {
-            throw new IOException("Cannot locate dictionary in JAR: " + filename);
+            throw new IOException("Cannot find dictionary in class path: " + filename);
         }
-        ObjectInputStream oos = new ObjectInputStream(is);
+        final ObjectInputStream oos = new ObjectInputStream(is);
         try {
             return oos.readObject();
         } catch (ClassNotFoundException e) {
-            IOException ioe = new IOException();
-            ioe.initCause(e);
-            throw ioe;
+            throw new IOException("Could not read data from " + filename, e);
         }
     }
 
