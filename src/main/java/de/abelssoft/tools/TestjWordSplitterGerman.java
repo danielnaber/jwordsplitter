@@ -1,5 +1,6 @@
-package de.abelssoft.tools; /**
+/**
  * Copyright 2004-2007 Sven Abels
+ * Copyright 2012 Daniel Naber (www.danielnaber.de)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,6 +14,7 @@ package de.abelssoft.tools; /**
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package de.abelssoft.tools;
 
 import de.abelssoft.wordtools.jwordsplitter.AbstractWordSplitter;
 import de.abelssoft.wordtools.jwordsplitter.GermanWordSplitter;
@@ -49,7 +51,12 @@ public class TestjWordSplitterGerman {
             argCount++;
         }
         final String inputFile = args[argCount-1];
-        final AbstractWordSplitter wordSplitter = new GermanWordSplitter(hideGlueChars, new File(plainDict));
+        final AbstractWordSplitter wordSplitter;
+        if (plainDict != null) {
+            wordSplitter = new GermanWordSplitter(hideGlueChars, new File(plainDict));
+        } else {
+            wordSplitter = new GermanWordSplitter(hideGlueChars);
+        }
         wordSplitter.setStrictMode(true);
         final Scanner scanner = new Scanner(new File(inputFile));
         try {
