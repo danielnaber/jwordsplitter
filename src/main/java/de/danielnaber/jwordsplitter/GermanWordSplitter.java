@@ -66,8 +66,10 @@ public class GermanWordSplitter extends AbstractWordSplitter {
 
     @Override
     protected Set<String> getWordList() throws IOException {
-        // TODO: make sure this doesn't get called more than once!
-        return (HashSet<String>) FastObjectSaver.load(SERIALIZED_DICT);
+        if (words == null) {
+            words = (HashSet<String>) FastObjectSaver.load(SERIALIZED_DICT);
+        }
+        return words;
     }
 
     @Override

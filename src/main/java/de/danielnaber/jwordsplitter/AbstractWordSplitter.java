@@ -39,19 +39,19 @@ import java.util.*;
  */
 public abstract class AbstractWordSplitter {
 
-    private ExceptionSplits exceptionSplits;
-
-    private Set<String> words = null;
-    private boolean hideInterfixCharacters = true;
-    private boolean strictMode = true;
-    private int minimumWordLength = getDefaultMinimumWordLength();
-
     protected abstract Set<String> getWordList(InputStream stream) throws IOException;
     protected abstract Set<String> getWordList() throws IOException;
     protected abstract GermanInterfixDisambiguator getDisambiguator();
     protected abstract int getDefaultMinimumWordLength();
     /** Interfix elements in lowercase, e.g. at least "s" for German. */
     protected abstract Collection<String> getInterfixCharacters();
+
+    protected Set<String> words = null;
+
+    private ExceptionSplits exceptionSplits;
+    private boolean hideInterfixCharacters = true;
+    private boolean strictMode = true;
+    private int minimumWordLength = getDefaultMinimumWordLength();
 
     /**
      * Create a word splitter that uses the embedded dictionary.
