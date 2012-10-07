@@ -27,7 +27,7 @@ import java.util.Scanner;
 
 public class GermanRegressionTest extends TestCase {
 
-    private static final String TEST_FILE = "/test-de-large.txt";
+    private static final String TEST_FILE = "/de/abelssoft/test-de-large.txt";
     private static final boolean WRITE_FILE = false;
 
     private File tempFile;

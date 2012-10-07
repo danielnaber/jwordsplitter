@@ -16,7 +16,6 @@
  */
 package de.abelssoft.wordtools.jwordsplitter.impl;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
@@ -28,7 +27,7 @@ public class GermanWordSplitterTest extends BaseTest {
 
     @Override
     protected String getDictionaryFile() {
-        return "/test-de.txt";
+        return "/de/abelssoft/test-de.txt";
     }
 
     @Override
