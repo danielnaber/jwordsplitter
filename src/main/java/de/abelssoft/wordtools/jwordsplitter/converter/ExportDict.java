@@ -26,18 +26,17 @@ import de.abelssoft.tools.FastObjectSaver;
  *
  * @author Sven Abels
  */
-public class ExportDict
-{
+public class ExportDict {
 
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
-            System.out.println("Usage: ExportDict <file in JAR>");
-            System.out.println("  for example: ExportDict /wordsGerman.ser");
+            System.out.println("Usage: " + ExportDict.class.getSimpleName() + " <file in JAR>");
+            System.out.println("  for example: ExportDict /de/abelssoft/wordsGerman.ser");
             System.exit(1);
         }
-        String filename = args[0];
-        Object obj = FastObjectSaver.load(filename);
-        Set<String> words = (HashSet<String>) obj;
+        final String filename = args[0];
+        final Object obj = FastObjectSaver.load(filename);
+        final Set<String> words = (HashSet<String>) obj;
         for (String word : words) {
             System.out.println(word);
         }

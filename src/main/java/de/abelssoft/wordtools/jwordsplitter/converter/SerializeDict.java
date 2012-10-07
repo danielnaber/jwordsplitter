@@ -23,18 +23,16 @@ import java.util.HashSet;
 import de.abelssoft.tools.FastObjectSaver;
 
 /**
- * This imports a txt file and saves it in the jWordSplitter format.
+ * This imports a txt file and saves it in the jWordSplitter serialization format.
  *
  * @author Sven Abels
  */
-public class SerializeDict
-{
+public class SerializeDict {
 
-    private static HashSet<String> getFileContents(String filename) throws IOException
-    {
-        HashSet<String> lines = new HashSet<String>();
+    private static HashSet<String> getFileContents(String filename) throws IOException {
+        final HashSet<String> lines = new HashSet<String>();
         String line;
-        BufferedReader br = new BufferedReader(new FileReader(filename));
+        final BufferedReader br = new BufferedReader(new FileReader(filename));
         while ((line = br.readLine()) != null) {
             lines.add(line);
         }
@@ -49,17 +47,16 @@ public class SerializeDict
      *
      * @throws IOException
      */
-    public static void main(String[] args) throws IOException
-    {
+    public static void main(String[] args) throws IOException {
         if (args.length != 2) {
             System.out.println("Usage: SerializeDict <input> <output>");
             System.exit(1);
         }
         System.out.println("Reading " + args[0] + "...");
-        HashSet<String> hs = getFileContents(args[0]);
-        String outputFile = args[1];
+        final HashSet<String> wordSet = getFileContents(args[0]);
+        final String outputFile = args[1];
         System.out.println("Saving " + outputFile + "...");
-        FastObjectSaver.saveToFile(outputFile, hs);
+        FastObjectSaver.saveToFile(outputFile, wordSet);
         System.out.println("Done.");
     }
 
