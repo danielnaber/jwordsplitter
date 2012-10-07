@@ -23,9 +23,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/trunk/</connection>
-    <developerConnection>scm:svn:https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/trunk/</developerConnection>
-    <url>http://jwordsplitter.svn.sourceforge.net/viewvc/jwordsplitter/trunk/</url>
+    <connection>scm:git:git://github.com/danielnaber/jwordsplitter.git</connection>
+    <developerConnection>scm:git:git@github.com:danielnaber/jwordsplitter.git</developerConnection>
+    <url>https://github.com/danielnaber/jwordsplitter</url>
   </scm>
   <developers>
     <developer>
@@ -66,9 +66,11 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
+            <!--
             <configuration>
               <tagBase>https://jwordsplitter.svn.sourceforge.net/svnroot/jwordsplitter/tags/</tagBase>
             </configuration>
+            -->
         </plugin>
         <!-- -->
 
