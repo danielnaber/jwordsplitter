@@ -110,7 +110,8 @@ public abstract class AbstractWordSplitter {
     }
 
     /**
-     * @param filename UTF-8 encoded list of exceptions
+     * @param filename UTF-8 encoded file with exceptions in the classpath, one exception per line, using pipe as delimiter.
+     *   Example: <tt>Pilot|sendung</tt>
      * @throws IOException
      */
     public void setExceptionFile(String filename) throws IOException {
@@ -168,21 +169,22 @@ public abstract class AbstractWordSplitter {
         List<String> parts;
         final String lcWord = word.toLowerCase();
         final String wordWithoutInterfix = removeInterfix(word);
-        final boolean canInterfixBeRemoved = canInterfixBeRemoved(lcWord, allowInterfixRemoval);
+        final String removableInterfix = findInterfixOrNull(lcWord);
+        final boolean canInterfixBeRemoved = removableInterfix != null && allowInterfixRemoval;
         if (isSimpleWord(word)) {
             parts = Collections.singletonList(word);
         } else if (canInterfixBeRemoved && isSimpleWord(wordWithoutInterfix)) {
             if (hideInterfixCharacters) {
                 parts = Arrays.asList(wordWithoutInterfix);
             } else {
-                parts = Arrays.asList(wordWithoutInterfix, "s");    // TODO: no "s"
+                parts = Arrays.asList(wordWithoutInterfix, removableInterfix);
             }
         } else {
             parts = splitFromRight(word);
             if (parts == null && endsWithInterfix(lcWord)) {
                 parts = splitFromRight(wordWithoutInterfix);
                 if (parts != null) {
-                    parts.add("s");           // TODO: no "s"
+                    parts.add(removableInterfix);
                 }
             }
         }
@@ -237,8 +239,15 @@ public abstract class AbstractWordSplitter {
         return null;
     }
 
-    private boolean canInterfixBeRemoved(String word, boolean allowInterfixRemoval) {
-        return allowInterfixRemoval && endsWithInterfix(word) && word.length() > 1;
+    private String findInterfixOrNull(String word) {
+        final Collection<String> interfixes = getInterfixCharacters();
+        final String lcWord = word.toLowerCase();
+        for (String interfix : interfixes) {
+            if (lcWord.endsWith(interfix)) {
+                return interfix;
+            }
+        }
+        return null;
     }
 
     private boolean endsWithInterfix(String word) {
