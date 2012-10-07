@@ -21,6 +21,9 @@ import java.util.List;
 import java.util.Set;
 
 /**
+ * Tries to resolve ambiguities, e.g. "Urlaubsorte" could be
+ * Urlaub+s+Orte but also Urlaub+Sorte (our dictionary doesn't know
+ * which words require an interfix character).
  */
 public class GermanInterfixDisambiguator {
 
