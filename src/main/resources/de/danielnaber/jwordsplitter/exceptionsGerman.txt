@@ -612,6 +612,11 @@ Ausflugs|ort
 Ausflugs|orte
 Ausflugs|ortes
 Werte|bereiche
+Chorda|tier
+Chorda|tiers
+Chorda|tieres
+Chorda|tiere
+Chorda|tieren
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
