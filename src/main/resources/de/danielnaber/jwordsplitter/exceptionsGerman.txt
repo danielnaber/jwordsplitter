@@ -617,6 +617,9 @@ Chorda|tiers
 Chorda|tieres
 Chorda|tiere
 Chorda|tieren
+Zugangs|orte
+Zugangs|ortes
+Zugangs|orten
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
