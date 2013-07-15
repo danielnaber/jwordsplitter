@@ -1,6 +1,6 @@
 jWordSplitter 3.5-dev (2012-xx-yy)
 Copyright 2004-2007 Sven Abels
-Copyright 2007-2012 Daniel Naber
+Copyright 2007-2013 Daniel Naber
 See LICENSE.txt for license information.
 Homepage: http://www.danielnaber.de/jwordsplitter
 
@@ -22,6 +22,7 @@ so it can be used by jWordSplitter, use this command:
 java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.SerializeDict textDict textDict.ser
 
 TODO:
+  -keep the plain text dict in git, not the binary one; build binary only for release
   -build the dictionary from Morphy data
 	-extend list of exceptions (exceptionsGerman.txt, GermanInterfixDisambiguator.java)
 	-API: return null if a word isn't known at all, return the word itself
