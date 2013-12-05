@@ -42,7 +42,7 @@ public class GermanRegressionTest extends TestCase {
                 throw new RuntimeException("Could not load " + TEST_FILE + " from classpath");
             }
             int diffCount = 0;
-            final Scanner scanner = new Scanner(is);
+            final Scanner scanner = new Scanner(is, "utf-8");
             while (scanner.hasNextLine()) {
                 final String line = scanner.nextLine();
                 final String input = line.replace(", ", "");
