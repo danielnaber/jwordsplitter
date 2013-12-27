@@ -148,7 +148,7 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Klima, sünder, recke]", "Klimasünderrecke");
         splitter.setStrictMode(false);
         expect("[Sünder, ecke]", "Sünderecke");
-        expect("[Klima, Sünder, ecke]", "Klimasünderecke");
+        expect("[Klima, sünder, ecke]", "Klimasünderecke");
         expect("[Klima, sünderrecke]", "Klimasünderrecke");
         // test that some words to *not* get split:
         expect("[Vereinsamen]", "Vereinsamen");
