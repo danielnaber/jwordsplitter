@@ -74,10 +74,9 @@ class ExceptionSplits {
         List<String> list = new ArrayList<String>();
         Iterator<String> iter = splitted.iterator();
         int offset = 0;
-        int length = 0;
 
         while (iter.hasNext()) {
-            length = iter.next().length();
+            int length = iter.next().length();
             list.add(original.substring(offset, offset+length));
             offset += length;
         }
@@ -88,9 +87,9 @@ class ExceptionSplits {
         StringBuilder builder = new StringBuilder();
         Iterator<String> iter = elements.iterator();
 
-        if(iter.hasNext()) {
+        if (iter.hasNext()) {
             builder.append(iter.next());
-            while(iter.hasNext()) {
+            while (iter.hasNext()) {
                 builder.append(separator).append(iter.next());
             }
         }
