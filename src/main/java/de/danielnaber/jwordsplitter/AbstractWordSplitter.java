@@ -133,7 +133,7 @@ public abstract class AbstractWordSplitter {
             return Collections.emptyList();
         }
         final String trimmedWord = word.trim();
-        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(trimmedWord.toLowerCase());
+        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(trimmedWord);
         if (exceptionSplit != null) {
             return exceptionSplit;
         }
@@ -191,7 +191,7 @@ public abstract class AbstractWordSplitter {
             final String rightPart = word.substring(i);
             //System.out.println(word  + " -> " + leftPart + " + " + rightPart);
             if (!strictMode) {
-                final List<String> exceptionSplit = getExceptionSplitOrNull(rightPart.toLowerCase(), leftPart.toLowerCase());
+                final List<String> exceptionSplit = getExceptionSplitOrNull(rightPart, leftPart);
                 if (exceptionSplit != null) {
                     return exceptionSplit;
                 }
@@ -215,14 +215,14 @@ public abstract class AbstractWordSplitter {
     }
 
     private List<String> getExceptionSplitOrNull(String rightPart, String leftPart) {
-        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(rightPart.toLowerCase());
+        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(rightPart);
         if (exceptionSplit != null) {
             final List<String> parts = new ArrayList<String>();
             parts.add(leftPart);
             parts.addAll(exceptionSplit);
             return parts;
         }
-        final List<String> exceptionSplit2 = exceptionSplits.getExceptionSplitOrNull(leftPart.toLowerCase());
+        final List<String> exceptionSplit2 = exceptionSplits.getExceptionSplitOrNull(leftPart);
         if (exceptionSplit2 != null) {
             final List<String> parts = new ArrayList<String>();
             parts.addAll(exceptionSplit2);

@@ -55,7 +55,47 @@ class ExceptionSplits {
     }
 
     List<String> getExceptionSplitOrNull(String word) {
-        return exceptionMap.get(word);
+        String lcWord = word.toLowerCase();
+        List<String> result = exceptionMap.get(lcWord);
+        if (result != null) {
+            // The following code will only get executed if an exception split is encountered
+            String check = join(result, "");
+            if (lcWord.equals(check.toLowerCase())) {
+                // The recombined, lowercased split-word is equal to the lowercase original word
+                // Generate the pieces by splitting the original word with the same string lengths
+                // as the splitted word. This will preserve the case of the original word
+		result = splitEqually(result, word);
+            }
+        }
+        return result;
+    }
+
+    protected List<String> splitEqually(List<String> splitted, String original) {
+        List<String> list = new ArrayList<String>();
+        Iterator<String> iter = splitted.iterator();
+        int offset = 0;
+	int length = 0;
+
+        while (iter.hasNext()) {
+            length = iter.next().length();
+            list.add(original.substring(offset, offset+length));
+            offset += length;
+        }
+        return list;
+    }
+
+    protected String join(List<String> elements, String separator) {
+        StringBuilder builder = new StringBuilder();
+        Iterator<String> iter = elements.iterator();
+
+        if(iter.hasNext()) {
+            builder.append(iter.next());
+            while(iter.hasNext()) {
+                builder.append(separator).append(iter.next());
+            }
+        }
+
+        return builder.toString();
     }
 
     void addSplit(String word, List<String> wordParts) {
