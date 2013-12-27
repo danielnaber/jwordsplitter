@@ -64,7 +64,7 @@ class ExceptionSplits {
                 // The recombined, lowercased split-word is equal to the lowercase original word
                 // Generate the pieces by splitting the original word with the same string lengths
                 // as the splitted word. This will preserve the case of the original word
-		result = splitEqually(result, word);
+                result = splitEqually(result, word);
             }
         }
         return result;
@@ -74,7 +74,7 @@ class ExceptionSplits {
         List<String> list = new ArrayList<String>();
         Iterator<String> iter = splitted.iterator();
         int offset = 0;
-	int length = 0;
+        int length = 0;
 
         while (iter.hasNext()) {
             length = iter.next().length();
