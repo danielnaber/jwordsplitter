@@ -191,7 +191,7 @@ public abstract class AbstractWordSplitter {
             final String rightPart = word.substring(i);
             //System.out.println(word  + " -> " + leftPart + " + " + rightPart);
             if (!strictMode) {
-                final List<String> exceptionSplit = getExceptionSplitOrNull(rightPart.toLowerCase(), leftPart.toLowerCase());
+                final List<String> exceptionSplit = getExceptionSplitOrNull(rightPart, leftPart);
                 if (exceptionSplit != null) {
                     return exceptionSplit;
                 }
