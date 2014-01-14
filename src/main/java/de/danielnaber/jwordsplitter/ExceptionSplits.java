@@ -29,7 +29,7 @@ class ExceptionSplits {
     private static final String COMMENT_CHAR = "#";
     private static final String DELIMITER_CHAR = "|";
 
-    private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
+    private final Map<String,List<WordPart>> exceptionMap = new HashMap<String, List<WordPart>>();
 
     ExceptionSplits(String filename) throws IOException {
         final InputStream is = AbstractWordSplitter.class.getResourceAsStream(filename);
@@ -42,10 +42,11 @@ class ExceptionSplits {
             while (scanner.hasNextLine()) {
                 final String line = scanner.nextLine().trim();
                 if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
-                    final String[] parts = line.split("\\|");
+                    final WordPart wpLine = new WordPart(line);
+                    final List<WordPart> parts = wpLine.exceptionSplit("\\|");
                     final String completeWord = line.replace(DELIMITER_CHAR, "");
-                    final List<String> list = new ArrayList<String>(Arrays.asList(parts));
-                    exceptionMap.put(completeWord.toLowerCase(), list);
+                    exceptionMap.put(completeWord.toLowerCase(), parts);
+
                 }
             }
             scanner.close();
@@ -54,14 +55,14 @@ class ExceptionSplits {
         }
     }
 
-    List<String> getExceptionSplitOrNull(String word) {
-        String lcWord = word.toLowerCase();
-        List<String> result = exceptionMap.get(lcWord);
+    List<WordPart> getExceptionSplitOrNull(WordPart word) {
+        WordPart lcWord = word.toLowerCase();
+        List<WordPart> result = exceptionMap.get(lcWord.toString());
         if (result != null) {
             // The following code will only get executed if an exception split is encountered
-            String check = join(result, "");
-            if (lcWord.equals(check.toLowerCase())) {
-                // The recombined, lowercased split-word is equal to the lowercase original word
+            WordPart check = join(result, "");
+            if (lcWord.toString().equals(check.toLowerCase().toString())) {
+                // The recombined, lowercased split-word (string) is equal to the lowercase original word
                 // Generate the pieces by splitting the original word with the same string lengths
                 // as the splitted word. This will preserve the case of the original word
                 result = splitEqually(result, word);
@@ -70,9 +71,9 @@ class ExceptionSplits {
         return result;
     }
 
-    protected List<String> splitEqually(List<String> splitted, String original) {
-        List<String> list = new ArrayList<String>();
-        Iterator<String> iter = splitted.iterator();
+    protected List<WordPart> splitEqually(List<WordPart> splitted, WordPart original) {
+        List<WordPart> list = new ArrayList<WordPart>();
+        Iterator<WordPart> iter = splitted.iterator();
         int offset = 0;
 
         while (iter.hasNext()) {
@@ -83,21 +84,21 @@ class ExceptionSplits {
         return list;
     }
 
-    protected String join(List<String> elements, String separator) {
+    protected WordPart join(List<WordPart> elements, String separator) {
         StringBuilder builder = new StringBuilder();
-        Iterator<String> iter = elements.iterator();
+        Iterator<WordPart> iter = elements.iterator();
 
         if (iter.hasNext()) {
-            builder.append(iter.next());
+            builder.append(iter.next().toString());
             while (iter.hasNext()) {
-                builder.append(separator).append(iter.next());
+                builder.append(separator).append(iter.next().toString());
             }
         }
 
-        return builder.toString();
+        return new WordPart(builder.toString());
     }
 
-    void addSplit(String word, List<String> wordParts) {
+    void addSplit(String word, List<WordPart> wordParts) {
         exceptionMap.put(word.toLowerCase(), wordParts);
     }
 }
