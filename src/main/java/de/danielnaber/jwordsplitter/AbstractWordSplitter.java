@@ -147,7 +147,7 @@ public abstract class AbstractWordSplitter {
 
     public List<String> splitWord(String word) {
 	List<WordPart> parts = splitWordIntoParts(word);
-	ArrayList result = new ArrayList<String>();
+	List result = new ArrayList<String>();
 	Iterator<WordPart> i = parts.iterator();
 	while (i.hasNext()) {
 		String s = i.next().toString();
