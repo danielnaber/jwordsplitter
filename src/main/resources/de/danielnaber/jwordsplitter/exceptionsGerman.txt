@@ -620,6 +620,9 @@ Chorda|tieren
 Zugangs|orte
 Zugangs|ortes
 Zugangs|orten
+Chart|erfolge
+Chart|erfolgen
+Chart|erfolges
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
