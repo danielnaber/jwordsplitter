@@ -623,6 +623,9 @@ Zugangs|orten
 Chart|erfolge
 Chart|erfolgen
 Chart|erfolges
+Phasen|diagramm
+Phasen|diagramms
+Phasen|diagrammes
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
