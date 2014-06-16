@@ -626,6 +626,11 @@ Chart|erfolges
 Phasen|diagramm
 Phasen|diagramms
 Phasen|diagrammes
+Sonder|angebot
+Sonder|angebote
+Sonder|angebots
+Sonder|angebotes
+Sonder|angeboten
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
