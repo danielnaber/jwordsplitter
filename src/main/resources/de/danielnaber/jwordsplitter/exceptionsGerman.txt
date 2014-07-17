@@ -631,6 +631,7 @@ Sonder|angebote
 Sonder|angebots
 Sonder|angebotes
 Sonder|angeboten
+Artikulations|orte
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
