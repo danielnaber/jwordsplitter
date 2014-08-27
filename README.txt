@@ -21,6 +21,12 @@ To serialize a text dictionary (one word per line) to a binary format
 so it can be used by jWordSplitter, use this command:
 java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.SerializeDict textDict textDict.ser
 
+If you need the old project history (for example to access tags that got lost when
+moving to git), check it out from SVN:
+  svn checkout svn://svn.code.sf.net/p/jwordsplitter/code/trunk jwordsplitter-code
+Or browse it online at:
+  http://sourceforge.net/p/jwordsplitter/code/HEAD/tree/
+
 TODO:
   -keep the plain text dict in git, not the binary one; build binary only for release
   -build the dictionary from Morphy data
