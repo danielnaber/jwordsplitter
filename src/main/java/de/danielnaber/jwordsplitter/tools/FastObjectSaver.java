@@ -49,7 +49,7 @@ public class FastObjectSaver {
      * @param filenameInClassPath a plain text dictionary file in the classpath
      * @throws IOException
      */
-    public static synchronized Object load(String filenameInClassPath) throws IOException {
+    public static Object load(String filenameInClassPath) throws IOException {
         final InputStream is = FastObjectSaver.class.getResourceAsStream(filenameInClassPath);
         if (is == null) {
             throw new IOException("Cannot find dictionary in class path: " + filenameInClassPath);
