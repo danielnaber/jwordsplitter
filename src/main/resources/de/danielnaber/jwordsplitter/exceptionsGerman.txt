@@ -633,6 +633,7 @@ Sonder|angebotes
 Sonder|angeboten
 Artikulations|orte
 Pfeiler|hallen
+Amts|orte
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
