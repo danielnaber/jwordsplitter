@@ -634,6 +634,8 @@ Sonder|angeboten
 Artikulations|orte
 Pfeiler|hallen
 Amts|orte
+Einsteiger|spielen
+Renn|erfolge
 # Words without a pipe symbol will not be split.
 Verbraucher
 Vereinsamen
