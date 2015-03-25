@@ -625,7 +625,24 @@ Chart|erfolgen
 Chart|erfolges
 Phasen|diagramm
 Phasen|diagramms
+Phasen|diagramme
 Phasen|diagrammes
+Farben|diagramm
+Farben|diagramms
+Farben|diagramme
+Farben|diagrammes
+Ablauf|diagramm
+Ablauf|diagramms
+Ablauf|diagramme
+Ablauf|diagrammes
+Zeit|diagramm
+Zeit|diagramms
+Zeit|diagramme
+Zeit|diagrammes
+Zustands|diagramm
+Zustands|diagramms
+Zustands|diagramme
+Zustands|diagrammes
 Sonder|angebot
 Sonder|angebote
 Sonder|angebots
@@ -637,6 +654,7 @@ Amts|orte
 Einsteiger|spielen
 Renn|erfolge
 # Words without a pipe symbol will not be split.
+Diagramm
 Verbraucher
 Vereinsamen
 Bahnsteig
