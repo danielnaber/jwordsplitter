@@ -43,21 +43,21 @@ class GermanInterfixDisambiguator {
     // stube vs. tube
     // tau vs. stau
 
-    List<String> disambiguate(List<String> parts) {
-        final List<String> newParts = new ArrayList<String>(parts);
+    List<WordPart> disambiguate(List<WordPart> parts) {
+        final List<WordPart> newParts = new ArrayList<WordPart>(parts);
         for (int i = newParts.size() - 1; i >= 2; i--) {
-            final String part = newParts.get(i);
-            final String prevPart = newParts.get(i - 1);
-            final String prevPrevPart = newParts.get(i - 2);
+            final WordPart part = newParts.get(i);
+            final WordPart prevPart = newParts.get(i - 1);
+            final WordPart prevPrevPart = newParts.get(i - 2);
             if (prevPart.equals("s")) {
                 final boolean partIsWord = isWord("s" + part);
                 if (partIsWord && !wordsRequiringInfixS.contains(prevPrevPart)) {
                     // Wein+s+orte = Wein-sorte
-                    newParts.set(i, "s" + part);
+                    part.eatLeft(1);
                     newParts.remove(i - 1);   // remove infix
                 } else {
                     // Schönheit+s+tempel = Schönheits-tempel
-                    newParts.set(i - 2, prevPrevPart + "s");
+                    prevPrevPart.eatRight(1);
                     newParts.remove(i - 1);   // remove infix
                 }
             }
