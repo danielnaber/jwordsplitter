@@ -2,7 +2,7 @@ jWordSplitter Change Log
 ========================
 
 ### 2015-xx-yy (4.0-dev)
-* moved classes to package de.danielnaber.jwordsplitter
+* moved classes to package `de.danielnaber.jwordsplitter`
 * rewrote algorithm to make it simpler, slightly faster and more correct:
     it now always returns the longest match
 

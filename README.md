@@ -1,4 +1,4 @@
-jWordSplitter 3.5-dev (2012-xx-yy)
+jWordSplitter 4.0-dev (2015-xx-yy)
 ==================================
 
 Copyright 2004-2007 Sven Abels  
@@ -24,7 +24,7 @@ To export the German dictionary from the JAR file, use this command:
 To serialize a text dictionary (one word per line) to a binary format
 so it can be used by jWordSplitter, use this command:
 
-    java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.SerializeDict textDict textDict.ser
+    java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.SerializeDict <textDict> <output>
 
 If you need the old project history (for example to access tags that got lost when
 moving to git), check it out from SVN at http://sourceforge.net/p/jwordsplitter/code/HEAD/tree/
@@ -34,5 +34,5 @@ moving to git), check it out from SVN at http://sourceforge.net/p/jwordsplitter/
 * keep the plain text dict in git, not the binary one; build binary only for release
 * build the dictionary from Morphy data
     * extend list of exceptions (`exceptionsGerman.txt`, `GermanInterfixDisambiguator.java`)
-    * API: return null if a word isn't known at all, return the word itself
+    * API: return `null` if a word isn't known at all, return the word itself
       if it is not a compound?
