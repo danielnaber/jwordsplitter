@@ -23,7 +23,7 @@ import java.io.*;
  * <br/><br/>
  * <code>private static final long serialVersionUID = 1L;</code>
  */
-public class FastObjectSaver {
+public final class FastObjectSaver {
 
     private FastObjectSaver() {
         // no public constructor, static methods only
@@ -36,11 +36,8 @@ public class FastObjectSaver {
      */
     public static void saveToFile(File file, Serializable serializableObject) throws IOException {
         final FileOutputStream fos = new FileOutputStream(file);
-        final ObjectOutputStream oos = new ObjectOutputStream(fos);
-        try {
+        try (ObjectOutputStream oos = new ObjectOutputStream(fos)) {
             oos.writeObject(serializableObject);
-        } finally {
-            oos.close();
         }
     }
 
@@ -54,8 +51,7 @@ public class FastObjectSaver {
         if (is == null) {
             throw new IOException("Cannot find dictionary in class path: " + filenameInClassPath);
         }
-        final ObjectInputStream oos = new ObjectInputStream(is);
-        try {
+        try (ObjectInputStream oos = new ObjectInputStream(is)) {
             return oos.readObject();
         } catch (ClassNotFoundException e) {
             throw new IOException("Could not read data from " + filenameInClassPath, e);

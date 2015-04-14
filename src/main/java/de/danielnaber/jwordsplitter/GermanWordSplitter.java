@@ -39,11 +39,11 @@ public class GermanWordSplitter extends AbstractWordSplitter {
 
     // Add some exceptions so we can easily add terms without re-building the binary dictionary:
     // TODO: remove once we keep the
-    private static final Set<String> IGNORED_PARTS = new HashSet<String>();
+    private static final Set<String> IGNORED_PARTS = new HashSet<>();
     static {
         IGNORED_PARTS.add("richten");
     }
-    private static final Set<String> ADDED_PARTS = new HashSet<String>();
+    private static final Set<String> ADDED_PARTS = new HashSet<>();
     static {
         ADDED_PARTS.add("sozial");
     }

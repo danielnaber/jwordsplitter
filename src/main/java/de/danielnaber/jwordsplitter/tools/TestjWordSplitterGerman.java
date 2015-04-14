@@ -30,7 +30,10 @@ import java.util.Scanner;
  *
  * @author Daniel Naber
  */
-public class TestjWordSplitterGerman {
+public final class TestjWordSplitterGerman {
+
+    private TestjWordSplitterGerman() {
+    }
 
     public static void main(String[] args) throws IOException {
         final long startTime = System.currentTimeMillis();
@@ -58,8 +61,7 @@ public class TestjWordSplitterGerman {
             wordSplitter = new GermanWordSplitter(hideGlueChars);
         }
         wordSplitter.setStrictMode(true);
-        final Scanner scanner = new Scanner(new File(inputFile));
-        try {
+        try (Scanner scanner = new Scanner(new File(inputFile))) {
             while (scanner.hasNext()) {
                 final String token = scanner.next();
                 final Collection<String> col = wordSplitter.splitWord(token);
@@ -71,8 +73,6 @@ public class TestjWordSplitterGerman {
                 }
                 System.out.println();
             }
-        } finally {
-            scanner.close();
         }
         System.err.println("Time: " + (System.currentTimeMillis()-startTime)+ "ms");
     }

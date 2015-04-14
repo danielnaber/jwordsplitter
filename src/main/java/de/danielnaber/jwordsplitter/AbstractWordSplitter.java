@@ -90,11 +90,8 @@ public abstract class AbstractWordSplitter {
     }
 
     private Set<String> getWordList(File file) throws IOException {
-        final FileInputStream fis = new FileInputStream(file);
-        try {
+        try (FileInputStream fis = new FileInputStream(file)) {
             return getWordList(fis);
-        } finally {
-            fis.close();
         }
     }
 
@@ -200,7 +197,7 @@ public abstract class AbstractWordSplitter {
                 final List<String> leftPartParts = split(leftPart, true);
                 final boolean isLeftPartAWord = leftPartParts != null;
                 if (isLeftPartAWord) {
-                    parts = new ArrayList<String>(leftPartParts);
+                    parts = new ArrayList<>(leftPartParts);
                     parts.add(rightPart);
                 } else if (!strictMode) {
                     parts = Arrays.asList(leftPart, rightPart);
@@ -217,14 +214,14 @@ public abstract class AbstractWordSplitter {
     private List<String> getExceptionSplitOrNull(String rightPart, String leftPart) {
         final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(rightPart);
         if (exceptionSplit != null) {
-            final List<String> parts = new ArrayList<String>();
+            final List<String> parts = new ArrayList<>();
             parts.add(leftPart);
             parts.addAll(exceptionSplit);
             return parts;
         }
         final List<String> exceptionSplit2 = exceptionSplits.getExceptionSplitOrNull(leftPart);
         if (exceptionSplit2 != null) {
-            final List<String> parts = new ArrayList<String>();
+            final List<String> parts = new ArrayList<>();
             parts.addAll(exceptionSplit2);
             parts.add(rightPart);
             return parts;

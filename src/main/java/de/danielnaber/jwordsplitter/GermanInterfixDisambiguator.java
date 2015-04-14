@@ -27,7 +27,7 @@ import java.util.Set;
  */
 class GermanInterfixDisambiguator {
 
-    private static final Set<String> wordsRequiringInfixS = new HashSet<String>();
+    private static final Set<String> wordsRequiringInfixS = new HashSet<>();
     private final Set<String> dictionary;
 
     static {
@@ -44,7 +44,7 @@ class GermanInterfixDisambiguator {
     // tau vs. stau
 
     List<String> disambiguate(List<String> parts) {
-        final List<String> newParts = new ArrayList<String>(parts);
+        final List<String> newParts = new ArrayList<>(parts);
         for (int i = newParts.size() - 1; i >= 2; i--) {
             final String part = newParts.get(i);
             final String prevPart = newParts.get(i - 1);

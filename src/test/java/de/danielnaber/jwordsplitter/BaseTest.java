@@ -37,13 +37,9 @@ public abstract class BaseTest extends TestCase {
             }
             final String lexicon = FileTools.loadFile(is, "utf-8");
             tmpLexiconFile = File.createTempFile("jwordsplitter-junit", ".txt");
-            final FileOutputStream fos = new FileOutputStream(tmpLexiconFile);
-            final OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8");
-            try {
+            try (FileOutputStream fos = new FileOutputStream(tmpLexiconFile);
+                 OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8")) {
                 osw.write(lexicon);
-            } finally {
-                osw.close();
-                fos.close();
             }
         } finally {
             if (is != null) { is.close(); }

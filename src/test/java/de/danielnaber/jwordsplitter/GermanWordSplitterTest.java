@@ -29,12 +29,9 @@ public class GermanWordSplitterTest extends BaseTest {
     }
 
     public void testStreamDictConstructor() throws IOException {
-        final FileInputStream fis = new FileInputStream(tmpLexiconFile);
-        try {
+        try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
             splitter = new GermanWordSplitter(true, fis);
             strictModeBaseChecks();
-        } finally {
-            fis.close();
         }
     }
 

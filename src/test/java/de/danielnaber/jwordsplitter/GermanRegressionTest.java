@@ -34,43 +34,39 @@ public class GermanRegressionTest extends TestCase {
     public void testLargeFile() throws IOException {
         final AbstractWordSplitter splitter = new GermanWordSplitter(true);
         splitter.setStrictMode(true);
-        final FileWriter writer = getOutputWriterOrNull();
-        final InputStream is = BaseTest.class.getResourceAsStream(TEST_FILE);
-        final StringBuilder sb = new StringBuilder();
-        try {
+        try (FileWriter writer = getOutputWriterOrNull();
+             InputStream is = BaseTest.class.getResourceAsStream(TEST_FILE)) {
+            final StringBuilder sb = new StringBuilder();
             if (is == null) {
                 throw new RuntimeException("Could not load " + TEST_FILE + " from classpath");
             }
             int diffCount = 0;
-            final Scanner scanner = new Scanner(is, "utf-8");
-            while (scanner.hasNextLine()) {
-                final String line = scanner.nextLine();
-                final String input = line.replace(", ", "");
-                final String result = join(splitter.splitWord(input));
-                if (writer != null) {
-                    writer.write(result);
-                    writer.write("\n");
-                }
-                if (!line.equals(result)) {
-                    sb.append("-");
-                    sb.append(line);
-                    sb.append("\n");
-                    sb.append("+");
-                    sb.append(result);
-                    sb.append("\n");
-                    diffCount++;
+            try (Scanner scanner = new Scanner(is, "utf-8")) {
+                while (scanner.hasNextLine()) {
+                    final String line = scanner.nextLine();
+                    final String input = line.replace(", ", "");
+                    final String result = join(splitter.splitWord(input));
+                    if (writer != null) {
+                        writer.write(result);
+                        writer.write("\n");
+                    }
+                    if (!line.equals(result)) {
+                        sb.append("-");
+                        sb.append(line);
+                        sb.append("\n");
+                        sb.append("+");
+                        sb.append(result);
+                        sb.append("\n");
+                        diffCount++;
+                    }
                 }
             }
-            scanner.close();
             if (diffCount > 0 ) {
                 final String message = writer != null ?
                         "output can be found at " + tempFile : "set WRITE_FILE to true to write output to a file";
                 fail("Found differences between regression data and real result - modify " + TEST_FILE
                         + " to contain the results if they are better than before (" + message + "):\n" + sb);
             }
-        } finally {
-            if (is != null) is.close();
-            if (writer != null) writer.close();
         }
     }
 

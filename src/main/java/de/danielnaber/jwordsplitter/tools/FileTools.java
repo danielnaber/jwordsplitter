@@ -25,7 +25,7 @@ import java.util.Set;
  * @author Sven Abels
  * @author Daniel Naber
  */
-public class FileTools
+public final class FileTools
 {
 
     private FileTools() {
@@ -36,38 +36,28 @@ public class FileTools
      * Load a file and return each line, lowercased, as an entry in a HashSet.
      */
     public static Set<String> loadFileToSet(InputStream is, String charset) throws IOException {
-        InputStreamReader isr = null;
-        BufferedReader br = null;
-        final HashSet<String> words = new HashSet<String>();
-        try {
-            isr = new InputStreamReader(is, charset);
-            br = new BufferedReader(isr);
+        final HashSet<String> words = new HashSet<>();
+        try (InputStreamReader isr = new InputStreamReader(is, charset);
+             BufferedReader br = new BufferedReader(isr)
+            ) {
             String line;
             while ((line = br.readLine()) != null) {
                 words.add(line.trim().toLowerCase());
             }
-        } finally {
-            if (br != null) br.close();
-            if (isr != null) isr.close();
         }
         return words;
     }
 
     public static String loadFile(InputStream inputStream, String charset) throws IOException {
-        InputStreamReader isr = null;
-        BufferedReader br = null;
         final StringBuilder sb = new StringBuilder();
-        try {
-            isr = new InputStreamReader(inputStream, charset);
-            br = new BufferedReader(isr);
+        try (InputStreamReader isr = new InputStreamReader(inputStream, charset);
+             BufferedReader br = new BufferedReader(isr)
+            ) {
             String line;
             while ((line = br.readLine()) != null) {
                 sb.append(line);
                 sb.append("\n");
             }
-        } finally {
-            if (br != null) br.close();
-            if (isr != null) isr.close();
         }
         return sb.toString();
     }

@@ -33,14 +33,11 @@ public final class SerializeDict {
     }
 
     private static HashSet<String> getFileContents(File file) throws IOException {
-        final HashSet<String> lines = new HashSet<String>();
-        final Scanner scanner = new Scanner(file);
-        try {
+        final HashSet<String> lines = new HashSet<>();
+        try (Scanner scanner = new Scanner(file)) {
             while (scanner.hasNextLine()) {
                 lines.add(scanner.nextLine());
             }
-        } finally {
-            scanner.close();
         }
         return lines;
     }

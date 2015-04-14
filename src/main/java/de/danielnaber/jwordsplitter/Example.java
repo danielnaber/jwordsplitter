@@ -23,7 +23,7 @@ import java.util.Collection;
  *
  * @author Daniel Naber
  */
-class Example {
+final class Example {
 
     private Example() {}
 

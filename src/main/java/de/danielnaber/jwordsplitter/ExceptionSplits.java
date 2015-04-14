@@ -29,28 +29,25 @@ class ExceptionSplits {
     private static final String COMMENT_CHAR = "#";
     private static final String DELIMITER_CHAR = "|";
 
-    private final Map<String,List<String>> exceptionMap = new HashMap<String, List<String>>();
+    private final Map<String,List<String>> exceptionMap = new HashMap<>();
 
     ExceptionSplits(String filename) throws IOException {
-        final InputStream is = AbstractWordSplitter.class.getResourceAsStream(filename);
-        try {
+        try (InputStream is = AbstractWordSplitter.class.getResourceAsStream(filename)) {
             if (is == null) {
                 throw new IOException("Cannot locate exception list in class path: " + filename);
             }
             final String exceptions = FileTools.loadFile(is, "UTF-8");
-            final Scanner scanner = new Scanner(exceptions);
-            while (scanner.hasNextLine()) {
-                final String line = scanner.nextLine().trim();
-                if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
-                    final String[] parts = line.split("\\|");
-                    final String completeWord = line.replace(DELIMITER_CHAR, "");
-                    final List<String> list = new ArrayList<String>(Arrays.asList(parts));
-                    exceptionMap.put(completeWord.toLowerCase(), list);
+            try (Scanner scanner = new Scanner(exceptions)) {
+                while (scanner.hasNextLine()) {
+                    final String line = scanner.nextLine().trim();
+                    if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
+                        final String[] parts = line.split("\\|");
+                        final String completeWord = line.replace(DELIMITER_CHAR, "");
+                        final List<String> list = new ArrayList<>(Arrays.asList(parts));
+                        exceptionMap.put(completeWord.toLowerCase(), list);
+                    }
                 }
             }
-            scanner.close();
-        } finally {
-            if (is != null) is.close();
         }
     }
 
@@ -71,7 +68,7 @@ class ExceptionSplits {
     }
 
     protected List<String> splitEqually(List<String> splitted, String original) {
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<>();
         Iterator<String> iter = splitted.iterator();
         int offset = 0;
 
@@ -86,14 +83,12 @@ class ExceptionSplits {
     protected String join(List<String> elements, String separator) {
         StringBuilder builder = new StringBuilder();
         Iterator<String> iter = elements.iterator();
-
         if (iter.hasNext()) {
             builder.append(iter.next());
             while (iter.hasNext()) {
                 builder.append(separator).append(iter.next());
             }
         }
-
         return builder.toString();
     }
 
