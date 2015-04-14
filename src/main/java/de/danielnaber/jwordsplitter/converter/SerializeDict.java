@@ -29,10 +29,10 @@ import java.util.Scanner;
  */
 public final class SerializeDict {
 
-  private SerializeDict() {
-  }
+    private SerializeDict() {
+    }
 
-  private static HashSet<String> getFileContents(File file) throws IOException {
+    private static HashSet<String> getFileContents(File file) throws IOException {
         final HashSet<String> lines = new HashSet<String>();
         final Scanner scanner = new Scanner(file);
         try {
