@@ -26,20 +26,23 @@ import de.danielnaber.jwordsplitter.tools.FastObjectSaver;
  *
  * @author Sven Abels
  */
-public class ExportDict {
+public final class ExportDict {
 
-    public static void main(String[] args) throws IOException {
-        if (args.length != 1) {
-            System.out.println("Usage: " + ExportDict.class.getSimpleName() + " <file in JAR>");
-            System.out.println("  <file in JAR> is for example /de/danielnaber/wordsGerman.ser");
-            System.exit(1);
-        }
-        final String filename = args[0];
-        final Object obj = FastObjectSaver.load(filename);
-        final Set<String> words = (HashSet<String>) obj;
-        for (String word : words) {
-            System.out.println(word);
-        }
-    }
+  private ExportDict() {
+  }
+
+  public static void main(String[] args) throws IOException {
+      if (args.length != 1) {
+          System.out.println("Usage: " + ExportDict.class.getSimpleName() + " <file in JAR>");
+          System.out.println("  <file in JAR> is for example /de/danielnaber/jwordsplitter/wordsGerman.ser");
+          System.exit(1);
+      }
+      final String filename = args[0];
+      final Object obj = FastObjectSaver.load(filename);
+      final Set<String> words = (HashSet<String>) obj;
+      for (String word : words) {
+          System.out.println(word);
+      }
+  }
 
 }

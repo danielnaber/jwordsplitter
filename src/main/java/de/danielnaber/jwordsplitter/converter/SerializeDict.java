@@ -27,9 +27,12 @@ import java.util.Scanner;
  *
  * @author Sven Abels
  */
-public class SerializeDict {
+public final class SerializeDict {
 
-    private static HashSet<String> getFileContents(File file) throws IOException {
+  private SerializeDict() {
+  }
+
+  private static HashSet<String> getFileContents(File file) throws IOException {
         final HashSet<String> lines = new HashSet<String>();
         final Scanner scanner = new Scanner(file);
         try {
@@ -46,8 +49,6 @@ public class SerializeDict {
      * Read a text file with one word per line and serialize the
      * HashSet with all words to a binary file that can be part
      * of jWordSplitter's JAR.
-     *
-     * @throws IOException
      */
     public static void main(String[] args) throws IOException {
         if (args.length != 2) {

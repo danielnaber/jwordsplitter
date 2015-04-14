@@ -26,7 +26,7 @@ public abstract class BaseTest extends TestCase {
     protected AbstractWordSplitter splitter;
     protected File tmpLexiconFile;
 
-    abstract protected String getDictionaryFile();
+    protected abstract String getDictionaryFile();
 
     @Override
     public void setUp() throws IOException {

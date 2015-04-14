@@ -75,23 +75,6 @@
         <!-- -->
 
       <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>2.2</version>
-        <configuration>
-          <descriptor>src/main/assembly/src.xml</descriptor>
-        </configuration>
-        <executions>
-           <execution>
-           <id>make-assembly</id>
-           <phase>package</phase>
-           <goals>
-             <goal>single</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-
-      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
         <version>2.2</version>
@@ -124,6 +107,10 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>2.4</version>
         <configuration>
+          <excludes>
+            <!-- the data is in the binary dict, including the text would only make the JAR bigger: -->
+            <exclude>**/de/danielnaber/jwordsplitter/*.txt</exclude>
+          </excludes>
           <archive>
             <manifest>
               <mainClass>de.danielnaber.jwordsplitter.tools.TestjWordSplitterGerman</mainClass>

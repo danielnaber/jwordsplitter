@@ -192,7 +192,7 @@ public class GermanWordSplitterTest extends BaseTest {
         try {
             splitter.addException(null, Arrays.asList("Verhaltensstörung"));
             fail();
-        } catch (NullPointerException expected) {}
+        } catch (NullPointerException ignored) {}
     }
 
 }

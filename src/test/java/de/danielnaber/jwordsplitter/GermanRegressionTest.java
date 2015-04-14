@@ -66,7 +66,7 @@ public class GermanRegressionTest extends TestCase {
                 final String message = writer != null ?
                         "output can be found at " + tempFile : "set WRITE_FILE to true to write output to a file";
                 fail("Found differences between regression data and real result - modify " + TEST_FILE
-                        + " to contain the results if they are better than before (" + message + "):\n" + sb.toString());
+                        + " to contain the results if they are better than before (" + message + "):\n" + sb);
             }
         } finally {
             if (is != null) is.close();
