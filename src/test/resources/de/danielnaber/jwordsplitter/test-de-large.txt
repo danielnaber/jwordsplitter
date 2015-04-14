@@ -88,7 +88,7 @@ Gesamt, politik
 PowerMax
 Komorenko
 Samorin
-Gleitkomma-Operationen
+Gleit, komma, Operationen
 Schwanz, ansatz
 Fußball-Stürmer
 Masanao
@@ -99,7 +99,7 @@ Blutung, zeit
 GEBAUT
 Batam
 Personal, referenten
-Examenskandidatinnen
+Examens, kandidatinnen
 Wappke
 Hiroyoshi
 Helgolandstr
@@ -121,7 +121,7 @@ Kiessand
 Raum, expeditionen
 Training, mühle
 Hartges
-Obst, pflücker
+Obstpflücker
 Bagel-Bäckerei
 Abfällig
 Industrie, zweigen
@@ -134,7 +134,7 @@ Lungen, karzinom
 Spionage, dienst
 Bestell-Liste
 Temperierung
-Nationalkickers
+National, kickers
 Konetzke
 Chossudovsky
 Prozessor, herstellers
@@ -177,7 +177,7 @@ Betreiber, recht
 Alljemeine
 Ribbek
 Terrordrahtziehers
-Nichterfüllen
+Nicht, erfüllen
 Erika-Mann-Grundschule
 Mechernich
 Reise, welle
@@ -205,7 +205,7 @@ MLG
 Nato, Vertrag
 Szene, friseur
 Müller-Haeseler
-Vier-Tage-Rhythmus
+Vier, Tage, Rhythmus
 Exclusivhändler
 Condat-Chef
 Quantenobjekte
@@ -423,7 +423,7 @@ Hunsrück
 Kompetenz, verlagerung
 RCeGe
 Gebährmutter
-Sparwillens
+Spar, willens
 Lampedusas
 Südhafens
 Quasselkasper
@@ -444,7 +444,7 @@ Verbindung, beamte
 Test, termin
 Golf, hand, schuhe
 Erhöhen
-Großgeflügel
+Groß, geflügel
 Bürger, feld
 Krieg, verweigerung
 Kirchen, frage
@@ -467,7 +467,6 @@ Kauf, preis, rate
 Dartmouth
 Riem-Ost
 Pflicht, beifall
-Nicht-Angriffspakt
 Damen, geschäft
 Auslösungen
 Empfang, quittung
@@ -615,7 +614,7 @@ Löwen, köpfe
 Kupfer, sulfat
 Rideaux
 Vorrechte
-Gegenvorlage
+Gegen, vorlage
 Schulpädagoge
 Mieter, verbänden
 Tinten, fasse
@@ -636,7 +635,7 @@ Heirat, urkunden
 Neuformulieren
 Idric
 Chirbes
-Mittelamerikareise
+Mittel, amerika, reise
 Bord, batterien
 Kirchweihe
 Minuten, Einsatz
@@ -697,7 +696,7 @@ Widerstand, wille
 Schwulenberatungsstelle
 Sicherheit, papieren
 Teich, molche
-Wunder, läufe, rinnen
+Wunder, läuferinnen
 Bhojani
 Jüngferchen
 Ex-Umweltsenatorin
@@ -837,7 +836,7 @@ Segen, Handlungen
 US-Prozeßrecht
 Hollywood-Schönen
 TV-Seifenoper
-Chefanalystin
+Chef, analystin
 Danica
 Franciskus
 Nord, verein
@@ -871,7 +870,7 @@ Wirtschaft, grundsätze
 Kognita
 Antidrogenprogramm
 Laden, schluß, regelung
-Fünffachen
+Fünf, fachen
 Mandzuka
 Autoren, theaters
 Neufälle
@@ -883,7 +882,7 @@ Off-Festival
 Antonium
 US-Vizepräsidentschaft
 Gestalt, psychologe
-Sachgewinn
+Sach, gewinn
 Marikka
 Lottospieler
 Ausreise, möglichkeiten
@@ -906,7 +905,7 @@ Zwingherrschaft
 Besiegt
 Vocal-House
 Wasser, lochs
-Doppelsparhaushalt
+Doppel, spar, haushalt
 Mischfutter, produzenten
 Keramik-Kursus
 US-Fregatte
@@ -914,7 +913,7 @@ Geitz
 Parteien, koalition
 Fluß, ebenen
 Lokal, Modell
-Gräueltaten
+Gräuel, taten
 Maurer, sohn
 Marienwahl
 Autonomie, städten
@@ -947,7 +946,7 @@ Buddha, Skulpturen
 Roswith
 Bahn, Fahrten
 Koordinierungsaufgaben
-Fernsehentwicklung
+Fernseh, entwicklung
 Flambierten
 Gewissen, ethik
 Mannschaft, siege
@@ -1035,7 +1034,7 @@ Asterlagen
 Kombi, angebot
 Makore-Bäume
 Material, wart
-Wohnzwecken
+Wohn, zwecken
 Weichmann
 Jürgens-Pieper
 Semjonowitsch
@@ -1090,7 +1089,7 @@ GSM
 Würgern
 Vatandas
 Korrektur, faktoren
-Sachdiskurs
+Sach, diskurs
 Norag
 O-Town
 Lindenhofstr
@@ -1167,7 +1166,7 @@ Flugzeug, Fans
 Reise, absicht
 Wirt, haus, besuche
 Femarn
-Füllhaltern
+Füll, haltern
 Scherz, artikeln
 Fleischer, Fach, geschäften
 Gesamt, zyklus
@@ -1311,7 +1310,7 @@ Konzentration, werten
 Tiefstapelei
 Stefanies
 Buch, hammer
-Trinkgenuß
+Trink, genuß
 Böckenhoff
 Abdül
 Susannne
@@ -1341,7 +1340,7 @@ Wassiljewa
 Arabertum
 Mangiare
 Sivaneswaran
-Nichtbefriedigung
+Nicht, befriedigung
 Vermessung, team
 Vogel, füßen
 Kroo
@@ -1464,7 +1463,7 @@ Investition, pläne
 Schein, debatten
 Klitzekleine
 Turn-Europameisterschaft
-Hauptinitiatorin
+Haupt, initiatorin
 JFM
 Cosmopolitan-Chefredakteurin
 Rosalia
@@ -1523,7 +1522,7 @@ Modernisierung, anspruch
 Polizei, pistolen
 Gerstenkörner
 Unfall, tages
-Ertragsstärke
+Ertrags, stärke
 Shahed
 Steuer, kurs
 Zocor
@@ -1585,7 +1584,7 @@ Protokollbeamter
 Mosler
 Kaar
 Cable
-Hasskappe
+Hass, kappe
 Kloft
 Reichold
 Wochen, preis
@@ -1605,7 +1604,7 @@ Gierck
 Universalkirche
 Pflanzen, hormone
 Dax-Jäger
-Grenzwissenschaft
+Grenz, wissenschaft
 Hohlwelt
 Rathaus-Clubbing
 Personal, computer
@@ -1617,7 +1616,7 @@ Zukunft, idee
 BAföG-Förderung
 Zolitschka
 Keramik, flächen
-Hilfsangeboten
+Hilf, angeboten
 Einfuhrzuwachs
 Unternehmen, ergebnisses
 Staat, partei
@@ -1633,7 +1632,7 @@ FPF
 Notzeit
 Pro-Markt-Filialen
 Ausgehen
-Grenzstädtchens
+Grenz, städtchens
 Liga-Statut
 Stil, prinzip
 Wody
@@ -1649,7 +1648,7 @@ V-Mann-Enthüllungen
 Schneideräume
 Experten, truppe
 Tier, gerüche
-Nichterkennung
+Nicht, erkennung
 Landschaft, ausschnitt
 Ungarettis
 Badoers
@@ -1680,7 +1679,7 @@ Bezirksprovision
 Beratung, haftung
 Signal, wandlung
 Milch, mädchen, Rechnung
-Dreiviertel-Reihe
+Drei, viertel, Reihe
 Transitpunkt
 Verschickungen
 Transaktion
@@ -1824,7 +1823,7 @@ Emmelshausen
 Grabungszeit
 Bäckegren
 Nordsee, bäder, Verband
-Hochleistungskühe
+Hoch, leistungs, kühe
 Deutschheit
 Umwelt, schutz, aktionen
 SMS-Sucht
@@ -1884,7 +1883,7 @@ Gemeinschaftliches
 Erotik, Diva
 Zeric
 Saurier, insel
-Grobplanung
+Grob, planung
 Stickler
 Rabanne
 Winter, sport, verein
@@ -1902,7 +1901,7 @@ Wochenend, seminar
 Kümmeritz
 Cinema-TV
 Gründung, projekte
-Feinseifen
+Fein, seifen
 Messe, direktor
 Freizeit, Aktivitäten
 Saug
@@ -2126,7 +2125,7 @@ Antifa-Cafe
 FPÖ-Fahne
 Longtemps
 Leben, stufen
-England-Aufenthalts
+England, Aufenthalts
 Zwelling
 Laan
 Rollen, maschinen
@@ -2202,7 +2201,7 @@ Zerschossenen
 Karras
 WWF-Expertin
 Zufelde
-Lernwerkstätten
+Lern, werkstätten
 ITALIENER
 Sovic
 Seiden, papieren
@@ -2225,7 +2224,7 @@ Copyright-Schutzes
 Reger-Apotheke
 Bruchner
 Wahrnehmung, weisen
-Kleinfeldern
+Klein, feldern
 Nummer, schildern
 Titel, kämpfe
 Soziologin
@@ -2257,7 +2256,7 @@ Diamanten, vorkommen
 Pipeline
 VERLAGE
 Direktwiderruf
-Lernmotivation
+Lern, motivation
 Kraft, brühe
 Kfz-Ingenieur
 Gähler
@@ -2322,7 +2321,7 @@ Wacker-Konzern
 Ex-Nationaltorwart
 Lasten, hefts
 Raos
-Unterstrukturen
+Unter, strukturen
 Geistreicher
 Bock, würsten
 Keuzes
@@ -2380,7 +2379,7 @@ Post, bank, Kapitals
 Robusteren
 Ideologie, kämpfe
 Dihk
-Schwimmsaison
+Schwimm, saison
 Haupt, lärm, quelle
 Brauchen
 Geschirr, industrie
@@ -2398,7 +2397,7 @@ Barriere-Riff
 EU-Finanzministerrates
 Citaro
 Klanwatch
-Schlussauktion
+Schluss, auktion
 Lade, gewicht
 Doppel, zelt
 Vormerkstelle
@@ -2422,7 +2421,7 @@ Groß-BRD
 Infektion, mechanismus
 Drogen, hauptstadt
 Obligo
-Fernsehnachrichtenagentur
+Fernseh, nachrichten, agentur
 Azarro
 WM-Triumph
 Kurzhaar-Schnitt
@@ -2446,8 +2445,8 @@ Mobilfunk-Modul
 Quäck
 Koro
 Hohbein
-Gegenkoalition
-Ballettpädagogin
+Gegen, koalition
+Ballett, pädagogin
 Railvolution
 Ayvalik
 Neubau, Auftrag
@@ -2458,9 +2457,9 @@ Saluggia
 Zeca
 Sand, mücken
 Berg, stürzen
-Wohngrundstücks
+Wohn, grundstücks
 Pemon-Indianer
-Nichtmetallen
+Nicht, metallen
 Comeback, Versuchs
 Lohn, abrechnung, service
 WOLFF
@@ -2544,7 +2543,7 @@ Margenberg
 Nonstop-Lesung
 Recht, beratern
 SZ-Artikels
-Abschlussvortrag
+Abschluss, vortrag
 Grille
 Kingfisher-Konzern
 TÜV-Verband
@@ -2650,7 +2649,7 @@ Artemoff
 Tarif, vorschläge
 Unverständlicherweise
 Malwänden
-Chefeinkäuferin
+Chef, einkäuferin
 Delahaye
 Schweißgerätes
 Vergleich, rechnung
@@ -2670,7 +2669,7 @@ Subaru
 Spalt, maße
 Atom-Bewegung
 Grund, organisation
-Frühsendungen
+Früh, sendungen
 Sunderlands
 Welt, parlament
 Bunde, kanzlei
@@ -2723,7 +2722,7 @@ Burgwallgraben
 Champagner, schaum
 Waaij
 Newsroom
-Geschichtskonzept
+Geschicht, konzept
 Boot, antrieb
 Herbst, feier
 Socis
@@ -2773,7 +2772,7 @@ Beton, dach, steine
 Revette
 Hotel, pauschalen
 Umzugswillige
-Afghanistan-Mandats
+Afghanistan, Mandats
 Imbisstand
 Themen, gastronomie
 Wahl, kampf, Kommission
@@ -2924,7 +2923,7 @@ Eckerd
 Tayser
 Pree
 Klötzer
-Defa, Studio
+DefaStudio
 Adolf-Grimme-Instituts
 Kambarka
 Kuang-si-ta-sse
@@ -3126,7 +3125,7 @@ Kommunikationsund
 Kanzler-Intimus
 Widerwärtig
 Verzerrung
-Radikalrenovierung
+Radikal, renovierung
 Adenauer-Biographie
 Geologisch-Paläontologischen
 FLP
@@ -3222,7 +3221,7 @@ Heroin, abgabe
 Bezirk, molkerei
 Gebiet, vergrößerung
 Krankheit, medizin
-Schwimmweltmeisterin
+Schwimm, weltmeisterin
 Jungherrn
 Küfersteig
 Saarland
@@ -3318,7 +3317,7 @@ Wekelsdorf
 Ursprünglichkeit
 Professionellen
 Diebe, tour
-Kraft, werk, bauer
+Kraftwerk, bauer
 Eis-Prinzessin
 Gehäusen
 Software, Multi
@@ -3343,9 +3342,9 @@ Cambronne
 Loherangrin
 Kampf, motiv
 Schwindl
-Hotelbetreiberin
+Hotel, betreiberin
 Kammer, konzerts
-Fernsehmilieu
+Fernseh, milieu
 Anzeigen, motive
 US-Einheit
 TV-Entertainers
@@ -3370,7 +3369,7 @@ Realkredit, instituts
 Rückendekkung
 Schwäne, füttern
 Magnet, felder
-Sparplanes
+Spar, planes
 Floßfahren
 Physikums
 Zweiter
@@ -3389,7 +3388,7 @@ Finanz, gremien
 Stealing-Fox
 Uni-Dozenten
 Kreuz, fahrt, gesellschaft
-Vierfach-Sprüngen
+Vier, fach, Sprüngen
 Stich, tags
 Samstag, schicht
 Geschäft, sektor
@@ -3434,7 +3433,7 @@ Edern-Hallier
 Half-Pipes
 Kopf, menschen
 Zop
-Gesundheitstipps
+Gesundheit, tipps
 Film, berichte
 Strafvollzug, behörden
 Ballon, flucht
@@ -3450,7 +3449,7 @@ Maximo
 Kendzierski
 Ranshofen
 Biedermeier-Stühle
-Großbäckern
+Groß, bäckern
 Yggeseth
 Kottisch
 Rassen, gleichheit
@@ -3661,10 +3660,10 @@ Gründer, Team
 BMW-Turnier
 Veschuldung
 Mineralen
-Preisverdächtige
+Preis, verdächtige
 Weiterbildung, zeit
 Blakely
-Hilfsraketen
+Hilf, raketen
 Cran
 Blitz, geräten
 Nord, deich
@@ -3693,7 +3692,7 @@ Ahikams
 Batterietyp
 Telekommunikationsendgeräte
 Überhundertjährigen
-Nasa, Kollegen
+NasaKollegen
 Rockcliffe
 Marcellinos
 Gucci-Boutique
@@ -3808,7 +3807,7 @@ Neutrales
 Heidelberg-Aktie
 Gruppen, leistung
 Rasidovic
-Ernährungstipps
+Ernährung, tipps
 SPD-Parteivorsitzende
 Händler, vertrag
 Ciman
@@ -3925,7 +3924,7 @@ Ausstechen
 Schluß, sitzung
 Flugzeug, steuerung
 DDR-Korrespondenten
-Dreieichhörnchen
+Drei, eichhörnchen
 Ogimura
 Vorlesungsmitschrift
 Ober, gruppen
@@ -3958,7 +3957,7 @@ Hyper-Inflation
 Schöngeredet
 Indoktrination
 Frauen-EM
-Nicht-Seins
+Nicht, Seins
 Padden
 Futter, mittel, silos
 US-Berichten
@@ -3981,14 +3980,14 @@ Bombelaj
 Disputanten
 Emporkommens
 Fatsa
-Stamm-Fünf
+Stamm, Fünf
 Underground-Musik
 Votteler
 Aquaculture
 Bündnis, erklärung
 Nachmittag, idylle
 Djemmels
-Modernisierungsstress
+Modernisierung, stress
 Erinnerung, reflex
 Untergiesinger
 Samanidou
@@ -4036,7 +4035,7 @@ Ober, mark
 Gewässer, untersuchungen
 Service, Management
 Renten, Immobilien, fonds
-Amerikabegeisterung
+Amerika, begeisterung
 Bewertung, klasse
 Wirtschaft, managern
 Abspiel, förderung
@@ -4110,7 +4109,7 @@ Georg-W
 Stimmings
 Fritz-Werner-Str
 Prinz-Karl-Palais
-England-Experte
+England, Experte
 Körperpflege, produkte
 Je-der
 Dehhoda
@@ -4145,8 +4144,8 @@ Schatz, kanzlei
 AOC
 Verhandlung, kompetenzen
 Oleanders
-Großkönigs
-Spar-Laden
+Groß, königs
+Spar, Laden
 Flebbe-Gruppe
 Seiten, zugriffe
 Saint-Ouen
@@ -4154,7 +4153,7 @@ Gespräch, aufzeichnung
 Grünen, Ideen
 Besitz, ängste
 Pflicht, leistung, katalog
-Nationaltrainern
+National, trainern
 Baulderstone
 Wart, mann
 Schiff, stunden
@@ -4170,7 +4169,7 @@ Zamara
 Bomben, ergebnis
 Wunder, mittel
 EFG-Verfahren
-Mietnachzahlungen
+Miet, nachzahlungen
 Pusta
 Chanthaphasouk
 Zersiedlungsprämie
@@ -4342,7 +4341,7 @@ Nonius
 Profi-Radrennen
 Kooperation, verhalten
 Angreifen
-Bordellbetreiberin
+Bordell, betreiberin
 Opel, Vorstand
 Gast, trainer
 Medien, Darling
@@ -4399,8 +4398,8 @@ Umfrage, ergebnisse
 Möbel, montage
 CRM
 Austausches
-Feinschliff
-Sachbehandlung
+Fein, schliff
+Sach, behandlung
 Untertrikotagen
 Glück, zeichen
 Bezirk, samt, beschluß
@@ -4447,7 +4446,7 @@ Stellen, streichungen
 Ärmerer
 Sturm, reihe
 Zwölftkläßlerin
-Zweidrittel-Lehrern
+Zwei, drittel, Lehrern
 Losnummern
 Bewag-Werke
 Single-Airport
@@ -4491,7 +4490,7 @@ Geschäft, trägern
 Happold
 Tarmo
 Kegel, robben
-Schlussfeuerwerk
+Schluss, feuer, werk
 Oberschenkel, verhärtung
 Übergabe, termins
 Mensebach
@@ -4512,7 +4511,7 @@ FDP-Nachwuchsorganisation
 Wydens
 Schulgeländes
 Kult, party
-Jugendpsychiaterin
+Jugend, psychiaterin
 Kurs, verläufe
 Motivation, gruppe
 Kassen, leiter
@@ -4523,7 +4522,7 @@ Entertainment-Plattform
 WM-Stunden
 Baltikumspolitik
 Quiqueg
-Gleichmaßes
+Gleich, maßes
 Getriebe, spezialisten
 Bedachungsartikeln
 Thallemer
@@ -4543,7 +4542,7 @@ Training, schule
 Crop
 Fonso
 Nachwuchs, produktionen
-Sparvorschriften
+Spar, vorschriften
 Schmökel-Flucht
 Neustar
 Micah
@@ -4601,7 +4600,7 @@ Astorpilco
 Hindu-Gottheiten
 Inland, flug, verbot
 Werbe, verbandes
-Ausfuhrstopp
+Ausfuhr, stopp
 Eichelhähers
 Ampato
 Sprach, klischee
@@ -4761,7 +4760,7 @@ Schlimmre
 Schulstadt
 Tennis-Historie
 Miniussi
-Wiedereinbürgerungsprojekt
+Wieder, einbürgerungs, projekt
 Lissat
 Osterdebatte
 Minkwalen
@@ -4788,11 +4787,10 @@ Einfamilien-Häuser
 Hausen
 SdK-Vertreterin
 Tatzeitpunkt
-Dreifachverglasung
+Drei, fach, verglasung
 Brisbois
 Video, Spiele
 Versorgung, falle
-Nicht-Mitgliedern
 Bürgermeister, haus
 Kammermusiken
 Motor, partner
@@ -4808,7 +4806,6 @@ CVJM-Generalsekretär
 Euro, münze
 Jungkomponisten
 Länge, feld
-Zwei-Jahres-Programm
 Sozial, fähigkeit
 Sonnenrollo
 Gehrkes
@@ -4837,7 +4834,7 @@ Rendite, fonds
 Hsüan
 Nachkriegsverhältnissen
 Wochenend, tarif, vertrag
-Super-Sparpreis
+Super, Spar, preis
 Heidbreder
 Kampf, pilotinnen
 Beschwerde, stellen
@@ -4854,7 +4851,7 @@ Durchfahrtsperre
 Laages
 Grenache
 Computer-Direktversender
-Brasilien-Fans
+Brasilien, Fans
 Bank, werten
 BVG-Vertrag
 Kobjoll
@@ -4866,14 +4863,14 @@ Grund, recht, normen
 Wurst, preise
 Sanktion, front
 Eggersglüss
-Nationalbewußtseins
+National, bewußtseins
 Strauß, Freund
 Görnitz
 Sinnieren
 Kurden, revolte
 Gamboy
 Alten, heime
-Zweiwochentakt
+Zwei, wochen, takt
 Axiom
 Abrechnung, möglichkeit
 Tresen, lesen
@@ -4883,7 +4880,7 @@ Anklage, erhebungen
 Horka
 Heijmans-Vorstandschef
 Rekord, programm
-Gedenkveranstaltung
+Gedenk, veranstaltung
 Auflagen, bilanz
 Kapital, schnitte
 Weltklasse, teams
@@ -4928,7 +4925,7 @@ SPD-Stadträte
 Test, esser
 Schnee, dorf
 Leitwerks
-Zwei-Mann-Show
+Zwei, Mann, Show
 Z-Teilchen
 Gips, produkten
 Gebäude
@@ -4944,7 +4941,7 @@ Olweus
 Marne-Schlacht
 Verfolgens
 Matham
-Terroristen-Prozess
+Terroristen, Prozess
 Yezide
 Kriegsdienstverweigerern
 BERGE, MANN

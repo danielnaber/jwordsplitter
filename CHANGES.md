@@ -4,7 +4,11 @@ jWordSplitter Change Log
 ### 2015-xx-yy (4.0-dev)
 * moved classes to package `de.danielnaber.jwordsplitter`
 * rewrote algorithm to make it simpler, slightly faster and more correct:
-    it now always returns the longest match
+  it now always returns the longest match
+* dictionary update
+* internal: binary dictionary not part of repository anymore. The
+  source files are in the repository now and everything can be built
+  with `build.sh`.
 
 ### 2012-09-24 (3.4):
 * Important note for users who extend AbstractWordSplitter:
