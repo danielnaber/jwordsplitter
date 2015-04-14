@@ -100,7 +100,9 @@
         <configuration>
           <excludes>
             <!-- the data is in the binary dict, including the text would only make the JAR bigger: -->
-            <exclude>**/de/danielnaber/jwordsplitter/*.txt</exclude>
+            <exclude>**/de/danielnaber/jwordsplitter/additions.txt</exclude>
+            <exclude>**/de/danielnaber/jwordsplitter/germanPrefixes.txt</exclude>
+            <exclude>**/de/danielnaber/jwordsplitter/languagetool-dict.txt</exclude>
           </excludes>
           <archive>
             <manifest>
