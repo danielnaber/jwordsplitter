@@ -30,8 +30,7 @@ public abstract class BaseTest extends TestCase {
 
     @Override
     public void setUp() throws IOException {
-        final InputStream is = BaseTest.class.getResourceAsStream(getDictionaryFile());
-        try {
+        try (InputStream is = BaseTest.class.getResourceAsStream(getDictionaryFile())) {
             if (is == null) {
                 throw new RuntimeException("Could not load " + getDictionaryFile() + " from classpath");
             }
@@ -41,8 +40,6 @@ public abstract class BaseTest extends TestCase {
                  OutputStreamWriter osw = new OutputStreamWriter(fos, "utf-8")) {
                 osw.write(lexicon);
             }
-        } finally {
-            if (is != null) { is.close(); }
         }
     }
 
