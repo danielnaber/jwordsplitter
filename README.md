@@ -31,8 +31,5 @@ moving to git), check it out from SVN at http://sourceforge.net/p/jwordsplitter/
 
 ### TODO
 
-* keep the plain text dict in git, not the binary one; build binary only for release
-* build the dictionary from Morphy data
-    * extend list of exceptions (`exceptionsGerman.txt`, `GermanInterfixDisambiguator.java`)
-    * API: return `null` if a word isn't known at all, return the word itself
-      if it is not a compound?
+* API: return `null` if a word isn't known at all, return the word itself
+  if it is not a compound?
