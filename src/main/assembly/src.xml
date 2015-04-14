@@ -19,11 +19,11 @@
 
   <files>
     <file>
-      <source>README.txt</source>
+      <source>README.md</source>
       <outputDirectory>/</outputDirectory>
     </file>
     <file>
-      <source>CHANGES.txt</source>
+      <source>CHANGES.md</source>
       <outputDirectory>/</outputDirectory>
     </file>
     <file>
