@@ -110,6 +110,7 @@
         </configuration>
       </plugin>
 
+      <!-- commented out so we can run 'mvn install' locally: 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
@@ -123,7 +124,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
+      </plugin>-->
 
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
