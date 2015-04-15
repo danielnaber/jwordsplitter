@@ -19,7 +19,7 @@ import de.danielnaber.jwordsplitter.tools.FileTools;
 import junit.framework.TestCase;
 
 import java.io.*;
-import java.util.Collection;
+import java.util.List;
 
 public abstract class BaseTest extends TestCase {
 
@@ -52,7 +52,7 @@ public abstract class BaseTest extends TestCase {
     }
 
     protected void expect(String expected, String input) {
-        final Collection<String> result = splitter.splitWord(input);
+        final List<String> result = splitter.splitWord(input);
         assertEquals(expected, result.toString());
     }
 

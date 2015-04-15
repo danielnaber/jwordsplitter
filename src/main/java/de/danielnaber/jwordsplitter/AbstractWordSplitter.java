@@ -187,23 +187,23 @@ public abstract class AbstractWordSplitter {
         if (word == null) {
             return Collections.emptyList();
         }
-        final String trimmedWord = word.trim();
-        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(trimmedWord);
+        String trimmedWord = word.trim();
+        List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(trimmedWord);
         if (exceptionSplit != null) {
             return exceptionSplit;
         }
-        final List<String> parts = split(trimmedWord, false);
+        List<String> parts = split(trimmedWord, false);
         if (parts == null) {
             return Collections.singletonList(trimmedWord);
         }
-        final List<String> disambiguatedParts = getDisambiguator().disambiguate(parts);
+        List<String> disambiguatedParts = getDisambiguator().disambiguate(parts);
         cleanLeadingAndTrailingHyphens(disambiguatedParts);
         return disambiguatedParts;
     }
 
     private void cleanLeadingAndTrailingHyphens(List<String> disambiguatedParts) {
         for (int i = 0; i < disambiguatedParts.size(); i++) {
-            final String element = disambiguatedParts.get(i);
+            String element = disambiguatedParts.get(i);
             if (element.startsWith("-")) {
                 disambiguatedParts.set(i, element.substring(1));
             }
@@ -215,10 +215,10 @@ public abstract class AbstractWordSplitter {
 
     private List<String> split(String word, boolean allowInterfixRemoval) {
         List<String> parts;
-        final String lcWord = word.toLowerCase();
-        final String removableInterfix = findInterfixOrNull(lcWord);
-        final String wordWithoutInterfix = removeInterfix(word, removableInterfix);
-        final boolean canInterfixBeRemoved = removableInterfix != null && allowInterfixRemoval;
+        String lcWord = word.toLowerCase();
+        String removableInterfix = findInterfixOrNull(lcWord);
+        String wordWithoutInterfix = removeInterfix(word, removableInterfix);
+        boolean canInterfixBeRemoved = removableInterfix != null && allowInterfixRemoval;
         if (isSimpleWord(word)) {
             parts = Collections.singletonList(word);
         } else if (canInterfixBeRemoved && isSimpleWord(wordWithoutInterfix)) {
@@ -242,18 +242,18 @@ public abstract class AbstractWordSplitter {
     private List<String> splitFromRight(String word) {
         List<String> parts = null;
         for (int i = word.length() - minimumWordLength; i >= minimumWordLength; i--) {
-            final String leftPart = word.substring(0, i);
-            final String rightPart = word.substring(i);
+            String leftPart = word.substring(0, i);
+            String rightPart = word.substring(i);
             //System.out.println(word  + " -> " + leftPart + " + " + rightPart);
             if (!strictMode) {
-                final List<String> exceptionSplit = getExceptionSplitOrNull(rightPart, leftPart);
+                List<String> exceptionSplit = getExceptionSplitOrNull(rightPart, leftPart);
                 if (exceptionSplit != null) {
                     return exceptionSplit;
                 }
             }
             if (isSimpleWord(rightPart)) {
-                final List<String> leftPartParts = split(leftPart, true);
-                final boolean isLeftPartAWord = leftPartParts != null;
+                List<String> leftPartParts = split(leftPart, true);
+                boolean isLeftPartAWord = leftPartParts != null;
                 if (isLeftPartAWord) {
                     parts = new ArrayList<>(leftPartParts);
                     parts.add(rightPart);
@@ -270,16 +270,16 @@ public abstract class AbstractWordSplitter {
     }
 
     private List<String> getExceptionSplitOrNull(String rightPart, String leftPart) {
-        final List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(rightPart);
+        List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(rightPart);
         if (exceptionSplit != null) {
-            final List<String> parts = new ArrayList<>();
+            List<String> parts = new ArrayList<>();
             parts.add(leftPart);
             parts.addAll(exceptionSplit);
             return parts;
         }
-        final List<String> exceptionSplit2 = exceptionSplits.getExceptionSplitOrNull(leftPart);
+        List<String> exceptionSplit2 = exceptionSplits.getExceptionSplitOrNull(leftPart);
         if (exceptionSplit2 != null) {
-            final List<String> parts = new ArrayList<>();
+            List<String> parts = new ArrayList<>();
             parts.addAll(exceptionSplit2);
             parts.add(rightPart);
             return parts;
@@ -288,8 +288,8 @@ public abstract class AbstractWordSplitter {
     }
 
     private String findInterfixOrNull(String word) {
-        final Collection<String> interfixes = getInterfixCharacters();
-        final String lcWord = word.toLowerCase();
+        Collection<String> interfixes = getInterfixCharacters();
+        String lcWord = word.toLowerCase();
         for (String interfix : interfixes) {
             if (lcWord.endsWith(interfix)) {
                 return interfix;
@@ -299,7 +299,7 @@ public abstract class AbstractWordSplitter {
     }
 
     private boolean endsWithInterfix(String word) {
-        final Collection<String> interfixes = getInterfixCharacters();
+        Collection<String> interfixes = getInterfixCharacters();
         for (String interfix : interfixes) {
             if (word.endsWith(interfix)) {
                 return true;

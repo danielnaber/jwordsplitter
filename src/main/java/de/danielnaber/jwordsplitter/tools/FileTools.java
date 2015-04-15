@@ -36,7 +36,7 @@ public final class FileTools
      * Load a file and return each line, lowercased, as an entry in a HashSet.
      */
     public static Set<String> loadFileToSet(InputStream is, String charset) throws IOException {
-        final HashSet<String> words = new HashSet<>();
+        Set<String> words = new HashSet<>();
         try (InputStreamReader isr = new InputStreamReader(is, charset);
              BufferedReader br = new BufferedReader(isr)
             ) {

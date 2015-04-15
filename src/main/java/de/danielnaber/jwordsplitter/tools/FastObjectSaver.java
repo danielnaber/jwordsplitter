@@ -34,7 +34,7 @@ public final class FastObjectSaver {
      *     private static final long serialVersionUID = 1L;
      */
     public static void saveToFile(File file, Serializable serializableObject) throws IOException {
-        final FileOutputStream fos = new FileOutputStream(file);
+        FileOutputStream fos = new FileOutputStream(file);
         try (ObjectOutputStream oos = new ObjectOutputStream(fos)) {
             oos.writeObject(serializableObject);
         }
@@ -45,7 +45,7 @@ public final class FastObjectSaver {
      * @param filenameInClassPath a plain text dictionary file in the classpath
      */
     public static Object load(String filenameInClassPath) throws IOException {
-        final InputStream is = FastObjectSaver.class.getResourceAsStream(filenameInClassPath);
+        InputStream is = FastObjectSaver.class.getResourceAsStream(filenameInClassPath);
         if (is == null) {
             throw new IOException("Cannot find dictionary in class path: " + filenameInClassPath);
         }

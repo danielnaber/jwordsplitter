@@ -36,14 +36,14 @@ class ExceptionSplits {
             if (is == null) {
                 throw new IOException("Cannot locate exception list in class path: " + filename);
             }
-            final String exceptions = FileTools.loadFile(is, "UTF-8");
+            String exceptions = FileTools.loadFile(is, "UTF-8");
             try (Scanner scanner = new Scanner(exceptions)) {
                 while (scanner.hasNextLine()) {
-                    final String line = scanner.nextLine().trim();
+                    String line = scanner.nextLine().trim();
                     if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
-                        final String[] parts = line.split("\\|");
-                        final String completeWord = line.replace(DELIMITER_CHAR, "");
-                        final List<String> list = new ArrayList<>(Arrays.asList(parts));
+                        String[] parts = line.split("\\|");
+                        String completeWord = line.replace(DELIMITER_CHAR, "");
+                        List<String> list = new ArrayList<>(Arrays.asList(parts));
                         exceptionMap.put(completeWord.toLowerCase(), list);
                     }
                 }

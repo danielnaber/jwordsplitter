@@ -16,7 +16,7 @@
 package de.danielnaber.jwordsplitter;
 
 import java.io.IOException;
-import java.util.Collection;
+import java.util.List;
 
 /**
  * A very simple example of how to use jWordSplitter.
@@ -31,7 +31,7 @@ final class Example {
         GermanWordSplitter splitter = new GermanWordSplitter(true);
         splitter.setMinimumWordLength(3);
         splitter.setStrictMode(true);
-        Collection<String> parts = splitter.splitWord("Bahnhofsuhr");
+        List<String> parts = splitter.splitWord("Bahnhofsuhr");
         System.out.println(parts);
     }
 

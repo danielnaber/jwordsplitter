@@ -28,6 +28,7 @@ import java.util.Set;
 class GermanInterfixDisambiguator {
 
     private static final Set<String> wordsRequiringInfixS = new HashSet<>();
+    
     private final Set<String> dictionary;
 
     static {
@@ -44,13 +45,13 @@ class GermanInterfixDisambiguator {
     // tau vs. stau
 
     List<String> disambiguate(List<String> parts) {
-        final List<String> newParts = new ArrayList<>(parts);
+        List<String> newParts = new ArrayList<>(parts);
         for (int i = newParts.size() - 1; i >= 2; i--) {
-            final String part = newParts.get(i);
-            final String prevPart = newParts.get(i - 1);
-            final String prevPrevPart = newParts.get(i - 2);
+            String part = newParts.get(i);
+            String prevPart = newParts.get(i - 1);
+            String prevPrevPart = newParts.get(i - 2);
             if (prevPart.equals("s")) {
-                final boolean partIsWord = isWord("s" + part);
+                boolean partIsWord = isWord("s" + part);
                 if (partIsWord && !wordsRequiringInfixS.contains(prevPrevPart)) {
                     // Wein+s+orte = Wein-sorte
                     newParts.set(i, "s" + part);

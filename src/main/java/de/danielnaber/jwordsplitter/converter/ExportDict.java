@@ -37,9 +37,9 @@ public final class ExportDict {
             System.out.println("  <file in JAR> is for example /de/danielnaber/jwordsplitter/wordsGerman.ser");
             System.exit(1);
         }
-        final String filename = args[0];
-        final Object obj = FastObjectSaver.load(filename);
-        final Set<String> words = (HashSet<String>) obj;
+        String filename = args[0];
+        Object obj = FastObjectSaver.load(filename);
+        Set<String> words = (HashSet<String>) obj;
         for (String word : words) {
             System.out.println(word);
         }

@@ -33,7 +33,7 @@ public final class SerializeDict {
     }
 
     private static HashSet<String> getFileContents(File file) throws IOException {
-        final HashSet<String> lines = new HashSet<>();
+        HashSet<String> lines = new HashSet<>();
         try (Scanner scanner = new Scanner(file)) {
             while (scanner.hasNextLine()) {
                 lines.add(scanner.nextLine());
@@ -53,8 +53,8 @@ public final class SerializeDict {
             System.exit(1);
         }
         System.out.println("Reading " + args[0] + "...");
-        final HashSet<String> wordSet = getFileContents(new File(args[0]));
-        final File outputFile = new File(args[1]);
+        HashSet<String> wordSet = getFileContents(new File(args[0]));
+        File outputFile = new File(args[1]);
         System.out.println("Saving " + outputFile + "...");
         FastObjectSaver.saveToFile(outputFile, wordSet);
         System.out.println("Done.");
