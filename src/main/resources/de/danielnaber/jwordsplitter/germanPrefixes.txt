@@ -83,3 +83,5 @@ polar
 werbe
 schreib
 sanitär
+rechtschreib
+lese

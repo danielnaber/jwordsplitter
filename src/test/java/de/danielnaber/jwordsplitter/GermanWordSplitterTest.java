@@ -20,6 +20,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 public class GermanWordSplitterTest extends BaseTest {
 
@@ -33,6 +37,37 @@ public class GermanWordSplitterTest extends BaseTest {
             splitter = new GermanWordSplitter(true, fis);
             strictModeBaseChecks();
         }
+    }
+
+    public void testGetAllSplits() throws IOException {
+        try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
+            splitter = new GermanWordSplitter(true, fis);
+            splitter.setStrictMode(false);
+
+            testAllSplits("Klumaflaschenstörung", "[[Klumaflaschen, störung], [Kluma, flaschen, störung]]");
+            testAllSplits("Klimaflischenstörung", "[[Klima, flischenstörung], [Klima, flischen, störung], [Klimaflischen, störung]]");
+            testAllSplits("Klimaflaschenstirung", "[[Klima, flaschenstirung], [Klima, flasche, nstirung], [Klima, flaschen, stirung]]");
+
+            testAllSplits("Hxusverhaltenflügel", "[[Hxusverhalten, flügel], [Hxus, verhalten, flügel]]");
+            testAllSplits("Hausvxrhaltenflügel", "[[Haus, vxrhaltenflügel], [Haus, vxrhalten, flügel], [Hausvxrhalten, flügel]]");
+            testAllSplits("Hausverhaltenflüxel", "[[Haus, verhaltenflüxel], [Haus, verhalten, flüxel]]");
+            
+            testAllSplits("Hauxverhaltensflügel", "[[Hauxverhaltens, flügel], [Haux, verhaltens, flügel]]");
+            testAllSplits("Hausverhalxensflügel", "[[Haus, verhalxensflügel], [Haus, verhalxens, flügel], [Hausverhalxens, flügel]]");
+            testAllSplits("Hausverhaltensflügex", "[[Haus, verhaltensflügex], [Haus, verhalten, sflügex], [Haus, verhaltens, flügex]]");
+            
+            testAllSplits("Verhaltens-Flügex", "[[Verhalten, s-Flügex], [Verhaltens, -Flügex]]");
+            testAllSplits("Hausverhaltens-Flügex", "[[Haus, verhaltens-Flügex], [Haus, verhalten, s-Flügex], [Haus, verhaltens, -Flügex]]");
+
+            // for debugging:
+            //List<AbstractWordSplitter.Split> result = splitter.getAllSplits("Hausverhaltensflügex", true);  // also with false
+            //System.out.println(result);
+        }
+    }
+
+    private void testAllSplits(String input, String expected) {
+        List<List<String>> result = splitter.getAllSplits(input);
+        assertThat(result.toString(), is(expected));
     }
 
     public void testFileDictConstructor() throws IOException {
@@ -49,10 +84,10 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[xyz]", "xyz");
         expect("[Verhalten]", "Verhalten");
         expect("[Verhalten, störung]", "Verhaltenstörung");
-        expect("[Verhalten, störung]", "Verhaltensstörung");
+        expect("[Verhaltens, störung]", "Verhaltensstörung");
         expect("[Verhaltenxstörung]", "Verhaltenxstörung");
-        expect("[Verhalten, haus]", "Verhaltenshaus");
-        expect("[Verhalten, haus, störung]", "Verhaltenshausstörung");
+        expect("[Verhaltens, haus]", "Verhaltenshaus");
+        expect("[Verhaltens, haus, störung]", "Verhaltenshausstörung");
         expect("[Abend, haus]", "Abendhaus");
         expect("[Abend, haus, störung]", "Abendhausstörung");
         // just from special test file:
@@ -87,8 +122,8 @@ public class GermanWordSplitterTest extends BaseTest {
     public void testWrongCase() throws IOException {
         splitter = new GermanWordSplitter(true, tmpLexiconFile);
         // words with wrong case are also split up:
-        expect("[VERHALTEN, STÖRUNG]", "VERHALTENSSTÖRUNG");
-        expect("[verhalten, störung]", "verhaltensstörung");
+        expect("[VERHALTENS, STÖRUNG]", "VERHALTENSSTÖRUNG");
+        expect("[verhaltens, störung]", "verhaltensstörung");
     }
 
     public void testWithConnectionCharacter() throws IOException {

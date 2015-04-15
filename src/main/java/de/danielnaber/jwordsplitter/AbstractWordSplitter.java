@@ -125,6 +125,68 @@ public abstract class AbstractWordSplitter {
         this.strictMode = strictMode;
     }
 
+    /**
+     * Experimental: Split a word with unknown parts, typically because one part
+     * has a typo. This could be used to split three-part compounds where one
+     * part has a typo (the caller is then responsible for making useful corrections
+     * out of these parts).
+     * @since 4.0
+     */
+    public List<List<String>> getAllSplits(String word) {
+        List<List<String>> result1 = getAllSplits(word, true);
+        List<List<String>> result2 = getAllSplits(word, false);
+        List<List<String>> result = new ArrayList<>(result1);
+        for (List<String> split : result2) {
+            if (!result.contains(split)) {
+                result.add(split);
+            }
+        }
+        return result;
+    }
+
+    List<List<String>> getAllSplits(String word, boolean fromLeft) {
+        List<List<String>> result = new ArrayList<>();
+        int start = fromLeft ? minimumWordLength : word.length() - minimumWordLength;
+        for (int i = start; isEnd(fromLeft, i, word);) {
+            String left = word.substring(0, i);
+            String right = word.substring(i, word.length());
+            String relevantWord = fromLeft ? left : right;
+            boolean isSimpleWord = isSimpleWord(relevantWord);
+            //System.out.println(i + ". " + left + " " + right + " -> " + relevantWord + " " + (isSimpleWord ? "***" : ""));
+            if (isSimpleWord) {
+                result.add(Arrays.asList(left, right));
+                List<List<String>> otherSplits = getAllSplits(fromLeft ? right : left);
+                if (otherSplits.size() > 0) {
+                    for (List<String> otherSplit : otherSplits) {
+                        List<String> sub = new ArrayList<>();
+                        if (fromLeft) {
+                            sub.add(left);
+                            sub.addAll(otherSplit);
+                        } else {
+                            sub.addAll(otherSplit);
+                            sub.add(right);
+                        }
+                        result.add(new ArrayList<>(sub));
+                    }
+                }
+            }
+            i = fromLeft ? i + 1 : i - 1;
+        }
+        return result;
+    }
+
+    private boolean isEnd(boolean fromLeft, int i, String word) {
+        if (fromLeft) {
+            return i < word.length() - minimumWordLength;
+        } else {
+            return i > 0;
+        }
+    }
+
+    /**
+     * @return a list of compound parts, with one element (the input word itself) if the input
+     *   could not be split; returns an empty list if the input is {@code null}
+     */
     public List<String> splitWord(String word) {
         if (word == null) {
             return Collections.emptyList();
