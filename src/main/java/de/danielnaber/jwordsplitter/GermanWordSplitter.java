@@ -43,10 +43,6 @@ public class GermanWordSplitter extends AbstractWordSplitter {
     static {
         IGNORED_PARTS.add("richten");
     }
-    private static final Set<String> ADDED_PARTS = new HashSet<>();
-    static {
-        ADDED_PARTS.add("sozial");
-    }
 
     private GermanInterfixDisambiguator disambiguator;
 
@@ -80,7 +76,6 @@ public class GermanWordSplitter extends AbstractWordSplitter {
         if (words == null) {
             words = (HashSet<String>) FastObjectSaver.load(SERIALIZED_DICT);
         }
-        words.addAll(ADDED_PARTS);
         words.removeAll(IGNORED_PARTS);
         return words;
     }
