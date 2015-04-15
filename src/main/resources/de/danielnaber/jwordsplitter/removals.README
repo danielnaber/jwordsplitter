@@ -1,0 +1,2 @@
+`removals.txt` is a list of regular expressions to be removed from languagetool-dict.txt
+before the binary dictionary is built. It is used from build.sh.

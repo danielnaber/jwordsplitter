@@ -12,7 +12,7 @@ echo "Removing $RESOURCES/all-words.txt"
 rm $ALL_WORDS
 
 mvn clean package -DskipTests
-cat $RESOURCES/additions.txt $RESOURCES/germanPrefixes.txt $RESOURCES/languagetool-dict.txt >$ALL_WORDS
+grep -v -f $RESOURCES/removals.txt $RESOURCES/languagetool-dict.txt | cat - $RESOURCES/additions.txt $RESOURCES/germanPrefixes.txt >$ALL_WORDS
 java -cp target/jwordsplitter-*-SNAPSHOT.jar de.danielnaber.jwordsplitter.converter.SerializeDict $ALL_WORDS $BIN_FILE
 
 rm $ALL_WORDS

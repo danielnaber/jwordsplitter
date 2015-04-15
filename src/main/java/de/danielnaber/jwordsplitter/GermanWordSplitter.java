@@ -37,13 +37,6 @@ public class GermanWordSplitter extends AbstractWordSplitter {
             "s",
             "-");
 
-    // Add some exceptions so we can easily add terms without re-building the binary dictionary:
-    // TODO: remove once we keep the
-    private static final Set<String> IGNORED_PARTS = new HashSet<>();
-    static {
-        IGNORED_PARTS.add("richten");
-    }
-
     private GermanInterfixDisambiguator disambiguator;
 
     public GermanWordSplitter(boolean hideInterfixCharacters) throws IOException {
@@ -76,7 +69,6 @@ public class GermanWordSplitter extends AbstractWordSplitter {
         if (words == null) {
             words = (HashSet<String>) FastObjectSaver.load(SERIALIZED_DICT);
         }
-        words.removeAll(IGNORED_PARTS);
         return words;
     }
 
