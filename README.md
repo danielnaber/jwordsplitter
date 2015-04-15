@@ -12,7 +12,27 @@ all languages, as long as a dictionary and a class extending `AbstractWordSplitt
 is provided. So far, only German is supported and a German dictionary is included
 in the JAR.
 
-#### Usage
+#### Usage from Java
+
+Use this dependency:
+
+```xml
+<dependency>
+    <groupId>de.abelssoft</groupId>
+    <artifactId>jwordsplitter</artifactId>
+    <version>3.4</version>
+</dependency>
+```
+    
+Example call:
+
+```java
+AbstractWordSplitter splitter = new GermanWordSplitter(true);
+List<String> parts = splitter.splitWord("Versuchsreihe");
+System.out.println(parts);    // prints: [Versuchs, reihe]
+```
+
+#### Usage from Command Line
 
 To split a list of words (one word per line), use this command:
 
