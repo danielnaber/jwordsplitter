@@ -15,7 +15,7 @@
  */
 package de.danielnaber.jwordsplitter;
 
-import junit.framework.TestCase;
+import org.junit.Test;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -24,13 +24,16 @@ import java.io.InputStream;
 import java.util.Collection;
 import java.util.Scanner;
 
-public class GermanRegressionTest extends TestCase {
+import static junit.framework.TestCase.fail;
+
+public class GermanRegressionTest {
 
     private static final String TEST_FILE = "/de/danielnaber/jwordsplitter/test-de-large.txt";
     private static final boolean WRITE_FILE = false;
 
     private File tempFile;
 
+    @Test
     public void testLargeFile() throws IOException {
         final AbstractWordSplitter splitter = new GermanWordSplitter(true);
         splitter.setStrictMode(true);
