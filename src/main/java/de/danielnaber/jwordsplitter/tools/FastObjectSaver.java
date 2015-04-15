@@ -32,7 +32,6 @@ public final class FastObjectSaver {
     /**
      * Stores serializable objects. IMPORTANT: THOSE OBJECTS SHOULD HAVE A serialVersionUID!
      *     private static final long serialVersionUID = 1L;
-     * @throws IOException
      */
     public static void saveToFile(File file, Serializable serializableObject) throws IOException {
         final FileOutputStream fos = new FileOutputStream(file);
@@ -44,7 +43,6 @@ public final class FastObjectSaver {
     /**
      * Load a serialized dictionary.
      * @param filenameInClassPath a plain text dictionary file in the classpath
-     * @throws IOException
      */
     public static Object load(String filenameInClassPath) throws IOException {
         final InputStream is = FastObjectSaver.class.getResourceAsStream(filenameInClassPath);

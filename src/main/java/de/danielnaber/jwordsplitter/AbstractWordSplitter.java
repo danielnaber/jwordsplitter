@@ -58,7 +58,6 @@ public abstract class AbstractWordSplitter {
      *
      * @param hideInterfixCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
-     * @throws IOException
      */
     public AbstractWordSplitter(boolean hideInterfixCharacters) throws IOException {
         this.hideInterfixCharacters = hideInterfixCharacters;
@@ -70,7 +69,6 @@ public abstract class AbstractWordSplitter {
      *  the connecting character (a.k.a. interfix)
      * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
      *                       must be in UTF-8 format
-     * @throws IOException
      */
     public AbstractWordSplitter(boolean hideInterfixCharacters, InputStream plainTextDict) throws IOException {
         this.hideInterfixCharacters = hideInterfixCharacters;
@@ -82,7 +80,6 @@ public abstract class AbstractWordSplitter {
      *  the connecting character (a.k.a. interfix)
      * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
      *                       must be in UTF-8 format
-     * @throws IOException
      */
     public AbstractWordSplitter(boolean hideInterfixCharacters, File plainTextDict) throws IOException {
         this.hideInterfixCharacters = hideInterfixCharacters;
@@ -102,7 +99,6 @@ public abstract class AbstractWordSplitter {
     /**
      * @param filename UTF-8 encoded file with exceptions in the classpath, one exception per line, using pipe as delimiter.
      *   Example: <tt>Pilot|sendung</tt>
-     * @throws IOException
      */
     public void setExceptionFile(String filename) throws IOException {
         exceptionSplits = new ExceptionSplits(filename);
