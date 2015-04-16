@@ -1,5 +1,7 @@
 # List of words that jwordsplitter would otherwise split incorrectly.
 # Use the pipe symbol (|) to mark the correct place to split the word.
+Brutto|renten|niveau
+Brutto|renten|niveaus
 Sünder|ecke
 Abteil|ende
 Außen|stürmer
