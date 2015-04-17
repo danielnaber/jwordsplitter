@@ -94,6 +94,13 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Krawehl, pusselsumm]", "Krawehlpusselsumm");
     }
 
+    public void testInterfix() throws IOException {
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
+        // 'Störungs' doesn't exist, so the 's' is an interfix:
+        expect("[Störung, flügel]", "Störungsflügel");
+        expect("[Störung, haus]", "Störungshaus");
+    }
+
     public void testStrictMode() throws IOException {
         splitter = new GermanWordSplitter(true, tmpLexiconFile);
         expect("[Wirtstierspezies]", "Wirtstierspezies");
