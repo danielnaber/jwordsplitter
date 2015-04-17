@@ -231,7 +231,7 @@ public abstract class AbstractWordSplitter {
             parts = splitFromRight(word);
             if (parts == null && endsWithInterfix(lcWord)) {
                 parts = splitFromRight(wordWithoutInterfix);
-                if (parts != null) {
+                if (parts != null && !hideInterfixCharacters) {
                     parts.add(removableInterfix);
                 }
             }

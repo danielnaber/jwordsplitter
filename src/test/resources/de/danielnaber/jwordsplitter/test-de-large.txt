@@ -1823,7 +1823,7 @@ Emmelshausen
 Grabungszeit
 Bäckegren
 Nordsee, bäder, Verband
-Hoch, leistungs, kühe
+Hoch, leistung, kühe
 Deutschheit
 Umwelt, schutz, aktionen
 SMS-Sucht
@@ -4760,7 +4760,7 @@ Schlimmre
 Schulstadt
 Tennis-Historie
 Miniussi
-Wieder, einbürgerungs, projekt
+Wieder, einbürgerung, projekt
 Lissat
 Osterdebatte
 Minkwalen

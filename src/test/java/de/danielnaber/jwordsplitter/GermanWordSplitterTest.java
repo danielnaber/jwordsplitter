@@ -180,6 +180,15 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Störungs, störungs, störung]", "Störungsstörungsstörung");
     }
 
+    public void testLongerWordsHideInterfix() throws IOException {
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
+        expect("[Sauerstoff, flaschen, störung, verhalten]", "Sauerstoffflaschenstörungsverhalten");
+        expect("[Sauerstoff, sauerstoff]", "Sauerstoffsauerstoff");
+        expect("[Sauerstoff, sauerstoff, sauerstoff]", "Sauerstoffsauerstoffsauerstoff");
+        expect("[Störung, störung]", "Störungsstörung");
+        expect("[Störung, störung, störung]", "Störungsstörungsstörung");
+    }
+
     public void testExceptionsWithEmbeddedDict() throws IOException {
         splitter = new GermanWordSplitter(false);
         expect("[Sünder, ecke]", "Sünderecke");
