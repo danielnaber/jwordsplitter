@@ -98,3 +98,10 @@ lang
 kurz
 maximal
 minimal
+natural
+probier
+probe
+universal
+zweit
+dritt
+viert

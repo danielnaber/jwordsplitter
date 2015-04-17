@@ -1601,7 +1601,7 @@ Neithardts
 Tunnel, Bahnhofs
 SIPA
 Gierck
-Universalkirche
+Universal, kirche
 Pflanzen, hormone
 Dax-Jäger
 Grenz, wissenschaft
@@ -1787,7 +1787,7 @@ Ball, haus, atmosphäre
 Internet-Vision
 Subunternehmers
 Entziehungstherapie
-Auslieferungsfahrer
+Auslieferung, fahrer
 Huno
 Schicht
 Mayinger
@@ -2471,7 +2471,7 @@ Sacki
 ZDF-Kameras
 Information, punkt
 Knochen, apparat
-Buch, rest, aura, toren
+Buch, restauratoren
 Bunde, tags, mitarbeitern
 Petraroia
 Auto, reparatur, werkstätten
@@ -2860,7 +2860,7 @@ Kio-Gruppe
 Wechselkursbedingt
 Protestierer
 Raum, volumen
-Auslieferungsliste
+Auslieferung, liste
 Adressen, system
 Jacquets
 Edel-Helfer
@@ -3257,7 +3257,7 @@ Stevan
 VIAG-Konzerns
 Kleider, stangen
 Produktion, teams
-Drittrundenmatch
+Dritt, runden, match
 Dementierens
 Losbuden
 GILT-Test
@@ -4029,7 +4029,7 @@ Spitzengewerkschaftler
 Kaiserkron
 Abokurve
 Rücktritt, rechte
-Zweitliga-Spitzenspiel
+Zweit, liga, spitzen, spiel
 Hewlet
 Ober, mark
 Gewässer, untersuchungen
@@ -4778,7 +4778,7 @@ Dann
 Ziegel, reihen
 Richter, team
 Zustimmung, vorbehalte
-Personal-Notstand
+Personal, Notstand
 Pflicht, frage
 Bade, anzugs
 Parlament, präsident
