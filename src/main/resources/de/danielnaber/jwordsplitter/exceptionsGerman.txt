@@ -605,6 +605,11 @@ Artikulations|orte
 Pfeiler|hallen
 Einsteiger|spielen
 Renn|erfolge
+hinwegzu|gleiten
+Kurs|teile
+Kurs|teiles
+Kurs|teils
+Kurs|teilen
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige

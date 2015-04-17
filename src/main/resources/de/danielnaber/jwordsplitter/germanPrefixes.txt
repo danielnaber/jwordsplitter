@@ -90,3 +90,11 @@ allein
 anti
 bordstein
 boykott
+dreh
+fundamental
+einhalb
+horizontal
+lang
+kurz
+maximal
+minimal

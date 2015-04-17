@@ -678,7 +678,7 @@ Schariatmadari
 IATA-Chef
 Campiglia
 Commerson
-Minimalmedizin
+Minimal, medizin
 Bkz
 Hobers
 Rover-Problem
@@ -2412,7 +2412,7 @@ Wunderbarsten
 Kerlin
 Wähler, potentiale
 Sklaven, halters
-Strauchdieb
+Strauch, dieb
 Leistung, begriff
 Teleskop, brücken
 Dumisa
@@ -2424,7 +2424,7 @@ Obligo
 Fernseh, nachrichten, agentur
 Azarro
 WM-Triumph
-Kurzhaar-Schnitt
+Kurz, haar, Schnitt
 Drachen, vater
 Linsley
 Thillmann

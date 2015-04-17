@@ -1,3 +1,12 @@
 ^richten$
 ^altstadt$
 ^tun$
+^pak$
+^nein$
+^kriegspsychose$
+^Kühlwasser$
+^xis$
+^mys$
+^rho$
+^gel$
+^hilfsarbeiter$
