@@ -1,11 +1,12 @@
 # DO NOT MODIFY - automatically exported
 # Exporting class: org.languagetool.dev.ExportGermanNouns
-# Export date: Tue Apr 14 14:42:28 CEST 2015
+# Export date: Fri Apr 17 13:49:40 CEST 2015
 # LanguageTool: 3.0-SNAPSHOT (null)
 # Potential German compound parts.
 # Data from Morphy (http://www.wolfganglezius.de/doku.php?id=cl:morphy)
 # with extensions by LanguageTool (https://languagetool.org)
 # License: Creative Commons Attribution-Share Alike 4.0, http://creativecommons.org/licenses/by-sa/4.0/
+#trotz
 aachenerin
 aachenerinnen
 aal
@@ -117,6 +118,7 @@ abdampf
 abdampfe
 abdampfen
 abdampfens
+abdampfes
 abdampfs
 abdampfturbine
 abdampfturbinen
@@ -202,6 +204,8 @@ abfallen
 abfallens
 abfalles
 abfalls
+abfallwirtschaftsamt
+abfallwirtschaftsamtes
 abfangen
 abfangens
 abfassen
@@ -324,6 +328,7 @@ abgrenzens
 abgrenzung
 abgrund
 abgrunde
+abgrundes
 abgrunds
 abgrätschen
 abgrätschens
@@ -379,6 +384,8 @@ abholzung
 abholzungen
 abhorchen
 abhorchens
+abhänge
+abhängen
 abhängen
 abhängens
 abhängige
@@ -394,6 +401,7 @@ abhörens
 abhörgerät
 abhörgeräte
 abhörgeräten
+abhörgerätes
 abhörgeräts
 abi
 abiogenese
@@ -507,6 +515,7 @@ ablaktierens
 ablassbrief
 ablassbriefe
 ablassbriefen
+ablassbriefes
 ablassbriefs
 ablassen
 ablassens
@@ -545,6 +554,8 @@ ableisten
 ableistens
 ableiten
 ableitens
+ableitung
+ableitungen
 ablenken
 ablenkens
 ablenkung
@@ -580,6 +591,7 @@ abmagerung
 abmalen
 abmalens
 abmarsch
+abmarsches
 abmarschieren
 abmarschierens
 abmarschs
@@ -624,6 +636,7 @@ abnutzung
 abnähen
 abnähens
 abonnement
+abonnementes
 abonnements
 abonnieren
 abonnierens
@@ -634,6 +647,7 @@ abordnungen
 abort
 aborte
 aborten
+abortes
 aborts
 abpassen
 abpassens
@@ -716,6 +730,7 @@ abruderns
 abruf
 abrufen
 abrufens
+abrufes
 abrufs
 abrunden
 abrundens
@@ -765,6 +780,7 @@ abschaltens
 abschauen
 abschauens
 abschaum
+abschaumes
 abschaums
 abscheiden
 abscheidens
@@ -787,6 +803,7 @@ abschiebungen
 abschied
 abschiede
 abschieden
+abschiedes
 abschieds
 abschiefern
 abschieferns
@@ -897,6 +914,7 @@ abschwirren
 abschwirrens
 abschwung
 abschwunge
+abschwunges
 abschwungs
 abschwächen
 abschwächens
@@ -1019,6 +1037,7 @@ abspritzen
 abspritzens
 absprung
 absprunge
+absprunges
 absprungs
 absprühen
 absprühens
@@ -1070,6 +1089,7 @@ abstellplätze
 abstellplätzen
 abstellraum
 abstellraume
+abstellraumes
 abstellraums
 abstellräume
 abstellräumen
@@ -1086,10 +1106,12 @@ absterbens
 abstich
 abstiche
 abstichen
+abstiches
 abstichs
 abstieg
 abstiege
 abstiegen
+abstieges
 abstiegs
 abstielen
 abstielens
@@ -1130,6 +1152,7 @@ abstreitens
 abstrich
 abstriche
 abstrichen
+abstriches
 abstrichs
 abströmen
 abströmens
@@ -1180,6 +1203,7 @@ abteil
 abteile
 abteilen
 abteilens
+abteiles
 abteils
 abteilung
 abteilungen
@@ -1192,6 +1216,7 @@ abtrag
 abtrage
 abtragen
 abtragens
+abtrages
 abtrags
 abtragung
 abtragungen
@@ -1215,12 +1240,14 @@ abtretungen
 abtrieb
 abtriebe
 abtrieben
+abtriebes
 abtriebs
 abtrinken
 abtrinkens
 abtritt
 abtritte
 abtritten
+abtrittes
 abtritts
 abtrocknen
 abtrocknens
@@ -1249,6 +1276,7 @@ aburteilung
 aburteilungen
 abverkauf
 abverkaufe
+abverkaufes
 abverkaufs
 abverkäufe
 abverkäufen
@@ -1324,6 +1352,7 @@ abwohnen
 abwohnens
 abwurf
 abwurfe
+abwurfes
 abwurfs
 abwägen
 abwägens
@@ -1423,6 +1452,8 @@ achtgeben
 achtgebens
 achtjährige
 achtjährigen
+achtjährigen
+achtjähriger
 achtklässlerin
 achtklässlerinnen
 achtpfünder
@@ -1470,6 +1501,7 @@ adern
 adjektiv
 adjektive
 adjektiven
+adjektives
 adjektivs
 adjunktion
 adjunktionen
@@ -1482,6 +1514,7 @@ adjutanten
 adjutor
 adjutore
 adjutoren
+adjutores
 adjutors
 adler
 adlern
@@ -1518,6 +1551,7 @@ adsorbierens
 adsorption
 adsorptionen
 advent
+adventes
 advents
 adynamie
 aerosol
@@ -1580,6 +1614,7 @@ agfa
 agglomerat
 agglomerate
 agglomeraten
+agglomerates
 agglomeration
 agglomerationen
 agglomerats
@@ -1592,6 +1627,7 @@ agglutinierens
 aggregat
 aggregate
 aggregaten
+aggregates
 aggregation
 aggregationen
 aggregats
@@ -1748,6 +1784,7 @@ aktionärinnen
 aktionärs
 aktivbestand
 aktivbestande
+aktivbestandes
 aktivbestands
 aktivbestände
 aktivbeständen
@@ -1757,6 +1794,7 @@ aktivbürgers
 aktivgeschäft
 aktivgeschäfte
 aktivgeschäften
+aktivgeschäftes
 aktivgeschäfts
 aktivieren
 aktivierens
@@ -1801,6 +1839,7 @@ akzelerators
 akzent
 akzente
 akzenten
+akzentes
 akzents
 akzentuieren
 akzentuierens
@@ -1833,6 +1872,9 @@ albaners
 albanien
 albaniens
 albas
+albatros
+albatrosse
+albatrossen
 alben
 alberei
 albereien
@@ -1870,12 +1912,14 @@ alimentation
 alkalimetall
 alkalimetalle
 alkalimetallen
+alkalimetalles
 alkalimetalls
 alkalisieren
 alkalisierens
 alkaloid
 alkaloide
 alkaloiden
+alkaloides
 alkaloids
 alkohol
 alkohole
@@ -1909,6 +1953,7 @@ alleinflüge
 alleinflügen
 alleingang
 alleingange
+alleinganges
 alleingangs
 alleingänge
 alleingängen
@@ -1956,6 +2001,7 @@ allgemeinbefinden
 allgemeinbefindens
 allgemeinbildung
 allgemeingut
+allgemeingutes
 allgemeinguts
 allgemeingültigkeit
 allgemeinheit
@@ -1998,6 +2044,7 @@ allophone
 allophonen
 allophons
 allradantrieb
+allradantriebes
 allradantriebs
 allroundspielerin
 allroundspielerinnen
@@ -2048,6 +2095,7 @@ altar
 altarbeitnehmerin
 altarbeitnehmerinnen
 altare
+altares
 altars
 altassistentin
 altassistentinnen
@@ -2076,6 +2124,7 @@ altersgrenzen
 altersstufe
 altersstufen
 altertum
+altertumes
 altertums
 altertumsexpertin
 altertumsexpertinnen
@@ -2176,6 +2225,7 @@ ammen
 ammer
 ammern
 ammoniak
+ammoniakes
 ammoniaks
 ammonit
 ammoniten
@@ -2205,6 +2255,7 @@ ampel
 ampelmast
 ampelmasten
 ampeln
+ampere
 ampere
 amperes
 ampfer
@@ -2254,6 +2305,7 @@ anagenesen
 anagramm
 anagramme
 anagrammen
+anagrammes
 anagramms
 anakonda
 anakondas
@@ -2361,6 +2413,7 @@ anblick
 anblicke
 anblicken
 anblickens
+anblickes
 anblicks
 anblinzeln
 anblinzelns
@@ -2416,6 +2469,7 @@ androhens
 andruck
 andrucke
 andrucken
+andruckes
 andruckkissen
 andruckkissens
 andrucks
@@ -2458,11 +2512,13 @@ anfall
 anfalle
 anfallen
 anfallens
+anfalles
 anfalls
 anfang
 anfange
 anfangen
 anfangens
+anfanges
 anfangs
 anfassen
 anfassens
@@ -2498,6 +2554,7 @@ anfliegen
 anfliegens
 anflug
 anfluge
+anfluges
 anflughöhe
 anflughöhen
 anflugs
@@ -2561,6 +2618,7 @@ angebindes
 angebot
 angebote
 angeboten
+angebotes
 angebots
 angehen
 angehens
@@ -2659,6 +2717,7 @@ anhalten
 anhaltens
 anhalterin
 anhalterinnen
+anhaltes
 anhalts
 anhang
 anhange
@@ -2689,6 +2748,7 @@ anheuerns
 anhieb
 anhiebe
 anhieben
+anhiebes
 anhiebs
 anhimmeln
 anhimmelns
@@ -2742,6 +2802,7 @@ ankauf
 ankaufe
 ankaufen
 ankaufens
+ankaufes
 ankaufs
 ankeilen
 ankeilens
@@ -2932,6 +2993,7 @@ anmarschierens
 anmarschweg
 anmarschwege
 anmarschwegen
+anmarschweges
 anmarschwegs
 anmaßen
 anmaßens
@@ -3064,6 +3126,7 @@ anrechnungen
 anrecht
 anrechte
 anrechten
+anrechtes
 anrechts
 anrede
 anredefürwort
@@ -3089,6 +3152,7 @@ anreichern
 anreicherns
 anreihen
 anreihens
+anreise
 anreisen
 anreisens
 anreiten
@@ -3123,6 +3187,7 @@ anruferin
 anruferinnen
 anrufern
 anrufers
+anrufes
 anrufs
 anrücken
 anrückens
@@ -3161,6 +3226,7 @@ anschauungen
 anschein
 anscheinen
 anscheinens
+anscheines
 anscheins
 anscheißen
 anscheißens
@@ -3214,6 +3280,7 @@ anschneidens
 anschnitt
 anschnitte
 anschnitten
+anschnittes
 anschnitts
 anschrauben
 anschraubens
@@ -3285,6 +3352,7 @@ anspitzens
 ansporn
 anspornen
 anspornens
+anspornes
 ansporns
 ansprache
 ansprachen
@@ -3320,6 +3388,10 @@ anstalt
 anstalten
 anstammen
 anstammens
+anstand
+anstande
+anstandes
+anstands
 anstandsdame
 anstandsdamen
 anstandslehrerin
@@ -3354,10 +3426,12 @@ ansteuerns
 anstich
 anstiche
 anstichen
+anstiches
 anstichs
 anstieg
 anstiege
 anstiegen
+anstieges
 anstiegs
 anstiften
 anstiftens
@@ -3389,7 +3463,10 @@ anstrengung
 anstrengungen
 ansturm
 ansturme
+ansturmes
 ansturms
+anstände
+anständen
 anstöße
 anstößen
 anstößigkeit
@@ -3419,6 +3496,7 @@ antastens
 anteil
 anteile
 anteilen
+anteiles
 anteils
 antenne
 antennen
@@ -3498,17 +3576,21 @@ antiteilchens
 antitoxin
 antitoxine
 antitoxinen
+antitoxines
 antitoxins
 antizipation
 antizipationen
 antizipieren
 antizipierens
+antlitz
+antlitzes
 antraben
 antrabens
 antrag
 antrage
 antragen
 antragens
+antrages
 antrags
 antragstellerin
 antragstellerinnen
@@ -3523,6 +3605,7 @@ antretens
 antrieb
 antriebe
 antrieben
+antriebes
 antriebs
 antriebsschwäche
 antriebswelle
@@ -3530,6 +3613,7 @@ antriebswellen
 antrinken
 antrinkens
 antritt
+antrittes
 antritts
 antrittsrede
 antrittsreden
@@ -3551,6 +3635,7 @@ anwachsen
 anwachsens
 anwalt
 anwalte
+anwaltes
 anwalts
 anwaltsassistentin
 anwaltsassistentinnen
@@ -3629,6 +3714,7 @@ anziehsache
 anziehsachen
 anzug
 anzuge
+anzuges
 anzugs
 anzweifeln
 anzweifelns
@@ -3646,6 +3732,7 @@ anödens
 aorist
 aoriste
 aoristen
+aoristes
 aorists
 apartheid
 apathie
@@ -3691,6 +3778,7 @@ apoplektikers
 apostat
 apostate
 apostaten
+apostates
 apostats
 apostel
 aposteln
@@ -3698,6 +3786,7 @@ apostels
 apostolat
 apostolate
 apostolaten
+apostolates
 apostolats
 apotheke
 apotheken
@@ -3723,6 +3812,7 @@ appellationen
 appellativ
 appellative
 appellativen
+appellatives
 appellativs
 appelle
 appellen
@@ -3736,6 +3826,7 @@ apperzeptionen
 appetit
 appetite
 appetiten
+appetites
 appetits
 applaudieren
 applaudierens
@@ -3779,6 +3870,7 @@ aquastrippings
 aquädukt
 aquädukte
 aquädukten
+aquäduktes
 aquädukts
 araber
 araberin
@@ -3851,6 +3943,7 @@ architekturkennerinnen
 architekturprofessorin
 architekturprofessorinnen
 archiv
+archivalien
 archivassistentin
 archivassistentinnen
 archive
@@ -3882,10 +3975,12 @@ argumentation
 argumentationen
 argumente
 argumenten
+argumentes
 argumentieren
 argumentierens
 arguments
 argwohn
+argwohnes
 argwohns
 argwöhnen
 argwöhnens
@@ -3951,19 +4046,23 @@ arrestes
 arrests
 arroganz
 arsch
+arsches
 arschkriecherin
 arschkriecherinnen
 arschs
 arsenal
 arsenale
 arsenalen
+arsenales
 arsenals
 art
 artdirector
+arte
 arten
 artens
 arterie
 arterien
+artes
 artgenosse
 artgenossen
 artikel
@@ -4052,6 +4151,7 @@ assertionen
 assessor
 assessore
 assessoren
+assessores
 assessorin
 assessorinnen
 assessors
@@ -4083,6 +4183,7 @@ astas
 aste
 asteroid
 asteroiden
+astes
 asthma
 asthmas
 astrofotografie
@@ -4111,6 +4212,7 @@ asyl
 asylant
 asylanten
 asylbewerberinnen
+asyles
 asyls
 aszendent
 aszendenten
@@ -4146,14 +4248,18 @@ atmosphären
 atmung
 atmungskette
 atmungsketten
+atom
 atombombe
 atombomben
+atome
+atomen
 atomexpertin
 atomexpertinnen
 atomisieren
 atomisierens
 atomphysikerin
 atomphysikerinnen
+atoms
 atomwaffenexpertin
 atomwaffenexpertinnen
 atrazin
@@ -4256,6 +4362,7 @@ aufblendens
 aufblick
 aufblicke
 aufblicken
+aufblickes
 aufblicks
 aufblitzen
 aufblitzens
@@ -4279,6 +4386,7 @@ aufbringen
 aufbringens
 aufbruch
 aufbruche
+aufbruches
 aufbruchs
 aufbrummen
 aufbrummens
@@ -4303,6 +4411,7 @@ aufdrehens
 aufdruck
 aufdrucke
 aufdrucken
+aufdruckes
 aufdrucks
 aufdrängen
 aufdrängens
@@ -4315,6 +4424,7 @@ aufdämmens
 aufenthalt
 aufenthalte
 aufenthalten
+aufenthaltes
 aufenthalts
 auferlegen
 auferlegens
@@ -4379,6 +4489,7 @@ aufgaloppieren
 aufgaloppierens
 aufgang
 aufgange
+aufganges
 aufgangs
 aufgangspunkt
 aufgangspunkte
@@ -4399,6 +4510,7 @@ aufgeilens
 aufgeregtheit
 aufgesang
 aufgesange
+aufgesanges
 aufgesangs
 aufgeschlossenheit
 aufgesänge
@@ -4465,6 +4577,7 @@ aufkauf
 aufkaufe
 aufkaufen
 aufkaufens
+aufkaufes
 aufkaufs
 aufkeimen
 aufkeimens
@@ -4535,6 +4648,7 @@ auflauf
 auflaufe
 auflaufen
 auflaufens
+auflaufes
 auflaufs
 aufleben
 auflebens
@@ -4790,6 +4904,7 @@ aufschneiderinnen
 aufschnellen
 aufschnellens
 aufschnitt
+aufschnittes
 aufschnitts
 aufschnüren
 aufschnürens
@@ -4841,6 +4956,8 @@ aufseufzen
 aufseufzens
 aufsicht
 aufsichten
+aufsichtsamt
+aufsichtsamtes
 aufsitzen
 aufsitzens
 aufspalten
@@ -4865,6 +4982,7 @@ aufspritzen
 aufspritzens
 aufsprung
 aufsprunge
+aufsprunges
 aufsprungs
 aufsprünge
 aufsprüngen
@@ -4878,6 +4996,7 @@ aufstampfen
 aufstampfens
 aufstand
 aufstande
+aufstandes
 aufstands
 aufstapeln
 aufstapelns
@@ -4923,6 +5042,7 @@ aufstreichens
 aufstrich
 aufstriche
 aufstrichen
+aufstriches
 aufstrichs
 aufstände
 aufständen
@@ -5038,6 +5158,7 @@ aufwind
 aufwinde
 aufwinden
 aufwindens
+aufwindes
 aufwinds
 aufwirbeln
 aufwirbelns
@@ -5104,6 +5225,7 @@ augmentation
 augmentationen
 augmente
 augmenten
+augmentes
 augments
 augsburger
 augsburgerin
@@ -5113,6 +5235,7 @@ augsburgers
 august
 auguste
 augusten
+augustes
 augustinerin
 augustinerinnen
 augusts
@@ -5309,6 +5432,7 @@ ausfall
 ausfalle
 ausfallen
 ausfallens
+ausfalles
 ausfalls
 ausfasern
 ausfaserns
@@ -5412,6 +5536,7 @@ ausgehens
 ausgehverbot
 ausgehverbote
 ausgehverboten
+ausgehverbotes
 ausgehverbots
 ausgeizen
 ausgeizens
@@ -5428,7 +5553,10 @@ ausgießungen
 ausgleich
 ausgleichen
 ausgleichens
+ausgleiches
 ausgleichs
+ausgleichsamt
+ausgleichsamtes
 ausgleiten
 ausgleitens
 ausgliedern
@@ -5459,6 +5587,7 @@ aushandeln
 aushandelns
 aushang
 aushange
+aushanges
 aushangs
 ausharren
 ausharrens
@@ -5491,6 +5620,7 @@ ausholzens
 aushorchen
 aushorchens
 aushub
+aushubes
 aushubs
 aushungern
 aushungerns
@@ -5532,6 +5662,7 @@ ausklamüsern
 ausklamüserns
 ausklang
 ausklange
+ausklanges
 ausklangs
 auskleben
 ausklebens
@@ -5606,6 +5737,7 @@ auslagen
 auslagern
 auslagerns
 ausland
+auslandes
 auslands
 auslandsexpertin
 auslandsexpertinnen
@@ -5625,6 +5757,7 @@ auslauf
 auslaufe
 auslaufen
 auslaufens
+auslaufes
 auslaufmodell
 auslaufmodelle
 auslaufmodellen
@@ -5847,6 +5980,7 @@ ausrichtung
 ausritt
 ausritte
 ausritten
+ausrittes
 ausritts
 ausroden
 ausrodens
@@ -5863,6 +5997,7 @@ ausrufens
 ausrufer
 ausrufern
 ausrufers
+ausrufes
 ausrufezeichen
 ausrufezeichens
 ausrufs
@@ -5916,6 +6051,7 @@ ausschaltungen
 ausschalung
 ausschalungen
 ausschank
+ausschankes
 ausschanks
 ausscharren
 ausscharrens
@@ -6092,6 +6228,7 @@ ausspritzen
 ausspritzens
 ausspruch
 ausspruche
+ausspruches
 ausspruchs
 aussprühen
 aussprühens
@@ -6107,6 +6244,7 @@ ausstaffieren
 ausstaffierens
 ausstand
 ausstande
+ausstandes
 ausstands
 ausstanzen
 ausstanzens
@@ -6142,6 +6280,7 @@ ausstellungen
 ausstellungsmacherin
 ausstellungsmacherinnen
 aussterben
+aussterben
 aussterbens
 aussteuer
 aussteuern
@@ -6149,10 +6288,12 @@ aussteuerns
 ausstich
 ausstiche
 ausstichen
+ausstiches
 ausstichs
 ausstieg
 ausstiege
 ausstiegen
+ausstieges
 ausstiegs
 ausstopfen
 ausstopfens
@@ -6230,6 +6371,7 @@ austrinkens
 austritt
 austritte
 austritten
+austrittes
 austritts
 austrocknen
 austrocknens
@@ -6250,6 +6392,7 @@ ausverkauf
 ausverkaufe
 ausverkaufen
 ausverkaufens
+ausverkaufes
 ausverkaufs
 ausverkäufe
 ausverkäufen
@@ -6270,6 +6413,7 @@ auswechselns
 ausweg
 auswege
 auswegen
+ausweges
 auswegs
 ausweiche
 ausweichen
@@ -6356,6 +6500,7 @@ auszubildende
 auszubildenden
 auszug
 auszuge
+auszuges
 auszugs
 auszupfen
 auszupfens
@@ -6562,6 +6707,7 @@ backens
 backfisch
 backfische
 backfischen
+backfisches
 backfischs
 backform
 backformen
@@ -6577,6 +6723,7 @@ backpulvers
 backstein
 backsteine
 backsteinen
+backsteines
 backsteins
 backstube
 backstuben
@@ -6630,6 +6777,7 @@ bahrens
 bajonett
 bajonette
 bajonetten
+bajonettes
 bajonetts
 bajuware
 bajuwaren
@@ -6670,6 +6818,7 @@ balkenwaagen
 balkon
 balkone
 balkonen
+balkones
 balkons
 ball
 ballade
@@ -6692,6 +6841,7 @@ balletten
 ballettes
 balletts
 ballon
+ballones
 ballons
 balls
 ballung
@@ -6738,6 +6888,7 @@ bandelns
 banden
 banderole
 banderolen
+bandes
 bandit
 banditen
 bands
@@ -6827,6 +6978,8 @@ barmannes
 barmanns
 barmänner
 barmännern
+barock
+barocks
 barockschriftstellerin
 barockschriftstellerinnen
 barocksolistin
@@ -6868,6 +7021,7 @@ barzahlungen
 basalt
 basalte
 basalten
+basaltes
 basalts
 basar
 basare
@@ -6903,6 +7057,7 @@ basssolistinnen
 bastard
 bastarde
 bastarden
+bastardes
 bastards
 bastei
 basteien
@@ -6916,6 +7071,8 @@ bastlers
 batterie
 batterien
 bau
+bauaufsichtsamt
+bauaufsichtsamtes
 bauch
 bauche
 bauchen
@@ -6938,9 +7095,11 @@ bauen
 bauens
 bauer
 bauern
+bauern
 bauernfängerin
 bauernfängerinnen
 bauerntum
+bauerntumes
 bauerntums
 bauers
 baugruppenlieferantin
@@ -6968,6 +7127,8 @@ baumwuchse
 baumwuchses
 baumwüchse
 baumwüchsen
+bauordnungsamt
+bauordnungsamtes
 baus
 bausch
 bausche
@@ -6978,6 +7139,8 @@ bauschs
 bausparen
 bausparens
 bauten
+bauverwaltungsamt
+bauverwaltungsamtes
 bayer
 bayerin
 bayerinnen
@@ -6999,7 +7162,10 @@ beachtung
 beaglezüchterin
 beaglezüchterinnen
 beamte
+beamte
 beamten
+beamten
+beamter
 beamtin
 beamtinnen
 beanspruchen
@@ -7055,6 +7221,7 @@ beckens
 bedanken
 bedankens
 bedarf
+bedarfes
 bedarfs
 bedauern
 bedauerns
@@ -7075,6 +7242,8 @@ bedeutungslehre
 bedienen
 bedienens
 bedienstete
+bedienstete
+bediensteten
 bediensteten
 bedienung
 bedienungen
@@ -7142,6 +7311,7 @@ befehl
 befehle
 befehlen
 befehlens
+befehles
 befehligen
 befehligens
 befehls
@@ -7269,6 +7439,7 @@ begießens
 beginn
 beginnen
 beginnens
+beginnes
 beginns
 beglaubigen
 beglaubigens
@@ -7279,6 +7450,7 @@ begleichens
 begleitbrief
 begleitbriefe
 begleitbriefen
+begleitbriefes
 begleitbriefs
 begleiten
 begleitens
@@ -7384,6 +7556,7 @@ behandlung
 behandlungen
 behang
 behange
+behanges
 behangs
 beharren
 beharrens
@@ -7408,6 +7581,7 @@ behelf
 behelfe
 behelfen
 behelfens
+behelfes
 behelfs
 behelligen
 behelligens
@@ -7480,6 +7654,7 @@ beifahrerinnen
 beifahrern
 beifahrers
 beifall
+beifalles
 beifalls
 beifolgen
 beifolgens
@@ -7504,6 +7679,7 @@ beigesellens
 beiheft
 beihefte
 beiheften
+beiheftes
 beihefts
 beihilfe
 beihilfen
@@ -7511,6 +7687,7 @@ beiholen
 beiholens
 beiklang
 beiklange
+beiklanges
 beiklangs
 beiklänge
 beiklängen
@@ -7613,6 +7790,7 @@ beispiels
 beispringen
 beispringens
 beistand
+beistandes
 beistands
 beistehen
 beistehens
@@ -7624,6 +7802,7 @@ beistimmens
 beistrich
 beistriche
 beistrichen
+beistriches
 beistrichs
 beitrag
 beitrage
@@ -7713,6 +7892,8 @@ bekleiden
 bekleidens
 bekleidung
 bekleidungen
+bekleidungsamt
+bekleidungsamtes
 beklemmen
 beklemmens
 beknien
@@ -7756,7 +7937,10 @@ belagerung
 belagerungen
 belagerungsexpertin
 belagerungsexpertinnen
+belages
 belags
+belange
+belangen
 belangen
 belangens
 belanglosigkeit
@@ -7784,6 +7968,7 @@ belegbetts
 belege
 belegen
 belegens
+beleges
 belegs
 belegschaft
 belegschaften
@@ -8016,6 +8201,8 @@ bereicherung
 bereicherungen
 bereiches
 bereichs
+bereichsamt
+bereichsamtes
 bereifen
 bereifens
 bereifung
@@ -8044,6 +8231,12 @@ bergbewohnerinnen
 berge
 bergen
 bergens
+berges
+bergfried
+bergfriede
+bergfrieden
+bergfriedes
+bergfrieds
 bergkuppe
 bergkuppen
 bergland
@@ -8196,6 +8389,7 @@ beschlag
 beschlage
 beschlagen
 beschlagens
+beschlages
 beschlagnahme
 beschlagnahmen
 beschlagnahmens
@@ -8405,6 +8599,8 @@ bestandteiles
 bestandteils
 bestatten
 bestattens
+bestattungsamt
+bestattungsamtes
 bestaunen
 bestaunens
 bestechen
@@ -8435,6 +8631,7 @@ bestellnummern
 bestellschein
 bestellscheine
 bestellscheinen
+bestellscheines
 bestellscheins
 bestellung
 bestellungen
@@ -8602,10 +8799,14 @@ betrieben
 betriebes
 betriebs
 betriebsamkeit
+betriebsamt
+betriebsamtes
 betriebsassistentin
 betriebsassistentinnen
 betriebspädagogin
 betriebspädagoginnen
+betriebsratsamt
+betriebsratsamtes
 betriebswirtin
 betriebswirtinnen
 betrinken
@@ -8637,6 +8838,7 @@ bett
 bettag
 bettage
 bettagen
+bettages
 bettags
 bette
 betteln
@@ -9095,6 +9297,7 @@ binnenländer
 binnenländern
 binnenmarkt
 binnenmarkte
+binnenmarktes
 binnenmarkts
 binnenmeer
 binnenmeere
@@ -9105,10 +9308,12 @@ binnenmärkten
 binnenreim
 binnenreime
 binnenreimen
+binnenreimes
 binnenreims
 binnentief
 binnentiefs
 binnenverkehr
+binnenverkehres
 binnenverkehrs
 binnenwanderung
 binnenwanderungen
@@ -9116,6 +9321,7 @@ binnenwährung
 binnenwährungen
 binnenzoll
 binnenzolle
+binnenzolles
 binnenzolls
 binnenzölle
 binnenzöllen
@@ -9206,6 +9412,7 @@ biotops
 biotyp
 biotype
 biotypen
+biotypes
 biotyps
 biowaffenexpertin
 biowaffenexpertinnen
@@ -9218,7 +9425,10 @@ bisamratte
 bisamratten
 bischof
 bischofe
+bischofes
 bischofs
+bischofsamt
+bischofsamtes
 bischöfe
 bischöfen
 bison
@@ -9230,12 +9440,14 @@ bistro
 bistros
 bistum
 bistume
+bistumes
 bistums
 bistümer
 bistümern
 bittbrief
 bittbriefe
 bittbriefen
+bittbriefes
 bittbriefs
 bitte
 bitten
@@ -9248,10 +9460,12 @@ bittermitteln
 bittermittels
 bittgang
 bittgange
+bittganges
 bittgangs
 bittgesuch
 bittgesuche
 bittgesuchen
+bittgesuches
 bittgesuchs
 bittgänge
 bittgängen
@@ -9273,6 +9487,7 @@ blamierens
 blankett
 blankette
 blanketten
+blankettes
 blanketts
 blanko
 blankogeschäft
@@ -9367,6 +9582,7 @@ blendungen
 blendwerk
 blendwerke
 blendwerken
+blendwerkes
 blendwerks
 blessur
 blessuren
@@ -9376,6 +9592,7 @@ blick
 blicke
 blicken
 blickens
+blickes
 blickfang
 blickfange
 blickfangs
@@ -9393,6 +9610,7 @@ blindenbüchereien
 blindenhund
 blindenhunde
 blindenhunden
+blindenhundes
 blindenhunds
 blindenpädagogin
 blindenpädagoginnen
@@ -9400,6 +9618,7 @@ blindfliegen
 blindfliegens
 blindflug
 blindfluge
+blindfluges
 blindflugs
 blindflüge
 blindflügen
@@ -9455,6 +9674,7 @@ blocke
 blockes
 blockieren
 blockierens
+blocks
 blocks
 blohm
 blohme
@@ -9530,6 +9750,7 @@ blödmanns
 blödmänner
 blödmännern
 blödsinn
+blödsinnes
 blödsinnigkeit
 blödsinns
 blöken
@@ -9605,6 +9826,7 @@ bohrspindel
 bohrspindeln
 bohrturm
 bohrturme
+bohrturmes
 bohrturms
 bohrtürme
 bohrtürmen
@@ -9631,6 +9853,7 @@ bolletten
 bollwerk
 bollwerke
 bollwerken
+bollwerkes
 bollwerks
 bolschewist
 bolschewisten
@@ -9722,6 +9945,7 @@ boss
 bosse
 bossen
 bosses
+bot
 botanik
 botaniker
 botanikerin
@@ -9734,6 +9958,7 @@ bote
 boten
 botin
 botinnen
+bots
 botschaft
 botschaften
 botschafter
@@ -9775,6 +10000,7 @@ boß
 brabbeln
 brabbelns
 brachland
+brachlandes
 brachlands
 brachliegen
 brachliegens
@@ -9947,6 +10173,7 @@ bremern
 bremers
 bremsbelag
 bremsbelage
+bremsbelages
 bremsbelags
 bremsbeläge
 bremsbelägen
@@ -9974,12 +10201,14 @@ bremswagens
 bremsweg
 bremswege
 bremswegen
+bremsweges
 bremswegs
 brennbarkeit
 brenndauer
 brennelement
 brennelemente
 brennelementen
+brennelementes
 brennelements
 brennen
 brennens
@@ -10157,9 +10386,11 @@ bruttogehältern
 bruttogewicht
 bruttogewichte
 bruttogewichten
+bruttogewichtes
 bruttogewichts
 bruttolohn
 bruttolohne
+bruttolohnes
 bruttolohns
 bruttolöhne
 bruttolöhnen
@@ -10169,10 +10400,12 @@ bruttoregistertonnen
 bruttosozialprodukt
 bruttosozialprodukte
 bruttosozialprodukten
+bruttosozialproduktes
 bruttosozialprodukts
 bruttoverdienst
 bruttoverdienste
 bruttoverdiensten
+bruttoverdienstes
 bruttoverdiensts
 bruttovermögen
 bruttovermögens
@@ -10242,6 +10475,7 @@ bube
 buben
 bubikopf
 bubikopfe
+bubikopfes
 bubikopfs
 bubiköpfe
 bubiköpfen
@@ -10373,6 +10607,8 @@ bunde
 bunden
 bundes
 bundesakte
+bundesausgleichsamt
+bundesausgleichsamtes
 bundesliga
 bundesligen
 bundesligist
@@ -10381,6 +10617,10 @@ bundestag
 bundestage
 bundestages
 bundestags
+bundesvermessungsamt
+bundesvermessungsamtes
+bundesverwaltungsamt
+bundesverwaltungsamtes
 bundeswehr
 bundeswehrrekrutin
 bundeswehrrekrutinnen
@@ -10388,6 +10628,8 @@ bundeswehrsanitäterin
 bundeswehrsanitäterinnen
 bundeswehrsoldatin
 bundeswehrsoldatinnen
+bundeswehrverwaltungsamt
+bundeswehrverwaltungsamtes
 bunds
 bungalow
 bungalows
@@ -10409,10 +10651,12 @@ buntpapiers
 buntspecht
 buntspechte
 buntspechten
+buntspechtes
 buntspechts
 buntstift
 buntstifte
 buntstiften
+buntstiftes
 buntstifts
 buntweberei
 buntwebereien
@@ -10443,6 +10687,8 @@ bussen
 busses
 bussi
 bussis
+bussteige
+bussteigen
 busuki
 busukis
 butan
@@ -10557,6 +10803,7 @@ bösen
 bösewicht
 bösewichte
 bösewichten
+bösewichtes
 bösewichts
 bübchen
 bübchens
@@ -10645,6 +10892,7 @@ bürgerschaften
 bürgerschießen
 bürgerschießens
 bürgertum
+bürgertumes
 bürgertums
 bürgschaftsnehmerin
 bürgschaftsnehmerinnen
@@ -10705,6 +10953,7 @@ calcium
 calciumcarbonat
 calciumcarbonate
 calciumcarbonaten
+calciumcarbonates
 calciumcarbonats
 calciumfluorid
 calciumfluoride
@@ -10717,11 +10966,13 @@ calciumoxids
 calciumphosphat
 calciumphosphate
 calciumphosphaten
+calciumphosphates
 calciumphosphats
 calciums
 calciumsulfat
 calciumsulfate
 calciumsulfaten
+calciumsulfates
 calciumsulfats
 calgon
 calgons
@@ -10751,6 +11002,7 @@ campingplätzen
 campings
 camps
 campus
+campus
 cancan
 cancans
 capa
@@ -10764,6 +11016,7 @@ caravans
 carbonat
 carbonate
 carbonaten
+carbonates
 carbonats
 carboneum
 carboneums
@@ -10793,7 +11046,10 @@ celsius
 cembalo
 cembalos
 center
+center
 centern
+centern
+centers
 centers
 ceresin
 ceresine
@@ -10888,9 +11144,11 @@ chirurg
 chirurgen
 chirurgie
 chlor
+chlores
 chlorit
 chlorite
 chloriten
+chlorites
 chlorits
 chlors
 choleriker
@@ -10952,6 +11210,7 @@ clowns
 club
 clubs
 coach
+coaches
 coachs
 coca
 cocain
@@ -11171,6 +11430,7 @@ dampfens
 dampfer
 dampfern
 dampfers
+dampfes
 dampfs
 danebenbenehmen
 danebenbenehmens
@@ -11266,6 +11526,7 @@ darüberschreibens
 darüberstehen
 darüberstehens
 dasein
+daseines
 daseins
 daseinsfreude
 dasitzen
@@ -11403,6 +11664,7 @@ debüts
 deckbett
 deckbette
 deckbetten
+deckbettes
 deckbetts
 deckblatt
 deckblatte
@@ -11421,6 +11683,7 @@ deckfarben
 deckhengst
 deckhengste
 deckhengsten
+deckhengstes
 deckhengsts
 decklast
 decklasten
@@ -11521,6 +11784,7 @@ dekan
 dekanat
 dekanate
 dekanaten
+dekanates
 dekanats
 dekane
 dekanen
@@ -11576,6 +11840,7 @@ dekrementierens
 dekret
 dekrete
 dekreten
+dekretes
 dekrets
 delegat
 delegaten
@@ -11585,6 +11850,8 @@ delegieren
 delegierens
 delegierte
 delegierten
+delegierten
+delegierter
 deletion
 deletionen
 delfin
@@ -11611,6 +11878,7 @@ delokalisationen
 delphin
 delphine
 delphinen
+delphines
 delphins
 delphinschwimmen
 delphinschwimmens
@@ -11720,10 +11988,13 @@ denkkraft
 denklehre
 denkmal
 denkmale
+denkmale
+denkmales
 denkmales
 denkmodell
 denkmodelle
 denkmodellen
+denkmodelles
 denkmodells
 denkmäler
 denkmälern
@@ -11735,16 +12006,19 @@ denksportaufgaben
 denksports
 denkspruch
 denkspruche
+denkspruches
 denkspruchs
 denksprüche
 denksprüchen
 denkstein
 denksteine
 denksteinen
+denksteines
 denksteins
 denkverbot
 denkverbote
 denkverboten
+denkverbotes
 denkverbots
 denkvermögen
 denkvermögens
@@ -11830,6 +12104,7 @@ deputanten
 deputat
 deputate
 deputaten
+deputates
 deputats
 deputieren
 deputierens
@@ -11856,6 +12131,8 @@ designerin
 designerinnen
 designern
 designers
+designes
+designs
 designs
 desillusion
 desillusionen
@@ -11895,6 +12172,7 @@ detekteien
 detektiv
 detektive
 detektiven
+detektives
 detektivin
 detektivinnen
 detektivs
@@ -11927,22 +12205,27 @@ deuterei
 deutereien
 deutlichkeit
 deuts
+deutsch
 deutschamerikanerin
 deutschamerikanerinnen
 deutschdozentin
 deutschdozentinnen
 deutsche
 deutschen
+deutschen
 deutschens
+deutscher
 deutschland
 deutschlandexpertin
 deutschlandexpertinnen
 deutschlands
 deutschlehrerin
 deutschlehrerinnen
+deutschs
 deutschstudentin
 deutschstudentinnen
 deutschtum
+deutschtumes
 deutschtums
 deutung
 deutungen
@@ -11959,6 +12242,7 @@ dezentralisierungen
 dezernat
 dezernate
 dezernaten
+dezernates
 dezernats
 dezernent
 dezernenten
@@ -12017,6 +12301,10 @@ diagnostik
 diagnostiken
 diagnostizieren
 diagnostizierens
+diagramm
+diagramme
+diagrammen
+diagramms
 diakon
 diakone
 diakonen
@@ -12029,6 +12317,7 @@ diakons
 dialekt
 dialekte
 dialekten
+dialektes
 dialektgeografie
 dialektik
 dialektiker
@@ -12038,6 +12327,7 @@ dialekts
 dialog
 dialoge
 dialogen
+dialoges
 dialogisieren
 dialogisierens
 dialogpädagogin
@@ -12072,6 +12362,7 @@ dickbäuche
 dickbäuchen
 dickdarm
 dickdarme
+dickdarmes
 dickdarms
 dickdärme
 dickdärmen
@@ -12120,6 +12411,7 @@ dienst
 dienstag
 dienstage
 dienstagen
+dienstages
 dienstags
 dienste
 diensten
@@ -12197,6 +12489,7 @@ diktierens
 diktiergerät
 diktiergeräte
 diktiergeräten
+diktiergerätes
 diktiergeräts
 diktion
 dilemma
@@ -12253,6 +12546,7 @@ diplomatikern
 diplomatikers
 diplomatisieren
 diplomatisierens
+diplomes
 diplomieren
 diplomierens
 diplompädagogin
@@ -12277,14 +12571,17 @@ direktiven
 direktmandat
 direktmandate
 direktmandaten
+direktmandates
 direktmandats
 direktor
 direktorat
 direktorate
 direktoraten
+direktorates
 direktorats
 direktore
 direktoren
+direktores
 direktorin
 direktorinnen
 direktors
@@ -12321,6 +12618,7 @@ disko
 diskontgeschäft
 diskontgeschäfte
 diskontgeschäften
+diskontgeschäftes
 diskontgeschäfts
 diskontinuität
 diskordanz
@@ -12405,6 +12703,7 @@ disziplin
 disziplinargericht
 disziplinargerichte
 disziplinargerichten
+disziplinargerichtes
 disziplinargerichts
 disziplinargesetz
 disziplinargesetze
@@ -12420,7 +12719,9 @@ disziplinarverfahrens
 disziplinen
 diva
 divas
+dividend
 dividende
+dividenden
 dividenden
 division
 divisionen
@@ -12437,6 +12738,7 @@ dobermannzüchterinnen
 docht
 dochte
 dochten
+dochtes
 dochts
 dock
 docken
@@ -12471,7 +12773,9 @@ doktorandinnen
 doktorat
 doktorate
 doktoraten
+doktorates
 doktorats
+doktores
 doktorieren
 doktorierens
 doktorin
@@ -12481,6 +12785,7 @@ dokument
 dokumentarbericht
 dokumentarberichte
 dokumentarberichten
+dokumentarberichtes
 dokumentarberichts
 dokumentarfilm
 dokumentarfilme
@@ -12488,6 +12793,7 @@ dokumentarfilmen
 dokumentarfilmer
 dokumentarfilmern
 dokumentarfilmers
+dokumentarfilmes
 dokumentarfilms
 dokumentation
 dokumentationen
@@ -12594,6 +12900,7 @@ doppelnaht
 doppelns
 doppelnähte
 doppelnähten
+doppelpacks
 doppels
 doppelschlag
 doppelschlage
@@ -12695,6 +13002,7 @@ dranbleibens
 drang
 drangeben
 drangebens
+dranges
 drangs
 drangsalieren
 drangsalierens
@@ -12760,12 +13068,14 @@ drehleiern
 drehmoment
 drehmomente
 drehmomenten
+drehmomentes
 drehmoments
 drehorgel
 drehorgeln
 drehpunkt
 drehpunkte
 drehpunkten
+drehpunktes
 drehpunkts
 drehsalto
 drehsaltos
@@ -12780,11 +13090,13 @@ drehspindel
 drehspindeln
 drehstrom
 drehstrome
+drehstromes
 drehstroms
 drehströme
 drehströmen
 drehstuhl
 drehstuhle
+drehstuhles
 drehstuhls
 drehstühle
 drehstühlen
@@ -12806,10 +13118,12 @@ drehzählers
 dreibein
 dreibeine
 dreibeinen
+dreibeines
 dreibeins
 dreieck
 dreiecke
 dreiecken
+dreieckes
 dreiecks
 dreiecksgeschichte
 dreiecksgeschichten
@@ -12826,6 +13140,7 @@ dreifingerregeln
 dreigespann
 dreigespanne
 dreigespannen
+dreigespannes
 dreigespanns
 dreigroschenroman
 dreigroschenromane
@@ -12837,6 +13152,7 @@ dreikantern
 dreikanters
 dreiklang
 dreiklange
+dreiklanges
 dreiklangs
 dreiklänge
 dreiklängen
@@ -12845,6 +13161,7 @@ dreikäsehochs
 dreikönigsfest
 dreikönigsfeste
 dreikönigsfesten
+dreikönigsfestes
 dreikönigsfests
 dreimaster
 dreimastern
@@ -12889,6 +13206,7 @@ dreiviertelstunden
 dreivierteltakt
 dreivierteltakte
 dreivierteltakten
+dreivierteltaktes
 dreivierteltakts
 dreiwegekatalysator
 dreiwegekatalysatore
@@ -12922,6 +13240,7 @@ driftens
 drill
 drillen
 drillens
+drilles
 drilling
 drillinge
 drillingen
@@ -13039,6 +13358,7 @@ dudeln
 dudelns
 dudelsack
 dudelsacke
+dudelsackes
 dudelsacks
 dudelsäcke
 dudelsäcken
@@ -13056,6 +13376,7 @@ duells
 duett
 duette
 duetten
+duettes
 duetts
 duft
 duftdrüse
@@ -13360,6 +13681,7 @@ durchmachen
 durchmachens
 durchmarsch
 durchmarsche
+durchmarsches
 durchmarschieren
 durchmarschierens
 durchmarschs
@@ -13473,6 +13795,7 @@ durchschlag
 durchschlage
 durchschlagen
 durchschlagens
+durchschlages
 durchschlags
 durchschleichen
 durchschleichens
@@ -13630,6 +13953,7 @@ durchziehern
 durchziehers
 durchzug
 durchzuge
+durchzuges
 durchzugs
 durchzwängen
 durchzwängens
@@ -13640,6 +13964,7 @@ durchzügen
 durst
 dursten
 durstens
+durstes
 dursts
 duschbad
 duschbade
@@ -13665,6 +13990,7 @@ dussels
 dutt
 dutte
 dutten
+duttes
 dutts
 dutzend
 dutzende
@@ -13723,6 +14049,7 @@ dämmerung
 dämmerungen
 dämmerzustand
 dämmerzustande
+dämmerzustandes
 dämmerzustands
 dämmerzustände
 dämmerzuständen
@@ -13791,6 +14118,7 @@ dürstens
 düse
 düsen
 düsens
+düssel
 düssel
 düsseldorfer
 düsseldorferin
@@ -13885,6 +14213,7 @@ edelreife
 edelschnulze
 edelschnulzen
 edelstahl
+edelstahles
 edelstahls
 edelstatistin
 edelstatistinnen
@@ -13975,6 +14304,7 @@ ehrgeizes
 ehrung
 ehrungen
 ehrverlust
+ehrverlustes
 ehrverlusts
 ehrwürdigkeit
 ei
@@ -13985,6 +14315,7 @@ eichamtes
 eichamts
 eichbaum
 eichbaume
+eichbaumes
 eichbaums
 eichbäume
 eichbäumen
@@ -14017,6 +14348,7 @@ eidechsen
 eiden
 eiderdaune
 eiderdaunen
+eides
 eideshelfer
 eideshelfern
 eideshelfers
@@ -14059,10 +14391,12 @@ eigengeschwindigkeiten
 eigengewicht
 eigengewichte
 eigengewichten
+eigengewichtes
 eigengewichts
 eigenheim
 eigenheime
 eigenheimen
+eigenheimes
 eigenheims
 eigenheit
 eigenheiten
@@ -14070,6 +14404,7 @@ eigenhilfe
 eigeninitiative
 eigeninitiativen
 eigenkapital
+eigenkapitales
 eigenkapitals
 eigenkirche
 eigenleben
@@ -14078,6 +14413,7 @@ eigenliebe
 eigenlob
 eigenlobe
 eigenloben
+eigenlobes
 eigenlobs
 eigenmächtigkeit
 eigenmächtigkeiten
@@ -14092,6 +14428,7 @@ eigenschwere
 eigenschwingung
 eigenschwingungen
 eigensinn
+eigensinnes
 eigensinnigkeit
 eigensinns
 eigenspannung
@@ -14102,14 +14439,17 @@ eigentoren
 eigentores
 eigentors
 eigentum
+eigentumes
 eigentums
 eigentümerin
 eigentümerinnen
 eigenverbrauch
+eigenverbrauches
 eigenverbrauchs
 eigenwert
 eigenwerte
 eigenwerten
+eigenwertes
 eigenwerts
 eigenwille
 eigenwillen
@@ -14127,6 +14467,7 @@ eilboten
 eilbrief
 eilbriefe
 eilbriefen
+eilbriefes
 eilbriefs
 eile
 eileiter
@@ -14137,6 +14478,7 @@ eilens
 eilfertigkeit
 eilmarsch
 eilmarsche
+eilmarsches
 eilmarschs
 eilmärsche
 eilmärschen
@@ -14164,6 +14506,7 @@ einbalsamieren
 einbalsamierens
 einband
 einbande
+einbandes
 einbands
 einbau
 einbauen
@@ -14203,6 +14546,7 @@ einblasens
 einblattdruck
 einblattdrucke
 einblattdrucken
+einblattdruckes
 einblattdrucks
 einblenden
 einblendens
@@ -14211,6 +14555,7 @@ einbleuens
 einblick
 einblicke
 einblicken
+einblickes
 einblicks
 einbläuen
 einbläuens
@@ -14311,6 +14656,7 @@ einfall
 einfalle
 einfallen
 einfallens
+einfalles
 einfalls
 einfallslosigkeit
 einfallstraße
@@ -14346,6 +14692,7 @@ einflippen
 einflippens
 einflug
 einfluge
+einfluges
 einflugs
 einflugschneise
 einflugschneisen
@@ -14397,6 +14744,7 @@ eingabe
 eingaben
 eingang
 eingange
+einganges
 eingangs
 eingeben
 eingebens
@@ -14522,6 +14870,8 @@ einimpfen
 einimpfens
 einjagen
 einjagens
+einjährigen
+einjähriger
 einkacheln
 einkachelns
 einkalkulieren
@@ -14636,6 +14986,7 @@ einlauf
 einlaufe
 einlaufen
 einlaufens
+einlaufes
 einlaufs
 einleben
 einlebens
@@ -14837,6 +15188,7 @@ einrichtungen
 einriegeln
 einriegelns
 einritt
+einrittes
 einritts
 einritzen
 einritzens
@@ -14933,6 +15285,7 @@ einschneiens
 einschnitt
 einschnitte
 einschnitten
+einschnittes
 einschnitts
 einschnitzen
 einschnitzens
@@ -15060,6 +15413,7 @@ einspritzung
 einspritzungen
 einspruch
 einspruche
+einspruches
 einspruchs
 einsprüche
 einsprüchen
@@ -15069,6 +15423,7 @@ einstampfen
 einstampfens
 einstand
 einstande
+einstandes
 einstands
 einstauben
 einstaubens
@@ -15089,10 +15444,12 @@ einstellungsassistentinnen
 einstich
 einstiche
 einstichen
+einstiches
 einstichs
 einstieg
 einstiege
 einstiegen
+einstieges
 einstiegs
 einstimmen
 einstimmens
@@ -15158,6 +15515,7 @@ eintrag
 eintrage
 eintragen
 eintragens
+eintrages
 eintrags
 eintragung
 eintragungen
@@ -15263,6 +15621,7 @@ einwohners
 einwohnerschaft
 einwurf
 einwurfe
+einwurfes
 einwurfs
 einwurzeln
 einwurzelns
@@ -15346,6 +15705,7 @@ eiskunstläufern
 eiskunstläufers
 eisprung
 eisprunge
+eisprunges
 eisprungs
 eisprünge
 eisprüngen
@@ -15383,6 +15743,7 @@ ekzems
 elaborat
 elaborate
 elaboraten
+elaborates
 elaborats
 elaborieren
 elaborierens
@@ -15467,6 +15828,7 @@ elementarlehrers
 elementarteilchen
 elementarteilchens
 elementarunterricht
+elementarunterrichtes
 elementarunterrichts
 elemente
 elementen
@@ -15481,6 +15843,7 @@ elfen
 elfenbein
 elfenbeine
 elfenbeinen
+elfenbeines
 elfenbeins
 elferwette
 elferwetten
@@ -15533,6 +15896,7 @@ eminenzen
 emirat
 emirate
 emiraten
+emirates
 emirats
 emission
 emissionen
@@ -15624,6 +15988,7 @@ encodierung
 encodierungen
 endbahnhof
 endbahnhofe
+endbahnhofes
 endbahnhofs
 endbahnhöfe
 endbahnhöfen
@@ -15632,6 +15997,7 @@ endbenutzerinnen
 endbescheid
 endbescheide
 endbescheiden
+endbescheides
 endbescheids
 endbestimmung
 endbestimmungen
@@ -15641,6 +16007,7 @@ endchen
 endchens
 enddarm
 enddarme
+enddarmes
 enddarms
 enddreißigerin
 enddreißigerinnen
@@ -15650,6 +16017,7 @@ ende
 endeffekt
 endeffekte
 endeffekten
+endeffektes
 endeffekts
 enden
 endens
@@ -15657,6 +16025,7 @@ endes
 endgültigkeit
 endkampf
 endkampfe
+endkampfes
 endkampfs
 endkämpfe
 endkämpfen
@@ -15667,6 +16036,7 @@ endlagerung
 endlagerungen
 endlauf
 endlaufe
+endlaufes
 endlaufs
 endlichkeit
 endlosigkeit
@@ -15682,16 +16052,19 @@ endokrinologie
 endpunkt
 endpunkte
 endpunkten
+endpunktes
 endpunkts
 endreim
 endreime
 endreimen
+endreimes
 endreims
 endrunde
 endrunden
 endsieg
 endsiege
 endsiegen
+endsieges
 endsiegs
 endsilbe
 endsilben
@@ -15704,12 +16077,14 @@ endstationen
 endstück
 endstücke
 endstücken
+endstückes
 endstücks
 endung
 endungen
 endurteil
 endurteile
 endurteilen
+endurteiles
 endurteils
 endverbraucher
 endverbrauchern
@@ -15730,6 +16105,7 @@ energien
 energietechnikerin
 energietechnikerinnen
 engagement
+engagementes
 engagements
 engagieren
 engagierens
@@ -15747,10 +16123,12 @@ england
 englands
 englein
 engleins
+englisch
 englischdozentin
 englischdozentinnen
 englischlehrerin
 englischlehrerinnen
+englischs
 englischstudentin
 englischstudentinnen
 engländer
@@ -15949,6 +16327,7 @@ entgelds
 entgelt
 entgelte
 entgelten
+entgeltes
 entgelts
 entgiften
 entgiftens
@@ -16365,6 +16744,7 @@ entziffern
 entzifferns
 entzifferung
 entzug
+entzuges
 entzugs
 entzweibeißen
 entzweibeißens
@@ -16408,6 +16788,7 @@ epidemiologie
 epigramm
 epigramme
 epigrammen
+epigrammes
 epigramms
 epik
 epiker
@@ -16495,9 +16876,11 @@ erbfolgern
 erbfolgers
 erbfähigkeit
 erbgang
+erbganges
 erbgangs
 erbhof
 erbhofe
+erbhofes
 erbhofs
 erbhöfe
 erbhöfen
@@ -16537,6 +16920,7 @@ erbrechens
 erbrecht
 erbrechte
 erbrechten
+erbrechtes
 erbrechts
 erbringen
 erbringens
@@ -16623,6 +17007,7 @@ erdrosselung
 erdteil
 erdteile
 erdteilen
+erdteiles
 erdteils
 erdulden
 erduldens
@@ -16635,6 +17020,7 @@ erdungen
 erdöl
 erdöle
 erdölen
+erdöles
 erdöls
 ereifern
 ereiferns
@@ -16674,6 +17060,7 @@ erfolgen
 erfolgens
 erfolges
 erfolgs
+erfolgsaussichten
 erfordern
 erfordernis
 erfordernisse
@@ -16731,6 +17118,7 @@ erhaltens
 erhalter
 erhaltern
 erhalters
+erhaltes
 erhalts
 erhaltung
 erhaltungen
@@ -16805,6 +17193,8 @@ erlahmen
 erlahmens
 erlangen
 erlangens
+erlasse
+erlassen
 erlassen
 erlassens
 erlauben
@@ -16921,6 +17311,8 @@ ernährern
 ernährers
 ernährung
 ernährungen
+ernährungsamt
+ernährungsamtes
 ernährungsexpertin
 ernährungsexpertinnen
 ernährungslehre
@@ -17135,6 +17527,7 @@ ertrag
 ertrage
 ertragen
 ertragens
+ertrages
 ertrags
 ertrinken
 ertrinkens
@@ -17150,6 +17543,7 @@ eruption
 eruptionen
 erwachen
 erwachens
+erwachsene
 erwachsene
 erwachsenen
 erwarten
@@ -17172,6 +17566,7 @@ erwerb
 erwerbe
 erwerben
 erwerbens
+erwerbes
 erwerbs
 erwerbslose
 erwerbslosen
@@ -17203,7 +17598,10 @@ erwürgen
 erwürgens
 erzbischof
 erzbischofe
+erzbischofes
 erzbischofs
+erzbischofsamt
+erzbischofsamtes
 erzbischöfe
 erzbischöfen
 erzbistum
@@ -17344,6 +17742,7 @@ espen
 espresso
 espressos
 essay
+essayes
 essays
 essen
 essens
@@ -17390,6 +17789,7 @@ estländers
 estrich
 estriche
 estrichen
+estriches
 estrichs
 etablieren
 etablierens
@@ -17448,6 +17848,7 @@ eunuch
 eunuchen
 euphorie
 euro
+euro
 europaexpertin
 europaexpertinnen
 europameister
@@ -17468,6 +17869,7 @@ europäern
 europäers
 europäisieren
 europäisierens
+euros
 euros
 euroscheck
 euroschecks
@@ -17551,6 +17953,7 @@ exklusivpartnerin
 exklusivpartnerinnen
 exklusivvertrag
 exklusivvertrage
+exklusivvertrages
 exklusivvertrags
 exklusivverträge
 exklusivverträgen
@@ -17587,6 +17990,7 @@ experimentatoren
 experimentators
 experimente
 experimenten
+experimentes
 experimentieren
 experimentierens
 experimentiererei
@@ -17652,6 +18056,7 @@ extensität
 extensor
 extensore
 extensoren
+extensores
 extensors
 externalisierung
 externalisierungen
@@ -17675,6 +18080,7 @@ extrahierens
 extrakt
 extrakte
 extrakten
+extraktes
 extrakts
 extrapolation
 extrapolationen
@@ -17691,6 +18097,7 @@ extreme
 extremen
 extremfall
 extremfalle
+extremfalles
 extremfalls
 extremfälle
 extremfällen
@@ -17705,6 +18112,7 @@ extremums
 extremwert
 extremwerte
 extremwerten
+extremwertes
 extremwerts
 exzellenz
 exzellenzen
@@ -17822,6 +18230,7 @@ fahrgemeinschaften
 fahrgestell
 fahrgestelle
 fahrgestellen
+fahrgestelles
 fahrgestells
 fahrgäste
 fahrgästen
@@ -17832,6 +18241,7 @@ fahrkilometern
 fahrkilometers
 fahrkorb
 fahrkorbe
+fahrkorbes
 fahrkorbs
 fahrkunst
 fahrkörbe
@@ -17867,6 +18277,7 @@ fahrrädern
 fahrschein
 fahrscheine
 fahrscheinen
+fahrscheines
 fahrscheins
 fahrschule
 fahrschulen
@@ -17890,8 +18301,10 @@ fahrverhaltens
 fahrweg
 fahrwege
 fahrwegen
+fahrweges
 fahrwegs
 fahrwind
+fahrwindes
 fahrwinds
 fahrzeit
 fahrzeiten
@@ -17953,6 +18366,7 @@ falschspielers
 falsifikat
 falsifikate
 falsifikaten
+falsifikates
 falsifikation
 falsifikationen
 falsifikats
@@ -17967,6 +18381,7 @@ faltblättern
 faltboot
 faltboote
 faltbooten
+faltbootes
 faltboots
 falte
 falten
@@ -18069,6 +18484,7 @@ farbwahlen
 farbwerk
 farbwerke
 farbwerken
+farbwerkes
 farbwerks
 farm
 farmen
@@ -18078,6 +18494,7 @@ farmers
 farn
 farne
 farnen
+farnes
 farns
 fasan
 fasanen
@@ -18244,6 +18661,7 @@ fehlgreifens
 fehlgriff
 fehlgriffe
 fehlgriffen
+fehlgriffes
 fehlgriffs
 fehlhandlung
 fehlhandlungen
@@ -18261,6 +18679,7 @@ fehlschlag
 fehlschlage
 fehlschlagen
 fehlschlagens
+fehlschlages
 fehlschlags
 fehlschläge
 fehlschlägen
@@ -18275,10 +18694,12 @@ fehlstellen
 fehltritt
 fehltritte
 fehltritten
+fehltrittes
 fehltritts
 fehlurteil
 fehlurteile
 fehlurteilen
+fehlurteiles
 fehlurteils
 fehlverhalten
 fehlverhaltens
@@ -18430,6 +18851,7 @@ fernbleibens
 fernblick
 fernblicke
 fernblicken
+fernblickes
 fernblicks
 ferne
 fernen
@@ -18447,16 +18869,19 @@ fernfotografie
 ferngas
 ferngase
 ferngasen
+ferngases
 ferngass
 ferngespräch
 ferngespräche
 ferngesprächen
+ferngespräches
 ferngesprächs
 fernheizung
 fernheizungen
 fernheizwerk
 fernheizwerke
 fernheizwerken
+fernheizwerkes
 fernheizwerks
 fernkopie
 fernkopien
@@ -18485,12 +18910,15 @@ fernmeldeapparate
 fernmeldeapparaten
 fernmeldeapparats
 fernmeldedienst
+fernmeldedienstes
 fernmeldediensts
 fernmeldesatellit
 fernmeldesatelliten
 fernmeldetechnik
 fernmeldetruppe
 fernmeldetruppen
+fernmeldeverkehrsamt
+fernmeldeverkehrsamtes
 fernmeldeämter
 fernmeldeämtern
 fernmessung
@@ -18527,6 +18955,7 @@ fernsehantennen
 fernsehapparat
 fernsehapparate
 fernsehapparaten
+fernsehapparates
 fernsehapparats
 fernsehen
 fernsehens
@@ -18536,10 +18965,12 @@ fernsehers
 fernsehfilm
 fernsehfilme
 fernsehfilmen
+fernsehfilmes
 fernsehfilms
 fernsehgerät
 fernsehgeräte
 fernsehgeräten
+fernsehgerätes
 fernsehgeräts
 fernsehidiotin
 fernsehidiotinnen
@@ -18553,6 +18984,7 @@ fernsehschauspielerinnen
 fernsehschirm
 fernsehschirme
 fernsehschirmen
+fernsehschirmes
 fernsehschirms
 fernsehsender
 fernsehsendern
@@ -18577,6 +19009,7 @@ fernsprechamts
 fernsprechapparat
 fernsprechapparate
 fernsprechapparaten
+fernsprechapparates
 fernsprechapparats
 fernsprechautomat
 fernsprechautomaten
@@ -18617,10 +19050,12 @@ fernthermometers
 ferntrauung
 ferntrauungen
 fernunterricht
+fernunterrichtes
 fernunterrichts
 fernverbindung
 fernverbindungen
 fernverkehr
+fernverkehres
 fernverkehrs
 fernverkehrsstraße
 fernverkehrsstraßen
@@ -18635,6 +19070,7 @@ fernzielen
 fernziels
 fernzug
 fernzuge
+fernzuges
 fernzugs
 fernzüge
 fernzügen
@@ -18674,6 +19110,7 @@ fertigstellungen
 fertigteil
 fertigteile
 fertigteilen
+fertigteiles
 fertigteils
 fertigung
 fertigungen
@@ -18715,6 +19152,7 @@ festheftens
 festigen
 festigens
 festival
+festivales
 festivals
 festkeilen
 festkeilens
@@ -18805,6 +19243,7 @@ feudalität
 feudalstaat
 feudalstaate
 feudalstaaten
+feudalstaates
 feudalstaats
 feudalsystem
 feudalsysteme
@@ -18974,6 +19413,7 @@ finderin
 finderinnen
 finderlohn
 finderlohne
+finderlohnes
 finderlohns
 finderlöhne
 finderlöhnen
@@ -19022,6 +19462,7 @@ firma
 firmament
 firmamente
 firmamenten
+firmamentes
 firmaments
 firmen
 firmenlieferantin
@@ -19038,6 +19479,7 @@ firmpaten
 first
 firste
 firsten
+firstes
 firsts
 fisch
 fischchen
@@ -19076,10 +19518,12 @@ fixismus
 fixpunkt
 fixpunkte
 fixpunkten
+fixpunktes
 fixpunkts
 fjord
 fjorde
 fjorden
+fjordes
 fjords
 flachbogen
 flachbogens
@@ -19092,6 +19536,7 @@ flachdachs
 flachdruck
 flachdrucke
 flachdrucken
+flachdruckes
 flachdrucks
 flachdrücken
 flachdrückens
@@ -19134,6 +19579,7 @@ flaggens
 flaggschiff
 flaggschiffe
 flaggschiffen
+flaggschiffes
 flaggschiffs
 flambieren
 flambierens
@@ -19169,6 +19615,7 @@ flatterns
 flauen
 flauens
 flaum
+flaumes
 flaums
 flaute
 flauten
@@ -19177,6 +19624,7 @@ flechtens
 flechtwerk
 flechtwerke
 flechtwerken
+flechtwerkes
 flechtwerks
 fleck
 fleckchen
@@ -19286,6 +19734,7 @@ flippens
 flippern
 flipperns
 flirt
+flirtes
 flirts
 flittchen
 flittchens
@@ -19296,11 +19745,14 @@ flitzens
 flitzer
 flitzern
 flitzers
+flocke
+flocken
 flocken
 flockens
 flockseide
 floh
 flohe
+flohes
 flohs
 flop
 floppen
@@ -19311,6 +19763,7 @@ flops
 flor
 flore
 floren
+flores
 floreszenz
 floreszenzen
 florett
@@ -19380,6 +19833,7 @@ fluoreszenz
 fluorid
 fluoride
 fluoriden
+fluorides
 fluorids
 fluorierung
 fluorierungen
@@ -19445,6 +19899,8 @@ flüchtlinge
 flüchtlingen
 flüchtlinges
 flüchtlings
+flüchtlingsamt
+flüchtlingsamtes
 flüchtlingsexpertin
 flüchtlingsexpertinnen
 flüge
@@ -19569,6 +20025,7 @@ formierungen
 formular
 formulare
 formularen
+formulares
 formulars
 formulieren
 formulierens
@@ -19690,6 +20147,7 @@ fortschreitens
 fortschritt
 fortschritte
 fortschritten
+fortschrittes
 fortschrittler
 fortschrittlern
 fortschrittlers
@@ -19790,6 +20248,7 @@ fragilität
 fragment
 fragmente
 fragmenten
+fragmentes
 fragments
 fragwürdigkeit
 fraktal
@@ -19834,10 +20293,12 @@ franziskaners
 franzose
 franzosen
 französelei
+französisch
 französischdozentin
 französischdozentinnen
 französischlehrerin
 französischlehrerinnen
+französischs
 französischstudentin
 französischstudentinnen
 frappieren
@@ -19871,6 +20332,7 @@ freibeträgen
 freibrief
 freibriefe
 freibriefen
+freibriefes
 freibriefs
 freiburger
 freiburgerin
@@ -19912,6 +20374,7 @@ freigepäcken
 freigepäcks
 freigut
 freigute
+freigutes
 freiguts
 freigänger
 freigängern
@@ -19931,6 +20394,7 @@ freiherrin
 freiherrinnen
 freihof
 freihofe
+freihofes
 freihofs
 freihäfen
 freihöfe
@@ -19972,6 +20436,7 @@ freipressen
 freipressens
 freiraum
 freiraume
+freiraumes
 freiraums
 freiräume
 freiräumen
@@ -20005,12 +20470,14 @@ freisprechung
 freisprechungen
 freispruch
 freispruche
+freispruches
 freispruchs
 freisprüche
 freisprüchen
 freistaat
 freistaate
 freistaaten
+freistaates
 freistaats
 freistehen
 freistehens
@@ -20033,9 +20500,11 @@ freitagen
 freitages
 freitags
 freitod
+freitodes
 freitods
 freiumschlag
 freiumschlage
+freiumschlages
 freiumschlags
 freiumschläge
 freiumschlägen
@@ -20072,6 +20541,7 @@ fremde
 fremdeln
 fremdelns
 fremden
+fremden
 fremdenbuch
 fremdenbuche
 fremdenbuches
@@ -20084,6 +20554,7 @@ fremdenführers
 fremdenzimmer
 fremdenzimmern
 fremdenzimmers
+fremder
 fremdgehen
 fremdgehens
 fremdheit
@@ -20205,6 +20676,7 @@ frischens
 frischfleisch
 frischfleische
 frischfleischen
+frischfleisches
 frischfleischs
 frischgemüse
 frischgemüsen
@@ -20267,6 +20739,7 @@ fritüren
 frohsinn
 frohsinne
 frohsinnen
+frohsinnes
 frohsinns
 fronleichnam
 fronleichnams
@@ -20274,10 +20747,12 @@ front
 frontalangriff
 frontalangriffe
 frontalangriffen
+frontalangriffes
 frontalangriffs
 frontalansicht
 frontalansichten
 frontalunterricht
+frontalunterrichtes
 frontalunterrichts
 frontantrieb
 frontantriebs
@@ -20293,6 +20768,7 @@ frontscheibe
 frontscheiben
 frosch
 frosche
+frosches
 froschs
 frost
 froste
@@ -20327,6 +20803,7 @@ frust
 fruste
 frusten
 frustens
+frustes
 frusts
 fränkin
 fränkinnen
@@ -20363,6 +20840,7 @@ früchten
 frühbeet
 frühbeete
 frühbeeten
+frühbeetes
 frühbeets
 früherkennung
 früherkennungen
@@ -20413,6 +20891,7 @@ fugung
 fuhrbetrieb
 fuhrbetriebe
 fuhrbetrieben
+fuhrbetriebes
 fuhrbetriebs
 fuhrgeld
 fuhrgelde
@@ -20423,8 +20902,10 @@ fuhrgelds
 fuhrgeschäft
 fuhrgeschäfte
 fuhrgeschäften
+fuhrgeschäftes
 fuhrgeschäfts
 fuhrpark
+fuhrparkes
 fuhrparks
 fuhrunternehmer
 fuhrunternehmern
@@ -20432,6 +20913,7 @@ fuhrunternehmers
 fuhrwerk
 fuhrwerke
 fuhrwerken
+fuhrwerkes
 fuhrwerks
 fulminsäure
 fulminsäuren
@@ -20449,6 +20931,7 @@ fundamentalistinnen
 fundamentaltheologie
 fundamente
 fundamenten
+fundamentes
 fundaments
 funde
 funden
@@ -20475,6 +20958,7 @@ funkens
 funker
 funkern
 funkers
+funkes
 funks
 funktion
 funktionalisieren
@@ -20487,6 +20971,7 @@ funktionsassistentinnen
 funktionär
 funktionäre
 funktionären
+funktionäres
 funktionärs
 furche
 furchen
@@ -20562,6 +21047,7 @@ fährmännern
 fährschiff
 fährschiffe
 fährschiffen
+fährschiffes
 fährschiffs
 fährte
 fährten
@@ -20642,6 +21128,7 @@ förderklassen
 förderkohle
 förderkorb
 förderkorbe
+förderkorbes
 förderkorbs
 förderkörbe
 förderkörben
@@ -20657,11 +21144,13 @@ förderprogramms
 förderseil
 förderseile
 förderseilen
+förderseiles
 förderseils
 förderstufe
 förderstufen
 förderturm
 förderturme
+förderturmes
 förderturms
 fördertürme
 fördertürmen
@@ -20703,6 +21192,7 @@ führers
 führerschein
 führerscheine
 führerscheinen
+führerscheines
 führerscheins
 führerstand
 führerstande
@@ -20711,6 +21201,8 @@ führerstände
 führerständen
 führung
 führungen
+führungsamt
+führungsamtes
 fülle
 füllen
 füllens
@@ -20737,6 +21229,7 @@ fünfer
 fünfern
 fünfers
 fünfkampf
+fünfkampfes
 fünfkampfs
 fünfprozentklausel
 fünfprozentklauseln
@@ -20847,6 +21340,9 @@ gangarten
 gange
 ganges
 gangs
+gangs
+gangster
+gangstern
 ganove
 ganoven
 gans
@@ -20856,6 +21352,7 @@ ganzheitspsychologie
 ganzheitspsychologien
 ganzton
 ganztone
+ganztones
 ganztons
 ganztöne
 ganztönen
@@ -20974,8 +21471,10 @@ gebarens
 gebein
 gebeine
 gebeinen
+gebeines
 gebeins
 gebell
+gebelles
 gebells
 geben
 gebens
@@ -20997,6 +21496,7 @@ gebieterin
 gebieterinnen
 gebietern
 gebieters
+gebietes
 gebiets
 gebilde
 gebilden
@@ -21026,6 +21526,7 @@ gebots
 gebrauch
 gebrauchen
 gebrauchens
+gebrauches
 gebrauchs
 gebrauchtwagen
 gebrauchtwagens
@@ -21045,6 +21546,8 @@ geburtshelferinnen
 geburtshelfern
 geburtshelfers
 geburtshilfe
+geburtsstandesamt
+geburtsstandesamtes
 geburtstag
 geburtstage
 geburtstagen
@@ -21063,6 +21566,7 @@ gebären
 gebärens
 gebärstuhl
 gebärstuhle
+gebärstuhles
 gebärstuhls
 gebärstühle
 gebärstühlen
@@ -21078,6 +21582,7 @@ gebündels
 gebüsch
 gebüsche
 gebüschen
+gebüsches
 gebüschs
 gedanke
 gedanken
@@ -21120,6 +21625,8 @@ gefallene
 gefallenen
 gefallens
 gefangene
+gefangene
+gefangenen
 gefangenen
 gefangenenaufseherin
 gefangenenaufseherinnen
@@ -21170,6 +21677,7 @@ gefrierfachs
 gefrierfleisch
 gefrierfleische
 gefrierfleischen
+gefrierfleisches
 gefrierfleischs
 gefrierfächer
 gefrierfächern
@@ -21213,9 +21721,11 @@ gegebenheiten
 gegenangebot
 gegenangebote
 gegenangeboten
+gegenangebotes
 gegenangebots
 gegenantrag
 gegenantrage
+gegenantrages
 gegenantrags
 gegenanträge
 gegenanträgen
@@ -21228,9 +21738,11 @@ gegenden
 gegendienst
 gegendienste
 gegendiensten
+gegendienstes
 gegendiensts
 gegenentwurf
 gegenentwurfe
+gegenentwurfes
 gegenentwurfs
 gegenentwürfe
 gegenentwürfen
@@ -21252,13 +21764,16 @@ gegengeraden
 gegengeschenk
 gegengeschenke
 gegengeschenken
+gegengeschenkes
 gegengeschenks
 gegengift
 gegengifte
 gegengiften
+gegengiftes
 gegengifts
 gegengrund
 gegengrunde
+gegengrundes
 gegengrunds
 gegengründe
 gegengründen
@@ -21279,6 +21794,7 @@ gegenkräften
 gegenkurs
 gegenkurse
 gegenkursen
+gegenkurses
 gegenkurss
 gegenkönig
 gegenkönige
@@ -21314,6 +21830,7 @@ gegenoffensive
 gegenoffensiven
 gegenpapst
 gegenpapste
+gegenpapstes
 gegenpapsts
 gegenpartei
 gegenparteien
@@ -21342,6 +21859,7 @@ gegensatze
 gegensatzes
 gegenschlag
 gegenschlage
+gegenschlages
 gegenschlags
 gegenschläge
 gegenschlägen
@@ -21376,6 +21894,7 @@ gegenständen
 gegenstück
 gegenstücke
 gegenstücken
+gegenstückes
 gegenstücks
 gegensätze
 gegensätzen
@@ -21393,6 +21912,7 @@ gegenverpflichtung
 gegenverpflichtungen
 gegenvorschlag
 gegenvorschlage
+gegenvorschlages
 gegenvorschlags
 gegenvorschläge
 gegenvorschlägen
@@ -21410,8 +21930,10 @@ gegenwehr
 gegenwert
 gegenwerte
 gegenwerten
+gegenwertes
 gegenwerts
 gegenwind
+gegenwindes
 gegenwinds
 gegenwinkel
 gegenwinkeln
@@ -21424,6 +21946,7 @@ gegenzeugin
 gegenzeuginnen
 gegenzug
 gegenzuge
+gegenzuges
 gegenzugs
 gegenzüge
 gegenzügen
@@ -21449,6 +21972,8 @@ gehabe
 gehabes
 gehalt
 gehalte
+gehalte
+gehalten
 gehaltes
 gehaltlosigkeit
 gehalts
@@ -21459,6 +21984,7 @@ geheimagent
 geheimagenten
 geheimbund
 geheimbunde
+geheimbundes
 geheimbunds
 geheimbünde
 geheimbündelei
@@ -21469,6 +21995,7 @@ geheimbündlers
 geheimdienst
 geheimdienste
 geheimdiensten
+geheimdienstes
 geheimdienstexpertin
 geheimdienstexpertinnen
 geheimdienstler
@@ -21498,6 +22025,7 @@ geheimpolizist
 geheimpolizisten
 geheimrat
 geheimrate
+geheimrates
 geheimrats
 geheimräte
 geheimräten
@@ -21519,6 +22047,7 @@ geher
 gehern
 gehers
 geheul
+geheules
 geheuls
 gehilfe
 gehilfen
@@ -21533,12 +22062,15 @@ gehirnwäsche
 gehirnwäschen
 gehorchen
 gehorchens
+gehorsam
+gehorsams
 gehre
 gehren
 gehrens
 gehsteig
 gehsteige
 gehsteigen
+gehsteiges
 gehsteigs
 gehversuch
 gehversuche
@@ -21562,10 +22094,12 @@ gehölze
 gehör
 gehören
 gehörens
+gehöres
 gehörlosensprache
 gehörn
 gehörne
 gehörnen
+gehörnes
 gehörns
 gehörs
 geier
@@ -21729,6 +22263,7 @@ gema
 gemahl
 gemahle
 gemahlen
+gemahles
 gemahlin
 gemahlinnen
 gemahls
@@ -21748,6 +22283,7 @@ gemeinschaft
 gemeinschaften
 gemeinschaftskunde
 gemeinsinn
+gemeinsinnes
 gemeinsinns
 gemeinwesen
 gemeinwesens
@@ -21795,6 +22331,8 @@ genehmigungen
 genen
 general
 generale
+generale
+generalen
 generales
 generalintendantin
 generalintendantinnen
@@ -21805,6 +22343,8 @@ generalsekretär
 generalsekretäre
 generalsekretären
 generalsekretärs
+generalsekretärsamt
+generalsekretärsamtes
 generalstabskarte
 generalstabskarten
 generalvertreter
@@ -21921,6 +22461,7 @@ geplärrs
 gepäck
 gepäcke
 gepäcken
+gepäckes
 gepäcks
 gerade
 geradebiegen
@@ -21959,7 +22500,10 @@ gerennes
 gericht
 gerichte
 gerichten
+gerichtes
 gerichts
+gerichtsamt
+gerichtsamtes
 gerichtsassistentin
 gerichtsassistentinnen
 gerichtsbarkeit
@@ -22002,6 +22546,7 @@ gerumpels
 gerät
 geräte
 geräten
+gerätes
 geräts
 gerätschaft
 gerätschaften
@@ -22018,12 +22563,14 @@ geröchels
 geröll
 gerölle
 geröllen
+gerölles
 gerölls
 gerüche
 gerüchen
 gerücht
 gerüchte
 gerüchten
+gerüchtes
 gerüchts
 gerümpel
 gerümpels
@@ -22163,6 +22710,7 @@ geschichtsvereines
 geschichtsvereins
 geschichtsverlauf
 geschichtsverlaufe
+geschichtsverlaufes
 geschichtsverlaufs
 geschichtsverläufe
 geschichtsverläufen
@@ -22232,6 +22780,7 @@ geschäftchen
 geschäftchens
 geschäfte
 geschäften
+geschäftes
 geschäfts
 geschäftsfähigkeit
 geselle
@@ -22286,6 +22835,7 @@ gesprächs
 gespött
 gespötte
 gespötten
+gespöttes
 gespötts
 gespür
 gespüre
@@ -22321,6 +22871,7 @@ gestehens
 gestein
 gesteine
 gesteinen
+gesteines
 gesteins
 gesten
 gestik
@@ -22333,10 +22884,12 @@ gesträuch
 gesträuche
 gesträucher
 gesträuchern
+gesträuches
 gesträuchs
 gestrüpp
 gestrüppe
 gestrüppen
+gestrüppes
 gestrüpps
 geständnis
 geständnisse
@@ -22353,6 +22906,7 @@ gestümpers
 gestüt
 gestüte
 gestüten
+gestütes
 gestüts
 gesuch
 gesuche
@@ -22362,6 +22916,7 @@ gesuchs
 gesudel
 gesudels
 gesumm
+gesummes
 gesumms
 gesundbeten
 gesundbetens
@@ -22439,8 +22994,11 @@ gewehrs
 geweih
 geweihe
 geweihen
+geweihes
 geweihs
 gewerbe
+gewerbeaufsichtsamt
+gewerbeaufsichtsamtes
 gewerben
 gewerbes
 gewerkschaft
@@ -22485,6 +23043,7 @@ gewinnungen
 gewirr
 gewirre
 gewirren
+gewirres
 gewirrs
 gewissen
 gewissens
@@ -22550,6 +23109,7 @@ gezüngels
 geäst
 geäste
 geästen
+geästes
 geästs
 ghetto
 ghettobewohnerin
@@ -22686,12 +23246,14 @@ gleichgültigkeit
 gleichheit
 gleichklang
 gleichklange
+gleichklanges
 gleichklangs
 gleichklänge
 gleichklängen
 gleichlauf
 gleichlaufen
 gleichlaufens
+gleichlaufes
 gleichlaufs
 gleichläufigkeit
 gleichmacherei
@@ -22708,6 +23270,7 @@ gleichsetzens
 gleichsetzung
 gleichsetzungen
 gleichstand
+gleichstandes
 gleichstands
 gleichstehen
 gleichstehens
@@ -22718,6 +23281,7 @@ gleichstellungen
 gleichstimmen
 gleichstimmens
 gleichstrom
+gleichstromes
 gleichstromgenerator
 gleichstromgeneratore
 gleichstromgeneratoren
@@ -22879,6 +23443,7 @@ goldblech
 goldbleche
 goldblechen
 goldblechs
+goldes
 goldexpertin
 goldexpertinnen
 goldfisch
@@ -22908,6 +23473,7 @@ golfen
 golfens
 golferin
 golferinnen
+golfes
 golfkriegsveteranin
 golfkriegsveteraninnen
 golfs
@@ -22955,6 +23521,8 @@ gouverneuren
 gouverneurin
 gouverneurinnen
 gouverneurs
+gouverneursamt
+gouverneursamtes
 grab
 grabe
 graben
@@ -22996,6 +23564,7 @@ grafikerinnen
 grafschaft
 grafschaften
 gral
+grales
 grals
 gralshüterin
 gralshüterinnen
@@ -23023,10 +23592,12 @@ granatsplitters
 grand
 grandel
 grandeln
+grandes
 grands
 granit
 granite
 graniten
+granites
 granits
 grantler
 grantlern
@@ -23034,10 +23605,12 @@ grantlers
 granulat
 granulate
 granulaten
+granulates
 granulats
 granulit
 granulite
 granuliten
+granulites
 granulits
 graphemik
 graphie
@@ -23115,9 +23688,11 @@ grenadieren
 grenadiers
 grenzbach
 grenzbache
+grenzbaches
 grenzbachs
 grenzbahnhof
 grenzbahnhofe
+grenzbahnhofes
 grenzbahnhofs
 grenzbahnhöfe
 grenzbahnhöfen
@@ -23132,12 +23707,14 @@ grenzern
 grenzers
 grenzfall
 grenzfalle
+grenzfalles
 grenzfalls
 grenzfälle
 grenzfällen
 grenzgebiet
 grenzgebiete
 grenzgebieten
+grenzgebietes
 grenzgebiets
 grenzgänger
 grenzgängern
@@ -23157,6 +23734,7 @@ grenzpostens
 grenzpunkt
 grenzpunkte
 grenzpunkten
+grenzpunktes
 grenzpunkts
 grenzschutzführerin
 grenzschutzführerinnen
@@ -23174,6 +23752,7 @@ grenzstädte
 grenzstädten
 grenzvertrag
 grenzvertrage
+grenzvertrages
 grenzvertrags
 grenzverträge
 grenzverträgen
@@ -23182,13 +23761,16 @@ grenzwachen
 grenzwert
 grenzwerte
 grenzwerten
+grenzwertes
 grenzwerts
 grenzzeichen
 grenzzeichens
 grenzzoll
+grenzzolles
 grenzzolls
 grenzübergang
 grenzübergange
+grenzüberganges
 grenzübergangs
 grenzübergänge
 grenzübergängen
@@ -23201,6 +23783,7 @@ griechen
 griechenland
 griechenlands
 griechentum
+griechentumes
 griechentums
 griechin
 griechinnen
@@ -23234,6 +23817,7 @@ grilles
 grillexpertin
 grillexpertinnen
 grills
+grills
 grimasse
 grimassen
 grimmigkeit
@@ -23256,6 +23840,7 @@ grobians
 grog
 grogs
 groll
+grolles
 grolls
 groschen
 groschens
@@ -23278,6 +23863,7 @@ großbaueren
 großbetrieb
 großbetriebe
 großbetrieben
+großbetriebes
 großbetriebs
 großbritannien
 großbritanniens
@@ -23287,6 +23873,7 @@ großbürgertum
 großbürgertums
 großeinkauf
 großeinkaufe
+großeinkaufes
 großeinkaufs
 großeinkäufe
 großeinkäufen
@@ -23306,6 +23893,7 @@ großhandels
 großherr
 großherren
 großherzog
+großherzoges
 großherzogin
 großherzoginnen
 großherzogs
@@ -23321,11 +23909,13 @@ großinquisitors
 großkampftag
 großkampftage
 großkampftagen
+großkampftages
 großkampftags
 großkanzler
 großkanzlern
 großkanzlers
 großkapital
+großkapitales
 großkapitals
 großkunde
 großkunden
@@ -23342,6 +23932,7 @@ großmarkts
 großmast
 großmaste
 großmasten
+großmastes
 großmasts
 großmaul
 großmaule
@@ -23405,6 +23996,7 @@ großstädters
 großteil
 großteile
 großteilen
+großteiles
 großteils
 großtuerei
 großunternehmen
@@ -23420,6 +24012,7 @@ großverkaufs
 großverkäufe
 großverkäufen
 großvieh
+großviehes
 großviehs
 großväter
 großvätern
@@ -23434,6 +24027,7 @@ grund
 grundanstrich
 grundanstriche
 grundanstrichen
+grundanstriches
 grundanstrichs
 grundbedingung
 grundbedingungen
@@ -23478,6 +24072,7 @@ grundschulpädagoginnen
 grundstein
 grundsteine
 grundsteinen
+grundsteines
 grundsteins
 grundstudium
 grundstudiums
@@ -23486,6 +24081,8 @@ grundstücke
 grundstücken
 grundstückes
 grundstücks
+grundstücksamt
+grundstücksamtes
 grundstücksmaklerin
 grundstücksmaklerinnen
 grundsätze
@@ -23541,6 +24138,7 @@ grönländers
 größe
 größen
 größenwahn
+größenwahnes
 größenwahns
 grübeln
 grübelns
@@ -23643,6 +24241,7 @@ guts
 gutschein
 gutscheine
 gutscheinen
+gutscheines
 gutscheins
 guß
 gymnasiallehrer
@@ -23750,6 +24349,7 @@ haarens
 haarentferner
 haarentfernern
 haarentferners
+haares
 haaresbreite
 haarfestiger
 haarfestigern
@@ -23846,6 +24446,7 @@ halbdrehungen
 halbfabrikat
 halbfabrikate
 halbfabrikaten
+halbfabrikates
 halbfabrikats
 halbfinale
 halbfinalen
@@ -23909,6 +24510,7 @@ halbmonatsschriften
 halbmond
 halbmonde
 halbmonden
+halbmondes
 halbmonds
 halbparasit
 halbparasiten
@@ -23937,6 +24539,8 @@ halbschwergewichts
 halbschwester
 halbschwestern
 halbstarke
+halbstarke
+halbstarken
 halbstarken
 halbstiefel
 halbstiefeln
@@ -23946,6 +24550,7 @@ halbtagskräfte
 halbtagskräften
 halbton
 halbtone
+halbtones
 halbtons
 halbtrauer
 halbtöne
@@ -24085,6 +24690,8 @@ handel
 handeln
 handelns
 handels
+handelsamt
+handelsamtes
 handelsassistentin
 handelsassistentinnen
 handelsexpertin
@@ -24172,6 +24779,7 @@ harnflaschen
 harnisch
 harnische
 harnischen
+harnisches
 harnischs
 harpune
 harpunen
@@ -24330,6 +24938,8 @@ hauptunterhändlerinnen
 hauptverursacher
 hauptverursachern
 hauptverursachers
+hauptverwaltungsamt
+hauptverwaltungsamtes
 hauptzuckerlieferantin
 hauptzuckerlieferantinnen
 haus
@@ -24410,6 +25020,7 @@ hechelns
 hecht
 hechten
 hechtens
+hechtes
 hechtrolle
 hechtrollen
 hechts
@@ -24421,6 +25032,7 @@ hechtsprüngen
 heck
 hecke
 hecken
+heckes
 heckflosse
 heckflossen
 heckklappe
@@ -24477,11 +25089,13 @@ heidenschrecks
 heidenspektakel
 heidenspektakels
 heidentum
+heidentumes
 heidentums
 heil
 heiland
 heilande
 heilanden
+heilandes
 heilands
 heile
 heilen
@@ -24521,6 +25135,8 @@ heilung
 heilungen
 heim
 heimat
+heimatstandesamt
+heimatstandesamtes
 heimbegeben
 heimbegebens
 heimbegleiten
@@ -24606,12 +25222,14 @@ heizflächen
 heizgerät
 heizgeräte
 heizgeräten
+heizgerätes
 heizgeräts
 heizkissen
 heizkissens
 heizkraftwerk
 heizkraftwerke
 heizkraftwerken
+heizkraftwerkes
 heizkraftwerks
 heizkörper
 heizkörpern
@@ -24629,6 +25247,7 @@ heizungen
 heizöl
 heizöle
 heizölen
+heizöles
 heizöls
 heißen
 heißens
@@ -24644,6 +25263,7 @@ heißmangeln
 heißsporn
 heißsporne
 heißspornen
+heißspornes
 heißsporns
 hektar
 hektik
@@ -24655,6 +25275,7 @@ hektographien
 held
 helden
 heldentum
+heldentumes
 heldentums
 heldin
 heldinnen
@@ -24703,6 +25324,7 @@ hemmungslosigkeit
 hengst
 hengste
 hengsten
+hengstes
 hengsts
 henkel
 henkeln
@@ -24882,6 +25504,7 @@ herbittens
 herbizid
 herbizide
 herbiziden
+herbizides
 herbizids
 herbringen
 herbringens
@@ -24895,6 +25518,7 @@ herde
 herden
 herdenken
 herdenkens
+herdes
 herds
 hereinfallen
 hereinfallens
@@ -24947,13 +25571,17 @@ hermeneutik
 hernehmen
 hernehmens
 heroin
+heroines
 heroins
 heroisieren
 heroisierens
 herold
 herolde
 herolden
+heroldes
 herolds
+heroldsamt
+heroldsamtes
 herr
 herrchen
 herrchens
@@ -25147,6 +25775,7 @@ herziehen
 herziehens
 herzlichkeit
 herzog
+herzoges
 herzogin
 herzoginnen
 herzogs
@@ -25584,8 +26213,11 @@ hintenüberkippens
 hinterbein
 hinterbeine
 hinterbeinen
+hinterbeines
 hinterbeins
 hinterbliebene
+hinterbliebene
+hinterbliebenen
 hinterbliebenen
 hinterbänkler
 hinterbänklerin
@@ -25616,6 +26248,7 @@ hinterglasmalerei
 hinterglasmalereien
 hintergrund
 hintergrunde
+hintergrundes
 hintergrunds
 hintergründe
 hintergründen
@@ -25638,6 +26271,7 @@ hinterherspringen
 hinterherspringens
 hinterhof
 hinterhofe
+hinterhofes
 hinterhofs
 hinterhältigkeit
 hinterhände
@@ -25652,6 +26286,7 @@ hinterlader
 hinterladern
 hinterladers
 hinterland
+hinterlandes
 hinterlands
 hinterlassen
 hinterlassene
@@ -25662,6 +26297,7 @@ hinterlassenschaften
 hinterlassung
 hinterlauf
 hinterlaufe
+hinterlaufes
 hinterlaufs
 hinterlegen
 hinterlegens
@@ -25693,6 +26329,7 @@ hinterrädern
 hinterteil
 hinterteile
 hinterteilen
+hinterteiles
 hinterteils
 hintertreffen
 hintertreffens
@@ -25733,6 +26370,7 @@ hinunterziehens
 hinweg
 hinwege
 hinwegen
+hinweges
 hinwegkommen
 hinwegkommens
 hinwegs
@@ -25807,6 +26445,7 @@ hippokratikers
 hirn
 hirne
 hirnen
+hirnes
 hirns
 hirsch
 hirsche
@@ -25821,6 +26460,7 @@ hisbollah
 histogramm
 histogramme
 histogrammen
+histogrammes
 histogramms
 historiker
 historikerin
@@ -25853,6 +26493,7 @@ hochachten
 hochachtens
 hochaltar
 hochaltare
+hochaltares
 hochaltars
 hochaltäre
 hochaltären
@@ -25874,9 +26515,11 @@ hochburgen
 hochdienen
 hochdienens
 hochdruck
+hochdruckes
 hochdruckgebiet
 hochdruckgebiete
 hochdruckgebieten
+hochdruckgebietes
 hochdruckgebiets
 hochdrucks
 hochebene
@@ -25891,6 +26534,7 @@ hochform
 hochformat
 hochformate
 hochformaten
+hochformates
 hochformats
 hochfrequenz
 hochfrequenzen
@@ -25904,6 +26548,7 @@ hochgebirges
 hochgefühl
 hochgefühle
 hochgefühlen
+hochgefühles
 hochgefühls
 hochgehen
 hochgehens
@@ -25985,6 +26630,8 @@ hochschullehrerin
 hochschullehrerinnen
 hochschullehrern
 hochschullehrers
+hochschulprüfungsamt
+hochschulprüfungsamtes
 hochschulreife
 hochschätzen
 hochschätzens
@@ -26013,6 +26660,7 @@ hochspülen
 hochspülens
 hochstand
 hochstande
+hochstandes
 hochstands
 hochstapelei
 hochstapeleien
@@ -26040,6 +26688,7 @@ hochtales
 hochtals
 hochton
 hochtone
+hochtones
 hochtons
 hochtragen
 hochtragens
@@ -26116,6 +26765,7 @@ hohlleiste
 hohlleisten
 hohlraum
 hohlraume
+hohlraumes
 hohlraums
 hohlräume
 hohlräumen
@@ -26125,6 +26775,7 @@ hohlspiegels
 hohlweg
 hohlwege
 hohlwegen
+hohlweges
 hohlwegs
 hohlwelle
 hohlwellen
@@ -26160,12 +26811,14 @@ holländerinnen
 holländern
 holländers
 holocaust
+holocaustes
 holocausts
 holografie
 holografien
 hologramm
 hologramme
 hologrammen
+hologrammes
 hologramms
 holpern
 holperns
@@ -26238,6 +26891,7 @@ horizonts
 hormon
 hormone
 hormonen
+hormones
 hormonexpertin
 hormonexpertinnen
 hormons
@@ -26248,6 +26902,7 @@ horns
 horoskop
 horoskope
 horoskopen
+horoskopes
 horoskops
 horror
 horrors
@@ -26282,6 +26937,7 @@ hotelkauffrauen
 hotels
 hub
 hube
+hubes
 hubs
 hubschrauber
 hubschraubern
@@ -26294,8 +26950,11 @@ hufexpertin
 hufexpertinnen
 hufs
 huhn
+huhn
 huhne
 huhnes
+huhnes
+huhns
 huhns
 huldigen
 huldigens
@@ -26321,6 +26980,7 @@ hummer
 hummern
 hummers
 humor
+humores
 humorist
 humoristen
 humoristin
@@ -26350,6 +27010,7 @@ hundertstels
 hunderttausendstel
 hunderttausendsteln
 hunderttausendstels
+hundes
 hunds
 hundszunge
 hunger
@@ -26491,6 +27152,7 @@ hälsleins
 hämatom
 hämatome
 hämatomen
+hämatomes
 hämatoms
 hämmer
 hämmerchen
@@ -26665,6 +27327,7 @@ hörfähigkeit
 hörgerät
 hörgeräte
 hörgeräten
+hörgerätes
 hörgeräts
 hörgrenze
 hörgrenzen
@@ -26678,6 +27341,7 @@ hörnerhaube
 hörnerhauben
 hörnern
 hörsaal
+hörsaales
 hörsaals
 hörspiel
 hörspiele
@@ -26698,6 +27362,7 @@ hüften
 hüftgelenk
 hüftgelenke
 hüftgelenken
+hüftgelenkes
 hüftgelenks
 hüftknochen
 hüftknochens
@@ -26709,6 +27374,8 @@ hügels
 hühnchen
 hühnchens
 hühner
+hühner
+hühnern
 hühnern
 hülle
 hüllen
@@ -26796,6 +27463,7 @@ idiomatisieren
 idiomatisierens
 idiome
 idiomen
+idiomes
 idioms
 idol
 idole
@@ -26852,6 +27520,7 @@ imitationen
 imitator
 imitatore
 imitatoren
+imitatores
 imitators
 imitats
 imitieren
@@ -26868,6 +27537,7 @@ immensität
 immergrün
 immergrüne
 immergrünen
+immergrünes
 immergrüns
 immigrant
 immigranten
@@ -26876,6 +27546,7 @@ immigrantinnen
 immission
 immissionen
 immobil
+immobiles
 immobilie
 immobilien
 immobilienassistentin
@@ -26911,10 +27582,12 @@ imperativs
 imperator
 imperatore
 imperatoren
+imperatores
 imperators
 imperfekt
 imperfekte
 imperfekten
+imperfektes
 imperfekts
 imperialismus
 imperialist
@@ -26946,6 +27619,7 @@ imponiergehabes
 import
 importe
 importen
+importes
 importieren
 importierens
 imports
@@ -26972,6 +27646,7 @@ inanspruchnahme
 inanspruchnahmen
 inaugenscheinnahme
 inbegriff
+inbegriffes
 inbegriffs
 inbesitznahme
 inbild
@@ -27099,6 +27774,7 @@ inflexibilität
 infloreszenz
 infloreszenzen
 info
+info
 informand
 informanden
 informantin
@@ -27111,6 +27787,8 @@ informatikern
 informatikers
 information
 informationen
+informationsamt
+informationsamtes
 informationsassistentin
 informationsassistentinnen
 informationstechnikerin
@@ -27145,6 +27823,7 @@ ingenieurassistentin
 ingenieurassistentinnen
 ingenieure
 ingenieuren
+ingenieures
 ingenieurin
 ingenieurinnen
 ingenieurpädagogin
@@ -27201,6 +27880,7 @@ injizierens
 injunktion
 injunktionen
 inka
+inka
 inkarnation
 inkarnationen
 inkas
@@ -27222,6 +27902,7 @@ inkrafttretens
 inkrement
 inkremente
 inkrementen
+inkrementes
 inkrementieren
 inkrementierens
 inkrements
@@ -27241,6 +27922,7 @@ inlands
 inlaut
 inlaute
 inlauten
+inlautes
 inlauts
 inländer
 inländerin
@@ -27256,6 +27938,7 @@ innenausstattungen
 innendekoration
 innendekorationen
 innendienst
+innendienstes
 innendiensts
 inneneinrichtung
 inneneinrichtungen
@@ -27263,6 +27946,7 @@ innenexpertin
 innenexpertinnen
 innenhof
 innenhofe
+innenhofes
 innenhofs
 innenhöfe
 innenhöfen
@@ -27278,6 +27962,7 @@ innenministern
 innenministers
 innenraum
 innenraume
+innenraumes
 innenraums
 innenräume
 innenräumen
@@ -27306,6 +27991,7 @@ inquisitionen
 inquisitor
 inquisitore
 inquisitoren
+inquisitores
 inquisitors
 insasse
 insassen
@@ -27378,10 +28064,12 @@ instanzen
 instinkt
 instinkte
 instinkten
+instinktes
 instinkts
 institut
 institute
 instituten
+institutes
 institution
 institutionalisieren
 institutionalisierens
@@ -27415,9 +28103,12 @@ inszenieren
 inszenierens
 inszenierung
 inszenierungen
+integer
+integers
 integral
 integrale
 integralen
+integrales
 integrals
 integrand
 integranden
@@ -27475,6 +28166,7 @@ interimsregierungen
 interimsschein
 interimsscheine
 interimsscheinen
+interimsscheines
 interimsscheins
 intermezzo
 intermezzos
@@ -27486,6 +28178,7 @@ internalisierung
 internat
 internate
 internaten
+internates
 internats
 internetexpertin
 internetexpertinnen
@@ -27537,6 +28230,7 @@ intifada
 intimbereich
 intimbereiche
 intimbereichen
+intimbereiches
 intimbereichs
 intimfeindin
 intimfeindinnen
@@ -27576,6 +28270,7 @@ intuitionen
 invasion
 invasionen
 inventar
+inventares
 inventars
 investieren
 investierens
@@ -27593,6 +28288,7 @@ inzahlungnahme
 inzest
 inzeste
 inzesten
+inzestes
 inzests
 inzidenzwinkel
 inzidenzwinkeln
@@ -27654,6 +28350,7 @@ irrfahrt
 irrfahrten
 irrgang
 irrgange
+irrganges
 irrgangs
 irrglaube
 irrglauben
@@ -27683,9 +28380,11 @@ irrnis
 irrnisse
 irrnissen
 irrsinn
+irrsinnes
 irrsinns
 irrtum
 irrtume
+irrtumes
 irrtums
 irrtümer
 irrtümern
@@ -27784,6 +28483,7 @@ jahrgängen
 jahrhundert
 jahrhunderte
 jahrhunderten
+jahrhundertes
 jahrhunderts
 jahrs
 jahrtausend
@@ -27841,6 +28541,7 @@ jaulens
 jawort
 jaworte
 jaworten
+jawortes
 jaworts
 jazz
 jazzexpertin
@@ -27934,6 +28635,7 @@ juchzens
 jude
 juden
 judentum
+judentumes
 judentums
 judikation
 judikationen
@@ -28049,6 +28751,7 @@ jungstiers
 jungstudentin
 jungstudentinnen
 jungvolk
+jungvolkes
 jungvolks
 jungwild
 jungwilde
@@ -28158,13 +28861,17 @@ kabarettistin
 kabarettistinnen
 kabaretts
 kabel
+kabel
 kabeln
+kabeln
+kabels
 kabels
 kabine
 kabinen
 kabinett
 kabinette
 kabinetten
+kabinettes
 kabinetts
 kabuff
 kabuffs
@@ -28188,6 +28895,7 @@ kaffeetanten
 kaffeewärmer
 kaffeewärmern
 kaffeewärmers
+kaffes
 kaffs
 kahlfressen
 kahlfressens
@@ -28195,6 +28903,7 @@ kahlscheren
 kahlscherens
 kahn
 kahne
+kahnes
 kahns
 kaiser
 kaiserin
@@ -28239,6 +28948,7 @@ kalk
 kalke
 kalken
 kalkens
+kalkes
 kalks
 kalkulation
 kalkulationen
@@ -28277,6 +28987,7 @@ kalzium
 kalziumkarbonat
 kalziumkarbonate
 kalziumkarbonaten
+kalziumkarbonates
 kalziumkarbonats
 kalziumoxid
 kalziumoxide
@@ -28286,6 +28997,7 @@ kalziums
 kalziumsulfat
 kalziumsulfate
 kalziumsulfaten
+kalziumsulfates
 kalziumsulfats
 kambodscha
 kambodschas
@@ -28334,6 +29046,7 @@ kammerschauspielers
 kammersolistin
 kammersolistinnen
 kammerton
+kammertones
 kammertons
 kammes
 kamms
@@ -28397,6 +29110,7 @@ kanonade
 kanonaden
 kanone
 kanonen
+kanones
 kanonier
 kanoniere
 kanonieren
@@ -28428,6 +29142,7 @@ kantinenwirtinnen
 kanton
 kantone
 kantonen
+kantones
 kantonist
 kantonisten
 kantons
@@ -28468,6 +29183,7 @@ kapierens
 kapillare
 kapillaren
 kapital
+kapitales
 kapitalisation
 kapitalisieren
 kapitalisierens
@@ -28495,6 +29211,10 @@ kapitän
 kapitäne
 kapitänen
 kapitäns
+kapitänsamt
+kapitänsamtes
+kaplansamt
+kaplansamtes
 kappe
 kappen
 kappens
@@ -28528,6 +29248,7 @@ karamel
 karamell
 karamelle
 karamellen
+karamells
 karamels
 karatekämpferin
 karatekämpferinnen
@@ -28542,6 +29263,7 @@ karbolsäure
 karbonsäure
 kardinal
 kardinale
+kardinales
 kardinalfehler
 kardinalfehlern
 kardinalfehlers
@@ -28551,6 +29273,7 @@ kardinälen
 kardiogramm
 kardiogramme
 kardiogrammen
+kardiogrammes
 kardiogramms
 kardiograph
 kardiographen
@@ -28566,6 +29289,7 @@ karenztags
 karfreitag
 karfreitage
 karfreitagen
+karfreitages
 karfreitags
 karfunkel
 karfunkeln
@@ -28620,6 +29344,7 @@ karrieren
 karsamstag
 karsamstage
 karsamstagen
+karsamstages
 karsamstags
 karte
 kartei
@@ -28796,6 +29521,7 @@ kauri
 kauris
 kausalzusammenhang
 kausalzusammenhange
+kausalzusammenhanges
 kausalzusammenhangs
 kausalzusammenhänge
 kausalzusammenhängen
@@ -28833,9 +29559,11 @@ kehle
 kehlen
 kehlkopf
 kehlkopfe
+kehlkopfes
 kehlkopfs
 kehlköpfe
 kehlköpfen
+kehren
 kehren
 kehrens
 kehrmaschine
@@ -28845,6 +29573,7 @@ kehrseiten
 kehrwert
 kehrwerte
 kehrwerten
+kehrwertes
 kehrwerts
 keifen
 keifens
@@ -28857,6 +29586,7 @@ keilerei
 keilereien
 keilern
 keilers
+keiles
 keilhaue
 keilhauen
 keils
@@ -28866,6 +29596,7 @@ keim
 keime
 keimen
 keimens
+keimes
 keimling
 keimlinge
 keimlingen
@@ -28879,6 +29610,7 @@ kekses
 kelch
 kelche
 kelchen
+kelches
 kelchs
 kelkheimer
 kelkheimern
@@ -29097,6 +29829,7 @@ kinkerlitzchens
 kinn
 kinne
 kinnen
+kinnes
 kinns
 kino
 kinobesucherin
@@ -29213,6 +29946,7 @@ klampfen
 klamüsern
 klamüserns
 klan
+klanes
 klang
 klange
 klanges
@@ -29220,6 +29954,7 @@ klangexpertin
 klangexpertinnen
 klangs
 klans
+klappen
 klappen
 klappens
 klappern
@@ -29232,6 +29967,7 @@ klappstühlen
 klapptisch
 klapptische
 klapptischen
+klapptisches
 klapptischs
 klaren
 klarens
@@ -29259,6 +29995,7 @@ klarstellens
 klartext
 klartexte
 klartexten
+klartextes
 klartexts
 klasse
 klassefrau
@@ -29316,6 +30053,7 @@ klebestreifens
 klebstoff
 klebstoffe
 klebstoffen
+klebstoffes
 klebstoffs
 kleckern
 kleckerns
@@ -29371,6 +30109,7 @@ kleinhandels
 kleinhirn
 kleinhirne
 kleinhirnen
+kleinhirnes
 kleinhirns
 kleinhändler
 kleinhändlerin
@@ -29417,6 +30156,7 @@ kleinstaat
 kleinstaate
 kleinstaaten
 kleinstaaterei
+kleinstaates
 kleinstaats
 kleinstadt
 kleinstarbeit
@@ -29446,10 +30186,12 @@ kleintierexpertinnen
 kleintiers
 kleinverkauf
 kleinverkaufe
+kleinverkaufes
 kleinverkaufs
 kleinverkäufe
 kleinverkäufen
 kleinvieh
+kleinviehes
 kleinviehs
 kleinwagen
 kleinwagens
@@ -29491,6 +30233,7 @@ kletterers
 klettergerüst
 klettergerüste
 klettergerüsten
+klettergerüstes
 klettergerüsts
 klettermast
 klettermaste
@@ -29504,6 +30247,8 @@ kletterseilen
 kletterseils
 klettersportlerin
 klettersportlerinnen
+klick
+klicks
 klient
 klientel
 klienteln
@@ -29574,10 +30319,14 @@ kloake
 kloaken
 klofrau
 klofrauen
+klon
+klone
+klonen
 klonen
 klonens
 kloning
 klonings
+klons
 klopfen
 klopfens
 klopfer
@@ -29612,6 +30361,8 @@ klugscheißer
 klugscheißern
 klugscheißers
 klumpen
+klumpen
+klumpens
 klumpens
 klunker
 klunkern
@@ -29632,6 +30383,7 @@ klärens
 klärmaschine
 klärmaschinen
 klärschlamm
+klärschlammes
 klärschlamms
 klärung
 klärungen
@@ -29686,6 +30438,7 @@ knallerbsen
 knallerei
 knallern
 knallers
+knalles
 knallfrosch
 knallfrosche
 knallfroschs
@@ -29712,6 +30465,7 @@ knast
 knaster
 knastern
 knasters
+knastes
 knasts
 knattern
 knatterns
@@ -29735,6 +30489,7 @@ knecht
 knechte
 knechten
 knechtens
+knechtes
 knechts
 knechtschaft
 knechtung
@@ -29861,6 +30616,7 @@ koautors
 kobalt
 kobalte
 kobalten
+kobaltes
 kobalts
 kobold
 kobolde
@@ -29876,15 +30632,18 @@ kochens
 kocher
 kochern
 kochers
+koches
 kochflasche
 kochflaschen
 kochgeschirr
 kochgeschirre
 kochgeschirren
+kochgeschirres
 kochgeschirrs
 kochherd
 kochherde
 kochherden
+kochherdes
 kochherds
 kochrezept
 kochrezepte
@@ -29965,6 +30724,7 @@ kolleghefts
 kollegialgericht
 kollegialgerichte
 kollegialgerichten
+kollegialgerichtes
 kollegialgerichts
 kollegialität
 kollegiat
@@ -29985,6 +30745,7 @@ kollektivistinnen
 kollektivs
 kollektivvertrag
 kollektivvertrage
+kollektivvertrages
 kollektivvertrags
 kollektivverträge
 kollektivverträgen
@@ -30000,6 +30761,7 @@ kollineationen
 kolloquiumsrednerin
 kolloquiumsrednerinnen
 kolonialamt
+kolonialamtes
 kolonialamts
 kolonialisieren
 kolonialisierens
@@ -30092,6 +30854,7 @@ kommens
 kommentar
 kommentare
 kommentaren
+kommentares
 kommentars
 kommentator
 kommentatore
@@ -30103,6 +30866,7 @@ kommerzialisieren
 kommerzialisierens
 kommerzialrat
 kommerzialrate
+kommerzialrates
 kommerzialrats
 kommerzialräte
 kommerzialräten
@@ -30113,6 +30877,7 @@ kommisionen
 kommissar
 kommissare
 kommissaren
+kommissares
 kommissarin
 kommissarinnen
 kommissars
@@ -30190,6 +30955,7 @@ komplement
 komplementarität
 komplemente
 komplementen
+komplementes
 komplementieren
 komplementierens
 komplements
@@ -30210,6 +30976,7 @@ komplikationen
 kompliment
 komplimente
 komplimenten
+komplimentes
 komplimentieren
 komplimentierens
 kompliments
@@ -30304,6 +31071,7 @@ kondukt
 konduktanz
 kondukte
 kondukten
+konduktes
 konduktor
 konduktore
 konduktoren
@@ -30372,6 +31140,7 @@ kongenialität
 konglomerat
 konglomerate
 konglomeraten
+konglomerates
 konglomerats
 kongress
 kongresse
@@ -30394,11 +31163,13 @@ konkordanzen
 konkordat
 konkordate
 konkordaten
+konkordates
 konkordats
 konkordia
 konkrement
 konkremente
 konkrementen
+konkrementes
 konkrements
 konkretion
 konkretisieren
@@ -30408,6 +31179,7 @@ konkretisierungen
 konkubinat
 konkubinate
 konkubinaten
+konkubinates
 konkubinats
 konkurrent
 konkurrenten
@@ -30493,6 +31265,7 @@ konstruierens
 konstrukt
 konstrukte
 konstrukten
+konstruktes
 konstruktion
 konstruktionen
 konstrukts
@@ -30501,6 +31274,7 @@ konsularvertreterinnen
 konsulat
 konsulate
 konsulaten
+konsulates
 konsulats
 konsultation
 konsultationen
@@ -30512,6 +31286,7 @@ konsument
 konsumenten
 konsumentin
 konsumentinnen
+konsumes
 konsumieren
 konsumierens
 konsums
@@ -30520,6 +31295,7 @@ kontakt
 kontakte
 kontakten
 kontaktens
+kontaktes
 kontaktieren
 kontaktierens
 kontakts
@@ -30546,6 +31322,7 @@ kontinent
 kontinentalsperre
 kontinente
 kontinenten
+kontinentes
 kontinents
 kontinuität
 kontinuitäten
@@ -30576,6 +31353,7 @@ kontraindikationen
 kontrakt
 kontrakte
 kontrakten
+kontraktes
 kontraktion
 kontraktionen
 kontrakts
@@ -30593,6 +31371,7 @@ kontributionen
 kontrollabschnitt
 kontrollabschnitte
 kontrollabschnitten
+kontrollabschnittes
 kontrollabschnitts
 kontrollbüro
 kontrollbüros
@@ -30648,6 +31427,7 @@ konzertbesucherin
 konzertbesucherinnen
 konzerte
 konzerten
+konzertes
 konzertina
 konzertinas
 konzerts
@@ -30701,6 +31481,7 @@ korallen
 korallenfischerei
 korb
 korbe
+korbes
 korbjägerin
 korbjägerinnen
 korbs
@@ -30717,6 +31498,7 @@ kork
 korke
 korken
 korkens
+korkes
 korks
 korn
 korne
@@ -30755,6 +31537,7 @@ korsagen
 korse
 korsen
 korsett
+korsettes
 korsetts
 korso
 korsos
@@ -30794,6 +31577,7 @@ kostgelds
 kostgeschäft
 kostgeschäfte
 kostgeschäften
+kostgeschäftes
 kostgeschäfts
 kostgänger
 kostgängern
@@ -30808,6 +31592,7 @@ kostümassistentin
 kostümassistentinnen
 kostüme
 kostümen
+kostümes
 kostümieren
 kostümierens
 kostümprobe
@@ -30836,11 +31621,13 @@ kracherln
 kracherls
 krachern
 krachers
+kraches
 krachs
 kraft
 kraftarm
 kraftarme
 kraftarmen
+kraftarmes
 kraftarms
 kraftfahrzeug
 kraftfahrzeuge
@@ -30879,12 +31666,14 @@ krakel
 krakeln
 krakels
 kraken
+kraken
 kralle
 krallen
 krallens
 kram
 kramen
 kramens
+krames
 krampe
 krampen
 krampf
@@ -30991,7 +31780,13 @@ kreiseln
 kreisels
 kreisen
 kreisens
+kreisentwicklungsamt
+kreisentwicklungsamtes
+kreisernährungsamt
+kreisernährungsamtes
 kreises
+kreisflüchtlingsamt
+kreisflüchtlingsamtes
 kreislauf
 kreislaufe
 kreislaufes
@@ -31054,6 +31849,10 @@ kriegern
 kriegers
 krieges
 kriegs
+kriegsamt
+kriegsamtes
+kriegsernährungsamt
+kriegsernährungsamtes
 kriegsgewinnlerin
 kriegsgewinnlerinnen
 kriegslieferantin
@@ -31078,6 +31877,7 @@ kriminalpolizeien
 kriminalroman
 kriminalromane
 kriminalromanen
+kriminalromanes
 kriminalromans
 kriminelle
 kriminellen
@@ -31103,6 +31903,7 @@ krisenberaterinnen
 kristall
 kristalle
 kristallen
+kristalles
 kristallisation
 kristallisationen
 kristallisieren
@@ -31256,6 +32057,8 @@ krüge
 krügen
 krüglein
 krügleins
+krümel
+krümeln
 krümeln
 krümelns
 krümmen
@@ -31325,6 +32128,7 @@ kulminationen
 kult
 kulte
 kulten
+kultes
 kultivieren
 kultivierens
 kults
@@ -31348,6 +32152,8 @@ kummers
 kumpanin
 kumpaninnen
 kumpel
+kumpel
+kumpeln
 kumpels
 kumulation
 kumulationen
@@ -31521,6 +32327,7 @@ käffchens
 käfig
 käfige
 käfigen
+käfiges
 käfigs
 kähne
 kähnen
@@ -31615,9 +32422,12 @@ kölners
 könig
 könige
 königen
+königes
 königin
 königinnen
 königs
+königsamt
+königsamtes
 königsteiner
 königsteinern
 königsteiners
@@ -31675,6 +32485,9 @@ kühe
 kühen
 kühlen
 kühlens
+kühler
+kühlern
+kühlers
 kühlhaus
 kühlhause
 kühlhauses
@@ -31778,6 +32591,7 @@ laboratorium
 laboratoriums
 laboratory
 laboratorys
+labores
 laborieren
 laborierens
 labors
@@ -31786,6 +32600,7 @@ labradorzüchterinnen
 labyrinth
 labyrinthe
 labyrinthen
+labyrinthes
 labyrinths
 lache
 lachen
@@ -31795,6 +32610,7 @@ lachern
 lachers
 lachkrampf
 lachkrampfe
+lachkrampfes
 lachkrampfs
 lachkrämpfe
 lachkrämpfen
@@ -31893,6 +32709,7 @@ lamettas
 laminat
 laminate
 laminaten
+laminates
 laminats
 laminieren
 laminierens
@@ -31920,15 +32737,29 @@ landemanövers
 landen
 landens
 landes
+landesbischofsamt
+landesbischofsamtes
 landesebene
+landesernährungsamt
+landesernährungsamtes
 landeskunde
 landesligist
 landesligisten
+landesvermessungsamt
+landesvermessungsamtes
+landesverwaltungsamt
+landesverwaltungsamtes
+landeswirtschaftsamt
+landeswirtschaftsamtes
+landratsamt
+landratsamtes
 lands
 landschaft
 landschaften
 landschaftsexpertin
 landschaftsexpertinnen
+landschaftsverbandsamt
+landschaftsverbandsamtes
 landstraßennutzerin
 landstraßennutzerinnen
 landstreicherin
@@ -31945,6 +32776,8 @@ landwirte
 landwirten
 landwirtes
 landwirts
+landwirtschaftsamt
+landwirtschaftsamtes
 landwirtschaftsexpertin
 landwirtschaftsexpertinnen
 langdrehen
@@ -31981,7 +32814,9 @@ langweiligkeit
 langwelle
 langwellen
 langzeitarbeitslose
+langzeitarbeitslose
 langzeitarbeitslosen
+langzeitarbeitsloser
 langzeitfreundin
 langzeitfreundinnen
 langzeitkanzlerin
@@ -32149,6 +32984,8 @@ lebensfreude
 lebensgefährtin
 lebensgefährtinnen
 lebensmittel
+lebensmittelaufsichtsamt
+lebensmittelaufsichtsamtes
 lebensmittellieferantin
 lebensmittellieferantinnen
 lebensmitteln
@@ -32166,6 +33003,7 @@ lecithins
 leck
 leckerbissen
 leckerbissens
+leckes
 lecks
 leckschlagen
 leckschlagens
@@ -32179,9 +33017,11 @@ leerens
 leergewicht
 leergewichte
 leergewichten
+leergewichtes
 leergewichts
 leerheit
 leerlauf
+leerlaufes
 leerlaufs
 leerstehen
 leerstehens
@@ -32297,6 +33137,7 @@ lehrerassistentinnen
 lehrerfolg
 lehrerfolge
 lehrerfolgen
+lehrerfolges
 lehrerfolgs
 lehrerin
 lehrerinnen
@@ -32313,6 +33154,7 @@ lehrfachs
 lehrfilm
 lehrfilme
 lehrfilmen
+lehrfilmes
 lehrfilms
 lehrfreiheit
 lehrfächer
@@ -32327,9 +33169,11 @@ lehrgebäudes
 lehrgedicht
 lehrgedichte
 lehrgedichten
+lehrgedichtes
 lehrgedichts
 lehrgegenstand
 lehrgegenstande
+lehrgegenstandes
 lehrgegenstands
 lehrgegenstände
 lehrgegenständen
@@ -32342,6 +33186,7 @@ lehrgelds
 lehrgerüst
 lehrgerüste
 lehrgerüsten
+lehrgerüstes
 lehrgerüsts
 lehrgänge
 lehrgängen
@@ -32361,6 +33206,7 @@ lehrmeistern
 lehrmeisters
 lehrplan
 lehrplane
+lehrplanes
 lehrplans
 lehrpläne
 lehrplänen
@@ -32371,8 +33217,10 @@ lehrstellen
 lehrstoff
 lehrstoffe
 lehrstoffen
+lehrstoffes
 lehrstoffs
 lehrstuhl
+lehrstuhles
 lehrstuhls
 lehrstuhlvertreterin
 lehrstuhlvertreterinnen
@@ -32382,12 +33230,14 @@ lehrstühle
 lehrstühlen
 lehrvertrag
 lehrvertrage
+lehrvertrages
 lehrvertrags
 lehrverträge
 lehrverträgen
 lehrwerk
 lehrwerke
 lehrwerken
+lehrwerkes
 lehrwerks
 lehrzeit
 lehrzeiten
@@ -32437,6 +33287,7 @@ leichtigkeit
 leichtöl
 leichtöle
 leichtölen
+leichtöles
 leichtöls
 leid
 leiden
@@ -32469,6 +33320,7 @@ leihämtern
 leim
 leimen
 leimens
+leimes
 leims
 leine
 leinen
@@ -32544,10 +33396,12 @@ leitvorstellungen
 leitwerk
 leitwerke
 leitwerken
+leitwerkes
 leitwerks
 leitwert
 leitwerte
 leitwerten
+leitwertes
 leitwerts
 leitwährung
 leitwährungen
@@ -32609,6 +33463,7 @@ lernhilfen
 lerninhalt
 lerninhalte
 lerninhalten
+lerninhaltes
 lerninhalts
 lernmaschine
 lernmaschinen
@@ -32648,6 +33503,7 @@ lesefreudigkeit
 lesegerät
 lesegeräte
 lesegeräten
+lesegerätes
 lesegeräts
 lesegesellschaft
 lesegesellschaften
@@ -32658,6 +33514,7 @@ leseproben
 lesepult
 lesepulte
 lesepulten
+lesepultes
 lesepults
 leser
 leseratte
@@ -32745,7 +33602,9 @@ leutnant
 leutnants
 leutseligkeit
 level
+level
 leveln
+levels
 levels
 lexem
 lexeme
@@ -32859,6 +33718,7 @@ lieferns
 lieferschein
 lieferscheine
 lieferscheinen
+lieferscheines
 lieferscheins
 lieferung
 lieferungen
@@ -32991,6 +33851,7 @@ linksregierungen
 linksruck
 linksrucke
 linksrucken
+linksruckes
 linksrucks
 linkswendung
 linkswendungen
@@ -33137,6 +33998,8 @@ lokalitäten
 lokalredaktion
 lokalredaktionen
 lokals
+lokalverwaltungsamt
+lokalverwaltungsamtes
 lokomotive
 lokomotiven
 loks
@@ -33147,6 +34010,7 @@ lombarden
 lombardgeschäft
 lombardgeschäfte
 lombardgeschäften
+lombardgeschäftes
 lombardgeschäfts
 lombardieren
 lombardierens
@@ -33160,6 +34024,7 @@ lorbeeren
 lorbeerzweig
 lorbeerzweige
 lorbeerzweigen
+lorbeerzweiges
 lorbeerzweigs
 lord
 lords
@@ -33300,6 +34165,8 @@ luftrettungsassistentin
 luftrettungsassistentinnen
 luftwaffenexpertin
 luftwaffenexpertinnen
+luftwaffenverwaltungsamt
+luftwaffenverwaltungsamtes
 lugen
 lugens
 luke
@@ -33345,6 +34212,7 @@ lutheraner
 lutheranern
 lutheraners
 luthertum
+luthertumes
 luthertums
 lutschen
 lutschens
@@ -33399,10 +34267,12 @@ längsrichtung
 längsschnitt
 längsschnitte
 längsschnitten
+längsschnittes
 längsschnitts
 längsstrich
 längsstriche
 längsstrichen
+längsstriches
 längsstrichs
 längstal
 längstale
@@ -33423,6 +34293,7 @@ lärchen
 lärm
 lärmen
 lärmens
+lärmes
 lärms
 lässigkeit
 lässigkeiten
@@ -33519,6 +34390,7 @@ lötrohranalyse
 lötrohranalysen
 lötrohre
 lötrohren
+lötrohres
 lötrohrs
 lötung
 lötwasser
@@ -33583,6 +34455,7 @@ machtübernahme
 machwerk
 machwerke
 machwerken
+machwerkes
 machwerks
 machzahl
 machzahlen
@@ -33600,6 +34473,7 @@ mafias
 magazin
 magazine
 magazinen
+magazines
 magazins
 magd
 magdeburger
@@ -33628,7 +34502,9 @@ magistrats
 magnesium
 magnesiums
 magnet
+magnet
 magneten
+magnets
 maharadscha
 maharadschas
 maharani
@@ -33637,6 +34513,7 @@ mahl
 mahle
 mahlen
 mahlens
+mahles
 mahls
 mahlzeit
 mahlzeiten
@@ -33648,6 +34525,7 @@ mahners
 mahnmal
 mahnmale
 mahnmalen
+mahnmales
 mahnmals
 mahnung
 mahnungen
@@ -33665,6 +34543,8 @@ mainzer
 mainzern
 mainzers
 mais
+mais
+maises
 maitresse
 maitressen
 majestät
@@ -33795,6 +34675,7 @@ manifestation
 manifestationen
 manifeste
 manifesten
+manifestes
 manifestieren
 manifestierens
 manifests
@@ -33901,6 +34782,7 @@ markise
 markisen
 markt
 markte
+marktes
 marktexpertin
 marktexpertinnen
 marktforscherin
@@ -33973,14 +34855,20 @@ massenpsychologie
 massieren
 massierens
 mast
+mast
+maste
 masten
+masten
+mastes
 mastikator
 mastikatore
 mastikatoren
 mastikators
+masts
 masturbieren
 masturbierens
 match
+matches
 matchs
 material
 materialassistentin
@@ -34030,6 +34918,7 @@ maul
 maule
 maulen
 maulens
+maules
 mauls
 maulschelle
 maulschellen
@@ -34097,6 +34986,7 @@ medaillenfavoritinnen
 medianwert
 medianwerte
 medianwerten
+medianwertes
 medianwerts
 mediation
 mediationen
@@ -34110,6 +35000,7 @@ medienpädagoginnen
 medikament
 medikamente
 medikamenten
+medikamentes
 medikaments
 mediothek
 mediotheken
@@ -34137,6 +35028,7 @@ meetings
 mehl
 mehle
 mehlen
+mehles
 mehls
 mehlschwitze
 mehlschwitzen
@@ -34148,6 +35040,7 @@ mehraufwands
 mehrbelastung
 mehrbetrag
 mehrbetrage
+mehrbetrages
 mehrbetrags
 mehrbeträge
 mehrbeträgen
@@ -34159,6 +35052,7 @@ mehren
 mehrens
 mehrertrag
 mehrertrage
+mehrertrages
 mehrertrags
 mehrerträge
 mehrerträgen
@@ -34174,6 +35068,7 @@ mehrheitssozialistin
 mehrheitssozialistinnen
 mehrkampf
 mehrkampfe
+mehrkampfes
 mehrkampfs
 mehrkosten
 mehrkämpfe
@@ -34185,14 +35080,17 @@ mehrlings
 mehrstimmigkeit
 mehrung
 mehrverbrauch
+mehrverbrauches
 mehrverbrauchs
 mehrvölkerstaat
 mehrvölkerstaate
 mehrvölkerstaaten
+mehrvölkerstaates
 mehrvölkerstaats
 mehrwegflasche
 mehrwegflaschen
 mehrwert
+mehrwertes
 mehrwerts
 mehrwertsteuer
 mehrwertsteuern
@@ -34212,6 +35110,7 @@ meilers
 meineid
 meineide
 meineiden
+meineides
 meineids
 meinen
 meinens
@@ -34307,6 +35206,7 @@ mergels
 meridian
 meridiane
 meridianen
+meridianes
 meridians
 merkantilismus
 merkblatt
@@ -34365,6 +35265,7 @@ messfühlers
 messgerät
 messgeräte
 messgeräten
+messgerätes
 messgeräts
 messgewand
 messgewandes
@@ -34394,6 +35295,7 @@ messwerks
 messwert
 messwerte
 messwerten
+messwertes
 messwerts
 messwesen
 messwesens
@@ -34419,6 +35321,7 @@ metallen
 metaller
 metallern
 metallers
+metalles
 metallisation
 metallisator
 metallisatore
@@ -34514,6 +35417,7 @@ metzgers
 meuchelmord
 meuchelmorde
 meuchelmorden
+meuchelmordes
 meuchelmords
 meuchelmörder
 meuchelmörderin
@@ -34634,6 +35538,7 @@ mietern
 mieters
 mietertrag
 mietertrage
+mietertrages
 mietertrags
 mieterträge
 mieterträgen
@@ -34645,6 +35550,7 @@ miethaien
 miethais
 mietkauf
 mietkaufe
+mietkaufes
 mietkaufs
 mietkosten
 mietkäufe
@@ -34660,6 +35566,7 @@ mietspiegeln
 mietspiegels
 mietvertrag
 mietvertrage
+mietvertrages
 mietvertrags
 mietverträge
 mietverträgen
@@ -34746,11 +35653,15 @@ militarisieren
 militarisierens
 militarismus
 militär
+militärbischofsamt
+militärbischofsamtes
 militärexpertin
 militärexpertinnen
 militärpädagogin
 militärpädagoginnen
 militärs
+militärversuchsamt
+militärversuchsamtes
 militärwesen
 militärwesens
 miliz
@@ -34842,6 +35753,7 @@ minimalisieren
 minimalisierens
 minimallohn
 minimallohne
+minimallohnes
 minimallohns
 minimallöhne
 minimallöhnen
@@ -35009,6 +35921,8 @@ misstöne
 misstönen
 missverstehen
 missverständnis
+missverständnisse
+missverständnissen
 misswirtschaft
 misswirtschaften
 mist
@@ -35016,6 +35930,7 @@ mistel
 misteln
 misten
 mistens
+mistes
 mists
 mitabsteigerin
 mitabsteigerinnen
@@ -35071,6 +35986,7 @@ mitbürgers
 miteinader
 miteinaders
 miteinander
+miteinanders
 miteinanders
 mitempfinden
 mitempfindens
@@ -35153,6 +36069,7 @@ mitleid
 mitleiden
 mitleidens
 mitleidenschaft
+mitleides
 mitleids
 mitlernen
 mitlernens
@@ -35194,6 +36111,7 @@ mitschneidens
 mitschnitt
 mitschnitte
 mitschnitten
+mitschnittes
 mitschnitts
 mitschreiben
 mitschreibens
@@ -35441,6 +36359,7 @@ modells
 modeln
 modelns
 models
+models
 modem
 modeme
 modemen
@@ -35455,6 +36374,7 @@ moderation
 moderator
 moderatore
 moderatoren
+moderatores
 moderatorin
 moderatorinnen
 moderators
@@ -35502,6 +36422,7 @@ mokicks
 molch
 molche
 molchen
+molches
 molchs
 moldawierin
 moldawierinnen
@@ -35514,6 +36435,7 @@ molekularphysikerinnen
 molekül
 moleküle
 molekülen
+moleküles
 moleküls
 molen
 molke
@@ -35532,12 +36454,14 @@ monarchien
 monat
 monate
 monaten
+monates
 monats
 mond
 monde
 monden
 mondenschein
 mondenscheins
+mondes
 mondraute
 monds
 monegasse
@@ -35549,6 +36473,7 @@ monierens
 monogramm
 monogramme
 monogrammen
+monogrammes
 monogramms
 monokultur
 monokulturen
@@ -35598,6 +36523,7 @@ montagabenden
 montagabends
 montage
 montagen
+montages
 montags
 montanismus
 montanist
@@ -35649,6 +36575,7 @@ moraltheologinnen
 morast
 moraste
 morasten
+morastes
 morasts
 morbidität
 morchel
@@ -35685,6 +36612,7 @@ moränen
 mosaik
 mosaike
 mosaiken
+mosaikes
 mosaiks
 mosambikanerin
 mosambikanerinnen
@@ -36047,6 +36975,7 @@ mühlrädern
 mühlwerk
 mühlwerke
 mühlwerken
+mühlwerkes
 mühlwerks
 mühsal
 mühsale
@@ -36060,6 +36989,7 @@ müllerin
 müllerinnen
 müllern
 müllers
+mülles
 mülls
 müllsünderin
 müllsünderinnen
@@ -36230,6 +37160,7 @@ nachforderns
 nachforschen
 nachforschens
 nachfragen
+nachfragen
 nachfragens
 nachfrist
 nachfristen
@@ -36269,10 +37200,12 @@ nachhall
 nachhalle
 nachhallen
 nachhallens
+nachhalles
 nachhalls
 nachhauseweg
 nachhausewege
 nachhausewegen
+nachhauseweges
 nachhausewegs
 nachhelfen
 nachhelfens
@@ -36285,6 +37218,7 @@ nachhilfen
 nachhinken
 nachhinkens
 nachholbedarf
+nachholbedarfes
 nachholbedarfs
 nachholen
 nachholens
@@ -36304,6 +37238,7 @@ nachkaufen
 nachkaufens
 nachklang
 nachklange
+nachklanges
 nachklangs
 nachklingen
 nachklingens
@@ -36334,6 +37269,7 @@ nachlauf
 nachlaufe
 nachlaufen
 nachlaufens
+nachlaufes
 nachlaufs
 nachlaß
 nachleben
@@ -36413,6 +37349,7 @@ nachruf
 nachrufe
 nachrufen
 nachrufens
+nachrufes
 nachrufs
 nachruhm
 nachruhme
@@ -36436,6 +37373,7 @@ nachschlagens
 nachschlagewerk
 nachschlagewerke
 nachschlagewerken
+nachschlagewerkes
 nachschlagewerks
 nachschleichen
 nachschleichens
@@ -36515,6 +37453,7 @@ nachtankens
 nachteil
 nachteile
 nachteilen
+nachteiles
 nachteils
 nachtessen
 nachtessens
@@ -36527,6 +37466,7 @@ nachtigallen
 nachtisch
 nachtische
 nachtischen
+nachtisches
 nachtischs
 nachtrag
 nachtrage
@@ -36555,6 +37495,7 @@ nachvertonens
 nachvollziehen
 nachvollziehens
 nachvollzug
+nachvollzuges
 nachvollzugs
 nachwachsen
 nachwachsens
@@ -36651,6 +37592,7 @@ nahetreten
 nahetretens
 nahkampf
 nahkampfe
+nahkampfes
 nahkampfs
 nahkämpfe
 nahkämpfen
@@ -36659,8 +37601,13 @@ nahrungslieferantin
 nahrungslieferantinnen
 nahrungsmittellieferantin
 nahrungsmittellieferantinnen
+nahrungsmitteluntersuchungsamt
+nahrungsmitteluntersuchungsamtes
 nahverkehr
+nahverkehres
 nahverkehrs
+nahverkehrsamt
+nahverkehrsamtes
 name
 namen
 namens
@@ -36710,6 +37657,7 @@ nasalierungen
 nasallaut
 nasallaute
 nasallauten
+nasallautes
 nasallauts
 naschen
 naschens
@@ -36747,6 +37695,7 @@ nationalgefühls
 nationalgericht
 nationalgerichte
 nationalgerichten
+nationalgerichtes
 nationalgerichts
 nationalisieren
 nationalisierens
@@ -36758,9 +37707,11 @@ nationalitäten
 nationalmannschaft
 nationalmannschaften
 nationalpark
+nationalparkes
 nationalparks
 nationalrat
 nationalrate
+nationalrates
 nationalrats
 nationalräte
 nationalräten
@@ -36861,6 +37812,7 @@ nebeneinander
 nebeneinanders
 nebeneingang
 nebeneingange
+nebeneinganges
 nebeneingangs
 nebeneingänge
 nebeneingängen
@@ -36882,10 +37834,12 @@ nebengedanken
 nebengeräusch
 nebengeräusche
 nebengeräuschen
+nebengeräusches
 nebengeräuschs
 nebengeschäft
 nebengeschäfte
 nebengeschäften
+nebengeschäftes
 nebengeschäfts
 nebengewinn
 nebengewinne
@@ -36913,13 +37867,16 @@ nebenpersonen
 nebenprodukt
 nebenprodukte
 nebenprodukten
+nebenproduktes
 nebenprodukts
 nebenpunkt
 nebenpunkte
 nebenpunkten
+nebenpunktes
 nebenpunkts
 nebenraum
 nebenraume
+nebenraumes
 nebenraums
 nebenrolle
 nebenrollen
@@ -36942,9 +37899,11 @@ nebentals
 nebentisch
 nebentische
 nebentischen
+nebentisches
 nebentischs
 nebenton
 nebentone
+nebentones
 nebentons
 nebentäler
 nebentälern
@@ -36954,16 +37913,19 @@ nebentür
 nebentüren
 nebenumstand
 nebenumstande
+nebenumstandes
 nebenumstands
 nebenumstände
 nebenumständen
 nebenverdienst
 nebenverdienste
 nebenverdiensten
+nebenverdienstes
 nebenverdiensts
 nebenweg
 nebenwege
 nebenwegen
+nebenweges
 nebenwegs
 nebenwinkel
 nebenwinkeln
@@ -36978,6 +37940,7 @@ nebenzimmers
 nebenzweig
 nebenzweige
 nebenzweigen
+nebenzweiges
 nebenzweigs
 nebenämter
 nebenämtern
@@ -37010,6 +37973,7 @@ neidens
 neider
 neidern
 neiders
+neides
 neidhammel
 neidhammeln
 neidhammels
@@ -37020,6 +37984,7 @@ neigens
 neigung
 neigungen
 nein
+neines
 neins
 neinsager
 neinsagern
@@ -37032,6 +37997,7 @@ nelke
 nelken
 nennbetrag
 nennbetrage
+nennbetrages
 nennbetrags
 nennbeträge
 nennbeträgen
@@ -37054,6 +38020,7 @@ nennungen
 nennwert
 nennwerte
 nennwerten
+nennwertes
 nennwerts
 neofreudianerin
 neofreudianerinnen
@@ -37103,6 +38070,7 @@ nesteln
 nestelns
 nester
 nestern
+nestes
 nests
 nettigkeit
 nettigkeiten
@@ -37112,22 +38080,26 @@ nettoeinnahme
 nettoeinnahmen
 nettoertrag
 nettoertrage
+nettoertrages
 nettoertrags
 nettoerträge
 nettoerträgen
 nettogewicht
 nettogewichte
 nettogewichten
+nettogewichtes
 nettogewichts
 nettogewinn
 nettogewinne
 nettogewinnen
+nettogewinnes
 nettogewinns
 nettoregistertonne
 nettoregistertonnen
 nettoverdienst
 nettoverdienste
 nettoverdiensten
+nettoverdienstes
 nettoverdiensts
 nettozahlerin
 nettozahlerinnen
@@ -37137,6 +38109,7 @@ netzen
 netzes
 neuanfang
 neuanfange
+neuanfanges
 neuanfangs
 neuanfänge
 neuanfängen
@@ -37175,6 +38148,7 @@ neuigkeiten
 neuintonation
 neuintonationen
 neuland
+neulandes
 neulands
 neulehrer
 neulehrerin
@@ -37257,12 +38231,14 @@ neuwahl
 neuwahlen
 neuwort
 neuworte
+neuwortes
 neuworts
 neuwörter
 neuwörtern
 neuzeit
 neuzugang
 neuzugange
+neuzuganges
 neuzugangs
 neuzugänge
 neuzugängen
@@ -37283,6 +38259,7 @@ nichtakademikerinnen
 nichtangriffspakt
 nichtangriffspakte
 nichtangriffspakten
+nichtangriffspaktes
 nichtangriffspakts
 nichtarier
 nichtariern
@@ -37388,6 +38365,7 @@ niederfrequenz
 niederfrequenzen
 niedergang
 niedergange
+niederganges
 niedergangs
 niedergedrücktheit
 niedergeschlagenheit
@@ -37448,6 +38426,7 @@ niederschlag
 niederschlage
 niederschlagen
 niederschlagens
+niederschlages
 niederschlags
 niederschlagung
 niederschlagungen
@@ -37506,6 +38485,7 @@ niedrigkeit
 niedrigwasser
 niedrigwassers
 niemandsland
+niemandslandes
 niemandslands
 niere
 nieren
@@ -37541,6 +38521,7 @@ nikoläusen
 nilpferd
 nilpferde
 nilpferden
+nilpferdes
 nilpferds
 nimmersatt
 nimmersatte
@@ -37580,6 +38561,7 @@ niveaus
 nivelliergerät
 nivelliergeräte
 nivelliergeräten
+nivelliergerätes
 nivelliergeräts
 nixe
 nixen
@@ -37599,6 +38581,7 @@ nomenklatura
 nomenklaturen
 nominalbetrag
 nominalbetrage
+nominalbetrages
 nominalbetrags
 nominalbeträge
 nominalbeträgen
@@ -37613,12 +38596,14 @@ nominalphrasen
 nominalwert
 nominalwerte
 nominalwerten
+nominalwertes
 nominalwerts
 nomination
 nominationen
 nominativ
 nominative
 nominativen
+nominatives
 nominativs
 nominieren
 nominierens
@@ -37704,6 +38689,7 @@ normalwissenschaften
 normalzeit
 normalzeiten
 normalzustand
+normalzustandes
 normalzustands
 normen
 normens
@@ -37745,6 +38731,8 @@ notrufe
 notrufen
 notrufes
 notrufs
+notstandsamt
+notstandsamtes
 notwehr
 notwendigkeit
 notwendigkeiten
@@ -37782,6 +38770,7 @@ nummerieren
 nummerierens
 nummerierung
 nummerierungen
+nummerierungen
 nummern
 nuscheln
 nuschelns
@@ -37796,6 +38785,7 @@ nutzbarkeiten
 nutzeffekt
 nutzeffekte
 nutzeffekten
+nutzeffektes
 nutzeffekts
 nutzen
 nutzens
@@ -37856,6 +38846,7 @@ nährens
 nährstoff
 nährstoffe
 nährstoffen
+nährstoffes
 nährstoffs
 nähseide
 nähseiden
@@ -37866,6 +38857,7 @@ nähstichs
 nähtisch
 nähtische
 nähtischen
+nähtisches
 nähtischs
 näpfe
 näpfen
@@ -37909,6 +38901,7 @@ nüßchens
 oase
 oasen
 obdach
+obdaches
 obdachlose
 obdachlosen
 obdachs
@@ -37926,11 +38919,13 @@ oberamtswundärztinnen
 oberarm
 oberarme
 oberarmen
+oberarmes
 oberarms
 oberassistentin
 oberassistentinnen
 oberaufsicht
 oberbefehl
+oberbefehles
 oberbefehls
 oberbegriff
 oberbegriffe
@@ -38090,6 +39085,7 @@ obertaste
 obertasten
 oberton
 obertone
+obertones
 obertons
 obertöne
 obertönen
@@ -38106,6 +39102,7 @@ obhut
 objekt
 objekte
 objekten
+objektes
 objektiv
 objektive
 objektiven
@@ -38139,6 +39136,7 @@ obsession
 obsessionen
 obsorge
 obst
+obstes
 obstlandwirtin
 obstlandwirtinnen
 obstpflückerin
@@ -38197,6 +39195,7 @@ ohren
 ohrenheilkunde
 ohrensausen
 ohrensausens
+ohres
 ohrfeigen
 ohrfeigens
 ohrgehänge
@@ -38257,6 +39256,7 @@ omama
 omamas
 omas
 omelett
+omelettes
 omeletts
 omi
 omis
@@ -38348,11 +39348,14 @@ orakels
 orange
 orangen
 orbit
+orbitale
+orbitalen
 orbitalrakete
 orbitalraketen
 orbiter
 orbitern
 orbiters
+orbites
 orbits
 orchester
 orchestern
@@ -38379,6 +39382,8 @@ ordnern
 ordners
 ordnung
 ordnungen
+ordnungsamt
+ordnungsamtes
 ordnungshüterin
 ordnungshüterinnen
 ordnungsliebe
@@ -38433,15 +39438,18 @@ originaltexts
 orkan
 orkane
 orkanen
+orkanes
 orkans
 ornament
 ornamente
 ornamenten
+ornamentes
 ornaments
 ort
 orte
 orten
 ortens
+ortes
 orthodoxie
 orthografie
 orthografien
@@ -38453,6 +39461,8 @@ orthopädie
 orthopädist
 orthopädisten
 orts
+ortsamt
+ortsamtes
 ortschaft
 ortschaften
 ortsvorsteherin
@@ -38467,6 +39477,9 @@ osramlampen
 ossi
 ossis
 ost
+ostdeutsche
+ostdeutschen
+ostdeutscher
 oste
 osten
 ostens
@@ -38474,6 +39487,7 @@ osteologie
 osterfest
 osterfeste
 osterfesten
+osterfestes
 osterfests
 osterhase
 osterhasen
@@ -38490,6 +39504,7 @@ ostersonnabends
 ostersonntag
 ostersonntage
 ostersonntagen
+ostersonntages
 ostersonntags
 osterurlauberin
 osterurlauberinnen
@@ -38554,6 +39569,7 @@ oxidierens
 ozean
 ozeane
 ozeanen
+ozeanes
 ozeanografie
 ozeanographie
 ozeanologie
@@ -38561,6 +39577,7 @@ ozeanologin
 ozeanologinnen
 ozeans
 ozon
+ozones
 ozonisieren
 ozonisierens
 ozons
@@ -38644,10 +39661,12 @@ palmen
 palmwein
 palmweine
 palmweinen
+palmweines
 palmweins
 palmöl
 palmöle
 palmölen
+palmöles
 palmöls
 paläontologe
 paläontologen
@@ -38721,6 +39740,7 @@ papas
 paper
 papern
 papers
+papers
 papier
 papiere
 papieren
@@ -38735,6 +39755,7 @@ pappbechers
 pappe
 pappel
 pappeln
+pappen
 pappen
 pappenheimer
 pappenheimern
@@ -38830,6 +39851,7 @@ parisers
 pariwert
 pariwerte
 pariwerten
+pariwertes
 pariwerts
 park
 parka
@@ -38843,6 +39865,7 @@ parkens
 parker
 parkern
 parkers
+parkes
 parkett
 parkette
 parketten
@@ -38872,6 +39895,7 @@ parksünders
 parkverbot
 parkverbote
 parkverboten
+parkverbotes
 parkverbots
 parlament
 parlamentarier
@@ -38882,7 +39906,10 @@ parlamentariers
 parlamentarismus
 parlamente
 parlamenten
+parlamentes
 parlaments
+parlamentsamt
+parlamentsamtes
 parlamentär
 parlamentäre
 parlamentären
@@ -38891,6 +39918,8 @@ parodie
 parodien
 parole
 parolen
+parse
+parsen
 parsen
 parsens
 parser
@@ -38951,11 +39980,14 @@ passagieres
 passagierin
 passagierinnen
 passagiers
+passamt
+passamtes
 passant
 passanten
 passantin
 passantinnen
 passat
+passates
 passats
 passe
 passen
@@ -38966,6 +39998,7 @@ passierens
 passierschein
 passierscheine
 passierscheinen
+passierscheines
 passierscheins
 passion
 passionen
@@ -38998,9 +40031,11 @@ pastor
 pastorat
 pastorate
 pastoraten
+pastorates
 pastorats
 pastore
 pastoren
+pastores
 pastorin
 pastorinnen
 pastors
@@ -39032,6 +40067,7 @@ patientinnen
 patin
 patinnen
 patriarchat
+patriarchates
 patriarchats
 patriotin
 patriotinnen
@@ -39039,6 +40075,8 @@ patrizier
 patriziern
 patriziers
 patrone
+patrone
+patronen
 patronen
 patronin
 patroninnen
@@ -39071,6 +40109,7 @@ paukern
 paukers
 pauschalbetrag
 pauschalbetrage
+pauschalbetrages
 pauschalbetrags
 pauschalbeträge
 pauschalbeträgen
@@ -39090,6 +40129,7 @@ pauschalurteilen
 pauschalurteils
 pauschbetrag
 pauschbetrage
+pauschbetrages
 pauschbetrags
 pauschbeträge
 pauschbeträgen
@@ -39121,12 +40161,14 @@ pech
 pechblende
 peche
 pechen
+peches
 pechs
 pechsträhne
 pechsträhnen
 pedal
 pedale
 pedalen
+pedales
 pedals
 pedant
 pedanten
@@ -39146,6 +40188,7 @@ peilfrequenzen
 peilgerät
 peilgeräte
 peilgeräten
+peilgerätes
 peilgeräts
 peilung
 peilungen
@@ -39254,6 +40297,7 @@ performanz
 pergament
 pergamentband
 pergamentbande
+pergamentbandes
 pergamentbands
 pergamentbände
 pergamentbänden
@@ -39332,6 +40376,7 @@ pessimisten
 pestizid
 pestizide
 pestiziden
+pestizides
 pestizids
 petersilie
 petersilien
@@ -39425,10 +40470,12 @@ pfeilen
 pfeiler
 pfeilern
 pfeilers
+pfeiles
 pfeils
 pfennig
 pfennige
 pfennigen
+pfenniges
 pfennigs
 pferchen
 pferchens
@@ -39454,6 +40501,7 @@ pfiffigkeit
 pfingstfest
 pfingstfeste
 pfingstfesten
+pfingstfestes
 pfingstfests
 pfirsich
 pfirsiche
@@ -39758,6 +40806,7 @@ pigment
 pigmentation
 pigmente
 pigmenten
+pigmentes
 pigmentieren
 pigmentierens
 pigmentierung
@@ -39869,12 +40918,17 @@ pisten
 pistole
 pistolen
 pixel
+pixel
 pixeln
+pixeln
+pixels
 pixels
 pizza
 pizzas
 pizzen
 pkw
+pkw
+pkws
 pkws
 placebo
 placebos
@@ -39884,6 +40938,7 @@ plagens
 plagiat
 plagiate
 plagiaten
+plagiates
 plagiatorin
 plagiatorinnen
 plagiats
@@ -39929,6 +40984,8 @@ plantage
 plantagen
 planung
 planungen
+planungsamt
+planungsamtes
 planwagen
 planwagens
 plappern
@@ -40043,6 +41100,7 @@ plunzen
 plural
 plurale
 pluralen
+plurales
 pluralismus
 pluralität
 plurals
@@ -40054,6 +41112,7 @@ pluspols
 plusquamperfekt
 plusquamperfekte
 plusquamperfekten
+plusquamperfektes
 plusquamperfekts
 plustern
 plusterns
@@ -40089,6 +41148,7 @@ plünderungen
 plüsch
 plüsche
 plüschen
+plüsches
 plüschs
 pneuma
 pneumas
@@ -40101,6 +41161,7 @@ pochens
 podest
 podeste
 podesten
+podestes
 podests
 podien
 podium
@@ -40150,6 +41211,7 @@ polarnächten
 polarzone
 polarzonen
 pole
+pole
 polemik
 polemiken
 polemiker
@@ -40157,6 +41219,7 @@ polemikern
 polemikers
 polemisieren
 polemisierens
+polen
 polen
 polens
 poles
@@ -40210,6 +41273,8 @@ polizeipathologin
 polizeipathologinnen
 polizeiseelsorgerin
 polizeiseelsorgerinnen
+polizeiverwaltungsamt
+polizeiverwaltungsamtes
 polizist
 polizisten
 polizistin
@@ -40250,6 +41315,7 @@ polynesierinnen
 polynom
 polynome
 polynomen
+polynomes
 polynoms
 polyp
 polypen
@@ -40274,6 +41340,7 @@ pontifikalämtern
 pontifikat
 pontifikate
 pontifikaten
+pontifikates
 pontifikats
 pony
 ponys
@@ -40331,6 +41398,7 @@ portos
 portrait
 portraits
 porträt
+porträtes
 porträtieren
 porträtierens
 porträts
@@ -40340,6 +41408,7 @@ portugiesin
 portugiesinnen
 porzellan
 porzellanerde
+porzellanes
 porzellans
 pos
 posaune
@@ -40398,6 +41467,7 @@ potenzen
 potenzial
 potenziale
 potenzialen
+potenziales
 potenzials
 potenzieren
 potenzierens
@@ -40410,6 +41480,7 @@ potsdamern
 potsdamers
 pott
 potte
+pottes
 potts
 power
 powern
@@ -40509,6 +41580,7 @@ presseagentinnen
 presseexpertin
 presseexpertinnen
 pressen
+pressen
 pressens
 pressereferentin
 pressereferentinnen
@@ -40551,6 +41623,7 @@ priesterinnen
 priestern
 priesters
 priestertum
+priestertumes
 priestertums
 primarstufe
 primarstufen
@@ -40561,6 +41634,7 @@ primen
 primäraffekt
 primäraffekte
 primäraffekten
+primäraffektes
 primäraffekts
 primärgestein
 primärgesteine
@@ -40592,6 +41666,7 @@ prinzessinnen
 prinzip
 prinzipalin
 prinzipalinnen
+prinzipes
 prinzipien
 prinzipienreiterei
 prinzips
@@ -40625,6 +41700,7 @@ privatsekretärinnen
 privatärztin
 privatärztinnen
 privileg
+privileges
 privilegien
 privilegs
 pro
@@ -40656,6 +41732,7 @@ prodekans
 produkt
 produkte
 produkten
+produktes
 produktion
 produktionen
 produktionsassistentin
@@ -40679,6 +41756,7 @@ professionalisierung
 professor
 professore
 professoren
+professores
 professorin
 professorinnen
 professors
@@ -40734,6 +41812,7 @@ projektassistentin
 projektassistentinnen
 projekte
 projekten
+projektes
 projektieren
 projektierens
 projektion
@@ -40746,6 +41825,7 @@ proklamierens
 prokurator
 prokuratore
 prokuratoren
+prokuratores
 prokurators
 prokurist
 prokuristen
@@ -40753,6 +41833,7 @@ prolet
 proletariat
 proletariate
 proletariaten
+proletariates
 proletariats
 proletarier
 proletarierin
@@ -40765,12 +41846,15 @@ proleten
 prolog
 prologe
 prologen
+prologes
 prologs
 promenade
 promenaden
 promille
 promillegrenze
 promilles
+prominenten
+prominenter
 prominenz
 prominenzen
 promission
@@ -40821,6 +41905,7 @@ prorektor
 prorektorat
 prorektorate
 prorektoraten
+prorektorates
 prorektorats
 prorektore
 prorektoren
@@ -40857,6 +41942,8 @@ prosperierens
 prosten
 prostens
 prostituierte
+prostituierte
+prostituierten
 prostituierten
 prostitution
 protagonist
@@ -40866,12 +41953,14 @@ protagonistinnen
 protein
 proteine
 proteinen
+proteines
 proteins
 protektionismus
 protektor
 protektorat
 protektorate
 protektoraten
+protektorates
 protektorats
 protektore
 protektoren
@@ -40890,6 +41979,7 @@ protoklasen
 protokoll
 protokolle
 protokollen
+protokolles
 protokollieren
 protokollierens
 protokolls
@@ -40901,6 +41991,7 @@ protoplasmas
 prototyp
 prototype
 prototypen
+prototypes
 prototyps
 protz
 protzen
@@ -40945,6 +42036,7 @@ prudeleien
 pruefung
 pruefungen
 prunk
+prunkes
 prunkgemach
 prunkgemache
 prunkgemaches
@@ -40978,6 +42070,7 @@ präfekturen
 präfigieren
 präfigierens
 präfix
+präfix
 präfixe
 präfixen
 präfixes
@@ -41010,6 +42103,7 @@ präokkupation
 präparat
 präparate
 präparaten
+präparates
 präparation
 präparationen
 präparator
@@ -41043,6 +42137,8 @@ präsidentin
 präsidentinnen
 präsidentschaft
 präsidentschaften
+präsidentschaftsamt
+präsidentschaftsamtes
 präsidien
 präsidium
 präsidiums
@@ -41084,10 +42180,12 @@ prüfmaschine
 prüfmaschinen
 prüfstand
 prüfstande
+prüfstandes
 prüfstands
 prüfstein
 prüfsteine
 prüfsteinen
+prüfsteines
 prüfsteins
 prüfstände
 prüfständen
@@ -41107,6 +42205,7 @@ prügelstrafe
 psalm
 psalme
 psalmen
+psalmes
 psalmist
 psalmisten
 psalms
@@ -41241,6 +42340,7 @@ pulsierens
 pult
 pulte
 pulten
+pultes
 pults
 pulver
 pulvern
@@ -41321,6 +42421,7 @@ putschisten
 putschs
 putt
 putten
+putten
 puttens
 putts
 putze
@@ -41341,7 +42442,10 @@ putzwolle
 putzzeug
 putzzeuge
 putzzeugen
+putzzeuges
 putzzeugs
+puzzle
+puzzles
 pvcs
 pygmäe
 pygmäen
@@ -41389,6 +42493,7 @@ pöbels
 pökelfleisch
 pökelfleische
 pökelfleischen
+pökelfleisches
 pökelfleischs
 pökeln
 pökelns
@@ -41475,6 +42580,7 @@ quarks
 quartal
 quartale
 quartalen
+quartales
 quartals
 quarte
 quarten
@@ -41550,6 +42656,7 @@ querschießen
 querschießens
 querschlag
 querschlage
+querschlages
 querschlags
 querschläge
 querschlägen
@@ -41559,6 +42666,7 @@ querschlägers
 querschnitt
 querschnitte
 querschnitten
+querschnittes
 querschnitts
 querschreiben
 querschreibens
@@ -41567,6 +42675,7 @@ querstraßen
 querstrich
 querstriche
 querstrichen
+querstriches
 querstrichs
 quersumme
 quersummen
@@ -41618,11 +42727,13 @@ quinternen
 quintett
 quintette
 quintetten
+quintettes
 quintetts
 quirl
 quirle
 quirlen
 quirlens
+quirles
 quirls
 quittieren
 quittierens
@@ -41691,6 +42802,7 @@ radfahrens
 radfahrweg
 radfahrwege
 radfahrwegen
+radfahrweges
 radfahrwegs
 radialreifen
 radialreifens
@@ -41870,6 +42982,7 @@ raserei
 rasierapparat
 rasierapparate
 rasierapparaten
+rasierapparates
 rasierapparats
 rasieren
 rasierens
@@ -41882,6 +42995,7 @@ rasiersteins
 raspeln
 raspelns
 rasse
+rasseln
 rasseln
 rasselns
 rassen
@@ -41957,12 +43071,14 @@ rauchens
 raucher
 rauchern
 rauchers
+rauches
 rauchfangkehrerin
 rauchfangkehrerinnen
 rauchs
 rauchverbot
 rauchverbote
 rauchverboten
+rauchverbotes
 rauchverbots
 raudi
 raudis
@@ -41973,6 +43089,7 @@ raufasern
 raufbold
 raufbolde
 raufbolden
+raufboldes
 raufbolds
 raufen
 raufens
@@ -42000,6 +43117,8 @@ raumfahrers
 raumfahrtexpertin
 raumfahrtexpertinnen
 raumlehre
+raumordnungsamt
+raumordnungsamtes
 raumordnungsexpertin
 raumordnungsexpertinnen
 raums
@@ -42044,6 +43163,7 @@ realitäten
 realkredit
 realkredite
 realkrediten
+realkredites
 realkredits
 realo
 realos
@@ -42054,6 +43174,7 @@ realschullehrerinnen
 realwert
 realwerte
 realwerten
+realwertes
 realwerts
 rebe
 rebell
@@ -42088,6 +43209,7 @@ rechenfehlers
 rechengerät
 rechengeräte
 rechengeräten
+rechengerätes
 rechengeräts
 rechenkünstler
 rechenkünstlern
@@ -42115,11 +43237,14 @@ rechnern
 rechners
 rechnung
 rechnungen
+rechnungsamt
+rechnungsamtes
 recht
 rechte
 rechteck
 rechtecke
 rechtecken
+rechteckes
 rechtecks
 rechten
 rechtes
@@ -42180,6 +43305,7 @@ rechtssoziologinnen
 rechtsstaatlichkeit
 rechtsstaatlichkeiten
 rechtsverkehr
+rechtsverkehres
 rechtsverkehrs
 recke
 recken
@@ -42298,6 +43424,7 @@ regelstudienzeiten
 regelung
 regelungen
 regen
+regen
 regenbogen
 regenbogenpresse
 regenbogens
@@ -42319,6 +43446,8 @@ regieren
 regierens
 regierung
 regierungen
+regierungsamt
+regierungsamtes
 regierungsassistentin
 regierungsassistentinnen
 regierungsexpertin
@@ -42399,6 +43528,8 @@ reichern
 reicherns
 reiches
 reichs
+reichsamt
+reichsamtes
 reichspost
 reichspräsident
 reichspräsidenten
@@ -42410,6 +43541,7 @@ reichtums
 reichtümer
 reichtümern
 reif
+reife
 reife
 reifen
 reifenlieferantin
@@ -42428,6 +43560,8 @@ reihenfolgen
 reihens
 reihern
 reiherns
+reime
+reimen
 reimen
 reimens
 reimwort
@@ -42448,6 +43582,8 @@ reinigern
 reinigers
 reinigung
 reinigungen
+reinigungsamt
+reinigungsamtes
 reinkarnation
 reinkarnationen
 reinkultur
@@ -42506,14 +43642,17 @@ reitpeitschen
 reitpferd
 reitpferde
 reitpferden
+reitpferdes
 reitpferds
 reitschule
 reitschulen
 reitstall
 reitstalle
+reitstalles
 reitstalls
 reitstock
 reitstocke
+reitstockes
 reitstocks
 reitställe
 reitställen
@@ -42576,9 +43715,11 @@ rektor
 rektorat
 rektorate
 rektoraten
+rektorates
 rektorats
 rektore
 rektoren
+rektores
 rektorin
 rektorinnen
 rektors
@@ -42603,6 +43744,7 @@ relegation
 relegationen
 relevanz
 relief
+reliefes
 reliefkarte
 reliefkarten
 reliefs
@@ -42645,6 +43787,7 @@ renkens
 rennboot
 rennboote
 rennbooten
+rennbootes
 rennboots
 rennen
 rennens
@@ -42661,6 +43804,7 @@ rennfahrers
 rennpferd
 rennpferde
 rennpferden
+rennpferdes
 rennpferds
 rennrad
 rennrade
@@ -42673,6 +43817,7 @@ rennrädern
 renntag
 renntage
 renntagen
+renntages
 renntags
 rennwagen
 rennwagens
@@ -42763,6 +43908,7 @@ repräsentieren
 repräsentierens
 reps
 reptil
+reptiles
 reptilien
 reptils
 republik
@@ -42779,6 +43925,7 @@ requirierens
 requisit
 requisite
 requisiten
+requisites
 requisition
 requisitionen
 requisits
@@ -42793,6 +43940,8 @@ reservierens
 reservoir
 reservoire
 reservoiren
+reservoires
+reservoirs
 reservoirs
 residenz
 residenzen
@@ -42824,6 +43973,7 @@ respektblattes
 respektblatts
 respektblätter
 respektblättern
+respektes
 respektieren
 respektierens
 respekts
@@ -42853,6 +44003,7 @@ resultanten
 resultat
 resultate
 resultaten
+resultates
 resultats
 resultieren
 resultierende
@@ -42979,6 +44130,7 @@ richters
 richtfest
 richtfeste
 richtfesten
+richtfestes
 richtfests
 richtfeuer
 richtfeuern
@@ -43027,6 +44179,7 @@ richtzahlen
 ricinusöl
 ricinusöle
 ricinusölen
+ricinusöles
 ricinusöls
 riechen
 riechens
@@ -43038,6 +44191,7 @@ riechfläschchens
 riechorgan
 riechorgane
 riechorganen
+riechorganes
 riechorgans
 riechwerkzeug
 riechwerkzeuge
@@ -43097,6 +44251,7 @@ ringerin
 ringerinnen
 ringern
 ringers
+ringes
 ringkämpferin
 ringkämpferinnen
 ringlein
@@ -43131,7 +44286,9 @@ rittern
 ritters
 ritterschaft
 rittertum
+rittertumes
 rittertums
+rittes
 rittmeister
 rittmeistern
 rittmeisters
@@ -43139,6 +44296,7 @@ ritts
 ritual
 rituale
 ritualen
+rituales
 ritualisieren
 ritualisierens
 ritualist
@@ -43168,6 +44326,7 @@ rock
 rocke
 rockerin
 rockerinnen
+rockes
 rocks
 rodelbahn
 rodelbahnen
@@ -43189,6 +44348,7 @@ rohbilanzen
 rohgewicht
 rohgewichte
 rohgewichten
+rohgewichtes
 rohgewichts
 rohguss
 rohgusse
@@ -43207,6 +44367,7 @@ rohrs
 rohstoff
 rohstoffe
 rohstoffen
+rohstoffes
 rohstofflieferantin
 rohstofflieferantinnen
 rohstoffs
@@ -43256,6 +44417,7 @@ roma
 roman
 romane
 romanen
+romanes
 romanist
 romanisten
 romanistik
@@ -43359,6 +44521,7 @@ ruckeln
 ruckelns
 rucksack
 rucksacke
+rucksackes
 rucksacks
 rucksacktouristin
 rucksacktouristinnen
@@ -43420,6 +44583,7 @@ rummels
 rumor
 rumoren
 rumorens
+rumores
 rumorn
 rumors
 rumpf
@@ -43443,6 +44607,7 @@ rundbeets
 rundblick
 rundblicke
 rundblicken
+rundblickes
 rundblicks
 rundbogen
 rundbogens
@@ -43463,6 +44628,7 @@ rundfahrkarten
 rundfeile
 rundfeilen
 rundfunk
+rundfunkes
 rundfunks
 rundfunksolistin
 rundfunksolistinnen
@@ -43649,23 +44815,28 @@ rückführungen
 rückgabe
 rückgang
 rückgange
+rückganges
 rückgangs
 rückgewinnung
 rückgrat
 rückgrate
 rückgraten
+rückgrates
 rückgrats
 rückgriff
 rückgriffe
 rückgriffen
+rückgriffes
 rückgriffs
 rückgänge
 rückgängen
 rückhalt
+rückhaltes
 rückhalts
 rückhand
 rückkauf
 rückkaufe
+rückkaufes
 rückkaufs
 rückkehr
 rückkreuzung
@@ -43681,6 +44852,7 @@ rücklauf
 rücklaufbremse
 rücklaufbremsen
 rücklaufe
+rücklaufes
 rücklaufs
 rücklauftaste
 rücklauftasten
@@ -43697,6 +44869,7 @@ rückläufern
 rückläufers
 rückmarsch
 rückmarsche
+rückmarsches
 rückmarschs
 rückmeldung
 rückmeldungen
@@ -43712,18 +44885,21 @@ rückreise
 rückruf
 rückrufe
 rückrufen
+rückrufes
 rückrufs
 rückschalttaste
 rückschalttasten
 rückschau
 rückschlag
 rückschlage
+rückschlages
 rückschlags
 rückschläge
 rückschlägen
 rückschritt
 rückschritte
 rückschritten
+rückschrittes
 rückschrittler
 rückschrittlern
 rückschrittlers
@@ -43742,11 +44918,13 @@ rückspiegels
 rücksprache
 rücksprung
 rücksprunge
+rücksprunges
 rücksprungs
 rücksprünge
 rücksprüngen
 rückstand
 rückstande
+rückstandes
 rückstands
 rückstelltaste
 rückstelltasten
@@ -43755,6 +44933,7 @@ rückstellungen
 rückstrahlung
 rückstrom
 rückstrome
+rückstromes
 rückstroms
 rückströme
 rückströmen
@@ -43766,6 +44945,7 @@ rücktasten
 rücktritt
 rücktritte
 rücktritten
+rücktrittes
 rücktritts
 rückversichern
 rückversicherns
@@ -43778,6 +44958,7 @@ rückwanderers
 rückweg
 rückwege
 rückwegen
+rückweges
 rückwegs
 rückwirkung
 rückwirkungen
@@ -43792,6 +44973,7 @@ rückziehern
 rückziehers
 rückzoll
 rückzolle
+rückzolles
 rückzolls
 rückzug
 rückzuge
@@ -43840,10 +45022,12 @@ rüstungsexpertinnen
 rüstzeug
 rüstzeuge
 rüstzeugen
+rüstzeuges
 rüstzeugs
 rütteln
 rüttelns
 saal
+saales
 saals
 saarbrücker
 saarbrückern
@@ -43864,6 +45048,7 @@ saatgütern
 sabbatjahr
 sabbatjahre
 sabbatjahren
+sabbatjahres
 sabbatjahrs
 sabbelkopf
 sabbelkopfe
@@ -43898,6 +45083,7 @@ sachen
 sachgebiet
 sachgebiete
 sachgebieten
+sachgebietes
 sachgebiets
 sachgründung
 sachgründungen
@@ -43924,6 +45110,7 @@ sachverständigen
 sachwert
 sachwerte
 sachwerten
+sachwertes
 sachwerts
 sachwissen
 sachwissens
@@ -44025,6 +45212,7 @@ samen
 samens
 sammelauftrag
 sammelauftrage
+sammelauftrages
 sammelauftrags
 sammelaufträge
 sammelaufträgen
@@ -44053,6 +45241,7 @@ sammeltouren
 sammelwerk
 sammelwerke
 sammelwerken
+sammelwerkes
 sammelwerks
 sammelwut
 sammelüberweisung
@@ -44067,8 +45256,10 @@ sammlungen
 samstag
 samstage
 samstagen
+samstages
 samstags
 samt
+samtes
 samtgemeinde
 samtgemeinden
 samtpfötchen
@@ -44097,6 +45288,8 @@ sanierungen
 sanität
 sanitäterin
 sanitäterinnen
+sanitätsamt
+sanitätsamtes
 sanitätssoldatin
 sanitätssoldatinnen
 sanktion
@@ -44111,6 +45304,7 @@ sarg
 sarge
 sargen
 sargens
+sarges
 sargs
 sargschläferin
 sargschläferinnen
@@ -44187,12 +45381,14 @@ saugflaschen
 saugkraft
 saugnapf
 saugnapfe
+saugnapfes
 saugnapfs
 saugnäpfe
 saugnäpfen
 saugrohr
 saugrohre
 saugrohren
+saugrohres
 saugrohrs
 saukälte
 saum
@@ -44201,6 +45397,7 @@ saumes
 saums
 sauna
 saunas
+saunen
 saunen
 saunens
 saurier
@@ -44247,12 +45444,14 @@ schachteln
 schachtelns
 schachten
 schachtens
+schachtes
 schachts
 schaden
 schadens
 schadinsekt
 schadinsekte
 schadinsekten
+schadinsektes
 schadinsekts
 schadstoff
 schadstoffe
@@ -44264,6 +45463,7 @@ schadstoffs
 schaf
 schafe
 schafen
+schafes
 schaffen
 schaffens
 schaffner
@@ -44276,6 +45476,7 @@ schaffungen
 schafott
 schafotte
 schafotten
+schafottes
 schafotts
 schafs
 schafwolle
@@ -44293,6 +45494,7 @@ schales
 schall
 schallen
 schallens
+schalles
 schallplatte
 schallplatten
 schalls
@@ -44313,6 +45515,7 @@ schalters
 schaltjahr
 schaltjahre
 schaltjahren
+schaltjahres
 schaltjahrs
 schaltskizze
 schaltskizzen
@@ -44332,6 +45535,7 @@ schamgrenzen
 schamhaar
 schamhaare
 schamhaaren
+schamhaares
 schamhaars
 schamponieren
 schamponierens
@@ -44366,6 +45570,7 @@ scharfschießens
 scharfschütze
 scharfschützen
 scharfsinn
+scharfsinnes
 scharfsinns
 scharfstellen
 scharfstellens
@@ -44431,6 +45636,7 @@ schaukeln
 schaukelns
 schaukämpfe
 schaukämpfen
+schaulaufen
 schaum
 schaume
 schaumes
@@ -44485,6 +45691,7 @@ scheinasylantin
 scheinasylantinnen
 scheinen
 scheinens
+scheines
 scheins
 scheinwerfer
 scheinwerfern
@@ -44638,6 +45845,7 @@ schielens
 schienbein
 schienbeine
 schienbeinen
+schienbeines
 schienbeins
 schiene
 schienen
@@ -44648,6 +45856,7 @@ schießereien
 schießgewehr
 schießgewehre
 schießgewehren
+schießgewehres
 schießgewehrs
 schießscheibe
 schießscheiben
@@ -44662,7 +45871,11 @@ schiffens
 schifferknoten
 schifferknotens
 schiffes
+schifffahrtsamt
+schifffahrtsamtes
 schiffs
+schiffsamt
+schiffsamtes
 schiffsassistentin
 schiffsassistentinnen
 schiffsgutachterin
@@ -44690,6 +45903,7 @@ schilds
 schilf
 schilfe
 schilfen
+schilfes
 schilfs
 schillern
 schillerns
@@ -44717,6 +45931,7 @@ schirm
 schirme
 schirmen
 schirmens
+schirmes
 schirmherrin
 schirmherrinnen
 schirms
@@ -44778,6 +45993,7 @@ schlafwandlers
 schlag
 schlaganfall
 schlaganfalle
+schlaganfalles
 schlaganfalls
 schlaganfälle
 schlaganfällen
@@ -44817,6 +46033,7 @@ schlappens
 schlappmachen
 schlappmachens
 schlaraffenland
+schlaraffenlandes
 schlaraffenlands
 schlauch
 schlauche
@@ -44847,6 +46064,7 @@ schleifens
 schleifkontakt
 schleifkontakte
 schleifkontakten
+schleifkontaktes
 schleifkontakts
 schleifpapier
 schleifpapiere
@@ -44863,6 +46081,7 @@ schleifrädern
 schleifstein
 schleifsteine
 schleifsteinen
+schleifsteines
 schleifsteins
 schleim
 schleime
@@ -44870,6 +46089,7 @@ schleimen
 schleimens
 schleimerin
 schleimerinnen
+schleimes
 schleims
 schleißen
 schleißens
@@ -44894,6 +46114,7 @@ schleppfischerei
 schlepplift
 schlepplifte
 schleppliften
+schleppliftes
 schlepplifts
 schleppnetz
 schleppnetze
@@ -44902,10 +46123,12 @@ schleppnetzes
 schleppschiff
 schleppschiffe
 schleppschiffen
+schleppschiffes
 schleppschiffs
 schleppseil
 schleppseile
 schleppseilen
+schleppseiles
 schleppseils
 schlepptau
 schlepptaue
@@ -44929,7 +46152,10 @@ schlichthammers
 schlichtheit
 schlichthämmer
 schlichthämmern
+schlichtungsamt
+schlichtungsamtes
 schlick
+schlickes
 schlicks
 schlier
 schliere
@@ -44945,6 +46171,7 @@ schließungen
 schliff
 schliffe
 schliffen
+schliffes
 schliffs
 schlinge
 schlingen
@@ -44969,6 +46196,8 @@ schlittschuhs
 schlitzauge
 schlitzaugen
 schlitzauges
+schlitze
+schlitzen
 schlitzen
 schlitzens
 schlitzohr
@@ -44987,6 +46216,7 @@ schlosses
 schlot
 schlote
 schloten
+schlotes
 schlots
 schlottern
 schlotterns
@@ -45004,6 +46234,7 @@ schluckens
 schlucker
 schluckern
 schluckers
+schluckes
 schlucks
 schludern
 schluderns
@@ -45030,6 +46261,7 @@ schlumpfe
 schlumpfs
 schlupfloch
 schlupfloche
+schlupfloches
 schlupflochs
 schlupflöcher
 schlupflöchern
@@ -45191,6 +46423,7 @@ schmierereien
 schmierfett
 schmierfette
 schmierfetten
+schmierfettes
 schmierfetts
 schmiergeld
 schmiergelde
@@ -45338,6 +46571,8 @@ schneegrenze
 schnees
 schneewebe
 schneeweben
+schneide
+schneiden
 schneiden
 schneidens
 schneider
@@ -45359,6 +46594,7 @@ schnellbahnen
 schnelldienst
 schnelldienste
 schnelldiensten
+schnelldienstes
 schnelldiensts
 schnellen
 schnellens
@@ -45381,11 +46617,14 @@ schnellschrift
 schnellschriften
 schnellverfahren
 schnellverfahrens
+schnellverkehrsamt
+schnellverkehrsamtes
 schnellwähler
 schnellwählern
 schnellwählers
 schnellzug
 schnellzuge
+schnellzuges
 schnellzugs
 schnellzüge
 schnellzügen
@@ -45439,6 +46678,7 @@ schnitzers
 schnitzwerk
 schnitzwerke
 schnitzwerken
+schnitzwerkes
 schnitzwerks
 schnodderigkeit
 schnorchel
@@ -45456,6 +46696,7 @@ schnupperns
 schnur
 schnurrbart
 schnurrbarte
+schnurrbartes
 schnurrbarts
 schnurrbärte
 schnurrbärten
@@ -45521,6 +46762,7 @@ schnütchens
 schock
 schocken
 schockens
+schockes
 schocks
 schokolade
 schokoladen
@@ -45569,6 +46811,8 @@ schottern
 schotterns
 schottin
 schottinnen
+schoß
+schoßes
 schraffieren
 schraffierens
 schrammen
@@ -45592,6 +46836,7 @@ schreck
 schrecke
 schrecken
 schreckens
+schreckes
 schreckhaftigkeit
 schrecklichkeit
 schrecks
@@ -45600,6 +46845,8 @@ schreckschrauben
 schredder
 schreddern
 schredders
+schrei
+schreiben
 schreiben
 schreibens
 schreiber
@@ -45661,13 +46908,17 @@ schreibzeug
 schreibzeuge
 schreibzeugen
 schreibzeugs
+schreie
+schreien
 schreien
 schreiens
 schreierei
 schreierin
 schreierinnen
+schreies
 schreihals
 schreihalse
+schreihalses
 schreihalss
 schreihälse
 schreihälsen
@@ -45677,6 +46928,7 @@ schreinereien
 schreinern
 schreinerns
 schreiners
+schreis
 schreiten
 schreitens
 schrift
@@ -45702,6 +46954,7 @@ schrittes
 schritts
 schroffheit
 schrot
+schrotes
 schrots
 schrott
 schrotte
@@ -45729,6 +46982,7 @@ schrägstreifens
 schrägstrich
 schrägstriche
 schrägstrichen
+schrägstriches
 schrägstrichs
 schränkchen
 schränkchens
@@ -45769,6 +47023,7 @@ schuhchen
 schuhchens
 schuhe
 schuhen
+schuhes
 schuhkrem
 schuhkrems
 schuhmacherei
@@ -45828,6 +47083,7 @@ schulgrammatik
 schulheft
 schulhefte
 schulheften
+schulheftes
 schulhefts
 schulhof
 schulhofe
@@ -45873,6 +47129,7 @@ schulrektorinnen
 schulschiff
 schulschiffe
 schulschiffen
+schulschiffes
 schulschiffs
 schulschriftstellerin
 schulschriftstellerinnen
@@ -45896,6 +47153,8 @@ schultern
 schulterns
 schulung
 schulungen
+schulverwaltungsamt
+schulverwaltungsamtes
 schulwesen
 schulwesens
 schulzeugnis
@@ -45946,6 +47205,7 @@ schustern
 schusterns
 schusters
 schutt
+schuttes
 schutts
 schutz
 schutze
@@ -45966,6 +47226,7 @@ schwabe
 schwaben
 schwachkopf
 schwachkopfe
+schwachkopfes
 schwachkopfs
 schwachköpfe
 schwachköpfen
@@ -45984,6 +47245,7 @@ schwalben
 schwall
 schwalle
 schwallen
+schwalles
 schwalls
 schwamm
 schwamme
@@ -46003,6 +47265,7 @@ schwanenhälsen
 schwanenjungfrau
 schwanenjungfrauen
 schwanens
+schwanes
 schwangerschaft
 schwangerschaften
 schwanheimer
@@ -46028,6 +47291,7 @@ schwarzarbeitens
 schwarzbrot
 schwarzbrote
 schwarzbroten
+schwarzbrotes
 schwarzbrots
 schwarze
 schwarzen
@@ -46081,6 +47345,7 @@ schwarzseherei
 schwarzsehern
 schwarzsehers
 schwarzwald
+schwarzwaldes
 schwarzwalds
 schwarzweißmalerei
 schwarzweißzeichnung
@@ -46119,6 +47384,7 @@ schweif
 schweife
 schweifen
 schweifens
+schweifes
 schweifs
 schweigeminute
 schweigeminuten
@@ -46174,6 +47440,7 @@ schwemme
 schwemmen
 schwemmens
 schwemmland
+schwemmlandes
 schwemmlands
 schwenk
 schwenke
@@ -46205,6 +47472,7 @@ schwerfälligkeit
 schwergewicht
 schwergewichte
 schwergewichten
+schwergewichtes
 schwergewichtler
 schwergewichtlern
 schwergewichtlers
@@ -46221,6 +47489,7 @@ schwerkräften
 schwermetall
 schwermetalle
 schwermetallen
+schwermetalles
 schwermetalls
 schwermütigkeit
 schwerpunkt
@@ -46243,6 +47512,7 @@ schwerverbrechers
 schweröl
 schweröle
 schwerölen
+schweröles
 schweröls
 schwester
 schwestern
@@ -46329,6 +47599,7 @@ schwunges
 schwungs
 schwur
 schwure
+schwures
 schwurs
 schwäbeln
 schwäbelns
@@ -46451,6 +47722,7 @@ schätzungen
 schätzwert
 schätzwerte
 schätzwerten
+schätzwertes
 schätzwerts
 schäume
 schäumen
@@ -46570,8 +47842,11 @@ seckbachers
 sediment
 sedimente
 sedimenten
+sedimentes
 sediments
 see
+seefahrtsamt
+seefahrtsamtes
 seefischerei
 seegang
 seegangs
@@ -46602,6 +47877,7 @@ seen
 seerechtsexpertin
 seerechtsexpertinnen
 seetang
+seetanges
 seetangs
 seetaucherin
 seetaucherinnen
@@ -46611,6 +47887,7 @@ segelflugsportlerinnen
 segelflugzeug
 segelflugzeuge
 segelflugzeugen
+segelflugzeuges
 segelflugzeugs
 segeln
 segelns
@@ -46652,6 +47929,7 @@ sehnsüchten
 sehrohr
 sehrohre
 sehrohren
+sehrohres
 sehrohrs
 sehschwäche
 sehschärfe
@@ -46661,6 +47939,7 @@ sehweite
 sehwerkzeug
 sehwerkzeuge
 sehwerkzeugen
+sehwerkzeuges
 sehwerkzeugs
 sehwinkel
 sehwinkeln
@@ -46687,6 +47966,7 @@ seismizität
 seismogramm
 seismogramme
 seismogrammen
+seismogrammes
 seismogramms
 seismograph
 seismographen
@@ -46712,6 +47992,7 @@ seitenstechens
 sekret
 sekrete
 sekreten
+sekretes
 sekretieren
 sekretierens
 sekrets
@@ -46722,6 +48003,7 @@ sekretärin
 sekretärinnen
 sekretärs
 sekt
+sekte
 sekte
 sekten
 sektes
@@ -46752,9 +48034,11 @@ sekundärliteratur
 sekundärrohstoff
 sekundärrohstoffe
 sekundärrohstoffen
+sekundärrohstoffes
 sekundärrohstoffs
 sekundärstrom
 sekundärstrome
+sekundärstromes
 sekundärstroms
 sekundärströme
 sekundärströmen
@@ -46824,6 +48108,7 @@ selbstgerechtigkeit
 selbstgespräch
 selbstgespräche
 selbstgesprächen
+selbstgespräches
 selbstgesprächs
 selbsthass
 selbsthasse
@@ -46846,6 +48131,7 @@ selbstliebe
 selbstlob
 selbstlobe
 selbstloben
+selbstlobes
 selbstlobs
 selbstlosigkeit
 selbstmedikation
@@ -46878,6 +48164,7 @@ selbsttäuschungen
 selbsttötung
 selbsttötungen
 selbstunterricht
+selbstunterrichtes
 selbstunterrichts
 selbstverachtung
 selbstverdauung
@@ -46903,6 +48190,7 @@ selbstverstümmelungen
 selbstversuch
 selbstversuche
 selbstversuchen
+selbstversuches
 selbstversuchs
 selbstverteidigung
 selbstvertrauen
@@ -46956,6 +48244,7 @@ semifinales
 seminar
 seminare
 seminaren
+seminares
 seminaristin
 seminaristinnen
 seminars
@@ -46964,6 +48253,7 @@ semitinnen
 semmel
 semmeln
 senat
+senates
 senator
 senatore
 senatoren
@@ -46976,6 +48266,7 @@ sendeanlagen
 sendebereich
 sendebereiche
 sendebereichen
+sendebereiches
 sendebereichs
 sendefolge
 sendefolgen
@@ -46992,6 +48283,7 @@ sendens
 sender
 senderaum
 senderaume
+senderaumes
 senderaums
 sendereihe
 sendereihen
@@ -47008,6 +48300,7 @@ sendungen
 senf
 senfe
 senfen
+senfes
 senfkorn
 senfkorne
 senfkornes
@@ -47027,6 +48320,7 @@ seniors
 senkel
 senkeln
 senkels
+senken
 senken
 senkens
 senkkasten
@@ -47064,10 +48358,12 @@ sentimentalitäten
 separatabdruck
 separatabdrucke
 separatabdrucken
+separatabdruckes
 separatabdrucks
 separatdruck
 separatdrucke
 separatdrucken
+separatdruckes
 separatdrucks
 separation
 separationen
@@ -47180,6 +48476,7 @@ sexualneurosen
 sexualobjekt
 sexualobjekte
 sexualobjekten
+sexualobjektes
 sexualobjekts
 sexualpartnerin
 sexualpartnerinnen
@@ -47227,6 +48524,7 @@ sichtungen
 sichtvermerk
 sichtvermerke
 sichtvermerken
+sichtvermerkes
 sichtvermerks
 sichtweite
 siderolith
@@ -47237,6 +48535,7 @@ sieben
 siebenkämpferin
 siebenkämpferinnen
 siebens
+siebes
 siebs
 siebtel
 siebteln
@@ -47282,6 +48581,7 @@ sigmas
 signal
 signale
 signalen
+signales
 signalisieren
 signalisierens
 signals
@@ -47355,6 +48655,7 @@ singspiels
 singstimme
 singstimmen
 singular
+singulares
 singularität
 singulars
 singvogel
@@ -47376,6 +48677,7 @@ sinnen
 sinnenfreude
 sinnenfreuden
 sinnens
+sinnes
 sinnieren
 sinnierens
 sinnlichkeit
@@ -47390,6 +48692,7 @@ sippen
 sir
 sirene
 sirenen
+sires
 sirs
 sitte
 sitten
@@ -47427,12 +48730,14 @@ skalpellen
 skalpelles
 skalpells
 skalpen
+skalpes
 skalpieren
 skalpierens
 skalps
 skandal
 skandale
 skandalen
+skandales
 skandalnudel
 skandalnudeln
 skandals
@@ -47444,6 +48749,7 @@ skat
 skater
 skatern
 skaters
+skates
 skats
 skelett
 skelette
@@ -47467,6 +48773,7 @@ skiläuferinnen
 skin
 skinhead
 skinheads
+skins
 skins
 skis
 skispringerin
@@ -47524,6 +48831,7 @@ slums
 smaragd
 smaragde
 smaragden
+smaragdes
 smaragds
 smog
 smogs
@@ -47559,12 +48867,14 @@ softwareexpertinnen
 sog
 soge
 sogen
+soges
 sogs
 sohle
 sohlen
 sohlens
 sohn
 sohne
+sohnes
 sohns
 sojasoße
 sojasoßen
@@ -47597,6 +48907,7 @@ soldaten
 soldatensprache
 soldatin
 soldatinnen
+soldes
 solds
 solidarisieren
 solidarisierens
@@ -47679,6 +48990,8 @@ sondersitzung
 sondersitzungen
 sondersprache
 sondersprachen
+sonderstandesamt
+sonderstandesamtes
 sonderstellung
 sonderstellungen
 sonderstempel
@@ -47686,11 +48999,13 @@ sonderstempeln
 sonderstempels
 sonderwunsch
 sonderwunsche
+sonderwunsches
 sonderwunschs
 sonderwünsche
 sonderwünschen
 sonderzug
 sonderzuge
+sonderzuges
 sonderzugs
 sonderzüge
 sonderzügen
@@ -47701,8 +49016,10 @@ sondierungen
 sonett
 sonette
 sonetten
+sonettes
 sonetts
 song
+songes
 songs
 sonnabend
 sonnabende
@@ -47712,11 +49029,13 @@ sonne
 sonnen
 sonnenaufgang
 sonnenaufgange
+sonnenaufganges
 sonnenaufgangs
 sonnenaufgänge
 sonnenaufgängen
 sonnens
 sonnenschein
+sonnenscheines
 sonnenscheins
 sonntag
 sonntage
@@ -47736,6 +49055,7 @@ sophistinnen
 sopran
 soprane
 sopranen
+sopranes
 sopranistin
 sopranistinnen
 soprans
@@ -47756,6 +49076,7 @@ sortierung
 sortiment
 sortimente
 sortimenten
+sortimentes
 sortiments
 sossenheimer
 sossenheimern
@@ -47839,6 +49160,7 @@ sozialpolitik
 sozialprodukt
 sozialprodukte
 sozialprodukten
+sozialproduktes
 sozialprodukts
 sozialpädagogin
 sozialpädagoginnen
@@ -47862,6 +49184,7 @@ sozialsenatorinnen
 sozialstaat
 sozialstaate
 sozialstaaten
+sozialstaates
 sozialstaats
 sozialstation
 sozialstationen
@@ -47907,6 +49230,7 @@ spachteln
 spachtelns
 spachtels
 spagat
+spagates
 spagats
 spalier
 spaliere
@@ -47916,6 +49240,7 @@ spalt
 spalte
 spalten
 spaltens
+spaltes
 spaltmaterial
 spaltmaterials
 spaltpflanze
@@ -47939,6 +49264,8 @@ spanierin
 spanierinnen
 spaniern
 spaniers
+spanisch
+spanischs
 spanne
 spannen
 spannens
@@ -47956,6 +49283,7 @@ spans
 spant
 spante
 spanten
+spantes
 spants
 sparbuch
 sparbuche
@@ -48019,6 +49347,7 @@ spaziergängers
 spazierweg
 spazierwege
 spazierwegen
+spazierweges
 spazierwegs
 spaß
 spaße
@@ -48031,6 +49360,7 @@ spaßmachers
 specht
 spechte
 spechten
+spechtes
 spechts
 speck
 specke
@@ -48127,6 +49457,7 @@ sperrfristen
 sperrgebiet
 sperrgebiete
 sperrgebieten
+sperrgebietes
 sperrgebiets
 sperrguthaben
 sperrguthabens
@@ -48166,6 +49497,7 @@ spezialfächern
 spezialgeschäft
 spezialgeschäfte
 spezialgeschäften
+spezialgeschäftes
 spezialgeschäfts
 spezialisieren
 spezialisierens
@@ -48202,6 +49534,7 @@ sphärik
 sphäroid
 sphäroide
 sphäroiden
+sphäroides
 sphäroids
 spicken
 spickens
@@ -48313,6 +49646,7 @@ spirituskochern
 spirituskochers
 spitzbart
 spitzbarte
+spitzbartes
 spitzbarts
 spitzbekommen
 spitzbekommens
@@ -48336,6 +49670,8 @@ spitzen
 spitzendiplomatin
 spitzendiplomatinnen
 spitzenklasse
+spitzenregierungsamt
+spitzenregierungsamtes
 spitzenreiter
 spitzenreiterin
 spitzenreiterinnen
@@ -48389,6 +49725,7 @@ sponserns
 sponsor
 sponsore
 sponsoren
+sponsores
 sponsoring
 sponsorings
 sponsors
@@ -48453,6 +49790,7 @@ sprays
 sprechakt
 sprechakte
 sprechakten
+sprechaktes
 sprechakts
 sprechanlage
 sprechanlagen
@@ -48510,6 +49848,7 @@ sprengkommando
 sprengkommandos
 sprengkopf
 sprengkopfe
+sprengkopfes
 sprengkopfs
 sprengkraft
 sprengköpfe
@@ -48524,6 +49863,7 @@ sprengmittelexpertinnen
 sprengstoff
 sprengstoffe
 sprengstoffen
+sprengstoffes
 sprengstoffexpertin
 sprengstoffexpertinnen
 sprengstoffs
@@ -48534,6 +49874,7 @@ sprengwagens
 sprengwerk
 sprengwerke
 sprengwerken
+sprengwerkes
 sprengwerks
 sprengwirkung
 sprenkel
@@ -48552,6 +49893,7 @@ springblende
 springblenden
 springbrunnen
 springbrunnens
+springen
 springen
 springens
 springer
@@ -48604,6 +49946,7 @@ sprinterinnen
 sprintern
 sprinters
 sprints
+sprints
 sprit
 sprite
 spriten
@@ -48638,6 +49981,7 @@ sprossung
 spruch
 spruchband
 spruchbande
+spruchbandes
 spruchbands
 spruchbänder
 spruchbändern
@@ -48654,6 +49998,7 @@ sprungbeine
 sprungbeinen
 sprungbeins
 sprunge
+sprunges
 sprunghaftigkeit
 sprungs
 sprödheit
@@ -48714,6 +50059,7 @@ spätfrüchten
 spätheimkehrerin
 spätheimkehrerinnen
 spätherbst
+spätherbstes
 spätherbsts
 spätkapitalismus
 spätlese
@@ -48766,6 +50112,7 @@ spürens
 spürnase
 spürnasen
 spürsinn
+spürsinnes
 spürsinns
 staat
 staate
@@ -48773,6 +50120,8 @@ staaten
 staatengeschichte
 staates
 staats
+staatsamt
+staatsamtes
 staatsanwaltsassistentin
 staatsanwaltsassistentinnen
 staatsanwaltschaft
@@ -48815,8 +50164,16 @@ stadler
 stadlern
 stadlers
 stadt
+stadtplanungsamt
+stadtplanungsamtes
+stadtratsamt
+stadtratsamtes
+stadtreinigungsamt
+stadtreinigungsamtes
 stadträtin
 stadträtinnen
+stadtverwaltungsamt
+stadtverwaltungsamtes
 staffel
 staffeln
 staffelns
@@ -48830,6 +50187,7 @@ stagnationen
 stagnieren
 stagnierens
 stahl
+stahles
 stahls
 stalagmit
 stalagmiten
@@ -48862,6 +50220,7 @@ stampfen
 stampfens
 stand
 standard
+standardes
 standardisieren
 standardisierens
 standards
@@ -48869,6 +50228,8 @@ standart
 standarts
 stande
 standes
+standesamt
+standesamtes
 standhalten
 standhaltens
 standort
@@ -48913,6 +50274,7 @@ starterin
 starterinnen
 startern
 starters
+startes
 starts
 stasi
 stasis
@@ -48953,6 +50315,7 @@ staubecken
 staubeckens
 stauben
 staubens
+staubes
 staubfänger
 staubfängern
 staubfängers
@@ -49037,6 +50400,7 @@ stehplatzinhaberinnen
 stehpult
 stehpulte
 stehpulten
+stehpultes
 stehpults
 stehvermögen
 stehvermögens
@@ -49061,6 +50425,7 @@ steigungen
 steile
 steilhang
 steilhange
+steilhanges
 steilhangs
 steilheit
 steilhänge
@@ -49081,6 +50446,7 @@ steinchen
 steinchens
 steine
 steinen
+steines
 steinheimer
 steinheimern
 steinheimers
@@ -49123,6 +50489,7 @@ stellvertretungen
 stellwerk
 stellwerke
 stellwerken
+stellwerkes
 stellwerks
 stelze
 stelzen
@@ -49272,6 +50639,7 @@ stichworts
 stick
 stickerin
 stickerinnen
+stickes
 stickoxid
 stickoxide
 stickoxiden
@@ -49319,6 +50687,8 @@ stiftern
 stifters
 stiftes
 stifts
+stiftsamt
+stiftsamtes
 stiftung
 stiftungen
 stigmatisation
@@ -49511,6 +50881,7 @@ strafbarkeit
 strafbefehl
 strafbefehle
 strafbefehlen
+strafbefehles
 strafbefehls
 strafe
 strafen
@@ -49520,12 +50891,14 @@ strafermittlerinnen
 strafgericht
 strafgerichte
 strafgerichten
+strafgerichtes
 strafgerichts
 strafkammer
 strafkammern
 strafpunkt
 strafpunkte
 strafpunkten
+strafpunktes
 strafpunkts
 strafrahmen
 strafrahmens
@@ -49536,6 +50909,7 @@ strafraums
 strafrecht
 strafrechte
 strafrechten
+strafrechtes
 strafrechts
 strafrechtsexpertin
 strafrechtsexpertinnen
@@ -49559,6 +50933,7 @@ straftäterinnen
 strafverteidigerin
 strafverteidigerinnen
 strafvollzug
+strafvollzuges
 strafvollzugs
 strafzettel
 strafzetteln
@@ -49570,6 +50945,7 @@ strahlens
 strahler
 strahlern
 strahlers
+strahles
 strahls
 strahlung
 strahlungen
@@ -49614,6 +50990,7 @@ straßenkomödiantinnen
 straßenmeisterei
 straßenmeistereien
 streben
+streben
 strebens
 strebsamkeit
 strecke
@@ -49623,6 +51000,7 @@ streckung
 streckungen
 streckverband
 streckverbande
+streckverbandes
 streckverbands
 streckverbände
 streckverbänden
@@ -49676,12 +51054,14 @@ streiflichtes
 streiflichts
 streifzug
 streifzuge
+streifzuges
 streifzugs
 streifzüge
 streifzügen
 streik
 streiken
 streikens
+streikes
 streiks
 streit
 streite
@@ -49792,6 +51172,7 @@ strolch
 strolche
 strolchen
 strolchens
+strolches
 strolchs
 strom
 strome
@@ -49852,6 +51233,7 @@ stuben
 stuck
 stuckateurin
 stuckateurinnen
+stuckes
 stucks
 student
 studente
@@ -49883,6 +51265,9 @@ studienfreunds
 studieninteressentin
 studieninteressentinnen
 studieren
+studierende
+studierenden
+studierender
 studierens
 studio
 studios
@@ -49905,6 +51290,7 @@ stummels
 stummfilm
 stummfilme
 stummfilmen
+stummfilmes
 stummfilms
 stummheit
 stumpen
@@ -49913,6 +51299,7 @@ stumpens
 stumpfen
 stumpfens
 stumpfsinn
+stumpfsinnes
 stumpfsinns
 stunde
 stunden
@@ -49930,6 +51317,7 @@ stupsnasen
 sturheit
 sturm
 sturme
+sturmes
 sturms
 sturz
 sturze
@@ -50061,6 +51449,7 @@ stürzen
 stürzens
 stütze
 stützen
+stützen
 stützens
 stützgewebe
 stützgeweben
@@ -50082,6 +51471,7 @@ subjunktivs
 subkontinent
 subkontinente
 subkontinenten
+subkontinentes
 subkontinents
 subkultur
 subkulturen
@@ -50094,6 +51484,7 @@ subsistenzen
 substantiv
 substantive
 substantiven
+substantives
 substantivs
 substanz
 substanzen
@@ -50130,6 +51521,7 @@ subversionen
 suchdienst
 suchdienste
 suchdiensten
+suchdienstes
 suchdiensts
 suche
 suchen
@@ -50159,6 +51551,7 @@ sudeleien
 sudeln
 sudelns
 suff
+suffes
 suffigieren
 suffigierens
 suffizienz
@@ -50177,6 +51570,7 @@ suhrkamps
 suizid
 suizide
 suiziden
+suizides
 suizids
 sukzession
 sukzessionen
@@ -50187,10 +51581,12 @@ sukzessors
 sulfat
 sulfate
 sulfaten
+sulfates
 sulfats
 sulfid
 sulfide
 sulfiden
+sulfides
 sulfids
 sultanin
 sultaninnen
@@ -50237,12 +51633,14 @@ suppen
 supplement
 supplemente
 supplementen
+supplementes
 supplements
 supplikation
 supplikationen
 support
 supporte
 supporten
+supportes
 supports
 supraleitfähigkeit
 surferin
@@ -50569,6 +51967,7 @@ süßspeisen
 süßstoff
 süßstoffe
 süßstoffen
+süßstoffes
 süßstoffs
 süßware
 süßwaren
@@ -50611,6 +52010,7 @@ tafeln
 tafelrunde
 tafelrunden
 tag
+tag
 tage
 tagelöhnerin
 tagelöhnerinnen
@@ -50622,6 +52022,7 @@ tagesausflüglerinnen
 tagfalter
 tagfaltern
 tagfalters
+tags
 tags
 tagträumerin
 tagträumerinnen
@@ -50675,6 +52076,10 @@ taljen
 talk
 talks
 tals
+tamburin
+tamburine
+tamburinen
+tamburins
 tamponieren
 tamponierens
 tandem
@@ -50701,6 +52106,7 @@ tankwagens
 tankwart
 tankwarte
 tankwarten
+tankwartes
 tankwarts
 tanne
 tannen
@@ -50818,6 +52224,7 @@ taufregisters
 taufschein
 taufscheine
 taufscheinen
+taufscheines
 taufscheins
 taufspruch
 taufspruche
@@ -50827,6 +52234,7 @@ taufsprüchen
 taufstein
 taufsteine
 taufsteinen
+taufsteines
 taufsteins
 taufwasser
 taufwassers
@@ -50843,6 +52251,7 @@ tausch
 tausche
 tauschen
 tauschens
+tausches
 tauschs
 tauschwert
 tauschwerts
@@ -50876,6 +52285,7 @@ taxen
 taxi
 taxieren
 taxierens
+taxis
 taxis
 team
 teams
@@ -50924,6 +52334,7 @@ teichen
 teiches
 teichfrosch
 teichfrosche
+teichfrosches
 teichfroschs
 teichfrösche
 teichfröschen
@@ -51005,12 +52416,14 @@ telemarks
 teleobjektiv
 teleobjektive
 teleobjektiven
+teleobjektives
 teleobjektivs
 telepath
 telepathen
 telephon
 telephone
 telephonen
+telephones
 telephons
 teleskop
 teleskope
@@ -51026,6 +52439,7 @@ tempels
 temperament
 temperamente
 temperamenten
+temperamentes
 temperaments
 temperatur
 temperaturen
@@ -51072,6 +52486,7 @@ termination
 terminationen
 termine
 terminen
+termines
 termini
 terminieren
 terminierens
@@ -51121,6 +52536,7 @@ terrors
 terzett
 terzette
 terzetten
+terzettes
 terzetts
 tesafilm
 tesafilme
@@ -51136,6 +52552,7 @@ testaments
 testat
 testate
 testaten
+testates
 testator
 testatore
 testatoren
@@ -51146,6 +52563,7 @@ testens
 tester
 testern
 testers
+testes
 testfall
 testfalle
 testfalls
@@ -51287,6 +52705,7 @@ thronassistentin
 thronassistentinnen
 thronen
 thronens
+thrones
 thronfolge
 thronfolger
 thronfolgern
@@ -51357,6 +52776,7 @@ tiefschläge
 tiefschlägen
 tiefsee
 tiefsinn
+tiefsinnes
 tiefsinnigkeit
 tiefsinns
 tiefstand
@@ -51414,6 +52834,9 @@ tippeln
 tippelns
 tippen
 tippens
+tippfehler
+tippfehlern
+tippfehlers
 tipps
 tips
 tirade
@@ -51452,6 +52875,7 @@ toastens
 toaster
 toastern
 toasters
+toastes
 toasts
 tobak
 tobake
@@ -51499,6 +52923,7 @@ toner
 tonerde
 tonern
 toners
+tones
 tongebung
 tongebungen
 tonkabine
@@ -51542,6 +52967,7 @@ tore
 toren
 torero
 toreros
+tores
 torhüterin
 torhüterinnen
 torkeln
@@ -51659,6 +53085,7 @@ tragfähigkeit
 tragik
 tragkorb
 tragkorbe
+tragkorbes
 tragkorbs
 tragkraft
 tragkörbe
@@ -51666,6 +53093,7 @@ tragkörben
 tragseil
 tragseile
 tragseilen
+tragseiles
 tragseils
 tragweite
 tragweiten
@@ -51763,6 +53191,7 @@ transporten
 transporter
 transportern
 transporters
+transportes
 transportieren
 transportierens
 transports
@@ -51810,6 +53239,7 @@ traumwandelns
 trauschein
 trauscheine
 trauscheinen
+trauscheines
 trauscheins
 trauung
 trauungen
@@ -51818,6 +53248,7 @@ trecker
 treckern
 treckers
 trecks
+treff
 treff
 treffen
 treffens
@@ -51828,6 +53259,7 @@ treffpunkt
 treffpunkte
 treffpunkten
 treffpunkts
+treffs
 treffs
 treffsicherheit
 treiben
@@ -51850,6 +53282,7 @@ treibnetzen
 treibnetzes
 treibnetzs
 treibsand
+treibsandes
 treibsands
 treibscheibe
 treibscheiben
@@ -51861,12 +53294,14 @@ treibschlägen
 treibstoff
 treibstoffe
 treibstoffen
+treibstoffes
 treibstofflieferantin
 treibstofflieferantinnen
 treibstoffs
 treiböl
 treiböle
 treibölen
+treiböles
 treiböls
 trend
 trends
@@ -51940,6 +53375,7 @@ triathlons
 tribunal
 tribunale
 tribunalen
+tribunales
 tribunals
 tribüne
 tribünen
@@ -52053,6 +53489,7 @@ trinkliedes
 trinklieds
 trinkspruch
 trinkspruche
+trinkspruches
 trinkspruchs
 trinksprüche
 trinksprüchen
@@ -52115,6 +53552,7 @@ trocknen
 trocknens
 trog
 troge
+troges
 trogs
 trojaner
 trojanerin
@@ -52124,6 +53562,7 @@ trojaners
 troll
 trolle
 trollen
+trolles
 trolls
 trommel
 trommeln
@@ -52156,13 +53595,16 @@ trostlosigkeit
 trott
 trotten
 trottens
+trottes
 trotts
+trotz
 trotz
 trotzen
 trotzens
 trotzer
 trotzern
 trotzers
+trotzes
 trubel
 trubels
 trudeln
@@ -52178,10 +53620,12 @@ trumpfs
 trunk
 trunkenheit
 trunkenheiten
+trunkes
 trunks
 trupp
 truppe
 truppen
+truppes
 trupps
 truthenne
 truthennen
@@ -52228,6 +53672,7 @@ trödelladens
 trödelläden
 trödelmarkt
 trödelmarkte
+trödelmarktes
 trödelmarkts
 trödelmärkte
 trödelmärkten
@@ -52262,6 +53707,7 @@ trübnisse
 trübnissen
 trübseligkeit
 trübsinn
+trübsinnes
 trübsinnigkeit
 trübsinns
 trüffel
@@ -52311,7 +53757,10 @@ tummeln
 tummelns
 tumor
 tumore
+tumore
 tumoren
+tumoren
+tumores
 tumors
 tumult
 tumulte
@@ -52413,6 +53862,8 @@ tutorinnen
 typ
 type
 typen
+typen
+types
 typisieren
 typisierens
 typisierung
@@ -52553,6 +54004,10 @@ türkens
 türkin
 türkinnen
 türkis
+türkis
+türkise
+türkisen
+türkises
 türme
 türmen
 türmens
@@ -52585,6 +54040,7 @@ ulmen
 ultimatum
 ultimatums
 ultraschall
+ultraschalles
 ultraschalls
 umarbeiten
 umarbeitens
@@ -52625,6 +54081,7 @@ umbringen
 umbringens
 umbruch
 umbruche
+umbruches
 umbruchs
 umbrüche
 umbrüchen
@@ -52653,6 +54110,7 @@ umfallen
 umfallens
 umfang
 umfange
+umfanges
 umfangs
 umfassen
 umfassens
@@ -52713,6 +54171,7 @@ umgrätschens
 umgänglichkeit
 umhang
 umhange
+umhanges
 umhangs
 umhauen
 umhauens
@@ -52782,6 +54241,7 @@ umkleiden
 umkleidens
 umkleideraum
 umkleideraume
+umkleideraumes
 umkleideraums
 umkleideräume
 umkleideräumen
@@ -52812,6 +54272,7 @@ umlauf
 umlaufe
 umlaufen
 umlaufens
+umlaufes
 umlaufmittel
 umlaufmitteln
 umlaufmittels
@@ -52820,6 +54281,7 @@ umlaut
 umlaute
 umlauten
 umlautens
+umlautes
 umlauts
 umlautung
 umlautungen
@@ -52844,6 +54306,8 @@ umnähen
 umnähens
 umorganisieren
 umorganisierens
+umparken
+umparkens
 umpflanzen
 umpflanzens
 umpflügen
@@ -52934,6 +54398,7 @@ umschwenken
 umschwenkens
 umschwung
 umschwunge
+umschwunges
 umschwungs
 umschwärmen
 umschwärmens
@@ -52974,6 +54439,7 @@ umspanners
 umspannwerk
 umspannwerke
 umspannwerken
+umspannwerkes
 umspannwerks
 umspielen
 umspielens
@@ -53035,6 +54501,7 @@ umtaufens
 umtausch
 umtauschen
 umtauschens
+umtausches
 umtauschs
 umtopfen
 umtopfens
@@ -53047,6 +54514,7 @@ umwandlungen
 umweg
 umwege
 umwegen
+umweges
 umwegs
 umwelt
 umweltaktivistin
@@ -53124,6 +54592,7 @@ understatements
 unding
 undinge
 undingen
+undinges
 undings
 unduldsamkeit
 undurchführbarkeit
@@ -53145,6 +54614,7 @@ unergiebigkeit
 unerheblichkeit
 unfall
 unfalle
+unfalles
 unfalls
 unfeinheit
 unflätigkeit
@@ -53157,6 +54627,7 @@ unfruchtbarkeit
 unfruchtbarmachung
 unfruchtbarmachungen
 unfug
+unfuges
 unfugs
 unfähigkeit
 unfälle
@@ -53183,6 +54654,7 @@ ungerechtigkeiten
 ungereimtheit
 ungereimtheiten
 ungeschick
+ungeschickes
 ungeschicklichkeit
 ungeschicklichkeiten
 ungeschicks
@@ -53192,6 +54664,7 @@ ungestüms
 ungetüm
 ungetüme
 ungetümen
+ungetümes
 ungetüms
 ungewitter
 ungewittern
@@ -53214,18 +54687,22 @@ ungleichungen
 ungläubigkeit
 unglück
 unglücke
+unglücke
+unglücken
 unglückes
 unglücks
 ungnade
 ungültigkeit
 unhandlichkeit
 unheil
+unheiles
 unheils
 unheilstifterin
 unheilstifterinnen
 unhold
 unholde
 unholden
+unholdes
 unholds
 uni
 unifikation
@@ -53275,6 +54752,7 @@ unkräuter
 unkräutern
 unkultur
 unland
+unlandes
 unlands
 unlogik
 unlust
@@ -53310,6 +54788,7 @@ unpäßlichkeit
 unpäßlichkeiten
 unpünktlichkeit
 unrat
+unrates
 unrats
 unrecht
 unrechte
@@ -53342,6 +54821,7 @@ unsicherheit
 unsicherheiten
 unsichtbarkeit
 unsinn
+unsinnes
 unsinns
 unsitte
 unsitten
@@ -53358,6 +54838,7 @@ unterabteilungen
 unterarm
 unterarme
 unterarmen
+unterarmes
 unterarms
 unterart
 unterarten
@@ -53369,12 +54850,14 @@ unterbauten
 unterbegriff
 unterbegriffe
 unterbegriffen
+unterbegriffes
 unterbegriffs
 unterbelichtung
 unterbelichtungen
 unterbett
 unterbette
 unterbetten
+unterbettes
 unterbetts
 unterbewerten
 unterbewertens
@@ -53439,6 +54922,7 @@ untergehens
 untergestell
 untergestelle
 untergestellen
+untergestelles
 untergestells
 untergewand
 untergewande
@@ -53453,6 +54937,7 @@ untergliederungen
 untergraben
 untergrabens
 untergrund
+untergrundes
 untergrunds
 untergruppe
 untergruppen
@@ -53477,6 +54962,7 @@ unterhandlungen
 unterhemd
 unterhemde
 unterhemden
+unterhemdes
 unterhemds
 unterhose
 unterhosen
@@ -53518,6 +55004,7 @@ unterkünften
 unterlage
 unterlagen
 unterland
+unterlandes
 unterlands
 unterlassen
 unterlassens
@@ -53572,6 +55059,7 @@ unternehmerinnen
 unternehmern
 unternehmers
 unternehmertum
+unternehmertumes
 unternehmertums
 unternehmung
 unternehmungen
@@ -53593,6 +55081,7 @@ unterricht
 unterrichte
 unterrichten
 unterrichtens
+unterrichtes
 unterrichts
 unterrichtsassistentin
 unterrichtsassistentinnen
@@ -53602,6 +55091,7 @@ unterrichtung
 unterrichtungen
 unterrock
 unterrocke
+unterrockes
 unterrocks
 unterröcke
 unterröcken
@@ -53670,6 +55160,8 @@ untersuchen
 untersuchens
 untersuchung
 untersuchungen
+untersuchungsamt
+untersuchungsamtes
 untertasse
 untertassen
 untertauchen
@@ -53683,6 +55175,7 @@ untertiteln
 untertitels
 unterton
 untertone
+untertones
 untertons
 untertreiben
 untertreibens
@@ -53719,6 +55212,7 @@ unterziehen
 unterziehens
 unterzug
 unterzuge
+unterzuges
 unterzugs
 unterzüge
 unterzügen
@@ -53821,6 +55315,7 @@ urbevölkerung
 urbevölkerungen
 urdarm
 urdarme
+urdarmes
 urdarms
 urdärme
 urdärmen
@@ -53848,6 +55343,7 @@ urgestalten
 urgestein
 urgesteine
 urgesteinen
+urgesteines
 urgesteins
 urgewalt
 urgewalten
@@ -53857,6 +55353,7 @@ urgroßväter
 urgroßvätern
 urgrund
 urgrunde
+urgrundes
 urgrunds
 urgründe
 urgründen
@@ -53897,6 +55394,7 @@ urlaub
 urlauber
 urlaubern
 urlaubers
+urlaubes
 urlaubs
 urlinde
 urlinden
@@ -53917,6 +55415,7 @@ ursache
 ursachen
 ursprung
 ursprunge
+ursprunges
 ursprungs
 ursprünge
 ursprüngen
@@ -53924,6 +55423,7 @@ ursprünglichkeit
 urstoff
 urstoffe
 urstoffen
+urstoffes
 urstoffs
 urteil
 urteile
@@ -53934,6 +55434,7 @@ urteils
 urtext
 urtexte
 urtexten
+urtextes
 urtexts
 urtier
 urtierchen
@@ -53982,6 +55483,7 @@ urzelle
 urzellen
 urzustand
 urzustande
+urzustandes
 urzustands
 urzustände
 urzuständen
@@ -54059,6 +55561,9 @@ vegetationen
 vehemens
 veilchen
 veilchens
+vektor
+vektoren
+vektors
 venezianerin
 venezianerinnen
 ventil
@@ -54222,6 +55727,7 @@ verbohrens
 verbot
 verbote
 verboten
+verbotes
 verbots
 verbraten
 verbratens
@@ -54272,6 +55778,7 @@ verbund
 verbunde
 verbunden
 verbundenheit
+verbundes
 verbundmaschine
 verbundmaschinen
 verbunds
@@ -54279,6 +55786,8 @@ verbände
 verbänden
 verböllern
 verböllerns
+verbünde
+verbünden
 verbünden
 verbündens
 verbündete
@@ -54303,12 +55812,14 @@ verdeck
 verdecke
 verdecken
 verdeckens
+verdeckes
 verdecks
 verdenken
 verdenkens
 verderb
 verderben
 verderbens
+verderbes
 verderblichkeit
 verderbs
 verdeutlichen
@@ -54380,6 +55891,8 @@ verdunstung
 verdursten
 verdurstens
 verdächtige
+verdächtige
+verdächtigen
 verdächtigen
 verdächtigens
 verdünnen
@@ -54418,6 +55931,7 @@ vereinbarungen
 vereine
 vereinen
 vereinens
+vereines
 vereinfachen
 vereinfachens
 vereinheitlichen
@@ -54790,6 +56304,7 @@ verhör
 verhöre
 verhören
 verhörens
+verhöres
 verhörs
 verhüllen
 verhüllens
@@ -54832,6 +56347,7 @@ verkaufs
 verkehr
 verkehren
 verkehrens
+verkehres
 verkehrs
 verkehrsexpertin
 verkehrsexpertinnen
@@ -55005,6 +56521,7 @@ verleiherin
 verleiherinnen
 verleihern
 verleihers
+verleihes
 verleihs
 verleihung
 verleihungen
@@ -55104,6 +56621,7 @@ vermerk
 vermerke
 vermerken
 vermerkens
+vermerkes
 vermerks
 vermessen
 vermessenheit
@@ -55113,6 +56631,8 @@ vermessern
 vermessers
 vermessung
 vermessungen
+vermessungsamt
+vermessungsamtes
 vermiefen
 vermiefens
 vermiesen
@@ -55147,6 +56667,8 @@ vermittlern
 vermittlers
 vermittlung
 vermittlungen
+vermittlungsamt
+vermittlungsamtes
 vermummen
 vermummens
 vermummung
@@ -55270,6 +56792,7 @@ verpuppens
 verputz
 verputzen
 verputzens
+verputzes
 verputzs
 verpönen
 verpönens
@@ -55288,6 +56811,7 @@ verramschens
 verrat
 verraten
 verratens
+verrates
 verrats
 verrauschen
 verrauschens
@@ -55323,6 +56847,7 @@ verrosten
 verrostens
 verruchtheit
 verruf
+verrufes
 verrufs
 verrutschen
 verrutschens
@@ -55352,6 +56877,7 @@ versammlungen
 versand
 versanden
 versandens
+versandes
 versands
 versauen
 versauens
@@ -55417,6 +56943,7 @@ verschlage
 verschlagen
 verschlagenheit
 verschlagens
+verschlages
 verschlags
 verschlammen
 verschlammens
@@ -55595,6 +57122,8 @@ versichern
 versicherns
 versicherung
 versicherungen
+versicherungsaufsichtsamt
+versicherungsaufsichtsamtes
 versicherungsexpertin
 versicherungsexpertinnen
 versicherungsmaklerin
@@ -55672,6 +57201,7 @@ verspürens
 verstaatlichen
 verstaatlichens
 verstand
+verstandes
 verstands
 verstauben
 verstaubens
@@ -55759,6 +57289,8 @@ versucherin
 versucherinnen
 versuches
 versuchs
+versuchsamt
+versuchsamtes
 versuchung
 versuchungen
 versumpfen
@@ -55827,6 +57359,7 @@ vertrag
 vertrage
 vertragen
 vertragens
+vertrages
 vertrags
 vertragsassistentin
 vertragsassistentinnen
@@ -55853,6 +57386,7 @@ vertretungen
 vertrieb
 vertriebene
 vertriebenen
+vertriebes
 vertriebs
 vertriebsassistentin
 vertriebsassistentinnen
@@ -55937,6 +57471,8 @@ verwaltern
 verwalters
 verwaltung
 verwaltungen
+verwaltungsamt
+verwaltungsamtes
 verwaltungsassistentin
 verwaltungsassistentinnen
 verwaltungsexpertin
@@ -56142,6 +57678,8 @@ veterinär
 veterinäre
 veterinären
 veterinärs
+veterinäruntersuchungsamt
+veterinäruntersuchungsamtes
 veto
 vetos
 vetter
@@ -56164,6 +57702,7 @@ viechern
 vieches
 viechs
 vieh
+viehes
 viehs
 vieldeutigkeit
 vielfalt
@@ -56191,6 +57730,7 @@ vierers
 vierfarbendruck
 vierfarbendrucke
 vierfarbendrucken
+vierfarbendruckes
 vierfarbendrucks
 vierradbremse
 vierradbremsen
@@ -56234,6 +57774,7 @@ vierventilers
 viervierteltakt
 viervierteltakte
 viervierteltakten
+viervierteltaktes
 viervierteltakts
 vierzigerin
 vierzigerinnen
@@ -56360,6 +57901,7 @@ vollmalens
 vollmond
 vollmonde
 vollmonden
+vollmondes
 vollmonds
 vollname
 vollnamen
@@ -56403,6 +57945,7 @@ vollzeitschulen
 vollziehen
 vollziehens
 vollzug
+vollzuges
 vollzugs
 vollzähligkeit
 volt
@@ -56411,6 +57954,7 @@ volumens
 vorabdruck
 vorabdrucke
 vorabdrucken
+vorabdruckes
 vorabdrucks
 vorabend
 vorabende
@@ -56445,6 +57989,7 @@ vorausblickens
 vorausgehen
 vorausgehens
 voraussagen
+voraussagen
 voraussagens
 vorausschauen
 vorausschauens
@@ -56464,6 +58009,7 @@ vorbehalt
 vorbehalte
 vorbehalten
 vorbehaltens
+vorbehaltes
 vorbehalts
 vorbehandeln
 vorbehandelns
@@ -56489,6 +58035,7 @@ vorbeilaufen
 vorbeilaufens
 vorbeimarsch
 vorbeimarsche
+vorbeimarsches
 vorbeimarschieren
 vorbeimarschierens
 vorbeimarschs
@@ -56516,10 +58063,12 @@ vorbereitungen
 vorbericht
 vorberichte
 vorberichten
+vorberichtes
 vorberichts
 vorbescheid
 vorbescheide
 vorbescheiden
+vorbescheides
 vorbescheids
 vorbesprechung
 vorbesprechungen
@@ -56580,10 +58129,12 @@ vordergliedern
 vordergliedes
 vorderglieds
 vordergrund
+vordergrundes
 vordergrunds
 vorderhand
 vorderkopf
 vorderkopfe
+vorderkopfes
 vorderkopfs
 vorderköpfe
 vorderköpfen
@@ -56603,6 +58154,7 @@ vorderrädern
 vorderschiff
 vorderschiffe
 vorderschiffen
+vorderschiffes
 vorderschiffs
 vorderschinken
 vorderschinkens
@@ -56711,6 +58263,7 @@ vorführern
 vorführers
 vorführraum
 vorführraume
+vorführraumes
 vorführraums
 vorführräume
 vorführräumen
@@ -56734,6 +58287,7 @@ vorgebirges
 vorgefühl
 vorgefühle
 vorgefühlen
+vorgefühles
 vorgefühls
 vorgehen
 vorgehens
@@ -56750,6 +58304,7 @@ vorgreifens
 vorgriff
 vorgriffe
 vorgriffen
+vorgriffes
 vorgriffs
 vorgänge
 vorgängen
@@ -56766,6 +58321,7 @@ vorhaltens
 vorhand
 vorhang
 vorhange
+vorhanges
 vorhangs
 vorhaut
 vorhemd
@@ -56788,6 +58344,7 @@ vorheulen
 vorheulens
 vorhof
 vorhofe
+vorhofes
 vorhofs
 vorhänge
 vorhängen
@@ -56840,11 +58397,13 @@ vorladungen
 vorlage
 vorlagen
 vorland
+vorlandes
 vorlands
 vorlauf
 vorlaufe
 vorlaufen
 vorlaufens
+vorlaufes
 vorlaufs
 vorleben
 vorlebens
@@ -56879,10 +58438,12 @@ vormannes
 vormanns
 vormarsch
 vormarsche
+vormarsches
 vormarschs
 vormast
 vormaste
 vormasten
+vormastes
 vormasts
 vormauer
 vormauern
@@ -56895,6 +58456,7 @@ vormerkungen
 vormittag
 vormittage
 vormittagen
+vormittages
 vormittags
 vormundschaft
 vormundschaften
@@ -56939,15 +58501,18 @@ vorranges
 vorrangs
 vorrat
 vorrate
+vorrates
 vorrats
 vorraum
 vorraume
+vorraumes
 vorraums
 vorrechnen
 vorrechnens
 vorrecht
 vorrechte
 vorrechten
+vorrechtes
 vorrechts
 vorrede
 vorreden
@@ -57040,6 +58605,7 @@ vorsitz
 vorsitze
 vorsitzen
 vorsitzende
+vorsitzende
 vorsitzenden
 vorsitzens
 vorsitzes
@@ -57053,6 +58619,7 @@ vorspann
 vorspanne
 vorspannen
 vorspannens
+vorspannes
 vorspanns
 vorspeise
 vorspeisen
@@ -57066,6 +58633,7 @@ vorspringen
 vorspringens
 vorspruch
 vorspruche
+vorspruches
 vorspruchs
 vorsprung
 vorsprunge
@@ -57082,6 +58650,8 @@ vorstand
 vorstande
 vorstandes
 vorstands
+vorstandsamt
+vorstandsamtes
 vorstandsassistentin
 vorstandsassistentinnen
 vorstehen
@@ -57124,12 +58694,14 @@ vorsätzen
 vortag
 vortage
 vortagen
+vortages
 vortags
 vortanzen
 vortanzens
 vorteil
 vorteile
 vorteilen
+vorteiles
 vorteils
 vortrag
 vortrage
@@ -57142,6 +58714,7 @@ vortreibens
 vortreten
 vortretens
 vortritt
+vortrittes
 vortritts
 vorträge
 vorträgen
@@ -57159,6 +58732,7 @@ voruntersuchungen
 vorurteil
 vorurteile
 vorurteilen
+vorurteiles
 vorurteils
 vorverfahren
 vorverfahrens
@@ -57247,6 +58821,7 @@ vorzimmern
 vorzimmers
 vorzug
 vorzuge
+vorzuges
 vorzugs
 vorzählen
 vorzählens
@@ -57307,6 +58882,7 @@ wachboots
 wachdienst
 wachdienste
 wachdiensten
+wachdienstes
 wachdiensts
 wache
 wachen
@@ -57317,6 +58893,7 @@ wachheit
 wachhund
 wachhunde
 wachhunden
+wachhundes
 wachhunds
 wachmann
 wachmanne
@@ -57341,6 +58918,7 @@ wachsamkeit
 wachsen
 wachsens
 wachstum
+wachstumes
 wachstums
 wachtmeisterin
 wachtmeisterinnen
@@ -57388,6 +58966,7 @@ wahlhelferinnen
 wahlrechtsexpertin
 wahlrechtsexpertinnen
 wahnsinn
+wahnsinnes
 wahnsinns
 wahren
 wahrens
@@ -57587,6 +59166,7 @@ warteraumes
 warteraums
 warteräume
 warteräumen
+wartes
 warteschlange
 warteschlangen
 wartezeit
@@ -57642,10 +59222,12 @@ waschstraßen
 waschtag
 waschtage
 waschtagen
+waschtages
 waschtags
 waschtisch
 waschtische
 waschtischen
+waschtisches
 waschtischs
 wasser
 wasserballerin
@@ -57662,6 +59244,8 @@ wassern
 wassernymphe
 wassernymphen
 wassers
+wasserwirtschaftsamt
+wasserwirtschaftsamtes
 waten
 watens
 waterkant
@@ -57670,6 +59254,7 @@ watschelns
 watt
 watte
 watten
+wattes
 watts
 wcs
 weben
@@ -57696,6 +59281,7 @@ weckers
 weckruf
 weckrufe
 weckrufen
+weckrufes
 weckrufs
 wedeln
 wedelns
@@ -57874,16 +59460,29 @@ wehklage
 wehklagen
 wehmut
 wehr
+wehr
+wehrbereichsbekleidungsamt
+wehrbereichsbekleidungsamtes
+wehre
+wehren
 wehren
 wehrens
+wehres
 wehrexpertin
 wehrexpertinnen
 wehrheimer
 wehrheimern
 wehrheimers
 wehrlosigkeit
+wehrmachtführungsamt
+wehrmachtführungsamtes
+wehrmachtsamt
+wehrmachtsamtes
 wehrpflichtige
 wehrpflichtigen
+wehrs
+wehrwirtschaftsamt
+wehrwirtschaftsamtes
 wehs
 weib
 weibchen
@@ -57925,6 +59524,7 @@ weihnachtsgans
 weihnachtsgänse
 weihnachtsgänsen
 weihrauch
+weihrauches
 weihrauchs
 weihwasser
 weihwassers
@@ -58160,6 +59760,11 @@ werkzeugmacherinnen
 werkzeugs
 wert
 werte
+wertebereich
+wertebereiche
+wertebereichen
+wertebereiches
+wertebereichs
 werten
 wertens
 wertermittlungsexpertin
@@ -58176,8 +59781,13 @@ wespe
 wespen
 west
 westdeutsche
+westdeutsche
 westdeutschen
+westdeutschen
+westdeutscher
 weste
+weste
+westen
 westen
 westens
 westes
@@ -58232,6 +59842,7 @@ wettkämpfern
 wettkämpfers
 wettlauf
 wettlaufe
+wettlaufes
 wettlaufs
 wettläufe
 wettläufen
@@ -58266,6 +59877,7 @@ widerfahrens
 widerhall
 widerhallen
 widerhallens
+widerhalles
 widerhalls
 widerklingen
 widerklingens
@@ -58288,6 +59900,7 @@ widerruf
 widerrufe
 widerrufen
 widerrufens
+widerrufes
 widerruflichkeit
 widerrufs
 widersacher
@@ -58299,10 +59912,12 @@ widerschein
 widerscheine
 widerscheinen
 widerscheinens
+widerscheines
 widerscheins
 widersetzen
 widersetzens
 widersinn
+widersinnes
 widersinnigkeit
 widersinns
 widerspenstigkeit
@@ -58312,6 +59927,7 @@ widersprechen
 widersprechens
 widerspruch
 widerspruche
+widerspruches
 widerspruchs
 widersprüche
 widersprüchen
@@ -58355,6 +59971,7 @@ wiederaufrüstung
 wiederauftauchen
 wiederauftauchens
 wiederbeginn
+wiederbeginnes
 wiederbeginns
 wiederbekommen
 wiederbekommens
@@ -58433,6 +60050,7 @@ wiederverheiratung
 wiederverkauf
 wiederverkaufen
 wiederverkaufens
+wiederverkaufes
 wiederverkaufs
 wiederverkäufer
 wiederverkäufern
@@ -58460,9 +60078,11 @@ wiesen
 wiking
 wikinge
 wikinger
+wikinger
 wikingerin
 wikingerinnen
 wikingern
+wikingers
 wikinges
 wikings
 wildbiologin
@@ -58498,16 +60118,19 @@ wildnissen
 wildpferd
 wildpferde
 wildpferden
+wildpferdes
 wildpferds
 wildsau
 wildsauen
 wildschaf
 wildschafe
 wildschafen
+wildschafes
 wildschafs
 wildschwein
 wildschweine
 wildschweinen
+wildschweines
 wildschweins
 wildwasser
 wildwassern
@@ -58613,6 +60236,7 @@ wirkungen
 wirrheit
 wirrkopf
 wirrkopfe
+wirrkopfes
 wirrkopfs
 wirrköpfe
 wirrköpfen
@@ -58638,6 +60262,8 @@ wirtschafterin
 wirtschafterinnen
 wirtschaftlerin
 wirtschaftlerinnen
+wirtschaftsamt
+wirtschaftsamtes
 wirtschaftsassistentin
 wirtschaftsassistentinnen
 wirtschaftsberaterin
@@ -58718,6 +60344,8 @@ wohle
 wohlergehen
 wohlergehens
 wohles
+wohlfahrtsamt
+wohlfahrtsamtes
 wohlfahrtspflege
 wohlgefallen
 wohlgefallens
@@ -58759,6 +60387,7 @@ wohnhauses
 wohnheim
 wohnheime
 wohnheimen
+wohnheimes
 wohnheims
 wohnhäuser
 wohnhäusern
@@ -58802,6 +60431,7 @@ wok
 woks
 wolf
 wolfe
+wolfes
 wolfs
 wolfsexpertin
 wolfsexpertinnen
@@ -58975,8 +60605,10 @@ wärterinnen
 wäsche
 wäscherin
 wäscherinnen
+wässer
 wässerchen
 wässerchens
+wässern
 wässern
 wässerns
 wölben
@@ -59123,6 +60755,7 @@ zappeln
 zappelns
 zar
 zaren
+zargen
 zarin
 zarinnen
 zaster
@@ -59140,11 +60773,13 @@ zaudern
 zauderns
 zaun
 zaune
+zaunes
 zauns
 zausen
 zausens
 zebra
 zebras
+zechen
 zechen
 zechens
 zechprellerin
@@ -59152,14 +60787,17 @@ zechprellerinnen
 zecke
 zecken
 zeh
+zeh
 zehe
 zehen
+zehes
 zehnfingersystem
 zehnfingersysteme
 zehnfingersystemen
 zehnfingersystems
 zehnkampf
 zehnkampfe
+zehnkampfes
 zehnkampfs
 zehnkämpfe
 zehnkämpfen
@@ -59189,6 +60827,7 @@ zehntklässlerinnen
 zehren
 zehrens
 zehrung
+zehs
 zeichen
 zeichenassistentin
 zeichenassistentinnen
@@ -59230,6 +60869,7 @@ zeilen
 zeit
 zeiten
 zeitenwende
+zeitfahren
 zeitfahren
 zeitfahrens
 zeitgenössische
@@ -59285,6 +60925,7 @@ zements
 zenit
 zenite
 zeniten
+zenites
 zenits
 zensieren
 zensierens
@@ -59326,6 +60967,7 @@ zentralisierungen
 zentralkatalog
 zentralkataloge
 zentralkatalogen
+zentralkataloges
 zentralkatalogs
 zentralmuseen
 zentralmuseum
@@ -59333,6 +60975,8 @@ zentralmuseums
 zentralspeicher
 zentralspeichern
 zentralspeichers
+zentralstandesamt
+zentralstandesamtes
 zentralstation
 zentralstationen
 zentralverriegelung
@@ -59386,6 +61030,7 @@ zeremonien
 zerfall
 zerfallen
 zerfallens
+zerfalles
 zerfalls
 zerfasern
 zerfaserns
@@ -59597,6 +61242,7 @@ zerteilens
 zertifikat
 zertifikate
 zertifikaten
+zertifikates
 zertifikats
 zertrampeln
 zertrampelns
@@ -59746,6 +61392,7 @@ zischens
 zischlaut
 zischlaute
 zischlauten
+zischlautes
 zischlauts
 zisterzienserin
 zisterzienserinnen
@@ -59756,6 +61403,7 @@ zitadellen
 zitat
 zitate
 zitaten
+zitates
 zitats
 zither
 zithern
@@ -59770,6 +61418,7 @@ zitrusfrüchten
 zitteraal
 zitteraale
 zitteraalen
+zitteraales
 zitteraals
 zitterlaut
 zitterlaute
@@ -59832,6 +61481,7 @@ zopfe
 zopfes
 zopfs
 zorn
+zornes
 zorns
 zuarbeiten
 zuarbeitens
@@ -59840,6 +61490,7 @@ zuballerns
 zubauen
 zubauens
 zubehör
+zubehöres
 zubehörs
 zubeißen
 zubeißens
@@ -59875,8 +61526,10 @@ zuchtlosigkeit
 zucken
 zuckens
 zucker
+zucker
 zuckerlieferantin
 zuckerlieferantinnen
+zuckern
 zuckers
 zudenken
 zudenkens
@@ -59935,6 +61588,8 @@ zuführens
 zuführung
 zuführungen
 zug
+zugabe
+zugaben
 zugang
 zugange
 zuganges
@@ -60034,6 +61689,7 @@ zulauf
 zulaufe
 zulaufen
 zulaufens
+zulaufes
 zulaufs
 zulegen
 zulegens
@@ -60355,6 +62011,8 @@ zurückübersetzen
 zurückübersetzens
 zurüsten
 zurüstens
+zusage
+zusagen
 zusagen
 zusagens
 zusammenarbeit
@@ -60452,6 +62110,7 @@ zusammenklammern
 zusammenklammerns
 zusammenklang
 zusammenklange
+zusammenklanges
 zusammenklangs
 zusammenklappen
 zusammenklappens
@@ -60490,6 +62149,7 @@ zusammenlauf
 zusammenlaufe
 zusammenlaufen
 zusammenlaufens
+zusammenlaufes
 zusammenlaufs
 zusammenleben
 zusammenlebens
@@ -60522,6 +62182,7 @@ zusammenpferchens
 zusammenprall
 zusammenprallen
 zusammenprallens
+zusammenpralles
 zusammenpralls
 zusammenpressen
 zusammenpressens
@@ -60634,6 +62295,7 @@ zusammensuchens
 zusammentragen
 zusammentragens
 zusammentreffen
+zusammentreffen
 zusammentreffens
 zusammentreiben
 zusammentreibens
@@ -60656,6 +62318,7 @@ zusammenzählens
 zusatz
 zusatzantrag
 zusatzantrage
+zusatzantrages
 zusatzantrags
 zusatzanträge
 zusatzanträgen
@@ -60664,6 +62327,7 @@ zusatzes
 zusatzgerät
 zusatzgeräte
 zusatzgeräten
+zusatzgerätes
 zusatzgeräts
 zusatzversicherung
 zusatzversicherungen
@@ -60745,6 +62409,7 @@ zusprechens
 zuspringen
 zuspringens
 zuspruch
+zuspruches
 zuspruchs
 zustand
 zustande
@@ -60892,6 +62557,7 @@ zweckdenken
 zweckdenkens
 zwecke
 zwecken
+zweckes
 zwecklosigkeit
 zweckmäßigkeit
 zwecks
@@ -60921,6 +62587,8 @@ zweigen
 zweigens
 zweiges
 zweihäusigkeit
+zweijährigen
+zweijähriger
 zweipoligkeit
 zweirad
 zweirade
@@ -60972,12 +62640,14 @@ zweizylinders
 zwerchfell
 zwerchfelle
 zwerchfellen
+zwerchfelles
 zwerchfells
 zwerg
 zwergapfel
 zwergapfels
 zwerge
 zwergen
+zwerges
 zwergin
 zwerginnen
 zwergs
@@ -61022,6 +62692,7 @@ zwischenboden
 zwischenbodens
 zwischenböden
 zwischendeck
+zwischendeckes
 zwischendecks
 zwischending
 zwischendinge
@@ -61078,6 +62749,7 @@ zwischenstücken
 zwischenstücks
 zwischenton
 zwischentone
+zwischentones
 zwischentons
 zwischenträger
 zwischenträgern
@@ -61094,6 +62766,7 @@ zwischenzeiten
 zwist
 zwiste
 zwisten
+zwistes
 zwistigkeit
 zwistigkeiten
 zwists
@@ -61109,6 +62782,7 @@ zwölf
 zwölfeck
 zwölfecke
 zwölfecken
+zwölfeckes
 zwölfecks
 zwölfen
 zwölffingerdarm
@@ -61332,12 +63006,15 @@ zürnens
 ätzen
 ätzens
 ätzkalk
+ätzkalkes
 ätzkalks
 ätzung
 ätzungen
 äuglein
 äugleins
 äußere
+äußere
+äußeren
 äußeren
 äußerlichkeit
 äußerlichkeiten
@@ -61350,6 +63027,7 @@ zürnens
 öden
 ödens
 ödland
+ödlandes
 ödlands
 öfen
 öffentlichkeit
@@ -61508,6 +63186,8 @@ zürnens
 übereinklänge
 übereinklängen
 übereinkommen
+übereinkommen
+übereinkommens
 übereinkommens
 übereinkunft
 übereinkünfte
@@ -61571,6 +63251,7 @@ zürnens
 übergabe
 übergang
 übergange
+überganges
 übergangs
 übergardine
 übergardinen
@@ -61589,6 +63270,7 @@ zürnens
 übergriff
 übergriffe
 übergriffen
+übergriffes
 übergriffs
 übergröße
 übergrößen
@@ -61654,6 +63336,7 @@ zürnens
 überlaufen
 überlaufens
 überleben
+überlebende
 überlebende
 überlebenden
 überlebender
@@ -61752,6 +63435,7 @@ zürnens
 überrest
 überreste
 überresten
+überrestes
 überrests
 überriese
 überriesen
@@ -61776,6 +63460,7 @@ zürnens
 überschlage
 überschlagen
 überschlagens
+überschlages
 überschlags
 überschläge
 überschlägen
@@ -61799,6 +63484,7 @@ zürnens
 überschusses
 überschuß
 überschwang
+überschwanges
 überschwangs
 überschwappen
 überschwappens
@@ -61892,6 +63578,7 @@ zürnens
 übertrager
 übertragern
 übertragers
+übertrages
 übertrags
 übertragung
 übertragungen
@@ -61910,6 +63597,7 @@ zürnens
 übertritt
 übertritte
 übertritten
+übertrittes
 übertritts
 übertrumpfen
 übertrumpfens
@@ -61977,6 +63665,7 @@ zürnens
 überziehers
 überzug
 überzuge
+überzuges
 überzugs
 überzählen
 überzählens

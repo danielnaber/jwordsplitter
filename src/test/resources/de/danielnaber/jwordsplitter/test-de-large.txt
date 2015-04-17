@@ -1467,7 +1467,7 @@ Haupt, initiatorin
 JFM
 Cosmopolitan-Chefredakteurin
 Rosalia
-Atomsprengkörper
+Atom, sprengkörper
 Bahir
 Bewegung, analysen
 Bertelsmann-Buchklub
@@ -1517,7 +1517,7 @@ Maul, affen
 JANNOTT
 Bundes-KV
 Nettoprämien
-Qualifikationsmatches
+Qualifikation, matches
 Modernisierung, anspruch
 Polizei, pistolen
 Gerstenkörner
@@ -1580,7 +1580,7 @@ TV-Volk
 Leitung, betriebe
 NEWART
 Nimrode
-Protokollbeamter
+Protokoll, beamter
 Mosler
 Kaar
 Cable
@@ -1611,7 +1611,7 @@ Personal, computer
 Bühnen, stich
 Cengis
 Sprengelbesetzer
-Atomkomplex
+Atom, komplex
 Zukunft, idee
 BAföG-Förderung
 Zolitschka
@@ -1645,7 +1645,7 @@ Erdtheil
 Dorf, restaurant
 V-Mann-Enthüllungen
 Übersichtlicher
-Schneideräume
+Schneide, räume
 Experten, truppe
 Tier, gerüche
 Nicht, erkennung
@@ -1657,7 +1657,7 @@ Geflüsterte
 Ausnahme, phänomen
 Fahrrad, kontrollen
 Flash-Memory
-Deutsch-Amerikanisches
+Deutsch, Amerikanisches
 Mzali
 Stir
 Marathon-Tor
@@ -2401,7 +2401,7 @@ Schluss, auktion
 Lade, gewicht
 Doppel, zelt
 Vormerkstelle
-Deutsch-Italienerin
+Deutsch, Italienerin
 Werte, unterrichts
 Wagen, dörflern
 Aktien, Garantie, fonds
@@ -2667,7 +2667,7 @@ Qualitätsgarant
 Kompetenz, netze
 Subaru
 Spalt, maße
-Atom-Bewegung
+Atom, Bewegung
 Grund, organisation
 Früh, sendungen
 Sunderlands
@@ -2777,7 +2777,7 @@ Imbisstand
 Themen, gastronomie
 Wahl, kampf, Kommission
 Fußballkrimi
-Zugaberufe
+Zugabe, rufe
 Hölzle
 Reise, freiheit
 Galvanistr
@@ -2888,7 +2888,7 @@ Weinbau, regionen
 FÜHREN
 Gescherr
 Rotkohls
-Atommülltransport
+Atom, müll, transport
 Startcrash
 Soziotherapie
 Arbeit, verhältnisse
@@ -3114,7 +3114,7 @@ Glocken, turmes
 Roden, dorn
 Eymer
 Bio-Boom
-Deutschmann
+Deutsch, mann
 Fußballinternate
 Galerien
 Flug, vermögen
@@ -3268,7 +3268,7 @@ Herrewyn
 Teldafax-Anteile
 Info-Stelen
 Sclerotinia
-Deutschtürken
+Deutsch, türken
 Haider-Zitat
 Ecologie
 Solo-Arbeit
@@ -3794,7 +3794,7 @@ Bargeld, Alternative
 Klueting
 Sichtbarem
 Ferien, maßnahmen
-Gangsterstory
+Gangster, story
 Kondensationskeim
 Investive
 Revier, Nachbarn
@@ -4070,7 +4070,7 @@ Angefacht
 Glück, planet
 Sommermeyer
 Universität, Rektor
-Anstandsunterricht
+Anstands, unterricht
 Werbe, einbußen
 Palasttor
 Brief, kasten, werbung
@@ -4293,7 +4293,7 @@ NATO, Mitglieder
 Börsen, manipulation
 Zwingerwärter
 Solmecke
-Atomteststopp-Behörde
+Atom, test, stopp, Behörde
 Berningers
 Comic, Vorlage
 Rokoko-Welt
@@ -4610,7 +4610,7 @@ Spezialpolizisten
 Akberet
 Matas
 Zuschauer, zustrom
-Siegesschrei
+Sieges, schrei
 Bösewichtern
 Hand, räder
 Säugetier, gruppen
