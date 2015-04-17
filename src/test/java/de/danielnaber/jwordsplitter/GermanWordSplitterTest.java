@@ -32,13 +32,6 @@ public class GermanWordSplitterTest extends BaseTest {
         return "/de/danielnaber/jwordsplitter/test-de.txt";
     }
 
-    public void testStreamDictConstructor() throws IOException {
-        try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
-            splitter = new GermanWordSplitter(true, fis);
-            baseChecks();
-        }
-    }
-
     public void testGetAllSplits() throws IOException {
         try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
             splitter = new GermanWordSplitter(true, fis);
@@ -62,6 +55,13 @@ public class GermanWordSplitterTest extends BaseTest {
             // for debugging:
             //List<AbstractWordSplitter.Split> result = splitter.getAllSplits("Hausverhaltensflügex", true);  // also with false
             //System.out.println(result);
+        }
+    }
+
+    public void testStreamDictConstructor() throws IOException {
+        try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
+            splitter = new GermanWordSplitter(true, fis);
+            baseChecks();
         }
     }
 

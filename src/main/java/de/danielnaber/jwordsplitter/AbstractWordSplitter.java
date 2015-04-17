@@ -143,7 +143,7 @@ public abstract class AbstractWordSplitter {
     List<List<String>> getAllSplits(String word, boolean fromLeft) {
         List<List<String>> result = new ArrayList<>();
         int start = fromLeft ? minimumWordLength : word.length() - minimumWordLength;
-        for (int i = start; isEnd(fromLeft, i, word);) {
+        for (int i = start; isLoopEnd(fromLeft, i, word);) {
             String left = word.substring(0, i);
             String right = word.substring(i, word.length());
             String relevantWord = fromLeft ? left : right;
@@ -171,7 +171,7 @@ public abstract class AbstractWordSplitter {
         return result;
     }
 
-    private boolean isEnd(boolean fromLeft, int i, String word) {
+    private boolean isLoopEnd(boolean fromLeft, int i, String word) {
         if (fromLeft) {
             return i < word.length() - minimumWordLength;
         } else {
