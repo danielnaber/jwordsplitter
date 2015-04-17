@@ -165,7 +165,7 @@ public class GermanWordSplitterTest extends BaseTest {
         expect("[Verhalten, xstörung]", "Verhaltenxstörung");
         expect("[Verhalten, sxyz]", "Verhaltensxyz");
         expect("[Verhalten, sxyz]", "Verhaltensxyz");
-        expect("[xyzstörung]", "xyzstörung");
+        expect("[yzstörung]", "yzstörung");
         splitter.setMinimumWordLength(3);
         expect("[xyz, störung]", "xyzstörung");
         expect("[Verhalten, xyz]", "Verhaltenxyz");

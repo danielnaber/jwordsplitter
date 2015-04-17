@@ -6,6 +6,8 @@ jWordSplitter Change Log
 * moved classes to package `de.danielnaber.jwordsplitter`
 * rewrote algorithm to make it simpler, slightly faster and more correct:
   it now always returns the longest match
+* default minimum length of the compound parts is now 3, leading
+  to much more decompositions
 * dictionary update
 * internal: binary dictionary not part of repository anymore. The
   source files are in the repository now and everything can be built

@@ -79,7 +79,7 @@ public class GermanWordSplitter extends AbstractWordSplitter {
 
     @Override
     protected int getDefaultMinimumWordLength() {
-        return 4;
+        return 3;
     }
 
     @Override
