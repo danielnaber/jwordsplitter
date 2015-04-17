@@ -35,7 +35,7 @@ public class GermanWordSplitterTest extends BaseTest {
     public void testStreamDictConstructor() throws IOException {
         try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
             splitter = new GermanWordSplitter(true, fis);
-            strictModeBaseChecks();
+            baseChecks();
         }
     }
 
@@ -72,15 +72,15 @@ public class GermanWordSplitterTest extends BaseTest {
 
     public void testFileDictConstructor() throws IOException {
         splitter = new GermanWordSplitter(true, tmpLexiconFile);
-        strictModeBaseChecks();
+        baseChecks();
     }
 
     public void testFile() throws IOException {
-        splitter = new GermanWordSplitter(true, tmpLexiconFile);
-        strictModeBaseChecks();
+        splitter = new GermanWordSplitter(false, tmpLexiconFile);
+        baseChecks();
     }
 
-    private void strictModeBaseChecks() {
+    private void baseChecks() {
         expect("[xyz]", "xyz");
         expect("[Verhalten]", "Verhalten");
         expect("[Verhalten, störung]", "Verhaltenstörung");
