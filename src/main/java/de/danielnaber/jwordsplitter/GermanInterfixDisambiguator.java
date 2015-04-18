@@ -62,11 +62,7 @@ class GermanInterfixDisambiguator {
             String prevPrevPart = newParts.get(i - 2);
             if (prevPart.equals("s")) {
                 boolean partIsWord = isWord("s" + part);
-                if (partIsWord && !wordsRequiringInfixS.contains(prevPrevPart)) {
-                    // Wein+s+orte = Wein-sorte
-                    newParts.set(i, "s" + part);
-                    newParts.remove(i - 1);   // remove infix
-                } else {
+                if (!partIsWord || wordsRequiringInfixS.contains(prevPrevPart)) {
                     // Schönheit+s+tempel = Schönheits-tempel
                     newParts.set(i - 2, prevPrevPart + "s");
                     newParts.remove(i - 1);   // remove infix
