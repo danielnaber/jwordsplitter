@@ -5,12 +5,13 @@ Copyright 2004-2007 Sven Abels
 Copyright 2007-2013 Daniel Naber  
 Homepage: http://www.danielnaber.de/jwordsplitter
 
-This Java library can split German words into their smallest parts (atoms).
-For example "Erhebungsfehler" will be split into "erhebung" and "fehler".
-This is especially beneficial for German words but it can work with
+This Java library can split German compound words into smaller parts.
+For example "Erhebungsfehler" will be split into "Erhebung" and "fehler".
+This is especially useful for German words but it can work with
 all languages, as long as a dictionary and a class extending `AbstractWordSplitter`
 is provided. So far, only German is supported and a German dictionary is included
-in the JAR.
+in the JAR. Even though it will work for some adjectives (e.g. "knallgelb" -> knall + gelb)
+and verbs (e.g. "zurückrudern" -> zurück + rudern) it works best for nouns.
 
 #### Usage from Java
 
@@ -24,7 +25,7 @@ Use this dependency:
 </dependency>
 ```
     
-Example call:
+Example usage:
 
 ```java
 AbstractWordSplitter splitter = new GermanWordSplitter(true);
