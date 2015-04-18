@@ -40,12 +40,22 @@ class GermanInterfixDisambiguator {
     }
 
     // TODO:
-    // ecke, recke ... amt, samt
+    // ecke, recke ...
     // stube vs. tube
     // tau vs. stau
 
     List<String> disambiguate(List<String> parts) {
         List<String> newParts = new ArrayList<>(parts);
+        int lastPartIdx = parts.size() - 1;
+        if (parts.size() > 1) {
+            String lastPart = parts.get(lastPartIdx);
+            if (lastPart.equals("samt") || lastPart.equals("samts") || lastPart.equals("samtes")) {
+                // Verkehr+s+amt = Verkehrs+amt
+                newParts.set(lastPartIdx - 1, parts.get(lastPartIdx - 1) + "s");
+                newParts.set(lastPartIdx, lastPart.replaceFirst("^s", ""));
+                return newParts;
+            }
+        }
         for (int i = newParts.size() - 1; i >= 2; i--) {
             String part = newParts.get(i);
             String prevPart = newParts.get(i - 1);
