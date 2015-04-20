@@ -49,6 +49,8 @@ public class GermanWordSplitterTest extends BaseTest {
             testAllSplits("Hausverhalxensflügel", "[[Haus, verhalxensflügel], [Haus, verhalxens, flügel], [Hausverhalxens, flügel]]");
             testAllSplits("Hausverhaltensflügex", "[[Haus, verhaltensflügex], [Haus, verhalten, sflügex], [Haus, verhaltens, flügex]]");
             
+            testAllSplits("Verhaltensflügex", "[[Verhalten, sflügex], [Verhaltens, flügex]]");
+            testAllSplits("Verhaltensflügel", "[[Verhalten, sflügel], [Verhalten, s, flügel], [Verhaltens, flügel]]");
             testAllSplits("Verhaltens-Flügex", "[[Verhalten, s-Flügex], [Verhaltens, -Flügex]]");
             testAllSplits("Hausverhaltens-Flügex", "[[Haus, verhaltens-Flügex], [Haus, verhalten, s-Flügex], [Haus, verhaltens, -Flügex]]");
 
@@ -145,7 +147,7 @@ public class GermanWordSplitterTest extends BaseTest {
 
     public void testTooShortWords() throws IOException {
         splitter = new GermanWordSplitter(false, tmpLexiconFile);
-        // too short to be split (default min word length: 4)
+        // too short to be split (default min word length: 3)
         expect("[Verhaltenei]", "Verhaltenei");
         expect("[Eiverhalten]", "Eiverhalten");
         splitter.setMinimumWordLength(3);
@@ -169,6 +171,10 @@ public class GermanWordSplitterTest extends BaseTest {
         splitter.setMinimumWordLength(3);
         expect("[xyz, störung]", "xyzstörung");
         expect("[Verhalten, xyz]", "Verhaltenxyz");
+        splitter.setMinimumWordLength(3);
+        expect("[Eiverhalten]", "Eiverhalten");
+        splitter.setMinimumWordLength(2);
+        expect("[Ei, verhalten]", "Eiverhalten");
     }
 
     public void testLongerWords() throws IOException {

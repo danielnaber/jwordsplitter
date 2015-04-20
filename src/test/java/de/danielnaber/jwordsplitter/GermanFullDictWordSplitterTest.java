@@ -31,6 +31,22 @@ public class GermanFullDictWordSplitterTest {
     public void testSplit() throws IOException {
         GermanWordSplitter splitter = new GermanWordSplitter(true);
         assertThat(splitter.splitWord("Hausrichten").toString(), is("[Hausrichten]"));  // 'richten' is in removals.txt
+        assertThat(splitter.splitWord("Krankenhaus").toString(), is("[Kranken, haus]"));
+        assertThat(splitter.splitWord("Krankenhauses").toString(), is("[Kranken, hauses]"));
+        assertThat(splitter.splitWord("Junggeselle").toString(), is("[Junggeselle]"));
+        assertThat(splitter.splitWord("Junggesellen").toString(), is("[Junggesellen]"));
+        assertThat(splitter.splitWord("Bahnhof").toString(), is("[Bahnhof]"));
+        assertThat(splitter.splitWord("Bahnhofs").toString(), is("[Bahnhofs]"));
+        assertThat(splitter.splitWord("Nicht-Angriffspakt").toString(), is("[Nicht, Angriffs, pakt]"));
+        assertThat(splitter.splitWord("Nicht-Mitgliedern").toString(), is("[Nicht, Mitgliedern]"));
+        assertThat(splitter.splitWord("Zwei-Jahres-Programm").toString(), is("[Zwei, Jahre, Programm]"));
+        assertThat(splitter.splitWord("Bildabtastgerät").toString(), is("[Bild, abtast, gerät]"));
+        // some items from exceptionsGerman.txt:
+        assertThat(splitter.splitWord("Schwerpunktsachsen").toString(), is("[Schwerpunkts, achsen]"));
+        assertThat(splitter.splitWord("Bahnsteig").toString(), is("[Bahnsteig]"));
+        assertThat(splitter.splitWord("Gewebekulturzelle").toString(), is("[Gewebe, kultur, zelle]"));
+        assertThat(splitter.splitWord("Bruttorentenniveau").toString(), is("[Brutto, renten, niveau]"));
+        assertThat(splitter.splitWord("Bruttorentenniveaus").toString(), is("[Brutto, renten, niveaus]"));
     }
 
     @Ignore("use to manually clean up exceptionsGerman.txt")
