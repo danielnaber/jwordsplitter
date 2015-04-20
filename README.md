@@ -2,7 +2,7 @@ jWordSplitter 4.0-dev (2015-xx-yy)
 ==================================
 
 Copyright 2004-2007 Sven Abels  
-Copyright 2007-2013 Daniel Naber  
+Copyright 2007-2015 Daniel Naber  
 Homepage: http://www.danielnaber.de/jwordsplitter
 
 This Java library can split German compound words into smaller parts.
@@ -19,12 +19,12 @@ Use this dependency:
 
 ```xml
 <dependency>
-    <groupId>de.abelssoft</groupId>
+    <groupId>de.danielnaber</groupId>
     <artifactId>jwordsplitter</artifactId>
-    <version>3.4</version>
+    <version>4.0</version>
 </dependency>
 ```
-    
+
 Example usage:
 
 ```java

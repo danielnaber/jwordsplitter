@@ -1,7 +1,7 @@
 jWordSplitter Change Log
 ========================
 
-### 2015-xx-yy (4.0-dev)
+### 2015-04-20 (4.0)
 * requires Java 1.7 or later
 * moved classes to package `de.danielnaber.jwordsplitter`
 * rewrote algorithm to make it simpler, slightly faster and more correct:
