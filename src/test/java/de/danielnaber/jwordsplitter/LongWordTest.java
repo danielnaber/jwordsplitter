@@ -16,9 +16,9 @@
 package de.danielnaber.jwordsplitter;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Print long words that cannot be decomposed - this might indicate
@@ -27,6 +27,9 @@ import java.util.Scanner;
 public class LongWordTest {
 
     private static final int MIN_LENGTH = 15;
+
+    private final Set<String> words = loadLines(new File("src/main/resources/de/danielnaber/jwordsplitter/languagetool-dict.txt"));
+    private final Map<String,Integer> occurrences = loadLowercaseOccurrences(new File("/media/Data/google-ngram/de/1gram-aggregated/all_without_underscore"));
 
     public void printLongNonCompounds(File file) throws IOException {
         GermanWordSplitter splitter = new GermanWordSplitter(true);
@@ -37,11 +40,59 @@ public class LongWordTest {
                 List<String> parts = splitter.splitWord(line);
                 boolean uppercase = line.length() > 0 && Character.isUpperCase(line.charAt(0));
                 if (uppercase & parts.size() <= 1 && line.length() > MIN_LENGTH) {
+                    String source = getOccurrenceInfo(words, splitter, line);
                     System.out.println(i + ". " + line);
+                    System.err.println(source);
                     i++;
                 }
             }
         }
+    }
+
+    private String getOccurrenceInfo(Set<String> words, GermanWordSplitter splitter, String line) {
+        String source;
+        if (words.contains(line.toLowerCase())) {
+            source = " [in list]";
+        } else {
+            List<List<String>> allSplits = splitter.getAllSplits(line);
+            StringBuilder sb = new StringBuilder("\n");
+            for (List<String> allSplit : allSplits) {
+                for (String s : allSplit) {
+                    if (!words.contains(s.toLowerCase())) {
+                        sb.append(occurrences.get(s.toLowerCase())).append(" ").append(s).append("\n");
+                    }
+                }
+            }
+            source = sb.toString();
+        }
+        return source;
+    }
+
+    private Set<String> loadLines(File file) {
+        Set<String> result = new HashSet<>();
+        try (Scanner scanner = new Scanner(file, "utf-8")) {
+            while (scanner.hasNextLine()) {
+                result.add(scanner.nextLine());
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return result;
+    }
+
+    private Map<String,Integer> loadLowercaseOccurrences(File file) {
+        System.err.println("Loading occurrences...");
+        Map<String,Integer> result = new HashMap<>();
+        try (Scanner scanner = new Scanner(file, "utf-8")) {
+            while (scanner.hasNextLine()) {
+                String[] parts = scanner.nextLine().split(" ");  
+                result.put(parts[0].toLowerCase(), Integer.valueOf(parts[1]));
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        System.err.println("Loaded " + result.size() + " occurrences");
+        return result;
     }
 
     public static void main(String[] args) throws IOException {
