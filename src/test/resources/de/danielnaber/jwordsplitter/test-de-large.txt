@@ -139,7 +139,7 @@ Konetzke
 Chossudovsky
 Prozessor, herstellers
 Jimutavahana
-Europa-Diplom
+Europa, Diplom
 Rücken, bereich
 Sagenhafter
 Blau, bart
@@ -152,7 +152,7 @@ Bundestag, abgeordnete
 TV-Dauerbrenners
 Abfindung, vertrag
 Huberschen
-Kontrollaktionär
+Kontroll, aktionär
 Andenlandes
 Charakter, figuren
 Aditron
@@ -183,7 +183,7 @@ Mechernich
 Reise, welle
 Gradgrind
 Entscheidung, abläufe
-Europacup-Auslosung
+Europa, cup, Auslosung
 Hewson
 Hinterdecke
 Berlinale, Jury, Mitglieder
@@ -239,7 +239,7 @@ Filmvorführerin
 Transrapid-Versuchsstrecke
 Studenten, heimen
 Riesen, festival
-Kaltnadel-Radierungen
+Kalt, nadel, Radierungen
 Eis, druck
 Forschung, thema
 Sprach, kanäle
@@ -380,7 +380,7 @@ Bouzidi
 Mek
 Sammlung, steile
 Strafraum, Stürmer
-Hobbyanwender
+Hobby, anwender
 Urfarbe
 Tötung, ritualen
 Schwirz
@@ -436,7 +436,7 @@ Magazin, ausschnitten
 Lymphknoten, Krebs
 Riva-Werk
 Yonker
-Lieferlandes
+Liefer, landes
 Aynal
 Bau, arbeiter, helm
 Petrovicky
@@ -450,7 +450,7 @@ Krieg, verweigerung
 Kirchen, frage
 Bahnhofs, trasse
 Einzel, könner
-Nuklearmedizinern
+Nuklear, medizinern
 Schwedischen
 Garten, reiches
 Rost, schutz, farbe
@@ -507,7 +507,7 @@ Grundstücksgeselschaft
 UEFA-Bus
 Unterbringung, formen
 Traum, organ
-Leserschwunds
+Leser, schwund
 Maddow
 Welt, monopol
 VESER
@@ -561,7 +561,7 @@ Horizont
 Wasser, dichtigkeit
 Besems
 Ghetto
-Selbstgefallen
+Selbst, gefallen
 Datenausspähung
 Meuchelmorde
 Yacht, hafen
@@ -605,7 +605,7 @@ Gedenk, akt
 Frieden, Unterhändler
 Schlußklappe
 Rehabilitation, kosten
-Regionalflugzeuges
+Regional, flugzeuges
 Klima, erwärmungen
 Wohnung, neubaus
 Abgesägt
@@ -615,7 +615,7 @@ Kupfer, sulfat
 Rideaux
 Vorrechte
 Gegen, vorlage
-Schulpädagoge
+Schul, pädagoge
 Mieter, verbänden
 Tinten, fasse
 Tennis, mannschaften
@@ -721,7 +721,7 @@ Stens
 Rüstung, kooperationen
 Spiel, geschehen
 Turnschuh, trägern
-Regionalstadt
+Regional, stadt
 Liberalisierung, ansätze
 Glocken, schnur
 Lytton
@@ -739,7 +739,7 @@ Elevator
 Plastik, auto
 Longest
 Vukasin
-Tiefkühlessen
+Tief, kühl, essen
 Wert, heim, Filiale
 Gesetze, vorstoß
 Zukunft, ressort
@@ -792,7 +792,7 @@ Land, fremde
 Fond, Dschungel
 Schluchting
 Dateline
-Entziehungs-Kur
+Entziehung, Kur
 Mischna
 Münzanstalten
 Stirn, runzeln
@@ -857,7 +857,7 @@ US-High-Tech-Börse
 Heintzeler
 Partei, kreises
 VfL, Chance
-Internetplattform
+Internet, plattform
 Krostinas
 Rizakowitz
 Stoff, wechsel, zustand
@@ -952,7 +952,7 @@ Gewissen, ethik
 Mannschaft, siege
 ASC
 Theater, kind
-Europa-Partnerschaft
+Europa, Partnerschaft
 Ausgebrochener
 Kopt
 Auto, anbieter
@@ -1035,7 +1035,7 @@ Kombi, angebot
 Makore-Bäume
 Material, wart
 Wohn, zwecken
-Weichmann
+Weich, mann
 Jürgens-Pieper
 Semjonowitsch
 ABM-Anträge
@@ -1066,7 +1066,7 @@ Management, gremium
 Brillouin
 BZW
 Gentzel
-Dammwild
+Damm, wild
 Metaj
 Wasmuth-Verlag
 Massener
@@ -1077,7 +1077,7 @@ Habschaft
 Elektromonteure
 Hantschel
 Fortuna, bällen
-Kontrollnetzes
+Kontroll, netzes
 Waffen, übereinkommen
 Spionage, zwecke
 Kälber, preise
@@ -1097,7 +1097,7 @@ Luhmann-Schüler
 Malztrunk
 Heilpraktikerinnen
 Vielfältigen
-Sonderlagers
+Sonder, lagers
 Batterie, dienst
 Haushalt, gerät
 Daten, elektronik
@@ -1136,7 +1136,7 @@ Pflege, teil
 Versöhnung, appellen
 Synechien
 Messeflaneur
-Nachpächter
+Nach, pächter
 Excessories
 Weleda-Gruppe
 Konzentration, bereich
@@ -1272,7 +1272,7 @@ Wochenend, berichten
 Samisdat-Zeitschrift
 M-Phase
 GLOBO
-Einmal-Kontaktlinsen
+Einmal, Kontakt, linsen
 Senioren, beirat
 Kaputzki
 Beute, macher
@@ -1300,7 +1300,7 @@ Großstadt, kindern
 Bart, stoppeln
 Stoßfängern
 Wanderherz
-Nutzerstrukturen
+Nutzer, strukturen
 Fuß, ball, Abend
 Betrieb, größen, struktur
 Schreck, schuß, pistolen
@@ -1355,7 +1355,7 @@ Pferdl
 Zängler
 Boden, bearbeitung
 Olympia, teilnehmers
-Europa-Job-Center
+Europa, Job, Center
 SPD-Fraktionsführer
 Zwang, denken
 Parce
@@ -1426,7 +1426,7 @@ Spitzen, offizier
 Behörden, termin
 Datsjuk
 Kreis, tier, schau
-Privatjacht
+Privat, jacht
 Lehm, spritzer
 Dekorationsbögen
 Umsatz, prämie
@@ -1516,7 +1516,7 @@ Rotwangig
 Maul, affen
 JANNOTT
 Bundes-KV
-Nettoprämien
+Netto, prämien
 Qualifikation, matches
 Modernisierung, anspruch
 Polizei, pistolen
@@ -1761,7 +1761,7 @@ Segler, sprache
 Damen, abteilung
 Konzeptionern
 New-Economy-Vertreter
-Hochschulstandortes
+Hochschul, standortes
 Defizit, Quote
 PDS-Vorstoß
 Wetter, kapriole
@@ -1784,9 +1784,9 @@ Bären, walde
 Picasso-Schau
 Flachstahls
 Ball, haus, atmosphäre
-Internet-Vision
+Internet, Vision
 Subunternehmers
-Entziehungstherapie
+Entziehung, therapie
 Auslieferung, fahrer
 Huno
 Schicht
@@ -1957,7 +1957,7 @@ CDU-Blockpartei
 AKW-Stade
 Cuentos
 Eneide
-Nuklearfachleute
+Nuklear, fachleute
 Historiker, verband
 Zweiundzwanzigjähriger
 Fahrscheinen
@@ -2059,7 +2059,7 @@ Unternehmen, kauf, verträge
 Buch, wert, abschreibungen
 Tréville
 Online-Teilnehmer
-Europacup-Treffern
+Europa, cup, Treffern
 Veletanlic
 Gewässer, rand, streifen, projekt
 GEPLATZT
@@ -2075,7 +2075,7 @@ Dreck, zeug
 Ecstasy-Konsums
 Jahre, versicherung
 Mini-Küche
-Bio-Bäckerei
+Bio, Bäckerei
 FRIEDRICHSHAFEN
 Transport, kilometer
 Kartoffel, knödeln
@@ -2097,7 +2097,7 @@ Solar, Service, Center
 Film, gucken
 NATO, Mandats
 Box, zentrum
-Biomaterials
+Bio, materials
 Rede, gewandtheit
 Vokalisten
 Lasergesteuerte
@@ -2161,7 +2161,7 @@ WEITZMANN
 Info, anlagen
 STAIRS
 Lengnick
-Realeinkommen
+Real, einkommen
 Terror, Vorbereitungen
 Recycling, betrieb
 Extra, gelder
@@ -2184,7 +2184,7 @@ Institut, ambulanzen
 Suchanzeige
 Seßhaftmachung
 Bezug, recht, emission
-Privatkriege
+Privat, kriege
 Fäkalgruben
 Halb, resonanz
 Super, arenen
@@ -2240,7 +2240,7 @@ Al-Qaida-Organisation
 Karipidis
 Abschluß, tagung
 Esgeht
-Sonderbauleitung
+Sonder, bau, leitung
 Bau, branchen
 Cäsium-Werte
 Raffaelische
@@ -2261,7 +2261,7 @@ Kraft, brühe
 Kfz-Ingenieur
 Gähler
 Falschernährung
-Billig-Tarife
+Billig, Tarife
 Büro, bebauung
 Krieg, zuges
 Prunk, villen
@@ -2294,7 +2294,7 @@ Keeks
 Mathe, Haus, aufgaben
 Abenteuer, Touren
 Heere, kommando
-Integrationsvehikel
+Integration, vehikel
 Platten, bau, gebiete
 EDMONDS
 Kahve
@@ -2596,7 +2596,7 @@ Greisin
 Garderoben, marke
 Darkroom
 Annahmeverzugs
-Militär, transport, flug, zeuges
+Militär, transport, flugzeuges
 Auftrag, schwäche
 Kuhnwaldt
 Zusatz, aufträgen
@@ -2651,7 +2651,7 @@ Unverständlicherweise
 Mal, wänden
 Chef, einkäuferin
 Delahaye
-Schweißgerätes
+Schweiß, gerätes
 Vergleich, rechnung
 Tiahuanaco
 Männlichkeit, maschine
@@ -2717,7 +2717,7 @@ Hans-Iko
 Careca
 Combrinck
 Insolvenz-Strudel
-Asienwissenschaftler
+Asien, wissenschaftler
 Burgwallgraben
 Champagner, schaum
 Waaij
@@ -2727,7 +2727,7 @@ Boot, antrieb
 Herbst, feier
 Socis
 Namen, trägern
-Minderbelegung
+Minder, belegung
 Lungen, zellen
 Rasso-Bande
 Bokelmann
@@ -2766,7 +2766,7 @@ Unterhaltung, elektronik
 Spekulation, objekten
 Ravenscroft
 Woi
-Internet-Skepsis
+Internet, Skepsis
 Uncovered
 Beton, dach, steine
 Revette
@@ -2892,7 +2892,7 @@ Atom, müll, transport
 Startcrash
 Soziotherapie
 Arbeit, verhältnisse
-Regionalligareife
+Regional, liga, reife
 Einnahme, grenze
 Polkomtel
 Schwadrone
@@ -2913,7 +2913,7 @@ Zimmer, fenstern
 Nazmije
 Tausendfüße
 Suivez
-Billig-Angebot
+Billig, Angebot
 A-Liste
 Minister, Kollegen
 Prostu
@@ -2932,7 +2932,7 @@ Sixsmith
 Meleks
 High-School-Schüler
 Giselbert
-Selbstfremdheit
+Selbst, fremdheit
 DASS-Ausstellung
 Pasagic
 Pässe, geber
@@ -3034,7 +3034,7 @@ VALESKA
 Demo, züge
 Wechsel, ausstellung, gebäude
 Johannnes
-Kriegersterbefälle
+Krieger, sterbefälle
 Film, Collage
 Nazi, banden
 Individualität
@@ -3113,7 +3113,7 @@ Dollar, Ausländer
 Glocken, turmes
 Roden, dorn
 Eymer
-Bio-Boom
+Bio, Boom
 Deutsch, mann
 Fuß, ball, internate
 Galerien
@@ -3164,7 +3164,7 @@ Ressourcen, kriege
 Bambileins
 Interessen, geflecht
 Buch, geschenke
-Regionalbusgesellschaft
+Regional, bus, gesellschaft
 Rhein-Sieg-Kreis
 Aufgeforderte
 Brautschek
@@ -3309,7 +3309,7 @@ Hinterabsichten
 Druck, unternehmer
 Priester, anwärter
 Jerusalemgemeinde
-Fallkontrollstudie
+Fall, kontroll, studie
 Jahre, kalender
 Import, überschüsse
 Stand, genehmigungen
@@ -3424,7 +3424,7 @@ Gras, sorte
 Sport, Region
 Theater, kampf
 Leber, krebs, erkrankung
-Selbstfinanzierungskraft
+Selbst, finanzierung, kraft
 Haertl
 Eröffnung, verfahren
 Einzel, handel, vertrag
@@ -3529,7 +3529,7 @@ Seraphims
 Pentagon, Chefs
 Loyalisten
 Opfer, glut
-Wildrassen
+Wild, rassen
 Tremonti
 Sport, kreis, Vorsitzenden
 Sprung, bretter
@@ -3546,7 +3546,7 @@ Reise, routen
 Corsier-sur-Vevey
 Information, anbieter
 Geldkuvert
-Selbstzwang
+Selbst, zwang
 Lockangebote
 Göhmann
 Mählmann
@@ -3556,7 +3556,7 @@ Quälgeistern
 Herzen, reinheit
 Weltraum, Tourismus
 Weihnacht, wunder, land
-Billiggeräte
+Billig, geräte
 Syngenta
 Konstrukteursweltmeisterschaft
 Umher
@@ -3576,7 +3576,7 @@ Wickens
 Valentins-Tag
 SPNI
 Stein, zeit, Menschen
-Sonderlieferungen
+Sonder, lieferungen
 Haralabos
 Kwalik
 Kirsten-Tor
@@ -3721,7 +3721,7 @@ Feinkost, unternehmens
 Korn, wagen
 Roboter, wesen
 Pormann
-Tiefkühlartikel
+Tief, kühl, artikel
 Feld, untersuchungen
 OTC-Clearing
 Pristina-Pec
@@ -3875,8 +3875,8 @@ Vorwärtsblock
 Vollstreckungsplan
 Stehpults
 Dauer-Chatten
-Jungköniginnen
-Gelegenheitsnutzer
+Jung, königinnen
+Gelegenheit, nutzer
 Schweif, sterne
 Sammelbildern
 Neuborne
@@ -3887,7 +3887,7 @@ Unimak
 Pustelnik
 Schutz, programme
 Duschsitz
-Not, fall, hilfe
+Notfall, hilfe
 Vermisster
 Ersatz, schlüsseln
 Querschnitt, ressort
@@ -3917,7 +3917,7 @@ Mitternacht, buffet
 Trainerchampionat
 Robab
 Patienten, befragung
-Nachfolgeeffekte
+Nach, folge, effekte
 Zoia
 IWF-Stab
 Ausstechen
@@ -4001,7 +4001,7 @@ Bamms
 Sprit, säufer
 Verwaltung, sturm
 Opfer, schutz, verein
-Biomasse-Nutzung
+Bio, masse, Nutzung
 Vorher-Nachher
 Rheumazentrum
 Innneren
@@ -4127,7 +4127,7 @@ Weichold
 Sterica
 Normalgolfer
 Kult, Firma
-Europa-Marken
+Europa, Marken
 City-Carré-Passage
 Laiinnen
 Fälschungspraktiken
@@ -4336,7 +4336,7 @@ TV-Schau
 Berenberg-Bank
 Macintosh-Betriebssystems
 Pickelige
-Regionalliga-Neuling
+Regional, liga, Neuling
 Nonius
 Profi, Rad, rennen
 Kooperation, verhalten
@@ -4386,9 +4386,9 @@ Land, wirtschaft, projekte
 Fahrzeug, zulassungen
 Endlosverfahren
 Betriebs, einrichtungen
-Extremniederschläge
+Extrem, niederschläge
 Klavier
-Bio-Sensoren
+Bio, Sensoren
 Klima, automatik
 S-Klasse-Benz
 Spitzen, liga
@@ -4407,7 +4407,7 @@ Zeit, systeme
 Blatter-Intimus
 Joseph-Haydn-Straße
 Dithering
-Bürgschaftssumme
+Bürgschaft, summe
 EU-Agrarrats
 Batsmen
 Schleusen, brücke
@@ -4469,7 +4469,7 @@ Vulkaris
 Abwrackprämien
 Ski, unfall
 Scharffenberg
-Schonbezüge
+Schon, bezüge
 Handel, preises
 Geno
 Konferenz, reihe
@@ -4509,7 +4509,7 @@ Grundstück, verwaltung, GmbH
 Susskind
 FDP-Nachwuchsorganisation
 Wydens
-Schulgeländes
+Schul, geländes
 Kult, party
 Jugend, psychiaterin
 Kurs, verläufe
@@ -4697,7 +4697,7 @@ Vorstellung, änderung
 Regel, studien, dauer
 Verwaltung, fach, angestellten
 Rodacher
-Denk-Räume
+Denk, Räume
 Parteien, kompromisses
 Platten, bau, typs
 Täter, kindern
@@ -4757,12 +4757,12 @@ Makkum
 Tomka
 Herling
 Schlimmre
-Schulstadt
+Schul, stadt
 Tennis-Historie
 Miniussi
 Wieder, einbürgerung, projekt
 Lissat
-Osterdebatte
+Oster, debatte
 Minkwalen
 Verbrechens, tat, bestand
 Bilanz, standards
@@ -4804,7 +4804,7 @@ Nedialkov
 DEU-Funktionäre
 CVJM-Generalsekretär
 Euro, münze
-Jungkomponisten
+Jung, komponisten
 Länge, feld
 Sozial, fähigkeit
 Sonnenrollo
@@ -4832,7 +4832,7 @@ Patienten, kreis
 Disco, König
 Rendite, fonds
 Hsüan
-Nachkriegsverhältnissen
+Nach, kriegs, verhältnissen
 Wochenend, tarif, vertrag
 Super, Spar, preis
 Heidbreder

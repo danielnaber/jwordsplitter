@@ -611,6 +611,9 @@ zwischen|kulturelle
 zwischen|kulturellen
 anti|hormonelle
 anti|hormonellen
+Bäckerei|leiter
+Bäckerei|leiters
+Bäckerei|leitern
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
@@ -811,3 +814,22 @@ sensationelle
 sensationellen
 multikulturelle
 multikulturellen
+antibiotisch
+antibiotische
+antibiotisches
+antibiotischen
+denkbar
+missbilligende
+missbilligendes
+missbilligenden
+missbilligtest
+rollierst
+vorausdenkende
+vorausdenkendes
+vorausdenkenden
+vorausfahrende
+vorausfahrendes
+vorausfahrenden
+wegfahrende
+wegfahrendes
+wegfahrenden
