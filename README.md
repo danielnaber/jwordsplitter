@@ -1,5 +1,5 @@
-jWordSplitter 4.0-dev (2015-xx-yy)
-==================================
+jWordSplitter 4.0
+=================
 
 Copyright 2004-2007 Sven Abels  
 Copyright 2007-2015 Daniel Naber  
