@@ -115,7 +115,6 @@ public abstract class AbstractWordSplitter {
     /**
      * When set to true, words will only be split if all parts are words.
      * Otherwise the splitting result might contain parts that are not words.
-     * The minimum length of word parts is correctly taken into account only if this is set to true.
      */
     public void setStrictMode(boolean strictMode) {
         this.strictMode = strictMode;
@@ -125,7 +124,7 @@ public abstract class AbstractWordSplitter {
      * Experimental: Split a word with unknown parts, typically because one part
      * has a typo. This could be used to split three-part compounds where one
      * part has a typo (the caller is then responsible for making useful corrections
-     * out of these parts).
+     * out of these parts). Results are returned in no specific order.
      * @since 4.0
      */
     public List<List<String>> getAllSplits(String word) {
