@@ -3,7 +3,7 @@ jWordSplitter 4.0
 
 Copyright 2004-2007 Sven Abels  
 Copyright 2007-2015 Daniel Naber  
-Homepage: http://www.danielnaber.de/jwordsplitter
+Source code licensed under Apache License, Version 2.0 (see below)
 
 This Java library can split German compound words into smaller parts.
 For example "Erhebungsfehler" will be split into "Erhebung" and "fehler".
@@ -15,7 +15,7 @@ and verbs (e.g. "zurückrudern" -> zurück + rudern) it works best for nouns.
 
 #### Usage from Java
 
-Use this dependency:
+Use this dependency or [download the JAR here](http://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.0/jwordsplitter-4.0.jar):
 
 ```xml
 <dependency>
@@ -51,6 +51,26 @@ so it can be used by jWordSplitter, use this command:
     java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.SerializeDict <textDict> <output>
 
 The binary format used is simply the standard Java object serialization.
+
+#### Notes about the algorithm
+
+* The algorithm is very simple and knows almost nothing about language: it tries to split
+  the word and checks if one part is actually a word, i.e. whether it occurs in the dictionary.
+  If that's the case, the same procedure is recursively applied to the remaining part of the
+  word. If not, the position at which the word is split is moved by one character. Due to
+  the way the algorithm works it doesn't matter if the input words are nouns, verbs, or
+  adjective compounds (as long as they are in the dictionary).
+* The length of the word to be split is not limited. For example, jWordSplitter can split
+  the famous "Donaudampfschifffahrtskapitän" (Donau, dampf, schiff, fahrt, kapitän).
+* To improve results, you will need to tune the contents of the dictionary or
+  add exceptions using `GermanWordSplitter.addException()`.
+* The dictionary also needs to contain inflected forms (plural, genitive etc.). German has
+  some compound parts like "Miet" (in Mietwohnung, Mietverhältnis) or "Wohn" (Wohnraum,
+  Wohnrecht) that are not words on their own and yet need to be part of the dictionary.
+* The algorithm knows about the German interfix character "s" (als known as linking element),
+  as in "Verlag**s**haus", but it will also happily split wrong or uncommon words like "Verlaghaus".
+* The algorithm can work with other languages too. Extend class `AbstractWordSplitter` in order
+  to add support for a new language.
 
 #### Building
 
