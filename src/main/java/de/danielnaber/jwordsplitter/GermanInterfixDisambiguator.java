@@ -27,12 +27,12 @@ import java.util.Set;
  */
 class GermanInterfixDisambiguator {
 
-    private static final Set<String> wordsRequiringInfixS = new HashSet<>();
+    private static final Set<String> wordsRequiringInterfixS = new HashSet<>();
     
     private final Set<String> dictionary;
 
     static {
-        wordsRequiringInfixS.add("Verhalten");
+        wordsRequiringInterfixS.add("Verhalten");
     }
 
     GermanInterfixDisambiguator(Set<String> dictionary) {
@@ -62,10 +62,10 @@ class GermanInterfixDisambiguator {
             String prevPrevPart = newParts.get(i - 2);
             if (prevPart.equals("s")) {
                 boolean partIsWord = isWord("s" + part);
-                if (!partIsWord || wordsRequiringInfixS.contains(prevPrevPart)) {
+                if (!partIsWord || wordsRequiringInterfixS.contains(prevPrevPart)) {
                     // Schönheit+s+tempel = Schönheits-tempel
                     newParts.set(i - 2, prevPrevPart + "s");
-                    newParts.remove(i - 1);   // remove infix
+                    newParts.remove(i - 1);   // remove interfix
                 }
             }
         }
