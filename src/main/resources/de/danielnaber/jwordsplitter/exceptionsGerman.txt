@@ -614,6 +614,8 @@ anti|hormonellen
 Bäckerei|leiter
 Bäckerei|leiters
 Bäckerei|leitern
+Klo|putzerinnen
+Mobil|funkerinnen
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
@@ -833,3 +835,6 @@ vorausfahrenden
 wegfahrende
 wegfahrendes
 wegfahrenden
+Hellersdorfer
+Hellersdorferinnen
+Sennerinnen
