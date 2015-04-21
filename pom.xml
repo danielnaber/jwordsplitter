@@ -10,7 +10,7 @@
 
   <groupId>de.danielnaber</groupId>
   <artifactId>jwordsplitter</artifactId>
-  <version>4.0</version>
+  <version>4.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>jwordsplitter</name>
@@ -128,7 +128,8 @@
             </goals>
           </execution>
         </executions>
-      </plugin>-->
+      </plugin>
+      -->
 
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>

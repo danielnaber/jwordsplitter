@@ -1,6 +1,9 @@
 jWordSplitter Change Log
 ========================
 
+### 2015-..-.. (4.1)
+* added a few exceptions
+
 ### 2015-04-20 (4.0)
 * requires Java 1.7 or later
 * moved classes to package `de.danielnaber.jwordsplitter`
