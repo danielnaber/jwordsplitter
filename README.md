@@ -13,6 +13,10 @@ is provided. So far, only German is supported and a German dictionary is include
 in the JAR. Even though it will work for some adjectives (e.g. "knallgelb" -> knall + gelb)
 and verbs (e.g. "zurückrudern" -> zurück + rudern) it works best for nouns.
 
+Alternatives to this library might be [compound-splitter](https://github.com/dweiss/compound-splitter)
+or [Lucene's](http://lucene.apache.org/core/) `DictionaryCompoundWordTokenFilter`.
+You might also be interested in this [German morphology dictionary](http://www.danielnaber.de/morphologie/).
+
 #### Usage from Java
 
 Use this dependency or [download the JAR here](http://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.0/jwordsplitter-4.0.jar):
