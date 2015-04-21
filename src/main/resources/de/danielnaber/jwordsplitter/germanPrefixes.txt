@@ -43,7 +43,6 @@ glatt
 gleich
 gleit
 glüh
-grenz
 grob
 fein
 groß
@@ -77,7 +76,6 @@ fernseh
 lern
 mess
 press
-unter
 außen
 gesamt
 polar
@@ -108,22 +106,17 @@ dritt
 viert
 piss
 längs
-hoch
 unter
 schul
 nach
 selbst
-gegen
 einmal
-zusammen
-allein
 meist
 relativ
 schon
 gering
 höchst
 tiefst
-ganz
 minder
 auseinander
 besetzt
@@ -176,7 +169,6 @@ kirsch
 einfach
 mehrfach
 bohr
-press
 weich
 nuklear
 kolonial
