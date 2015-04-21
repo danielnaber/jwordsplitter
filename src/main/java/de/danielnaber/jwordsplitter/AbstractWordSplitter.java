@@ -174,7 +174,7 @@ public abstract class AbstractWordSplitter {
         if (fromLeft) {
             return i < word.length() - minimumWordLength;
         } else {
-            return i > 0;
+            return i > minimumWordLength;
         }
     }
 

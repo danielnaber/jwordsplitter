@@ -50,7 +50,7 @@ public class GermanWordSplitterTest extends BaseTest {
             testAllSplits("Hausverhaltensflügex", "[[Haus, verhaltensflügex], [Haus, verhalten, sflügex], [Haus, verhaltens, flügex]]");
             
             testAllSplits("Verhaltensflügex", "[[Verhalten, sflügex], [Verhaltens, flügex]]");
-            testAllSplits("Verhaltensflügel", "[[Verhalten, sflügel], [Verhalten, s, flügel], [Verhaltens, flügel]]");
+            testAllSplits("Verhaltensflügel", "[[Verhalten, sflügel], [Verhaltens, flügel]]");
             testAllSplits("Verhaltens-Flügex", "[[Verhalten, s-Flügex], [Verhaltens, -Flügex]]");
             testAllSplits("Hausverhaltens-Flügex", "[[Haus, verhaltens-Flügex], [Haus, verhalten, s-Flügex], [Haus, verhaltens, -Flügex]]");
 
@@ -60,16 +60,26 @@ public class GermanWordSplitterTest extends BaseTest {
         }
     }
 
-    public void testStreamDictConstructor() throws IOException {
-        try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
-            splitter = new GermanWordSplitter(true, fis);
-            baseChecks();
-        }
+    public void testGetAllSplitsMinLength() throws IOException {
+        splitter = new GermanWordSplitter(true);
+        splitter.setMinimumWordLength(3);
+        testAllSplits("Augen", "[]");
+        testAllSplits("Genau", "[]");
+        splitter.setMinimumWordLength(2);
+        testAllSplits("Augen", "[[Au, gen]]");
+        testAllSplits("Genau", "[[Gen, au]]");
     }
 
     private void testAllSplits(String input, String expected) {
         List<List<String>> result = splitter.getAllSplits(input);
         assertThat(result.toString(), is(expected));
+    }
+
+    public void testStreamDictConstructor() throws IOException {
+        try (FileInputStream fis = new FileInputStream(tmpLexiconFile)) {
+            splitter = new GermanWordSplitter(true, fis);
+            baseChecks();
+        }
     }
 
     public void testFileDictConstructor() throws IOException {

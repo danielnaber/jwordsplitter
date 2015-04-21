@@ -3,6 +3,7 @@ jWordSplitter Change Log
 
 ### 2015-..-.. (4.1)
 * added a few exceptions
+* fix `getAllSplits()` to properly obey minimum word length
 
 ### 2015-04-20 (4.0)
 * requires Java 1.7 or later
