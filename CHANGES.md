@@ -3,6 +3,7 @@ jWordSplitter Change Log
 
 ### 2015-..-.. (4.1)
 * added a few exceptions
+* extended the dictionary
 * fix `getAllSplits()` to properly obey minimum word length
 
 ### 2015-04-20 (4.0)
