@@ -226,7 +226,6 @@ farb
 spezial
 neben
 erd
-hilf
 lehr
 innen
 rück
@@ -239,7 +238,6 @@ renn
 such
 hochschul
 prüf
-geschicht
 fern
 zell
 sperr
@@ -335,7 +333,6 @@ abdeck
 klemm
 spitz
 flüssig
-trocken
 walz
 spann
 einstell
