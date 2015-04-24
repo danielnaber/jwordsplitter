@@ -28,7 +28,7 @@ public class LongWordTest {
 
     private static final int MIN_LENGTH = 15;
 
-    private final Set<String> words = loadLines(new File("src/main/resources/de/danielnaber/jwordsplitter/languagetool-dict.txt"));
+    private final Set<String> words = TestTools.loadLines(new File("src/main/resources/de/danielnaber/jwordsplitter/languagetool-dict.txt"));
     private final Map<String,Integer> occurrences = loadLowercaseOccurrences(new File("/media/Data/google-ngram/de/1gram-aggregated/all_without_underscore"));
 
     public void printLongNonCompounds(File file) throws IOException {
@@ -66,18 +66,6 @@ public class LongWordTest {
             source = sb.toString();
         }
         return source;
-    }
-
-    private Set<String> loadLines(File file) {
-        Set<String> result = new HashSet<>();
-        try (Scanner scanner = new Scanner(file, "utf-8")) {
-            while (scanner.hasNextLine()) {
-                result.add(scanner.nextLine());
-            }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-        return result;
     }
 
     private Map<String,Integer> loadLowercaseOccurrences(File file) {
