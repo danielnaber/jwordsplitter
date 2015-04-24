@@ -511,7 +511,7 @@ Leser, schwund
 Maddow
 Welt, monopol
 VESER
-Minipartei
+Mini, partei
 Merkbuch
 Munteanu-Ecke
 Redaktion, büros
@@ -543,7 +543,7 @@ Koljada
 IWH-Konjunkturexperte
 SPD-Reichstagsabgeordneter
 Jolly
-Textilangebot
+Textil, angebot
 Kreuz, burg, schule
 Akyüz
 Clinton-Pläne
@@ -1143,7 +1143,7 @@ Konzentration, bereich
 Siemens-Unternehmen
 Tremmener
 Haupt, restaurant
-Minipumpen
+Mini, pumpen
 System, technologien
 Backup-Rechner
 Korhogo
@@ -1377,7 +1377,7 @@ General, stabe
 ING-Gruppe
 Hormonell
 Polarforschers
-Minigruppen
+Mini, gruppen
 Kapital, markt, konzept
 Mattis
 Mapuche
@@ -1617,7 +1617,7 @@ BAföG-Förderung
 Zolitschka
 Keramik, flächen
 Hilf, angeboten
-Einfuhrzuwachs
+Einfuhr, zuwachs
 Unternehmen, ergebnisses
 Staat, partei
 Steinmetzhandwerk
@@ -1782,7 +1782,7 @@ Brazda
 Keltenland
 Bären, walde
 Picasso-Schau
-Flachstahls
+Flach, stahls
 Ball, haus, atmosphäre
 Internet, Vision
 Subunternehmers
@@ -1846,7 +1846,7 @@ Reserve, fonds
 Mrugallas
 McLaren-Boß
 Geruch, differenzierung
-Quellfassung
+Quell, fassung
 Stadion, Problem
 Hrustanovic
 Robledos
@@ -1889,7 +1889,7 @@ Rabanne
 Winter, sport, verein
 Rinnelt
 Hörproblemen
-Nobel-Immobilie
+Nobel, Immobilie
 Expansionen
 Giesing
 Schaukelpferde
@@ -2074,7 +2074,7 @@ Material, drucke
 Dreck, zeug
 Ecstasy-Konsums
 Jahre, versicherung
-Mini-Küche
+Mini, Küche
 Bio, Bäckerei
 FRIEDRICHSHAFEN
 Transport, kilometer
@@ -2632,7 +2632,7 @@ Union, krach
 Alternativ, kraftstoffe
 Off-Road-Kombi
 Lande, stufe
-Quellschutz
+Quell, schutz
 Rat, schlags
 Holz, schutz, mittel, komplex
 Breakpoint
@@ -2716,7 +2716,7 @@ Mitfahrer-Sparpreis
 Hans-Iko
 Careca
 Combrinck
-Insolvenz-Strudel
+Insolvenz, Strudel
 Asien, wissenschaftler
 Burgwallgraben
 Champagner, schaum
@@ -2788,7 +2788,7 @@ Krzywinski
 Wähler, befragungen
 Steubing
 Fischer, frauen
-Walzbereich
+Walz, bereich
 Bahn, teig, höhe
 Stifft
 Leybold-Manager
@@ -3278,7 +3278,7 @@ Kubick
 Haar, touren
 Jagd, manns
 Macken, stein
-Minisarg
+Mini, sarg
 Missen
 Probstei
 Hedman
@@ -3427,7 +3427,7 @@ Leber, krebs, erkrankung
 Selbst, finanzierung, kraft
 Haertl
 Eröffnung, verfahren
-Einzel, handel, vertrag
+Einzelhandel, vertrag
 Heimat, Museum
 Edern-Hallier
 Half-Pipes
@@ -3871,8 +3871,8 @@ Podium, rand
 Schwefeloxiden
 Zahlung, bilanz, hilfen
 MEISTERSCHAFTEN
-Vorwärtsblock
-Vollstreckungsplan
+Vorwärts, block
+Vollstreckung, plan
 Stehpults
 Dauer-Chatten
 Jung, königinnen
@@ -4373,7 +4373,7 @@ Kurier-Express-Post-Dienste
 Rätoromane
 Assya
 Integration, fortschritten
-Gebirgswanderung
+Gebirg, wanderung
 Apotheken, kunden
 Saint-Gaudens
 Agrar, wüsten
@@ -4991,7 +4991,7 @@ Nächtigen
 Schwengel
 Diesel, markt
 Spezialversenders
-Insolvenzzahlen
+Insolvenz, zahlen
 Tapeten, fetzen
 Versuch, kapsel
 Fujics

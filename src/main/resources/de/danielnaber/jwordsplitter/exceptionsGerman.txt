@@ -621,6 +621,8 @@ asyl|suchenden
 asyl|suchendes
 auseinander|rücktest
 Kammer|baues
+Wellen|reiter|bretter
+Wellen|reiter|brettern
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
@@ -995,3 +997,5 @@ verbrennbar
 verbrennende
 verbrennenden
 verbrennendes
+schwertat
+schwertaten
