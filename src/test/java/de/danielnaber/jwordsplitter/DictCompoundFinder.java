@@ -34,7 +34,7 @@ class DictCompoundFinder {
 
     private final GermanWordSplitter splitter;
     private final Set<String> words = load(new File("src/main/resources/de/danielnaber/jwordsplitter/languagetool-dict.txt"));
-    // words that are needed to decompose compounds we remove, these may thus not be removed themselves:
+    // words that are needed to split compounds which we remove, these may thus not be removed themselves:
     private final Set<String> protectedWords = new HashSet<>();
     
     private int removeCount = 0;

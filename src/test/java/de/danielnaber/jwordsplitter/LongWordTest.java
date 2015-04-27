@@ -21,7 +21,7 @@ import java.io.IOException;
 import java.util.*;
 
 /**
- * Print long words that cannot be decomposed - this might indicate
+ * Print long words that cannot be split - this might indicate
  * a missing entry in the dictionary (not a unit test, but for interactive use).
  */
 public class LongWordTest {

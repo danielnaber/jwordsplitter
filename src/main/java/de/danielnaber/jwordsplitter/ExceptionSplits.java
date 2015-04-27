@@ -69,11 +69,9 @@ class ExceptionSplits {
 
     protected List<String> splitEqually(List<String> splitted, String original) {
         List<String> list = new ArrayList<>();
-        Iterator<String> iter = splitted.iterator();
         int offset = 0;
-
-        while (iter.hasNext()) {
-            int length = iter.next().length();
+        for (String s : splitted) {
+            int length = s.length();
             list.add(original.substring(offset, offset+length));
             offset += length;
         }

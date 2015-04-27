@@ -35,9 +35,9 @@ public class GermanInterfixDisambiguatorTest {
         try (InputStream stream = GermanInterfixDisambiguatorTest.class.getResourceAsStream("/de/danielnaber/jwordsplitter/test-de.txt")) {
             Set<String> compoundParts = FileTools.loadFileToSet(stream, "utf-8");
             GermanInterfixDisambiguator disambiguator = new GermanInterfixDisambiguator(compoundParts);
-            assertDecompose("Verkehr samt", "Verkehrs, amt", disambiguator);
+            assertSplit("Verkehr samt", "Verkehrs, amt", disambiguator);
             // input when hideInfix is false:
-            assertDecompose("Sauerstoff flaschen störung s verhalten", "Sauerstoff, flaschen, störungs, verhalten", disambiguator);
+            assertSplit("Sauerstoff flaschen störung s verhalten", "Sauerstoff, flaschen, störungs, verhalten", disambiguator);
         }
     }
 
@@ -46,11 +46,11 @@ public class GermanInterfixDisambiguatorTest {
     public void testFullDict() throws IOException {
         HashSet<String> compoundParts = (HashSet<String>) FastObjectSaver.load("/de/danielnaber/jwordsplitter/wordsGerman.ser");
         GermanInterfixDisambiguator disambiguator = new GermanInterfixDisambiguator(compoundParts);
-        assertDecompose("Verkehr samt", "Verkehrs, amt", disambiguator);
-        assertDecompose("Sauerstoff flaschen störung s verhalten", "Sauerstoff, flaschen, störungs, verhalten", disambiguator);
+        assertSplit("Verkehr samt", "Verkehrs, amt", disambiguator);
+        assertSplit("Sauerstoff flaschen störung s verhalten", "Sauerstoff, flaschen, störungs, verhalten", disambiguator);
     }
 
-    private void assertDecompose(String input, String output, GermanInterfixDisambiguator disambiguator) {
+    private void assertSplit(String input, String output, GermanInterfixDisambiguator disambiguator) {
         assertThat(disambiguator.disambiguate(Arrays.asList(input.split(" "))).toString(), is("[" + output + "]"));
     }
 
