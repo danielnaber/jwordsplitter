@@ -41,14 +41,32 @@ class ExceptionSplits {
                 while (scanner.hasNextLine()) {
                     String line = scanner.nextLine().trim();
                     if (!line.isEmpty() && !line.startsWith(COMMENT_CHAR)) {
-                        String[] parts = line.split("\\|");
+                        String[] parts = line.replace("/NS", "").split("\\|");
                         String completeWord = line.replace(DELIMITER_CHAR, "");
                         List<String> list = new ArrayList<>(Arrays.asList(parts));
-                        exceptionMap.put(completeWord.toLowerCase(), list);
+                        if (completeWord.contains("/")) {
+                            if (completeWord.endsWith("/NS")) {
+                                String realWord = completeWord.replace("/NS", "").toLowerCase();
+                                exceptionMap.put(realWord, list);
+                                exceptionMap.put(realWord + "n", addToLastPart(list, "n"));
+                                exceptionMap.put(realWord + "s", addToLastPart(list, "s"));
+                            } else {
+                                throw new RuntimeException("Unknown suffix in line: " + line);
+                            }
+                        } else {
+                            exceptionMap.put(completeWord.toLowerCase(), list);
+                        }
                     }
                 }
             }
         }
+    }
+
+    private List<String> addToLastPart(List<String> list, String suffix) {
+        List<String> result = new ArrayList<>(list);
+        int lastPos = result.size() - 1;
+        result.set(lastPos, result.get(lastPos) + suffix);
+        return result;
     }
 
     List<String> getExceptionSplitOrNull(String word) {

@@ -13,3 +13,6 @@
 ^kriegspsychose$
 ^kühlwasser$
 ^nahverkehrsamt$
+^ende$
+^enden$
+^endes$

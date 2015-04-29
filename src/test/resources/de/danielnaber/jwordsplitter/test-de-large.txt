@@ -357,7 +357,7 @@ Karlsruhe-Rüppurr
 Laster, haften
 Paket, lauf, zeiten
 DRG-Systems
-Politskandale
+Polit, skandale
 Selbstgemachtes
 Info, Blätter
 Zonen, bewußtsein
@@ -646,7 +646,7 @@ Repertoire, vorstellung
 Cholley
 Weihnacht, tannen
 Ost, West, Geschäfte
-Übertrag, enden
+Übertragenden
 Bearbeitet
 Sieghart
 September, wahlen
@@ -716,7 +716,7 @@ Reservierungsgesellschaft
 Solonik
 Schutz, zöllen
 Dimitriadis
-Schnürböden
+Schnür, böden
 Stens
 Rüstung, kooperationen
 Spiel, geschehen
@@ -1670,7 +1670,7 @@ Entschuldigung, arie
 EKO-Vorstand
 Bozon
 Revision, angriff
-Pharmaerfahrung
+Pharma, erfahrung
 Plateforme
 US-Industriewerte
 Vogesen
@@ -1680,7 +1680,7 @@ Beratung, haftung
 Signal, wandlung
 Milch, mädchen, Rechnung
 Drei, viertel, Reihe
-Transitpunkt
+Transit, punkt
 Verschickungen
 Transaktion
 ISSAB
@@ -2090,7 +2090,7 @@ Schneesichere
 Stadion, architektur
 WBO-WM
 CALM
-Treff, ende
+Treffende
 Westentaschen-Napoleon
 PDS-Regierung
 Solar, Service, Center
@@ -2260,7 +2260,7 @@ Lern, motivation
 Kraft, brühe
 Kfz-Ingenieur
 Gähler
-Falschernährung
+Falsch, ernährung
 Billig, Tarife
 Büro, bebauung
 Krieg, zuges
@@ -2440,7 +2440,7 @@ Uhlenbruch
 Nord, getränke
 Infolge
 Bürgermeister, Job
-Zählspielqualifikation
+Zähl, spiel, qualifikation
 Mobil, funk, Modul
 Quäck
 Koro
@@ -2804,7 +2804,7 @@ Kümmelschnaps
 Ausnahme, Schauspieler
 Yilmazoglu
 Mode, skandal
-Steigäckerstraße
+Steig, äcker, straße
 Teilhabers
 Unnatürlicher
 Tauranga
@@ -2829,7 +2829,7 @@ Bau, träger, objekte
 Meletius
 Boiger
 HSV-Defensive
-Tarifregulierung
+Tarif, regulierung
 Geschwindigkeit, welt, rekord
 Guhls
 Zehnkampf, Karriere
@@ -3129,7 +3129,7 @@ Radikal, renovierung
 Adenauer-Biographie
 Geologisch-Paläontologischen
 FLP
-Meta-Analysen
+Meta, Analysen
 Wadln
 Normalisierung, gespräche
 Melato
@@ -3271,7 +3271,7 @@ Sclerotinia
 Deutsch, türken
 Haider-Zitat
 Ecologie
-Solo-Arbeit
+Solo, Arbeit
 Vizewirthin
 Einkauf, zentrums
 Kubick
@@ -3483,7 +3483,7 @@ Beschwerlich
 Schau, seil
 SOZIALSTAAT
 Guinizellis
-Ultraorthodoxie
+Ultra, orthodoxie
 Hallen, sprechers
 Reginhardplatz
 Can-Kat
@@ -3886,7 +3886,7 @@ Neuinfektionen
 Unimak
 Pustelnik
 Schutz, programme
-Duschsitz
+Dusch, sitz
 Notfall, hilfe
 Vermisster
 Ersatz, schlüsseln
@@ -3972,7 +3972,7 @@ Galerie, gespräches
 Aufsicht, rats, kollege
 Rwabukumba
 Morrone
-Festhonorar
+Fest, honorar
 Liebknechthaus
 Klobedanz
 Zuwanderung, streit
@@ -4903,7 +4903,7 @@ Bade, kleider
 Schatz, ministeriums
 Bocchetti
 Scheidig
-Satz, enden
+Satzenden
 Medici
 Erotik, Killer
 Blei, knöpfe
