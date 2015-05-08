@@ -68,7 +68,7 @@ public abstract class AbstractWordSplitter {
     /**
      * @param hideInterfixCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
-     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
+     * @param plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
      *                       must be in UTF-8 format
      */
     public AbstractWordSplitter(boolean hideInterfixCharacters, InputStream plainTextDict) throws IOException {
@@ -79,12 +79,23 @@ public abstract class AbstractWordSplitter {
     /**
      * @param hideInterfixCharacters whether the word parts returned by {@link #splitWord(String)} still contain
      *  the connecting character (a.k.a. interfix)
-     * @param  plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
+     * @param plainTextDict a stream of a text file with one word per line, to be used instead of the embedded dictionary,
      *                       must be in UTF-8 format
      */
     public AbstractWordSplitter(boolean hideInterfixCharacters, File plainTextDict) throws IOException {
         this.hideInterfixCharacters = hideInterfixCharacters;
         words = getWordList(plainTextDict);
+    }
+
+    /**
+     * @param hideInterfixCharacters whether the word parts returned by {@link #splitWord(String)} still contain
+     *  the connecting character (a.k.a. interfix)
+     * @param words the compound part words
+     * @since 4.1
+     */
+    public AbstractWordSplitter(boolean hideInterfixCharacters, Set<String> words) throws IOException {
+        this.hideInterfixCharacters = hideInterfixCharacters;
+        this.words = words;
     }
 
     private Set<String> getWordList(File file) throws IOException {

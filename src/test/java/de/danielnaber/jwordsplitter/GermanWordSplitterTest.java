@@ -87,6 +87,12 @@ public class GermanWordSplitterTest extends BaseTest {
         baseChecks();
     }
 
+    public void testSetConstructor() throws IOException {
+        splitter = new GermanWordSplitter(true, EmbeddedGermanDictionary.getWords());
+        expect("[Kühlschrank, test]", "Kühlschranktest");
+        expect("[Verhaltens, störung, versuch]", "Verhaltensstörungsversuch");
+    }
+
     public void testFile() throws IOException {
         splitter = new GermanWordSplitter(false, tmpLexiconFile);
         baseChecks();

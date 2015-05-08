@@ -16,7 +16,6 @@
 package de.danielnaber.jwordsplitter;
 
 import de.danielnaber.jwordsplitter.tools.FileTools;
-import de.danielnaber.jwordsplitter.tools.FastObjectSaver;
 
 import java.io.File;
 import java.io.IOException;
@@ -29,7 +28,6 @@ import java.util.*;
  */
 public class GermanWordSplitter extends AbstractWordSplitter {
 
-    private static final String SERIALIZED_DICT = "/de/danielnaber/jwordsplitter/wordsGerman.ser";   // dict inside the JAR
     private static final String EXCEPTION_DICT = "/de/danielnaber/jwordsplitter/exceptionsGerman.txt";   // dict inside the JAR
     /** Interfixes = Fugenelemente */
     private static final Collection<String> INTERFIXES = Arrays.asList(
@@ -41,6 +39,14 @@ public class GermanWordSplitter extends AbstractWordSplitter {
 
     public GermanWordSplitter(boolean hideInterfixCharacters) throws IOException {
         super(hideInterfixCharacters);
+        init();
+    }
+
+    /**
+     * @since 4.1
+     */
+    public GermanWordSplitter(boolean hideInterfixCharacters, Set<String> words) throws IOException {
+        super(hideInterfixCharacters, words);
         init();
     }
 
@@ -65,11 +71,8 @@ public class GermanWordSplitter extends AbstractWordSplitter {
     }
 
     @Override
-    protected Set<String> getWordList() throws IOException {
-        if (words == null) {
-            words = (HashSet<String>) FastObjectSaver.load(SERIALIZED_DICT);
-        }
-        return words;
+    protected Set<String> getWordList() {
+        return EmbeddedGermanDictionary.getWords();
     }
 
     @Override
