@@ -48,8 +48,9 @@ public abstract class AbstractWordSplitter {
 
     protected Set<String> words = null;
 
+    private final boolean hideInterfixCharacters;
+
     private ExceptionSplits exceptionSplits;
-    private boolean hideInterfixCharacters = true;
     private boolean strictMode = true;
     private int minimumWordLength = getDefaultMinimumWordLength();
 
