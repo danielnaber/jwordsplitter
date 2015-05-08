@@ -4,7 +4,8 @@ jWordSplitter Change Log
 ### 2015-..-.. (4.1)
 * extended the dictionary
 * added several exceptions
-* new constructor `GermanWordSplitter(boolean hideInterfixCharacters, Set<String> words)`
+* constructor `GermanWordSplitter(boolean hideInterfixCharacters)` now
+  makes sure the dictionary is read only once
 * fix `getAllSplits()` to properly obey minimum word length
 
 ### 2015-04-20 (4.0)
