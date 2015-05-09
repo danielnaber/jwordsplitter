@@ -1,6 +1,9 @@
 jWordSplitter Change Log
 ========================
 
+### 2015-..-.. (4.2)
+* ...
+
 ### 2015-05-09 (4.1)
 * extended the dictionary
 * added several exceptions
