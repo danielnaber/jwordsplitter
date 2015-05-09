@@ -1,12 +1,12 @@
 jWordSplitter Change Log
 ========================
 
-### 2015-..-.. (4.1)
+### 2015-05-09 (4.1)
 * extended the dictionary
 * added several exceptions
 * constructor `GermanWordSplitter(boolean hideInterfixCharacters)` now
   makes sure the dictionary is read only once
-* fix `getAllSplits()` to properly obey minimum word length
+* fixed `getAllSplits()` to properly obey minimum word length
 
 ### 2015-04-20 (4.0)
 * requires Java 1.7 or later
@@ -20,7 +20,7 @@ jWordSplitter Change Log
   source files are in the repository now and everything can be built
   with `build.sh`.
 
-### 2012-09-24 (3.4):
+### 2012-09-24 (3.4)
 * Important note for users who extend AbstractWordSplitter:
   `getConnectingCharacters()` must return lowercase characters now
 * added new constructor:
@@ -35,7 +35,7 @@ jWordSplitter Change Log
 * Removed `EnglishWordSplitter` as its dictionary was not included anyway. Extend
   `AbstractWordSplitter` if you want to add support for languages other than German.
 
-### 2011-12-16 (3.3):
+### 2011-12-16 (3.3)
 * renamed `jWordSplitter` in package path to `jwordsplitter` to be in accordance with 
   Java conventions 
 * New file `exceptionsGerman.txt` added to JAR that contains special cases
@@ -45,35 +45,35 @@ jWordSplitter Change Log
   the dictionary
 * small dictionary cleanup (e.g. removing some three-letter words)
 
-### 2011-02-06 (3.2):
+### 2011-02-06 (3.2)
 * now built with Maven, no other changes
 
-### 2010-09-18 (3.1):
+### 2010-09-18 (3.1)
 * fixed a bug: compound parts that ended in "s" caused the splitting not to work
 
-### 2009-10-25 (3.0):
+### 2009-10-25 (3.0)
 * using generics (i.e. at least Java 1.5 is required now for jWordSplitter)
 * AbstractWordSplitter.splitWords(String) is now called AbstractWordSplitter.splitWord(String)
 * slightly better handling of German compounds with hyphens
 * small extensions to the dictionary 
 
-### 2008-11-09 (2.2):
+### 2008-11-09 (2.2)
 * in strict mode the minimum length of words is not longer ignored
 * major dictionary update: using a smaller dictionary with less words
   but hopefully better quality (it's the one that was used for 
   LanguageTool already)
 
-### 2008-07-01 (2.1):
+### 2008-07-01 (2.1)
 * now distributed as a ZIP
 * simplified output format of TestjWordSplitterGerman
 * comes with a larger German dictionary
 * ImportTxtFile is now called SerializeDict
 
-### 2007-05-12 (2.0):
+### 2007-05-12 (2.0)
 * The JAR can now be used directly to split a list of German words:
   `java -jar jWordSplitter.jar <filename>`
 
-### 2007-05-08:
+### 2007-05-08
 * checked in original version from Sven Abels
 * removed log4j dependency
 * improved exception handling, i.e. exceptions aren't caught and logged but thrown
