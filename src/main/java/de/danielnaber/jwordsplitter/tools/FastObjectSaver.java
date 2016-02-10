@@ -20,7 +20,7 @@ import java.io.*;
 
 /**
  * This stores serializable objects. IMPORTANT: THOSE OBJECTS SHOULD HAVE A serialVersionUID:
- * <br/><br/>
+ * <br><br>
  * <code>private static final long serialVersionUID = 1L;</code>
  */
 public final class FastObjectSaver {
