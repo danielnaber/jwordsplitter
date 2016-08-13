@@ -91,6 +91,6 @@ moving to git), check it out from SVN at http://sourceforge.net/p/jwordsplitter/
 
 The source code part of this project is licensed under [Apache License, Version 2.0](https://github.com/danielnaber/jwordsplitter/blob/master/LICENSE.txt).
 The integrated dictionary (`wordsGerman.ser`) is a subset of
-[Morphy](http://www.wolfganglezius.de/doku.php?id=cl:morphy) with additions from
+[Morphy](http://morphy.wolfganglezius.de/) with additions from
 [LanguageTool](https://languagetool.org) and licensed under
 [Creative Commons Attribution-Share Alike 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
