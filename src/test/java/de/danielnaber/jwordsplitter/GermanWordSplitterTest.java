@@ -259,4 +259,12 @@ public class GermanWordSplitterTest extends BaseTest {
         } catch (NullPointerException ignored) {}
     }
 
+    public void testGetSubWords() throws IOException {
+        splitter = new GermanWordSplitter(false);
+        expectSubwords("[Hammer, schlag, bohrer, schlagbohrer]", "Hammerschlagbohrer");
+        expectSubwords("[Sauerstoff, flasche]", "Sauerstoffflasche");
+        splitter.addException("Hammerschlagbohrer", Arrays.asList("Hammer", "schlag", "bohrer"));
+        expectSubwords("[Hammer, schlag, bohrer]", "Hammerschlagbohrer");
+    }
+
 }

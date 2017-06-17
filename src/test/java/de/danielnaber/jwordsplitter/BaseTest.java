@@ -56,4 +56,9 @@ public abstract class BaseTest extends TestCase {
         assertEquals(expected, result.toString());
     }
 
+    protected void expectSubwords(String expected, String input) {
+        final List<String> result = splitter.getSubWords(input);
+        assertEquals(expected, result.toString());
+    }
+
 }
