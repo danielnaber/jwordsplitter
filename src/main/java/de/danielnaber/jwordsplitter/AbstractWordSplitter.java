@@ -4,7 +4,9 @@
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -24,9 +26,11 @@ import java.util.*;
  * will be split into "erhebung" and "fehler", if "erhebung" and "fehler" are in the dictionary
  * and "erhebungsfehler" is not. Thus how words are split only depends on the contents of
  * the dictionary. A dictionary for German is included.
+ *
  * <p>This is especially useful for German words but it will work with all languages.
  * The order of the words in the collection will be identical to their appearance in the
  * connected word. It's good to provide a large dictionary.
+ *
  * <p>Please note: We don't expect to have any special chars here (!":;,.-_, etc.). Only a set of
  * characters and only one word.
  *
