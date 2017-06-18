@@ -1,7 +1,7 @@
 /**
  * Copyright 2004-2007 Sven Abels
  * Copyright 2012 Daniel Naber (www.danielnaber.de)
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -43,7 +43,6 @@ public abstract class AbstractWordSplitter {
     protected abstract Set<String> getWordList() throws IOException;
     protected abstract GermanInterfixDisambiguator getDisambiguator();
     protected abstract int getDefaultMinimumWordLength();
-
     /** Interfix elements in lowercase, e.g. at least "s" for German. */
     protected abstract Collection<String> getInterfixCharacters();
 
