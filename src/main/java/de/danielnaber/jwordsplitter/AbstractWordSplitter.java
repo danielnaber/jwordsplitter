@@ -190,6 +190,9 @@ public abstract class AbstractWordSplitter {
         }
     }
 
+    /**
+     * @since 4.2
+     */
     public List<String> getSubWords(String word) {
         return splitWord(word, true);
     }
@@ -201,6 +204,7 @@ public abstract class AbstractWordSplitter {
     /**
      * @return a list of compound parts, with one element (the input word itself) if the input
      *   could not be split; returns an empty list if the input is {@code null}
+     * @since 4.2
      */
     public List<String> splitWord(String word, boolean collectSubwords) {
         if (word == null) {
@@ -287,13 +291,11 @@ public abstract class AbstractWordSplitter {
                         if (parts == null) {
                             parts = new ArrayList<>();
                         }
-
                         for (String leftPartPart : leftPartParts) {
                             if (!parts.contains(leftPartPart)) {
                                 parts.add(leftPartPart);
                             }
                         }
-
                         if (!parts.contains(rightPart)) {
                             parts.add(rightPart);
                         }
