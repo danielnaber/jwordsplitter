@@ -236,7 +236,8 @@ public abstract class AbstractWordSplitter {
         String removableInterfix = findInterfixOrNull(lcWord);
         String wordWithoutInterfix = removeInterfix(word, removableInterfix);
         boolean canInterfixBeRemoved = removableInterfix != null && allowInterfixRemoval;
-        if (isSimpleWord(word)) {
+
+        if (isSimpleWord(word) && !collectSubwords) {
             parts = Collections.singletonList(word);
         } else if (canInterfixBeRemoved && isSimpleWord(wordWithoutInterfix)) {
             if (hideInterfixCharacters) {
@@ -246,6 +247,14 @@ public abstract class AbstractWordSplitter {
             }
         } else {
             parts = splitFromRight(word, collectSubwords);
+
+            if (parts == null && isSimpleWord(word)) {
+                parts = new ArrayList<>();
+                parts.add(word);
+            } else if (parts != null && isSimpleWord(word) && !parts.contains(word)) {
+                parts.add(word);
+            }
+
             if (parts == null && endsWithInterfix(lcWord)) {
                 parts = splitFromRight(wordWithoutInterfix, collectSubwords);
                 if (parts != null && !hideInterfixCharacters) {
