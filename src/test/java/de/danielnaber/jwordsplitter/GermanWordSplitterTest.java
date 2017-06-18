@@ -260,11 +260,19 @@ public class GermanWordSplitterTest extends BaseTest {
     }
 
     public void testGetSubWords() throws IOException {
-        splitter = new GermanWordSplitter(false);
+        splitter = new GermanWordSplitter(true);
         expectSubwords("[Hammer, schlag, bohrer, schlagbohrer]", "Hammerschlagbohrer");
-        expectSubwords("[Sauerstoff, flasche]", "Sauerstoffflasche");
+        expectSubwords("[Sauer, stoff, Sauerstoff, flasche]", "Sauerstoffflasche");
+        expectSubwords("[Fahrzeug, taus, Fahr, zeug, staus]", "Fahrzeugstaus");
         splitter.addException("Hammerschlagbohrer", Arrays.asList("Hammer", "schlag", "bohrer"));
         expectSubwords("[Hammer, schlag, bohrer]", "Hammerschlagbohrer");
+
+        splitter = new GermanWordSplitter(true, tmpLexiconFile);
+        expectSubwords("[Kot, flügel, Kotflügel]", "Kotflügel");
+        splitter.addException("Kotflügel", Arrays.asList("Kot", "flügel"));
+        expectSubwords("[Kot, flügel]", "Kotflügel");
+        expectSubwords("[Verhalten, störung]", "Verhaltensstörung");
+        expectSubwords("[Bohrkopf]", "Bohrkopf");
     }
 
 }
