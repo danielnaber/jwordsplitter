@@ -52,6 +52,13 @@ public class GermanWordSplitter extends AbstractWordSplitter {
         init();
     }
 
+    /**
+     * @since 4.2
+     */
+    public GermanWordSplitter(boolean hideInterfixCharacters, Set<String> words) throws IOException {
+        super(hideInterfixCharacters, words);
+    }
+
     private void init() throws IOException {
         disambiguator = new GermanInterfixDisambiguator(getWordList());
         setExceptionFile(EXCEPTION_DICT);

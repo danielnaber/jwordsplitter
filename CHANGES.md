@@ -5,6 +5,8 @@ jWordSplitter Change Log
 * Net method `getSubWords()`, that also gets the shortest matches.
   For example, `Sauerstoffflasche` will get `Sauer, stoff, Sauerstoff, flasche`.
   Thanks to github user Tobulus.
+* Added new constructor `GermanWordSplitter(boolean hideInterfixCharacters, Set<String> words)`
+  (issue #11)
 
 ### 2015-05-09 (4.1)
 * extended the dictionary
