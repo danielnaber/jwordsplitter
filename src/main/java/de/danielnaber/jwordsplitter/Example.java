@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright 2009 Daniel Naber
  *
  * Licensed under the Apache License, Version 2.0 (the "License");

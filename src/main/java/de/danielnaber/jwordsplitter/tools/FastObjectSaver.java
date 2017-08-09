@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright 2004-2007 Sven Abels
  * Copyright 2012 Daniel Naber (www.danielnaber.de)
  *
