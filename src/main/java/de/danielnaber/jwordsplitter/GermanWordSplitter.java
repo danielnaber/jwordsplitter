@@ -57,6 +57,7 @@ public class GermanWordSplitter extends AbstractWordSplitter {
      */
     public GermanWordSplitter(boolean hideInterfixCharacters, Set<String> words) throws IOException {
         super(hideInterfixCharacters, words);
+        init();
     }
 
     private void init() throws IOException {
