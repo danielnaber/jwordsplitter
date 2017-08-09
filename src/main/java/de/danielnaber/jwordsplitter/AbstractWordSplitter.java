@@ -50,7 +50,7 @@ public abstract class AbstractWordSplitter {
 
     private final boolean hideInterfixCharacters;
 
-    private ExceptionSplits exceptionSplits;
+    private ExceptionSplits exceptionSplits = new ExceptionSplits();
     private boolean strictMode = true;
     private int minimumWordLength = getDefaultMinimumWordLength();
 

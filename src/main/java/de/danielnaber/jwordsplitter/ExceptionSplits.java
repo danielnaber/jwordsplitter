@@ -31,6 +31,12 @@ class ExceptionSplits {
 
     private final Map<String,List<String>> exceptionMap = new HashMap<>();
 
+    /**
+     * Create an empty list of exceptions.
+     */
+    ExceptionSplits() {
+    }
+    
     ExceptionSplits(String filename) throws IOException {
         try (InputStream is = AbstractWordSplitter.class.getResourceAsStream(filename)) {
             if (is == null) {
