@@ -7,6 +7,7 @@ jWordSplitter Change Log
   Thanks to github user Tobulus.
 * Added new constructor `GermanWordSplitter(boolean hideInterfixCharacters, Set<String> words)`
   (issue #11)
+* Fixed a `UnsupportedOperationException` that could occur in non-strict mode 
 
 ### 2015-05-09 (4.1)
 * extended the dictionary

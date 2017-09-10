@@ -28,6 +28,13 @@ import static org.junit.Assert.assertThat;
 public class GermanFullDictWordSplitterTest {
 
     @Test
+    public void testSplitBug() throws IOException {   // there was a UnsupportedOperationException for this
+        GermanWordSplitter splitter = new GermanWordSplitter(false);
+        splitter.setStrictMode(false);
+        assertThat(splitter.splitWord("TV-Serien-Seite").toString(), is("[TV, Serien, , Seite]"));  // still not 100% clean...
+    }
+    
+    @Test
     public void testSplit() throws IOException {
         GermanWordSplitter splitter = new GermanWordSplitter(true);
         assertThat(splitter.splitWord("Hausrichten").toString(), is("[Hausrichten]"));  // 'richten' is in removals.txt

@@ -304,11 +304,15 @@ public abstract class AbstractWordSplitter {
                         parts.add(rightPart);
                     }
                 } else if (!strictMode) {
-                    parts = Arrays.asList(leftPart, rightPart);
+                    parts = new ArrayList<>();
+                    parts.add(leftPart);
+                    parts.add(rightPart);
                 }
             } else if (!strictMode) {
                 if (isSimpleWord(leftPart)) {
-                    parts = Arrays.asList(leftPart, rightPart);
+                    parts = new ArrayList<>();
+                    parts.add(leftPart);
+                    parts.add(rightPart);
                 }
             }
         }
