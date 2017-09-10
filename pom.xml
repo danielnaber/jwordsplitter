@@ -9,7 +9,7 @@
 
   <groupId>de.danielnaber</groupId>
   <artifactId>jwordsplitter</artifactId>
-  <version>4.2-SNAPSHOT</version>
+  <version>4.2</version>
   <packaging>jar</packaging>
 
   <name>jwordsplitter</name>
@@ -133,7 +133,7 @@
         </configuration>
       </plugin>
 
-      <!-- commented out so we can run 'mvn install' locally: 
+      <!-- commented out so we can run 'mvn install' locally: --> 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
@@ -148,7 +148,7 @@
           </execution>
         </executions>
       </plugin>
-      -->
+      <!-- -->
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

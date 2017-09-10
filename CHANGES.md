@@ -1,7 +1,7 @@
 jWordSplitter Change Log
 ========================
 
-### 2017-..-.. (4.2)
+### 2017-09-10 (4.2)
 * Net method `getSubWords()`, that also gets the shortest matches.
   For example, `Sauerstoffflasche` will get `Sauer, stoff, Sauerstoff, flasche`.
   Thanks to github user Tobulus.
