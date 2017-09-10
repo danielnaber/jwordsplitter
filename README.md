@@ -1,5 +1,5 @@
-jWordSplitter 4.2
-=================
+jWordSplitter 4.3-SNAPSHOT
+==========================
 
 Copyright 2004-2007 Sven Abels  
 Copyright 2007-2017 Daniel Naber  
