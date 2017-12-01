@@ -148,7 +148,7 @@ Landschaft, wasser, haushalt
 Bomhardt
 Ost, bergs
 Zukunft, geschichte
-Bundestag, abgeordnete
+Bundes, tag, abgeordnete
 TV-Dauerbrenners
 Abfindung, vertrag
 Huberschen
@@ -1931,7 +1931,7 @@ Lehrstellen, statistik
 Fachwerk, häuschen
 Südchinesischen
 Kreidekliffs
-Bundesliga, Job
+Bundes, liga, Job
 Dax-Rallye
 Kometen, beobachter
 West, Journalisten
