@@ -237,7 +237,10 @@ public abstract class AbstractWordSplitter {
     }
 
     private List<String> split(String word, boolean allowInterfixRemoval, boolean collectSubwords) {
-        List<String> parts;
+        List<String> parts = exceptionSplits.getExceptionSplitOrNull(word);
+        if (parts != null) {
+            return parts;
+        }
         String lcWord = word.toLowerCase();
         String removableInterfix = findInterfixOrNull(lcWord);
         String wordWithoutInterfix = removeInterfix(word, removableInterfix);
@@ -272,7 +275,11 @@ public abstract class AbstractWordSplitter {
     }
 
     private List<String> splitFromRight(String word, boolean collectSubwords) {
-        List<String> parts = null;
+        List<String> parts = exceptionSplits.getExceptionSplitOrNull(word);
+        if (parts != null) {
+            return parts;
+        }
+
         for (int i = word.length() - minimumWordLength; i >= minimumWordLength; i--) {
             String leftPart = word.substring(0, i);
             String rightPart = word.substring(i);
