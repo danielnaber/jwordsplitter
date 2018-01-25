@@ -306,6 +306,14 @@ public abstract class AbstractWordSplitter {
                         if (!parts.contains(rightPart)) {
                             parts.add(rightPart);
                         }
+                        List<String> rightPartExceptions = exceptionSplits.getExceptionSplitOrNull(rightPart);
+                        if (rightPartExceptions != null) {
+                            for (String exception : rightPartExceptions) {
+                                if (!parts.contains(exception)) {
+                                    parts.add(exception);
+                                }
+                            }
+                        }
                     } else {
                         parts = new ArrayList<>(leftPartParts);
                         parts.add(rightPart);
