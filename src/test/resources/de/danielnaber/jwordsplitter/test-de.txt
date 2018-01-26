@@ -17,3 +17,5 @@ Ei
 Haus
 Krawehl
 Pusselsumm
+Hand
+Waschbecken
