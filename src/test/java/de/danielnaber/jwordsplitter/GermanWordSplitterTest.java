@@ -273,6 +273,9 @@ public class GermanWordSplitterTest extends BaseTest {
         expectSubwords("[Kot, flügel]", "Kotflügel");
         expectSubwords("[Verhalten, störung]", "Verhaltensstörung");
         expectSubwords("[Bohrkopf]", "Bohrkopf");
+        expectSubwords("[Hand, waschbecken]","Handwaschbecken");
+        splitter.addException("Waschbecken", Arrays.asList("Wasch", "becken"));
+        expectSubwords("[Hand, waschbecken, wasch, becken]","Handwaschbecken");
     }
 
 }
