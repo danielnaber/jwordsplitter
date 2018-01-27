@@ -1,8 +1,9 @@
 jWordSplitter Change Log
 ========================
 
-### 2017-xx-xx (4.3)
-* ...
+### 2018-01-27 (4.3)
+* Fix: Whenever we split a word, we should first check whether it is a defined split exception
+  (https://github.com/danielnaber/jwordsplitter/pull/18)
 
 ### 2017-09-10 (4.2)
 * Net method `getSubWords()`, that also gets the shortest matches.
