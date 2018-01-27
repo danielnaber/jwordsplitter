@@ -1,6 +1,9 @@
 jWordSplitter Change Log
 ========================
 
+### 2018-..-.. (4.4-SNAPSHOT)
+* ...
+
 ### 2018-01-27 (4.3)
 * Fix: Whenever we split a word, we should first check whether it is a defined split exception
   (https://github.com/danielnaber/jwordsplitter/pull/18)
