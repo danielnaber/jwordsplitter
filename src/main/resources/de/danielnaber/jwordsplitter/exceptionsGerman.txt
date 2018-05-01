@@ -671,6 +671,8 @@ Leiter|ende/NS
 Nerven|ende/NS
 Reise|ende/NS
 Schul|jahres|ende/NS
+Sport|short
+Sport|shorts
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
