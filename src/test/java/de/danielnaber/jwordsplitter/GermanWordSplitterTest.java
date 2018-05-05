@@ -278,4 +278,25 @@ public class GermanWordSplitterTest extends BaseTest {
         expectSubwords("[Hand, waschbecken, wasch, becken]","Handwaschbecken");
     }
 
+    public void testLongWords() throws IOException {
+        GermanWordSplitter splitter = new GermanWordSplitter(true);
+        splitter.splitWord("Bahnhofsuhrbahnhofsuhrbahnhofsuhrbahnhofsuhrbahnhofsuhrbahnhofsuhr"); // 67 chars
+        String tooLongByDefault = "Bahnhofsuhrbahnhofsuhrbahnhofsuhrbahnhofsuhrbahnhofsuhrbahnhofsuhrbahnhofsuhr";  // 77 chars
+        try {
+            splitter.splitWord(tooLongByDefault);
+            fail("got no exception");
+        } catch (InputTooLongException ignore) {}
+        try {
+            splitter.getSubWords(tooLongByDefault);
+            fail("got no exception");
+        } catch (InputTooLongException ignore) {}
+        try {
+            splitter.getAllSplits(tooLongByDefault);
+            fail("got no exception");
+        } catch (InputTooLongException ignore) {}
+        splitter.setMaximumWordLength(100);
+        List<String> result = splitter.splitWord(tooLongByDefault);
+        assertThat(result.size(), is(14));
+    }
+
 }

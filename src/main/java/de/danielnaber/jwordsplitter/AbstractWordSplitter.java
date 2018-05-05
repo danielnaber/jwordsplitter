@@ -53,6 +53,7 @@ public abstract class AbstractWordSplitter {
     private ExceptionSplits exceptionSplits = new ExceptionSplits();
     private boolean strictMode = true;
     private int minimumWordLength = getDefaultMinimumWordLength();
+    private int maximumWordLength = 70;
 
     /**
      * Create a word splitter that uses the embedded dictionary.
@@ -104,8 +105,17 @@ public abstract class AbstractWordSplitter {
         }
     }
 
-    public void setMinimumWordLength(int minimumWordLength) {
-        this.minimumWordLength = minimumWordLength;
+    public void setMinimumWordLength(int len) {
+        this.minimumWordLength = len;
+    }
+
+    /**
+     * Words longer than this will throw an {@code IllegalArgumentException} to avoid extremely long
+     * processing times. The default is 70.
+     * @since 4.2
+     */
+    public void setMaximumWordLength(int len) {
+        this.maximumWordLength = len;
     }
 
     /**
@@ -140,6 +150,10 @@ public abstract class AbstractWordSplitter {
      * @since 4.0
      */
     public List<List<String>> getAllSplits(String word) {
+        if (word.length() > maximumWordLength) {
+            throw new InputTooLongException("Input too long (" + word.length() + " characters), maximum is " +
+                    maximumWordLength + " characters to avoid potentially long processing times: '" + word + "'");
+        }
         try {
             List<List<String>> result1 = getAllSplits(word, true);
             List<List<String>> result2 = getAllSplits(word, false);
@@ -216,6 +230,10 @@ public abstract class AbstractWordSplitter {
     public List<String> splitWord(String word, boolean collectSubwords) {
         if (word == null) {
             return Collections.emptyList();
+        }
+        if (word.length() > maximumWordLength) {
+            throw new InputTooLongException("Input too long (" + word.length() + " characters), maximum is " +
+                    maximumWordLength + " characters to avoid potentially long processing times: '" + word + "'");
         }
         String trimmedWord = word.trim();
         List<String> exceptionSplit = exceptionSplits.getExceptionSplitOrNull(trimmedWord);

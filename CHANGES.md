@@ -2,6 +2,10 @@ jWordSplitter Change Log
 ========================
 
 ### 2018-..-.. (4.4-SNAPSHOT)
+* New method `AbstractWordSplitter.setMaximumWordLength()` that sets a maximum length
+  for the input: longer words will throw `InputTooLongException` to avoid excessively
+  long processing times for artificial compounds.
+  **NOTE**: The default is 70 and this is a change in behavior - there used to be no limit.
 * The recursive method that does most work now properly checks if the current thread
   is interrupted using `Thread.interrupted()` and throws a `RuntimeException` if so.
 
