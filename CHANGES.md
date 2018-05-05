@@ -2,7 +2,8 @@ jWordSplitter Change Log
 ========================
 
 ### 2018-..-.. (4.4-SNAPSHOT)
-* ...
+* The recursive method that does most work now properly checks if the current thread
+  is interrupted using `Thread.interrupted()` and throws a `RuntimeException` if so.
 
 ### 2018-01-27 (4.3)
 * Fix: Whenever we split a word, we should first check whether it is a defined split exception

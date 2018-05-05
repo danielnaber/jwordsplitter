@@ -140,21 +140,28 @@ public abstract class AbstractWordSplitter {
      * @since 4.0
      */
     public List<List<String>> getAllSplits(String word) {
-        List<List<String>> result1 = getAllSplits(word, true);
-        List<List<String>> result2 = getAllSplits(word, false);
-        List<List<String>> result = new ArrayList<>(result1);
-        for (List<String> split : result2) {
-            if (!result.contains(split)) {
-                result.add(split);
+        try {
+            List<List<String>> result1 = getAllSplits(word, true);
+            List<List<String>> result2 = getAllSplits(word, false);
+            List<List<String>> result = new ArrayList<>(result1);
+            for (List<String> split : result2) {
+                if (!result.contains(split)) {
+                    result.add(split);
+                }
             }
+            return result;
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
-        return result;
     }
 
-    List<List<String>> getAllSplits(String word, boolean fromLeft) {
+    List<List<String>> getAllSplits(String word, boolean fromLeft) throws InterruptedException {
         List<List<String>> result = new ArrayList<>();
         int start = fromLeft ? minimumWordLength : word.length() - minimumWordLength;
         for (int i = start; isLoopEnd(fromLeft, i, word);) {
+            if (Thread.interrupted()) {
+                throw new InterruptedException();
+            }
             String left = word.substring(0, i);
             String right = word.substring(i, word.length());
             String relevantWord = fromLeft ? left : right;
