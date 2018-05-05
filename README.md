@@ -19,13 +19,13 @@ You might also be interested in this [German morphology dictionary](http://www.d
 
 #### Usage from Java
 
-Use this dependency or [download the JAR here](http://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.3/jwordsplitter-4.3.jar):
+Use this dependency or [download the JAR here](http://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.4/jwordsplitter-4.4.jar):
 
 ```xml
 <dependency>
     <groupId>de.danielnaber</groupId>
     <artifactId>jwordsplitter</artifactId>
-    <version>4.3</version>
+    <version>4.4</version>
 </dependency>
 ```
 
