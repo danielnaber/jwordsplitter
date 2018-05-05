@@ -1,6 +1,9 @@
 jWordSplitter Change Log
 ========================
 
+### 2018-..-.. (4.5-SNAPSHOT)
+* ...
+
 ### 2018-05-05 (4.4)
 * New method `AbstractWordSplitter.setMaximumWordLength()` that sets a maximum length
   for the input: longer words will throw `InputTooLongException` to avoid excessively
