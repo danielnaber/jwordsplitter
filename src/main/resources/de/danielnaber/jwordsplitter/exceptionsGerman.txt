@@ -673,6 +673,8 @@ Reise|ende/NS
 Schul|jahres|ende/NS
 Sport|short
 Sport|shorts
+Schwimmer|becken
+Schwimmer|beckens
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
