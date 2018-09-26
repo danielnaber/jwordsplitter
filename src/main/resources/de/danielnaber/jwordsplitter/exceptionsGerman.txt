@@ -675,6 +675,12 @@ Sport|short
 Sport|shorts
 Schwimmer|becken
 Schwimmer|beckens
+Pyjama|shorts
+Khaki|shorts
+Schwimm|shorts
+Bermuda|shorts
+Lauf|shorts
+Retro|shorts
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
