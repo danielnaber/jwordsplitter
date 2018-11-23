@@ -681,6 +681,7 @@ Schwimm|shorts
 Bermuda|shorts
 Lauf|shorts
 Retro|shorts
+Maler|arbeiten
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
