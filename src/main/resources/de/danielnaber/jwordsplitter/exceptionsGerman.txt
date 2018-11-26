@@ -682,6 +682,8 @@ Bermuda|shorts
 Lauf|shorts
 Retro|shorts
 Maler|arbeiten
+Rückzugs|orte
+Rückzugs|orten
 # Words without a pipe symbol will not be split.
 Bahnsteig
 Bahnsteige
