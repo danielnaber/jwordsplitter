@@ -44,6 +44,7 @@ gleich
 gleit
 glüh
 grob
+fehl
 fein
 groß
 klein
