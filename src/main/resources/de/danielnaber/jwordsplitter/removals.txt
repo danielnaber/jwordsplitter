@@ -16,3 +16,4 @@
 ^ende$
 ^enden$
 ^endes$
+^tartar$

@@ -507,3 +507,4 @@ simulation
 natrium
 honorar
 journal
+tatar
