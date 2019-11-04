@@ -686,7 +686,17 @@ Retro|shorts
 Maler|arbeiten
 Rückzugs|orte
 Rückzugs|orten
+Raum|thermostat
+Raum|thermostate
+Raum|thermostaten
+Raum|thermostats
+Raum|thermostates
 # Words without a pipe symbol will not be split.
+Thermostat
+Thermostate
+Thermostaten
+Thermostats
+Thermostates
 Bahnsteig
 Bahnsteige
 Bahnsteigen
