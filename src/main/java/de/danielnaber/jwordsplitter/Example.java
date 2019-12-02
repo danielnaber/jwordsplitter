@@ -31,8 +31,12 @@ final class Example {
         GermanWordSplitter splitter = new GermanWordSplitter(true);
         splitter.setMinimumWordLength(3);
         splitter.setStrictMode(true);
-        List<String> parts = splitter.splitWord("Bahnhofsuhr");
-        System.out.println(parts);
+        String wordsInput = "Bahnhofsuhr, Bahnhofssanierung";
+        String[] words = wordsInput.split(",\\s*");
+        for (String word : words) {
+            List<String> parts = splitter.splitWord(word);
+            System.out.println(parts);
+        }
     }
 
 }
