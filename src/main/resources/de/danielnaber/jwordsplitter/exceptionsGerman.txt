@@ -691,7 +691,11 @@ Raum|thermostate
 Raum|thermostaten
 Raum|thermostats
 Raum|thermostates
+Haupt|akteurin
+Haupt|akteurinnen
 # Words without a pipe symbol will not be split.
+Akteurin
+Akteurinnen
 Thermostat
 Thermostate
 Thermostaten
