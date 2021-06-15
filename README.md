@@ -1,8 +1,8 @@
-jWordSplitter 4.4-SNAPSHOT
+jWordSplitter 4.5
 ==========================
 
 Copyright 2004-2007 Sven Abels  
-Copyright 2007-2018 Daniel Naber  
+Copyright 2007-2021 Daniel Naber  
 Source code licensed under Apache License, Version 2.0 (see below)
 
 This Java library can split German compound words into smaller parts.
@@ -19,13 +19,13 @@ You might also be interested in this [German morphology dictionary](http://www.d
 
 #### Usage from Java
 
-Use this dependency or [download the JAR here](http://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.4/jwordsplitter-4.4.jar):
+Use this dependency or [download the JAR here](http://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.5/jwordsplitter-4.5.jar):
 
 ```xml
 <dependency>
     <groupId>de.danielnaber</groupId>
     <artifactId>jwordsplitter</artifactId>
-    <version>4.4</version>
+    <version>4.5</version>
 </dependency>
 ```
 

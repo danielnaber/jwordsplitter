@@ -1,8 +1,9 @@
 jWordSplitter Change Log
 ========================
 
-### 2018-..-.. (4.5-SNAPSHOT)
-* ...
+### 2021-06-15 (4.5)
+* extended the dictionary
+* added several exceptions
 
 ### 2018-05-05 (4.4)
 * New method `AbstractWordSplitter.setMaximumWordLength()` that sets a maximum length
