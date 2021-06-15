@@ -1,4 +1,4 @@
-jWordSplitter 4.5
+jWordSplitter 4.6-SNAPSHOT
 ==========================
 
 Copyright 2004-2007 Sven Abels  

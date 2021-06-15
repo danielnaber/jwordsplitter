@@ -1,6 +1,9 @@
 jWordSplitter Change Log
 ========================
 
+### 2021-xx-xx (4.6-SNAPSHOT)
+* ...
+
 ### 2021-06-15 (4.5)
 * extended the dictionary
 * added several exceptions
