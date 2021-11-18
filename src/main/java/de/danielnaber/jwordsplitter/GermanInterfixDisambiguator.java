@@ -25,7 +25,7 @@ import java.util.Set;
  * Urlaub+s+Orte but also Urlaub+Sorte (our dictionary doesn't know
  * which words require an interfix character).
  */
-class GermanInterfixDisambiguator {
+public class GermanInterfixDisambiguator {
 
     private static final Set<String> wordsRequiringInterfixS = new HashSet<>();
     
