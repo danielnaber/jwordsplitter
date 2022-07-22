@@ -470,3 +470,4 @@ zapf
 pseudo
 fachschul
 zeige
+erdbeer
