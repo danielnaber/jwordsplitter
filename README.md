@@ -14,12 +14,12 @@ in the JAR. Even though it will work for some adjectives (e.g. "knallgelb" -> kn
 and verbs (e.g. "zurückrudern" -> zurück + rudern) it works best for nouns.
 
 Alternatives to this library might be [compound-splitter](https://github.com/dweiss/compound-splitter)
-or [Lucene's](http://lucene.apache.org/core/) `DictionaryCompoundWordTokenFilter`.
-You might also be interested in this [German morphology dictionary](http://www.danielnaber.de/morphologie/).
+or [Lucene's](https://lucene.apache.org/core/) `DictionaryCompoundWordTokenFilter`.
+You might also be interested in this [German morphology dictionary](https://www.danielnaber.de/morphologie/).
 
 #### Usage from Java
 
-Use this dependency or [download the JAR here](http://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.5/jwordsplitter-4.5.jar):
+Use this dependency or [download the JAR here](https://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.5/jwordsplitter-4.5.jar):
 
 ```xml
 <dependency>
@@ -85,7 +85,7 @@ from the plain text files in `resources` and then run the required mvn commands.
 
 See [CHANGES.md](https://github.com/danielnaber/jwordsplitter/blob/master/CHANGES.md).
 If you need the old project history (for example to access tags that got lost when
-moving to git), check it out from SVN at http://sourceforge.net/p/jwordsplitter/code/HEAD/tree/
+moving to git), check it out from SVN at https://sourceforge.net/p/jwordsplitter/code/HEAD/tree/
 
 #### License
 
@@ -93,4 +93,4 @@ The source code part of this project is licensed under [Apache License, Version 
 The integrated dictionary (`wordsGerman.ser`) is a subset of
 [Morphy](http://morphy.wolfganglezius.de/) with additions from
 [LanguageTool](https://languagetool.org) and licensed under
-[Creative Commons Attribution-Share Alike 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+[Creative Commons Attribution-Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
