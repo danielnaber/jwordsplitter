@@ -473,4 +473,8 @@ erdbeer
 premium
 mega
 giga
-tech
+#tech  -- Problem wg. "technische"
+sing
+kriech
+hör
+seh
