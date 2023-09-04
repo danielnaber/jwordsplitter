@@ -15,8 +15,14 @@
  */
 package de.danielnaber.jwordsplitter;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * A very simple example of how to use jWordSplitter.
@@ -31,8 +37,16 @@ final class Example {
         GermanWordSplitter splitter = new GermanWordSplitter(true);
         splitter.setMinimumWordLength(3);
         splitter.setStrictMode(true);
-        String wordsInput = "Bahnhofsuhr, Bahnhofssanierung";
-        String[] words = wordsInput.split(",\\s*");
+        List<String> words = new ArrayList<>();
+        if (args.length == 1) {
+            Scanner sc = new Scanner(new File(args[0]));
+            while (sc.hasNextLine()) {
+                words.add(sc.nextLine());
+            }
+        } else {
+            String wordsInput = "Bahnhofsuhr, Bahnhofssanierung";
+            words = Arrays.asList(wordsInput.split(",\\s*"));
+        }
         for (String word : words) {
             List<String> parts = splitter.splitWord(word);
             System.out.println(parts);
