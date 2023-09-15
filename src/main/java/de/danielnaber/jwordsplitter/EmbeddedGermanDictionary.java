@@ -15,10 +15,8 @@
  */
 package de.danielnaber.jwordsplitter;
 
-import de.danielnaber.jwordsplitter.tools.FastObjectSaver;
-
-import java.io.IOException;
-import java.util.Collections;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -28,7 +26,7 @@ import java.util.Set;
  */
 public final class EmbeddedGermanDictionary {
 
-  private static final String SERIALIZED_DICT = "/de/danielnaber/jwordsplitter/wordsGerman.ser";   // dict inside the JAR
+  private static final String DICT = "/de/danielnaber/jwordsplitter/wordsGerman.txt";   // dict inside the JAR
 
   private static Set<String> words;
 
@@ -37,10 +35,22 @@ public final class EmbeddedGermanDictionary {
 
   public static synchronized Set<String> getWords() {
     if (words == null) {
-      try {
-        words = Collections.unmodifiableSet((HashSet<String>)FastObjectSaver.load(SERIALIZED_DICT));
+      words = new HashSet<>();
+      //long t = System.currentTimeMillis();
+      try (InputStream is = new BufferedInputStream(EmbeddedGermanDictionary.class.getResourceAsStream(DICT));
+           InputStreamReader isr = new InputStreamReader(is, StandardCharsets.UTF_8);
+           BufferedReader br = new BufferedReader(isr)
+      ) {
+        String line;
+        while ((line = br.readLine()) != null) {
+          if (!line.startsWith("#")) {
+            words.add(line.trim().toLowerCase());
+          }
+        }
+        //long t2 = System.currentTimeMillis();
+        //System.out.println("Loading time: " + (t2-t) + "ms");
       } catch (IOException e) {
-        throw new RuntimeException("Could not load " + SERIALIZED_DICT, e);
+        throw new RuntimeException("Could not load " + DICT, e);
       }
     }
     return words;

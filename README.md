@@ -2,7 +2,7 @@ jWordSplitter 4.6-SNAPSHOT
 ==========================
 
 Copyright 2004-2007 Sven Abels  
-Copyright 2007-2021 Daniel Naber  
+Copyright 2007-2023 Daniel Naber  
 Source code licensed under Apache License, Version 2.0 (see below)
 
 This Java library can split German compound words into smaller parts.
@@ -37,24 +37,16 @@ List<String> parts = splitter.splitWord("Versuchsreihe");
 System.out.println(parts);    // prints: [Versuchs, reihe]
 ```
 
-#### Usage from Command Line
+#### Usage from command Line
 
 To split a list of words (one word per line), use this command:
 
     java -jar jwordsplitter-x.y.jar <filename>
 
-#### Data Import and Export
+#### Data location
 
-To export the German dictionary from the JAR file, use this command:
-
-    java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.ExportDict /de/danielnaber/jwordsplitter/wordsGerman.ser
-
-To serialize a text dictionary (one word per line) to a binary format
-so it can be used by jWordSplitter, use this command:
-
-    java -cp jwordsplitter-x.y.jar de.danielnaber.jwordsplitter.converter.SerializeDict <textDict> <output>
-
-The binary format used is simply the standard Java object serialization.
+To access the German dictionary from the JAR file, unzip the JAR. The dictionary is at
+`de/danielnaber/jwordsplitter/wordsGerman.txt`.
 
 #### Notes about the algorithm
 
@@ -78,8 +70,7 @@ The binary format used is simply the standard Java object serialization.
 
 #### Building
 
-Use `build.sh` to create the JAR. It will build the internal binary dictionary
-from the plain text files in `resources` and then run the required mvn commands.
+Use `build.sh` to create the dictionary from the text files in `resources`.
 
 #### Changelog
 
@@ -90,7 +81,7 @@ moving to git), check it out from SVN at https://sourceforge.net/p/jwordsplitter
 #### License
 
 The source code part of this project is licensed under [Apache License, Version 2.0](https://github.com/danielnaber/jwordsplitter/blob/master/LICENSE.txt).
-The integrated dictionary (`wordsGerman.ser`) is a subset of
-[Morphy](http://morphy.wolfganglezius.de/) with additions from
+The integrated dictionary (`wordsGerman.txt`) is a subset of
+[Morphy](https://danielnaber.de/morphologie/) with additions from
 [LanguageTool](https://languagetool.org) and licensed under
 [Creative Commons Attribution-Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

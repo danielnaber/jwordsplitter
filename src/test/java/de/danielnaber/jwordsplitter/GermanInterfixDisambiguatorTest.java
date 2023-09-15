@@ -15,7 +15,6 @@
  */
 package de.danielnaber.jwordsplitter;
 
-import de.danielnaber.jwordsplitter.tools.FastObjectSaver;
 import de.danielnaber.jwordsplitter.tools.FileTools;
 import org.junit.Test;
 
@@ -41,10 +40,9 @@ public class GermanInterfixDisambiguatorTest {
         }
     }
 
-    @SuppressWarnings("unchecked")
     @Test
-    public void testFullDict() throws IOException {
-        HashSet<String> compoundParts = (HashSet<String>) FastObjectSaver.load("/de/danielnaber/jwordsplitter/wordsGerman.ser");
+    public void testFullDict() {
+        HashSet<String> compoundParts = (HashSet<String>) EmbeddedGermanDictionary.getWords();
         GermanInterfixDisambiguator disambiguator = new GermanInterfixDisambiguator(compoundParts);
         assertSplit("Verkehr samt", "Verkehrs, amt", disambiguator);
         assertSplit("Sauerstoff flaschen störung s verhalten", "Sauerstoff, flaschen, störungs, verhalten", disambiguator);
