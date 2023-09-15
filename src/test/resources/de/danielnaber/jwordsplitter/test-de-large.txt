@@ -1207,7 +1207,7 @@ Ablick
 Baratta
 Produktion, sicherung
 Firmen, Web, site
-Vermögensendwert
+Vermögens, endwert
 Schreib, werkzeug
 Cappuccinotasse
 Roman, genres
@@ -1462,7 +1462,7 @@ Konkurrenz, schutzes
 Investition, pläne
 Schein, debatten
 Klitzekleine
-Turn-Europameisterschaft
+Turn, Europa, meisterschaft
 Haupt, initiatorin
 JFM
 Cosmopolitan-Chefredakteurin
@@ -2911,13 +2911,13 @@ Ruf, systeme
 Wintersonnwende
 Zimmer, fenstern
 Nazmije
-Tausendfüße
+Tausend, füße
 Suivez
 Billig, Angebot
 A-Liste
 Minister, Kollegen
 Prostu
-Räumfahrt
+Räum, fahrt
 Marquesas
 Eckerd
 Tayser
@@ -3690,7 +3690,7 @@ Creep
 Polizei, reserve
 Ahikams
 Batterie, typ
-Telekommunikationsendgeräte
+Telekommunikation, endgeräte
 Überhundertjährigen
 NasaKollegen
 Rockcliffe
@@ -4384,7 +4384,7 @@ Eigentümer, unternehmer
 Blaskic
 Landwirtschaft, projekte
 Fahrzeug, zulassungen
-Endlosverfahren
+Endlos, verfahren
 Betriebs, einrichtungen
 Extrem, niederschläge
 Klavier

@@ -1455,7 +1455,7 @@ kontroll
 stoß
 fänger
 verkleidungen
-test
+# test -- wg. "bewahrtest" etc.
 automatisiererinnen
 torsion
 beanspruchungen
@@ -2186,3 +2186,11 @@ professioneller
 überlieferung
 skateboard
 skateboards
+endlos
+tausend
+endgerät
+endgeräts
+endgerätes
+endgeräte
+endgeräten
+endwert
