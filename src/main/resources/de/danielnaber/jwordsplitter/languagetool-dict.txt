@@ -1,6 +1,5 @@
-# DO NOT MODIFY - automatically exported
-# Exporting class: org.languagetool.dev.ExportGermanNouns
-# Export date: Fri Apr 17 13:49:40 CEST 2015
+# Originally automatically exported from org.languagetool.dev.ExportGermanNouns
+# Original export date: Fri Apr 17 13:49:40 CEST 2015
 # LanguageTool: 3.0-SNAPSHOT (null)
 # Potential German compound parts.
 # Data from Morphy (http://www.wolfganglezius.de/doku.php?id=cl:morphy)
@@ -204,8 +203,6 @@ abfallen
 abfallens
 abfalles
 abfalls
-abfallwirtschaftsamt
-abfallwirtschaftsamtes
 abfangen
 abfangens
 abfassen
@@ -32749,8 +32746,6 @@ landesvermessungsamt
 landesvermessungsamtes
 landesverwaltungsamt
 landesverwaltungsamtes
-landeswirtschaftsamt
-landeswirtschaftsamtes
 landratsamt
 landratsamtes
 lands
@@ -32776,10 +32771,6 @@ landwirte
 landwirten
 landwirtes
 landwirts
-landwirtschaftsamt
-landwirtschaftsamtes
-landwirtschaftsexpertin
-landwirtschaftsexpertinnen
 langdrehen
 langdrehens
 langen
@@ -47424,12 +47415,7 @@ schwelgerin
 schwelgerinnen
 schwelle
 schwellen
-schwellenpädagogin
-schwellenpädagoginnen
 schwellens
-schwellkörper
-schwellkörpern
-schwellkörpers
 schwellung
 schwellungen
 schwellwerk
@@ -47539,13 +47525,6 @@ schwimmen
 schwimmens
 schwimmerin
 schwimmerinnen
-schwimmhalle
-schwimmhallen
-schwimmunterricht
-schwimmunterrichte
-schwimmunterrichten
-schwimmunterrichtes
-schwimmunterrichts
 schwindel
 schwindelei
 schwindeleien
@@ -47563,14 +47542,6 @@ schwindsucht
 schwinge
 schwingen
 schwingens
-schwingflügel
-schwingflügeln
-schwingflügels
-schwingkölbchen
-schwingkölbchens
-schwingmesser
-schwingmessern
-schwingmessers
 schwingung
 schwingungen
 schwippschwager
@@ -47580,15 +47551,11 @@ schwippschwägerin
 schwippschwägerinnen
 schwirren
 schwirrens
-schwitzbläschen
-schwitzbläschens
 schwitze
 schwitzen
 schwitzens
 schwitzkasten
 schwitzkastens
-schwitzkur
-schwitzkuren
 schwitzkästen
 schwulität
 schwulitäten
@@ -47704,7 +47671,6 @@ schänken
 schärfe
 schärfen
 schärfens
-schärfentiefe
 schärfung
 schärpe
 schärpen
@@ -60262,14 +60228,10 @@ wirtschafterin
 wirtschafterinnen
 wirtschaftlerin
 wirtschaftlerinnen
-wirtschaftsamt
-wirtschaftsamtes
 wirtschaftsassistentin
 wirtschaftsassistentinnen
 wirtschaftsberaterin
 wirtschaftsberaterinnen
-wirtschaftsexpertin
-wirtschaftsexpertinnen
 wirtschaftsforscherin
 wirtschaftsforscherinnen
 wirtschaftsfunktionärin
