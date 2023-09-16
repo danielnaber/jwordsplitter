@@ -540,3 +540,6 @@ rundum
 einzel
 filigran
 #krank
+schließ
+sortier
+vertikal
