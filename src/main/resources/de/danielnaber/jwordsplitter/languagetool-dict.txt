@@ -2151,7 +2151,6 @@ altruistinnen
 alts
 altsiedlerin
 altsiedlerinnen
-altstadt
 altstadtbesucherin
 altstadtbesucherinnen
 altstädte
@@ -6651,9 +6650,6 @@ außenstauräume
 außenstauräumen
 außenstelle
 außenstellen
-außenstürmer
-außenstürmern
-außenstürmers
 außentemperatur
 außentemperaturen
 außenwand
@@ -7707,8 +7703,6 @@ beileid
 beileide
 beileides
 beileids
-beileidskarte
-beileidskarten
 beilen
 beiles
 beiliegen
@@ -10606,14 +10600,8 @@ bundes
 bundesakte
 bundesausgleichsamt
 bundesausgleichsamtes
-bundesliga
-bundesligen
 bundesligist
 bundesligisten
-bundestag
-bundestage
-bundestages
-bundestags
 bundesvermessungsamt
 bundesvermessungsamtes
 bundesverwaltungsamt
@@ -11241,7 +11229,6 @@ comeback
 comebacks
 comic
 comics
-comicstrip
 comicstrips
 commerzbank
 commerzbanken
@@ -14327,7 +14314,6 @@ eichelwürmer
 eichelwürmern
 eichen
 eichens
-eichenseide
 eichhörnchen
 eichhörnchens
 eichstrich
@@ -19904,9 +19890,6 @@ flüge
 flügel
 flügeln
 flügels
-flügelstürmer
-flügelstürmern
-flügelstürmers
 flügen
 flüsse
 flüssen
@@ -20258,8 +20241,6 @@ fraktionieren
 fraktionierens
 fraktionsassistentin
 fraktionsassistentinnen
-fraktionsvorsitzende
-fraktionsvorsitzenden
 fraktur
 frakturen
 franke
@@ -23501,10 +23482,6 @@ gotteskriegerin
 gotteskriegerinnen
 gottesleugnerin
 gottesleugnerinnen
-gottesreich
-gottesreiche
-gottesreichen
-gottesreichs
 gottheit
 gottheiten
 gotts
@@ -24151,10 +24128,6 @@ gründerinnen
 gründern
 gründers
 gründlichkeit
-gründonnerstag
-gründonnerstage
-gründonnerstagen
-gründonnerstags
 gründung
 gründungen
 grüne
@@ -24856,18 +24829,10 @@ hauers
 haufen
 haufens
 haupt
-hauptaugenmerk
 hauptaugenmerke
-hauptaugenmerken
-hauptaugenmerkes
-hauptaugenmerks
 hauptbahn
 hauptbahnen
-hauptbahnhof
 hauptbahnhofe
-hauptbahnhofs
-hauptbahnhöfe
-hauptbahnhöfen
 hauptbaumwolllieferantin
 hauptbaumwolllieferantinnen
 hauptberuf
@@ -25905,9 +25870,6 @@ hilfe
 hilfen
 hilflosigkeit
 hilflosigkeiten
-hilfsarbeiter
-hilfsarbeiterin
-hilfsarbeiterinnen
 hilfsarbeitern
 hilfsarbeiters
 hilfsassistentin
@@ -26371,7 +26333,6 @@ hinweges
 hinwegkommen
 hinwegkommens
 hinwegs
-hinwegsehen
 hinwegsehens
 hinwegsetzen
 hinwegsetzens
@@ -28741,10 +28702,6 @@ jungsozialist
 jungsozialisten
 jungsportlerin
 jungsportlerinnen
-jungstier
-jungstiere
-jungstieren
-jungstiers
 jungstudentin
 jungstudentinnen
 jungvolk
@@ -30813,7 +30770,6 @@ kombinaten
 kombinates
 kombination
 kombinationen
-kombinationsgabe
 kombinatorik
 kombinats
 kombinieren
@@ -31854,7 +31810,6 @@ kriegsgewinnlerin
 kriegsgewinnlerinnen
 kriegslieferantin
 kriegslieferantinnen
-kriegspsychose
 krifteler
 kriftelern
 kriftelers
@@ -32207,7 +32162,6 @@ kupferlieferantinnen
 kupfern
 kupferrose
 kupfers
-kupferseide
 kupferstecher
 kupferstechern
 kupferstechers
@@ -32511,8 +32465,6 @@ kühlung
 kühlungen
 kühlwagen
 kühlwagens
-kühlwasser
-kühlwassers
 kühlöfen
 küken
 kükens
@@ -37597,7 +37549,6 @@ nahrungsmitteluntersuchungsamtes
 nahverkehr
 nahverkehres
 nahverkehrs
-nahverkehrsamt
 nahverkehrsamtes
 name
 namen
@@ -37679,15 +37630,7 @@ nass
 nasse
 nasses
 nation
-nationalgefühl
-nationalgefühle
-nationalgefühlen
-nationalgefühls
-nationalgericht
 nationalgerichte
-nationalgerichten
-nationalgerichtes
-nationalgerichts
 nationalisieren
 nationalisierens
 nationalisierung
@@ -37765,7 +37708,6 @@ naturschutzexpertin
 naturschutzexpertinnen
 naturschützerin
 naturschützerinnen
-naturseide
 nauheimer
 nauheimern
 nauheimers
@@ -40835,7 +40777,6 @@ pilotanlagen
 piloten
 pilotin
 pilotinnen
-pilotsendung
 pilotsendungen
 pils
 pilz
@@ -42128,8 +42069,6 @@ präsidentin
 präsidentinnen
 präsidentschaft
 präsidentschaften
-präsidentschaftsamt
-präsidentschaftsamtes
 präsidien
 präsidium
 präsidiums
@@ -42365,8 +42304,6 @@ punktgewinnerin
 punktgewinnerinnen
 punktieren
 punktierens
-punktiernadel
-punktiernadeln
 punktion
 punktionen
 punktjägerin
@@ -46882,7 +46819,6 @@ schreibstoff
 schreibstoffe
 schreibstoffen
 schreibstoffs
-schreibstube
 schreibstuben
 schreibtisch
 schreibtische
@@ -47850,11 +47786,6 @@ seetaucherinnen
 segel
 segelflugsportlerin
 segelflugsportlerinnen
-segelflugzeug
-segelflugzeuge
-segelflugzeugen
-segelflugzeuges
-segelflugzeugs
 segeln
 segelns
 segels
@@ -49645,7 +49576,6 @@ spitzenreitern
 spitzenreiters
 spitzens
 spitzentänzerin
-spitzentänzerinnen
 spitzer
 spitzern
 spitzers
@@ -50286,7 +50216,6 @@ staubfänger
 staubfängern
 staubfängers
 staubs
-staubsaugen
 staubsaugens
 stauchen
 stauchens
@@ -51091,7 +51020,6 @@ strickkleidern
 strickkleides
 strickkleids
 stricks
-strickstrumpf
 strickstrumpfe
 strickstrumpfs
 strickstrümpfe
@@ -60289,9 +60217,6 @@ wms
 woche
 wochen
 wochenend
-wochenende
-wochenenden
-wochenendes
 wochenends
 wochenschau
 wochenschauen
@@ -60492,7 +60417,6 @@ wurf
 wurfe
 wurfes
 wurfs
-wurfsendung
 wurfsendungen
 wurlitzerorgel
 wurlitzerorgeln
@@ -63642,3 +63566,6 @@ zürnens
 übung
 übungen
 üppigkeit
+wochenende
+wochenenden
+wochenendes
