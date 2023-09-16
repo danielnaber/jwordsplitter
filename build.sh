@@ -12,7 +12,6 @@ echo -n "# " >>$TXT_FILE
 date >>$TXT_FILE
 grep -v -f $RESOURCES/removals.txt $RESOURCES/languagetool-dict.txt | cat - $RESOURCES/additions.txt $RESOURCES/germanPrefixes.txt | grep -v "^#" | sort >>$TXT_FILE
 
-#mvn clean package
 echo "Writing new file to: $TXT_FILE"
 echo -n "Result: "
 ls -l $TXT_FILE

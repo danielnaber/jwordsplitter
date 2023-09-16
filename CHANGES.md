@@ -1,7 +1,7 @@
 jWordSplitter Change Log
 ========================
 
-### 2023-xx-xx (4.6-SNAPSHOT)
+### 2023-09-16 (4.6)
 * extended the dictionary
 * load compound parts from a plain text file in the JAR, not a binary file
   (it's even faster, about the same size and makes development easier)

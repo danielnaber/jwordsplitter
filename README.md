@@ -1,5 +1,5 @@
-jWordSplitter 4.6-SNAPSHOT
-==========================
+jWordSplitter 4.6
+=================
 
 Copyright 2004-2007 Sven Abels  
 Copyright 2007-2023 Daniel Naber  
@@ -19,13 +19,13 @@ You might also be interested in this [German morphology dictionary](https://www.
 
 #### Usage from Java
 
-Use this dependency or [download the JAR here](https://search.maven.org/remotecontent?filepath=de/danielnaber/jwordsplitter/4.5/jwordsplitter-4.5.jar):
+With Maven, use this dependency:
 
 ```xml
 <dependency>
     <groupId>de.danielnaber</groupId>
     <artifactId>jwordsplitter</artifactId>
-    <version>4.5</version>
+    <version>4.6</version>
 </dependency>
 ```
 
@@ -56,8 +56,9 @@ To access the German dictionary from the JAR file, unzip the JAR. The dictionary
   word. If not, the position at which the word is split is moved by one character. Due to
   the way the algorithm works it doesn't matter if the input words are nouns, verbs, or
   adjective compounds (as long as they are in the dictionary).
-* The length of the word to be split is not limited. For example, jWordSplitter can split
-  the famous "Donaudampfschifffahrtskapitän" (Donau, dampf, schiff, fahrt, kapitän).
+* The length of the word to be split is limited to 70 characters by default. With this,
+  jWordSplitter can e.g. split the famous "Donaudampfschifffahrtskapitän" (Donau, dampf, schiff,
+  fahrt, kapitän).
 * To improve results, you will need to tune the contents of the dictionary or
   add exceptions using `GermanWordSplitter.addException()`.
 * The dictionary also needs to contain inflected forms (plural, genitive etc.). German has
