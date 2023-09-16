@@ -2,7 +2,8 @@ jWordSplitter Change Log
 ========================
 
 ### 2023-xx-xx (4.7-SNAPSHOT)
-* ...
+* requires Java 1.8 or later now
+* extended the dictionary
 
 ### 2023-09-16 (4.6)
 * extended the dictionary
