@@ -2891,15 +2891,15 @@ Rot, kohls
 Atom, müll, transport
 Start, crash
 Soziotherapie
-Arbeit, verhältnisse
+Arbeits, verhältnisse
 Regional, liga, reife
 Einnahme, grenze
 Polkomtel
 Schwadrone
 Ferkel
-Bildung, experte
-Bildung, experten
-Bildung, expertin
+Bildungs, experte
+Bildungs, experten
+Bildungs, expertin
 Kapitel, saals
 Lurchis
 Handlung, radius
@@ -2978,7 +2978,7 @@ Morgen, lob
 Arcistr
 Zelt, dach
 GUS-Wissenschaftler
-Stationierung, zonen
+Stationierungs, zonen
 Mostazafin
 Sanierung, beihilfe
 Erlebnis, markt
@@ -3056,7 +3056,7 @@ Seehundbabies
 Temperatur, unterschied
 Mordrow
 Saison, rennen
-Handel, räume
+Handels, räume
 SPORT, STUDIO
 Islamisten, Chef
 SALEM
@@ -3100,7 +3100,7 @@ Tausch, geschäfts
 Aérospatiale-Chef
 Fuengirola
 Joghurt, soße
-Staat, degen
+Staats, degen
 Parkinson, Erkrankungen
 Fahrplan, angebot
 Schelmengesicht
@@ -3258,7 +3258,7 @@ Tennessee-Williams
 Stevan
 VIAG-Konzerns
 Kleider, stangen
-Produktion, teams
+Produktions, teams
 Dritt, runden, match
 Dementierens
 Los, buden

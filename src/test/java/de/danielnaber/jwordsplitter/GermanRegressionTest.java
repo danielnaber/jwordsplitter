@@ -35,7 +35,7 @@ public class GermanRegressionTest {
 
     @Test
     public void testLargeFile() throws IOException {
-        final AbstractWordSplitter splitter = new GermanWordSplitter(true);
+        final AbstractWordSplitter splitter = new GermanWordSplitter(false);
         splitter.setStrictMode(true);
         try (FileWriter writer = getOutputWriterOrNull();
              InputStream is = BaseTest.class.getResourceAsStream(TEST_FILE)) {
