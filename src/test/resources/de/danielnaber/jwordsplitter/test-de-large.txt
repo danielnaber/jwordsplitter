@@ -1455,7 +1455,7 @@ Abend, kälte
 Stanica
 Hochofen, prozeß
 Bulevar
-Außendienst, mitarbeitern
+Außen, dienst, mitarbeitern
 Aktien, broker
 Karl-Köglsperger-Straße
 Konkurrenz, schutzes
@@ -1936,7 +1936,7 @@ Dax-Rallye
 Kometen, beobachter
 West, Journalisten
 Puppen, welt
-Außenhandel, organisation
+Außen, handel, organisation
 Allerweltsmann
 Wein, zeitschriften
 Alexander-Rhomberg-Preis
@@ -2614,7 +2614,7 @@ Verschleißdecke
 Schlemihl
 Phil-Collins-Plakat
 Trostesworten
-Dauerläufer
+Dauer, läufer
 Distribution, zentrums
 Bildschirm, schnee
 Strategie, schwenks
@@ -3437,7 +3437,7 @@ Gesundheit, tipps
 Film, berichte
 Strafvollzug, behörden
 Ballon, flucht
-Alzheimererkrankung
+Alzheimer, erkrankung
 Gunvor
 Bitomskys
 Wäsche, service
@@ -3523,7 +3523,7 @@ Welt, agenturen
 Hiernächst
 Muhanna
 Mai, glöckchens
-Jazz, Saxofonist, innen
+Jazz, Saxofonistinnen
 Schiltenwolf
 Seraphims
 Pentagon, Chefs
@@ -4619,7 +4619,7 @@ Nal
 Riesen, ohren
 Menschen, recht, vereinigungen
 Nazi-Spuk
-Amokfahrer
+Amok, fahrer
 Bingo-Gewinnzahlen
 HTML-Sprache
 Frauen, Handball, turnier
