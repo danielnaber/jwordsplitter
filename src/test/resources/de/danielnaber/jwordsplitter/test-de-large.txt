@@ -825,7 +825,7 @@ Anerkennung, betrag
 Winzer, dorfs
 Beydar
 Klan, gen
-Fahrplan, takt
+Fahr, plan, takt
 Bunde, planung
 Detail, malerei
 BENNETT
@@ -1041,7 +1041,7 @@ Semjonowitsch
 ABM-Anträge
 Wandanstrich
 Beratung, termine
-Eisenbahn, fahrplan
+Eisenbahn, fahr, plan
 Intersputnik
 Requisiten, kammern
 Berlinparade
@@ -1957,10 +1957,10 @@ CDU-Blockpartei
 AKW-Stade
 Cuentos
 Eneide
-Nuklear, fachleute
+Nuklear, fach, leute
 Historiker, verband
 Zweiundzwanzigjähriger
-Fahrscheinen
+Fahr, scheinen
 Pflegebefohlene
 Clarkes
 Gefühls
@@ -2185,7 +2185,7 @@ Such, anzeige
 Seßhaftmachung
 Bezug, recht, emission
 Privat, kriege
-Fäkalgruben
+Fäkal, gruben
 Halb, resonanz
 Super, arenen
 Unglücks, bringerin
@@ -2273,7 +2273,7 @@ Bank, prokuristen
 KSK-Männer
 Opiatantagonisten
 Herrscher, pose
-Bundes, rat, Finanzausschusses
+Bundes, rat, Finanz, ausschusses
 EZI
 Anschlag
 Rehmi
@@ -3102,7 +3102,7 @@ Fuengirola
 Joghurt, soße
 Staats, degen
 Parkinson, Erkrankungen
-Fahrplan, angebot
+Fahr, plan, angebot
 Schelmengesicht
 Bus, parkplatz
 Veterinär, wesens
@@ -3719,7 +3719,7 @@ Feind, verbindung
 Tode, sterns
 Kunstvollen
 Figuren, arsenal
-Feinkost, unternehmens
+Fein, kost, unternehmens
 Korn, wagen
 Roboter, wesen
 Pormann
@@ -3771,7 +3771,7 @@ Lande, haupt, archivs
 Kran, teile
 Unternehmen, fonds
 Integration, schule
-Weitsprung, Europameister
+Weitsprung, Europa, meister
 Stalinnote
 Diktiersystemen
 Fleißer
@@ -4785,7 +4785,7 @@ Pflicht, frage
 Bade, anzugs
 Parlament, präsident
 Regierung, versagen
-Einfamilien-Häuser
+Einfamilien, Häuser
 Hausen
 SdK-Vertreterin
 Tat, zeit, punkt
@@ -4912,7 +4912,7 @@ Blei, knöpfe
 Militärisch
 BANG
 Ihrfelt
-Feinkost, händler
+Fein, kost, händler
 Kunst, ballade
 Zahlung, bescheide
 Club, zentrum
