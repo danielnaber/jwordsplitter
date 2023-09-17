@@ -4136,7 +4136,7 @@ Fälschung, praktiken
 Hervorbringung
 Ausbau, fähigkeit
 Comic, laden
-Edelstein, minen
+Edel, stein, minen
 Paperlapapp
 Weserseite
 Dornieden
@@ -4723,7 +4723,7 @@ Dauer, fahrt
 Krater, loch
 Schiff, reisen
 Griguhn
-Drehzahl, bereich
+Dreh, zahl, bereich
 Geltung, willen
 Maßhaltens
 Newald
