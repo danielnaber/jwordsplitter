@@ -333,7 +333,7 @@ Vergeßlichkeiten
 Zwischen, version
 Leontief
 Schloß, gebäudes
-Brennelemente, wechsels
+Brenn, elemente, wechsels
 Tittling
 Bagheria
 West, länder
@@ -666,7 +666,7 @@ Verschuldung, spirale
 Rohwedder-Haus
 Rechungsprüfungsamt
 Gold, bergs
-Blasinstrument
+Blas, instrument
 AGA
 Aschermittwoch, reden
 Kennedyallee
@@ -1202,7 +1202,7 @@ Acker, schlepper
 Not, arzt, fahrzeuge
 Oberer
 Bufa-Studios
-Biotechnologie, Netzwerk
+Bio, technologie, Netzwerk
 Ablick
 Baratta
 Produktion, sicherung
@@ -2897,7 +2897,9 @@ Einnahme, grenze
 Polkomtel
 Schwadrone
 Ferkel
-Bildungsexpertin
+Bildung, experte
+Bildung, experten
+Bildung, expertin
 Kapitel, saals
 Lurchis
 Handlung, radius
