@@ -6115,8 +6115,6 @@ autisten
 auto
 autobahn
 autobahnen
-autobiographie
-autobiographien
 autodidakt
 autodidakten
 autoexpertin
