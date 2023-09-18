@@ -859,4 +859,7 @@ einfamilien
 mehrfamilien
 gebraucht
 gebär
-
+schul
+hohl
+kleinst
+klär

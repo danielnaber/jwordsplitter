@@ -17,7 +17,7 @@ Stahmer-Partei
 Liebling, feindes
 Dorfbums
 Nedschad
-Halbinseln
+Halb, inseln
 Scientology-Beauftragten
 DFB-Damen
 SED-Vorsitzenden
@@ -773,7 +773,7 @@ Rönschs
 UBS-Sprecher
 Fond, Anbieter
 Nazi, beute
-Handball, Leckerbissen
+Hand, ball, Leckerbissen
 Wissenschaft, manager
 Warums
 FR-Porträt
@@ -889,7 +889,7 @@ Ausreise, möglichkeiten
 Qualifiziert
 Ayguel
 Zickleinbraten
-Kommunalwahl, kampf
+Kommunal, wahl, kampf
 Lande, partei, tags
 Atali
 Kossi
@@ -1095,7 +1095,7 @@ O-Town
 Lindenhofstr
 Luhmann-Schüler
 Malztrunk
-Heilpraktikerinnen
+Heil, praktikerinnen
 Vielfältigen
 Sonder, lagers
 Batterie, dienst
@@ -1296,7 +1296,7 @@ Sport, pistolen, Schützen
 Dollar, kurses
 Zieger
 Volleyball, siege
-Großstadt, kindern
+Groß, stadt, kindern
 Bart, stoppeln
 Stoßfängern
 Wander, herz
@@ -1453,7 +1453,7 @@ Liebe, wahnsinn
 Klamauk, szenen
 Abend, kälte
 Stanica
-Hochofen, prozeß
+Hoch, ofen, prozeß
 Bulevar
 Außen, dienst, mitarbeitern
 Aktien, broker
@@ -1605,7 +1605,7 @@ Universal, kirche
 Pflanzen, hormone
 Dax-Jäger
 Grenz, wissenschaft
-Hohlwelt
+Hohl, welt
 Rathaus-Clubbing
 Personal, computer
 Bühnen, stich
@@ -1732,7 +1732,7 @@ Schauspielerhonorare
 Regierung, erfolg
 BHV
 Hants
-Lehrstellen, katastrophe
+Lehr, stellen, katastrophe
 Munition, verbrennung
 Hanafin
 Mutterschaftshilfe
@@ -1830,7 +1830,7 @@ SMS-Sucht
 Strafvollzug, gesetz
 Prozeß, richter
 Regjep
-Lesezeichen
+Lese, zeichen
 L-Bas
 Beethoven-Fest
 Nord, rand, straße
@@ -1927,7 +1927,7 @@ Partei, verboten
 Rezeption, ebenen
 Brücken, stück
 Bade, haus
-Lehrstellen, statistik
+Lehr, stellen, statistik
 Fachwerk, häuschen
 Südchinesischen
 Kreidekliffs
@@ -2029,7 +2029,7 @@ Capulong
 Spuren, metalle
 Junioren, Vize, weltmeisterin
 Top-Position
-Spitzen, handball
+Spitzen, hand, ball
 Chaim
 Bargum
 Natur, recht
@@ -2419,7 +2419,7 @@ Dumisa
 Rorschacherberg
 Groß-BRD
 Infektion, mechanismus
-Drogen, hauptstadt
+Drogen, haupt, stadt
 Obligo
 Fernseh, nachrichten, agentur
 Azarro
@@ -2430,7 +2430,7 @@ Linsley
 Thillmann
 Normal
 Mariamma
-Hochbehälters
+Hoch, behälters
 Biotop, fläche
 Panzer, arm, band
 Eis, lauf, Königin
@@ -2488,7 +2488,7 @@ Ofen, fabrik
 METHODE
 Betrieb, Kita
 OSZE-Beobachtern
-Ost, krankenkassen
+Ost, kranken, kassen
 Azorenhoch
 Resektion
 CONICA
@@ -2903,7 +2903,7 @@ Bildungs, expertin
 Kapitel, saals
 Lurchis
 Handlung, radius
-Innenminister, beschluß
+Innen, minister, beschluß
 Besucher, plätzen
 Produktion, anteile
 Cahuide
@@ -3040,7 +3040,7 @@ Krieger, sterbefälle
 Film, Collage
 Nazi, banden
 Individualität
-Halbleiter, lasers
+Halb, leiter, lasers
 Web, agenturen
 Glück, botin
 Quitzöwel
@@ -4624,7 +4624,7 @@ Nazi-Spuk
 Amok, fahrer
 Bingo-Gewinnzahlen
 HTML-Sprache
-Frauen, Handball, turnier
+Frauen, Hand, ball, turnier
 NoA
 Schimmang
 Wirkstoff, verzeichnis
@@ -4706,14 +4706,14 @@ Täter, kindern
 Attilapl
 Präzision, strahlen, therapie
 Fraktion, ämtern
-Lehrgängen
+Lehr, gängen
 Ruspini
 Schlamm, zeit
 Milus
 Tolagnaro
 Camellia
 Konsistorialbote
-Halbstiefeln
+Halb, stiefeln
 Traum, bücher
 Wechsel, zeit
 Stiftung, vereins
