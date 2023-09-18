@@ -297,7 +297,7 @@ Versenkung, stelle
 League-Partie
 VKA-Vertreter
 Sanitär, container
-Sozialversicherung, betrug
+Sozial, versicherung, betrug
 Odilon
 Reich, tages
 Malaria, gebiete
@@ -869,7 +869,7 @@ Legutko
 Wirtschaft, grundsätze
 Kognita
 Anti, drogen, programm
-Laden, schluß, regelung
+Ladenschlußregelung
 Fünffachen
 Mandzuka
 Autoren, theaters
@@ -1920,7 +1920,7 @@ Erné
 Azteken, reiches
 Entgegengesetzter
 Sofoklis
-Sozialdemokratien
+Sozial, demokratien
 Moonlight-Serenade
 Max-Beer-Straße
 Partei, verboten
@@ -2702,7 +2702,7 @@ Girlie-Phänomen
 Poulos
 Erz, feindschaft
 PDS-Landesvorsitz
-Sprachlabors
+Sprach, labors
 Hotel, Investoren
 Winkel, grund
 Gefährlichste
@@ -3483,7 +3483,7 @@ Planung, gesetze
 Sommer, zelt, lager
 Beschwerlich
 Schau, seil
-SOZIALSTAAT
+SOZIAL, STAAT
 Guinizellis
 Ultra, orthodoxie
 Hallen, sprechers
@@ -3923,7 +3923,7 @@ Nachfolge, effekte
 Zoia
 IWF-Stab
 Ausstechen
-Schluß, sitzung
+Schlußsitzung
 Flugzeug, steuerung
 DDR-Korrespondenten
 Drei, eichhörnchen

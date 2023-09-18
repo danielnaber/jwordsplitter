@@ -745,6 +745,9 @@ Gewohnheits|tiers
 Gewohnheits|tiere
 Gewohnheits|tieren
 Gewohnheits|tieres
+heraus|kitzelt
+heraus|kitzelte
+heraus|kitzelten
 # Words without a pipe symbol will not be split.
 Akteurin
 Akteurinnen
