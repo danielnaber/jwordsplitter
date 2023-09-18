@@ -2343,7 +2343,7 @@ Tennis-Sommer
 BUCH
 Not, kirche
 Tiefsinnigkeit
-Hausgewand
+Haus, gewand
 Abbey-Road-Studios
 Koeltzeparks
 Information, technologie, Anbieter
@@ -3509,7 +3509,7 @@ Yahoo-Sprecherin
 Fatums
 Charlatschew
 Elektronika
-Ministerialrates
+Ministerial, rates
 Zeit, karten, besitzer
 Friedrich-Engels-Bogen
 Kabelmetal

@@ -874,3 +874,5 @@ zentrifugal
 bücherei
 büchereien
 intensiv
+ministerial
+abbiege
