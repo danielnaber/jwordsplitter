@@ -863,3 +863,8 @@ schul
 hohl
 kleinst
 klär
+median
+mehr
+mikro
+pfeif
+pronominal
