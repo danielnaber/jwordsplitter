@@ -1,5 +1,5 @@
-jWordSplitter 4.7-SNAPSHOT
-==========================
+jWordSplitter 4.7
+=================
 
 Copyright 2004-2007 Sven Abels  
 Copyright 2007-2023 Daniel Naber  
@@ -25,7 +25,7 @@ With Maven, use this dependency:
 <dependency>
     <groupId>de.danielnaber</groupId>
     <artifactId>jwordsplitter</artifactId>
-    <version>4.6</version>
+    <version>4.7</version>
 </dependency>
 ```
 

@@ -9,7 +9,7 @@
 
   <groupId>de.danielnaber</groupId>
   <artifactId>jwordsplitter</artifactId>
-  <version>4.7-SNAPSHOT</version>
+  <version>4.7</version>
   <packaging>jar</packaging>
 
   <name>jwordsplitter</name>
