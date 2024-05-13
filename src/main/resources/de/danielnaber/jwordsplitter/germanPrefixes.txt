@@ -4,7 +4,6 @@ miet
 hilf
 grenz
 ess
-eß
 trink
 spül
 sprach
@@ -14,7 +13,6 @@ sitz
 sozial
 stütz
 fress
-freß
 frisier
 früh
 spät
